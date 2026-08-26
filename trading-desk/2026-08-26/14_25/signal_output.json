@@ -1,0 +1,78 @@
+{
+  "slot": "14:25",
+  "slot_id": "14:25",
+  "trade_date": "2026-08-26",
+  "generated_at": "2026-08-26T14:25:02.740969+08:00",
+  "signal_status": "SIGNAL_READY",
+  "signal_count": 2,
+  "signals": [
+    {
+      "code": "002412",
+      "symbol": "002412",
+      "thscode": "002412.SZ",
+      "name": "汉森制药",
+      "current_price": 13.2,
+      "price": 13.2,
+      "change_pct": 7.055961,
+      "prev_close": 12.33,
+      "open_price": 13.45,
+      "open": 13.45,
+      "high": 13.56,
+      "low": 12.0,
+      "volume": 164621140.0,
+      "amount": 2167366000.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-08-26T14:25:02.740969+08:00",
+      "request_id": null,
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 82.167366,
+      "ma": {
+        "MA5": 11.244,
+        "MA10": 9.446,
+        "MA20": 8.231,
+        "MA60": 6.8693
+      }
+    },
+    {
+      "code": "002172",
+      "symbol": "002172",
+      "thscode": "002172.SZ",
+      "name": "澳洋健康",
+      "current_price": 4.77,
+      "price": 4.77,
+      "change_pct": 3.246753,
+      "prev_close": 4.62,
+      "open_price": 4.91,
+      "open": 4.91,
+      "high": 5.08,
+      "low": 4.71,
+      "volume": 246906460.0,
+      "amount": 1209814040.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-08-26T14:25:02.740969+08:00",
+      "request_id": null,
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 81.20981404,
+      "ma": {
+        "MA5": 4.46,
+        "MA10": 4.449,
+        "MA20": 3.887,
+        "MA60": 3.3252
+      }
+    }
+  ]
+}
