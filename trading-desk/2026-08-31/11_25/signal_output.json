@@ -1,0 +1,10 @@
+{
+  "slot": "11:25",
+  "slot_id": "11:25",
+  "trade_date": "2026-08-31",
+  "generated_at": "2026-08-31T11:25:13.234912+08:00",
+  "signal_status": "SIGNAL_BLOCKED",
+  "signal_count": 0,
+  "signals": [],
+  "retroactive_diagnostic_only": false
+}
