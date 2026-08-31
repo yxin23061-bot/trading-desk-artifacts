@@ -6,7 +6,7 @@
   "source_status": "OK",
   "market_gate": "GREEN",
   "signal_count": 0,
-  "publish_timestamp": "2026-08-31T09:37:28.655900+08:00",
+  "publish_timestamp": "2026-08-31T09:37:51.545999+08:00",
   "files": {
     "market_snapshot.json": {
       "sha256": "dfad0d310a2ee974eee65151b0a3809ea48cd3db172d7e759f17abeec6627e02",
