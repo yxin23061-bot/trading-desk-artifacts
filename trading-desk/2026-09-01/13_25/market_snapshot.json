@@ -1,0 +1,3687 @@
+{
+  "source_status": "OK",
+  "universe_size": 5360,
+  "tradable_universe_size": 5343,
+  "excluded": {
+    "risk_label": 203,
+    "new_listing": 2,
+    "suspended_or_no_quote": 17
+  },
+  "fact_layer_rows": 107,
+  "market_facts": {
+    "limit_up_count": 71,
+    "limit_down_count": 1,
+    "limit_break_count": 5,
+    "break_rate": 0.0658,
+    "promotion_rate": 0.5,
+    "promotion_rate_source_date": "2026-08-31",
+    "promotion_sample_size": 18,
+    "ladder_rows": 30,
+    "theme_strength": {
+      "控制权拟变更+装配式厨卫+越南制造": {
+        "limit_up": 1,
+        "max_board": 7,
+        "seal_money": 240616560.0,
+        "strength": 68.41
+      },
+      "转基因玉米+玉米种业+新品研发": {
+        "limit_up": 1,
+        "max_board": 6,
+        "seal_money": 136992440.0,
+        "strength": 59.37
+      },
+      "折叠屏+精密结构件+亏损收窄": {
+        "limit_up": 1,
+        "max_board": 6,
+        "seal_money": 91585494.0,
+        "strength": 58.92
+      },
+      "棉花全产业链+业绩增长+棉蛋白": {
+        "limit_up": 1,
+        "max_board": 4,
+        "seal_money": 239507960.0,
+        "strength": 44.4
+      },
+      "林业主业+海峡两岸+国有控股+中报亏损收窄": {
+        "limit_up": 1,
+        "max_board": 3,
+        "seal_money": 360892210.0,
+        "strength": 37.61
+      },
+      "AI教育+智能体+智慧招考+智慧轨道": {
+        "limit_up": 1,
+        "max_board": 3,
+        "seal_money": 310982170.0,
+        "strength": 37.11
+      },
+      "半年报增长+新零售+连锁零售": {
+        "limit_up": 1,
+        "max_board": 3,
+        "seal_money": 289024830.0,
+        "strength": 36.89
+      },
+      "中报扣非增长+AI出版+教育服务+出版主业": {
+        "limit_up": 1,
+        "max_board": 3,
+        "seal_money": 59284046.0,
+        "strength": 34.59
+      },
+      "房产经纪+净利增长+AI应用": {
+        "limit_up": 1,
+        "max_board": 3,
+        "seal_money": 58434532.0,
+        "strength": 34.58
+      },
+      "AI算力+大模型合作+AI应用": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 1587434000.0,
+        "strength": 33.87
+      },
+      "AIGC影视+互动影游+影视制作": {
+        "limit_up": 1,
+        "max_board": 2,
+        "seal_money": 500117570.0,
+        "strength": 31.0
+      },
+      "AIGC长剧+AI应用+微短剧": {
+        "limit_up": 1,
+        "max_board": 2,
+        "seal_money": 490213530.0,
+        "strength": 30.9
+      },
+      "液冷硅油+新能源胶+密封胶": {
+        "limit_up": 1,
+        "max_board": 2,
+        "seal_money": 193481680.0,
+        "strength": 27.93
+      },
+      "煤炭+智算中心+郑州国资": {
+        "limit_up": 1,
+        "max_board": 2,
+        "seal_money": 147341400.0,
+        "strength": 27.47
+      },
+      "AI语料+传媒内容+控股变更": {
+        "limit_up": 1,
+        "max_board": 2,
+        "seal_money": 114861670.0,
+        "strength": 27.15
+      },
+      "短剧+网络游戏+资产剥离": {
+        "limit_up": 1,
+        "max_board": 2,
+        "seal_money": 105268572.0,
+        "strength": 27.05
+      },
+      "AI影视+重点影片+电影院线": {
+        "limit_up": 1,
+        "max_board": 2,
+        "seal_money": 89365046.0,
+        "strength": 26.89
+      },
+      "AI短剧+短剧出海+数字阅读": {
+        "limit_up": 1,
+        "max_board": 2,
+        "seal_money": 78615460.0,
+        "strength": 26.79
+      },
+      "AI漫剧+出版发行+黑龙江国资": {
+        "limit_up": 1,
+        "max_board": 2,
+        "seal_money": 46342736.0,
+        "strength": 26.46
+      },
+      "农作物种业+水产种业+生物育种": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 452107260.0,
+        "strength": 22.52
+      },
+      "显示面板+车载显示+资产出售": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 440284600.0,
+        "strength": 22.4
+      },
+      "粮食贸易+零售+海南自贸港+供销社": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 407560380.0,
+        "strength": 22.08
+      },
+      "光模块+竹浆纸+林浆纸": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 394422310.0,
+        "strength": 21.94
+      },
+      "AI视频+短剧+体育传媒": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 376150080.0,
+        "strength": 21.76
+      },
+      "种业+生物育种+新品种审定": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 359359690.0,
+        "strength": 21.59
+      },
+      "粮油加工+粮食概念+大健康食品": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 339512470.0,
+        "strength": 21.4
+      },
+      "无人驾驶+线控转向+车企配套+半年报增长": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 336365960.0,
+        "strength": 21.36
+      },
+      "算电协同+虚拟电厂+能源服务": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 325682700.0,
+        "strength": 21.26
+      },
+      "数字人民币+AI政务+数字安全": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 323587280.0,
+        "strength": 21.24
+      },
+      "粮食概念+转基因玉米+玉米种业": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 314460730.0,
+        "strength": 21.14
+      },
+      "复合肥+磷化工+缓控释肥": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 305714290.0,
+        "strength": 21.06
+      },
+      "AI券商+期货收购+财富管理+西藏券商": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 296313580.0,
+        "strength": 20.96
+      },
+      "数字人民币+eSIM+数据安全": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 290004800.0,
+        "strength": 20.9
+      },
+      "摘帽+铟资源循环+中报扭亏": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 282910330.0,
+        "strength": 20.83
+      },
+      "AI教育+智能交互显示产品+商用显示+海外业务": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 274720980.0,
+        "strength": 20.75
+      },
+      "军工装备+军贸+铁路货车+兵装重组": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 273053940.0,
+        "strength": 20.73
+      },
+      "白酒+渠道去库+国资背景": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 255155780.0,
+        "strength": 20.55
+      },
+      "未分类": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 253107500.0,
+        "strength": 20.53
+      },
+      "数字人民币+跨境支付+AI应用+北京国资": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 241867660.0,
+        "strength": 20.42
+      },
+      "零售+首店经济+仓储物流+资产盘活": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 214212810.0,
+        "strength": 20.14
+      },
+      "粮食概念+油脂加工+食品加工": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 214177760.0,
+        "strength": 20.14
+      },
+      "甲醇下游+SAP业务+新厂投产+半年报增长": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 202977630.0,
+        "strength": 20.03
+      },
+      "种业+转基因+水稻出海": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 198646580.0,
+        "strength": 19.99
+      },
+      "中药+创新药+原料药": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 196712470.0,
+        "strength": 19.97
+      },
+      "粮食储备+食用油项目+深圳国资": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 188347390.0,
+        "strength": 19.88
+      },
+      "AI应用+直播电商+业绩扭亏": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 172614410.0,
+        "strength": 19.73
+      },
+      "控制权变更+复牌+氯碱化工": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 162554600.0,
+        "strength": 19.63
+      },
+      "股份回购+区域零售+硬折扣": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 141596010.0,
+        "strength": 19.42
+      },
+      "游戏IP+新游上线+AI应用": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 141301490.0,
+        "strength": 19.41
+      },
+      "百货零售+商业REITs+商管转型": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 135556090.0,
+        "strength": 19.36
+      },
+      "鱼粉涨价+水产饲料+青岛国资": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 131457217.0,
+        "strength": 19.31
+      },
+      "AI金融+黄金珠宝+半年报扭亏": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 129815868.0,
+        "strength": 19.3
+      },
+      "染料涨价+业绩增长+控制权变更": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 114913181.0,
+        "strength": 19.15
+      },
+      "特殊资产+融资租赁+烟草背景": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 111859727.0,
+        "strength": 19.12
+      },
+      "半年报增长+物联网+泰国基地": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 103891572.0,
+        "strength": 19.04
+      },
+      "中报增长+种业+育种研发": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 102590041.0,
+        "strength": 19.03
+      },
+      "焦炭生产+钢企供货+产能释放": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 102758812.0,
+        "strength": 19.03
+      },
+      "脑机接口+医疗服务+国企改革": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 96225318.0,
+        "strength": 18.96
+      },
+      "跨界收购+存储测试+PVC地板": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 88243522.0,
+        "strength": 18.88
+      },
+      "人形机器人+电子皮肤+汽车内饰": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 83884080.0,
+        "strength": 18.84
+      },
+      "铜板采购+铜加工+国资控股": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 84126330.0,
+        "strength": 18.84
+      },
+      "旅游餐饮+中华老字号+降本增效": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 80190597.0,
+        "strength": 18.8
+      },
+      "固态电池+机器人电池+电线电缆": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 77742162.0,
+        "strength": 18.78
+      },
+      "多元金融+供销社+业绩增长": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 78196544.0,
+        "strength": 18.78
+      },
+      "创新药+外用药+开塞露": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 77419200.0,
+        "strength": 18.77
+      },
+      "智能驾驶+车身控制+海外配套+次新股": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 72398640.0,
+        "strength": 18.72
+      },
+      "汽车电子+新能源汽车+无人驾驶+整车客户": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 62402670.0,
+        "strength": 18.62
+      },
+      "男裤龙头+零售消费+太空裤": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 59234844.0,
+        "strength": 18.59
+      },
+      "零售+中报增长+商业综合体": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 54420842.0,
+        "strength": 18.54
+      },
+      "双基药+阿尔茨海默+中药独家": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 45050334.0,
+        "strength": 18.45
+      },
+      "植物基+咖啡+业绩改善": {
+        "limit_up": 1,
+        "max_board": 1,
+        "seal_money": 39902767.0,
+        "strength": 18.4
+      }
+    },
+    "fact_layer_rows": 107
+  },
+  "market_gate": {
+    "state": "GREEN",
+    "reason": "verified breadth permits entries",
+    "data_gap": false
+  },
+  "history_requested": 100,
+  "history_covered": 97,
+  "history_coverage": 0.97,
+  "history_errors": [
+    "688825:bars=27",
+    "002354:HiThinkRateLimitError",
+    "688836:bars=10"
+  ],
+  "candidate_pool": [
+    {
+      "code": "300364",
+      "symbol": "300364",
+      "thscode": "300364.SZ",
+      "name": "中文在线",
+      "current_price": 28.12,
+      "price": 28.12,
+      "change_pct": 3.079179,
+      "prev_close": 27.28,
+      "open_price": 28.84,
+      "open": 28.84,
+      "high": 29.9,
+      "low": 27.78,
+      "volume": 179147160.0,
+      "amount": 5182690200.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 85.1826902,
+      "ma": {
+        "MA5": 24.552,
+        "MA10": 23.684,
+        "MA20": 24.532,
+        "MA60": 23.5353
+      }
+    },
+    {
+      "code": "603269",
+      "symbol": "603269",
+      "thscode": "603269.SH",
+      "name": "海鸥股份",
+      "current_price": 25.26,
+      "price": 25.26,
+      "change_pct": 3.52459,
+      "prev_close": 24.4,
+      "open_price": 25.86,
+      "open": 25.86,
+      "high": 26.84,
+      "low": 23.89,
+      "volume": 93554851.0,
+      "amount": 2386286100.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 82.3862861,
+      "ma": {
+        "MA5": 22.072,
+        "MA10": 20.018,
+        "MA20": 18.0365,
+        "MA60": 15.8199
+      }
+    },
+    {
+      "code": "000560",
+      "symbol": "000560",
+      "thscode": "000560.SZ",
+      "name": "我爱我家",
+      "current_price": 3.19,
+      "price": 3.19,
+      "change_pct": 10.0,
+      "prev_close": 2.9,
+      "open_price": 3.05,
+      "open": 3.05,
+      "high": 3.19,
+      "low": 2.98,
+      "volume": 859103970.0,
+      "amount": 2691171300.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破",
+        "三板定龙"
+      ],
+      "score": 62.6911713,
+      "ma": {
+        "MA5": 2.706,
+        "MA10": 2.503,
+        "MA20": 2.3605,
+        "MA60": 2.229
+      }
+    },
+    {
+      "code": "300413",
+      "symbol": "300413",
+      "thscode": "300413.SZ",
+      "name": "芒果超媒",
+      "current_price": 20.38,
+      "price": 20.38,
+      "change_pct": 20.023557,
+      "prev_close": 16.98,
+      "open_price": 20.38,
+      "open": 20.38,
+      "high": 20.38,
+      "low": 19.66,
+      "volume": 121299124.0,
+      "amount": 2466141300.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破",
+        "二板定龙"
+      ],
+      "score": 62.4661413,
+      "ma": {
+        "MA5": 15.96,
+        "MA10": 15.297,
+        "MA20": 15.58,
+        "MA60": 15.3463
+      }
+    },
+    {
+      "code": "603533",
+      "symbol": "603533",
+      "thscode": "603533.SH",
+      "name": "掌阅科技",
+      "current_price": 24.85,
+      "price": 24.85,
+      "change_pct": 10.004427,
+      "prev_close": 22.59,
+      "open_price": 24.7,
+      "open": 24.7,
+      "high": 24.85,
+      "low": 24.1,
+      "volume": 47779782.0,
+      "amount": 1183063440.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破",
+        "二板定龙"
+      ],
+      "score": 61.18306344,
+      "ma": {
+        "MA5": 21.89,
+        "MA10": 21.354,
+        "MA20": 21.9755,
+        "MA60": 20.6718
+      }
+    },
+    {
+      "code": "603115",
+      "symbol": "603115",
+      "thscode": "603115.SH",
+      "name": "海星股份",
+      "current_price": 79.9,
+      "price": 79.9,
+      "change_pct": 5.20079,
+      "prev_close": 75.95,
+      "open_price": 83.55,
+      "open": 83.55,
+      "high": 83.55,
+      "low": 78.0,
+      "volume": 12513770.0,
+      "amount": 1016842960.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军"
+      ],
+      "score": 61.01684296,
+      "ma": {
+        "MA5": 76.63,
+        "MA10": 76.711,
+        "MA20": 78.319,
+        "MA60": 87.9043
+      }
+    },
+    {
+      "code": "000977",
+      "symbol": "000977",
+      "thscode": "000977.SZ",
+      "name": "浪潮信息",
+      "current_price": 86.14,
+      "price": 86.14,
+      "change_pct": 1.127025,
+      "prev_close": 85.18,
+      "open_price": 85.9,
+      "open": 85.9,
+      "high": 87.14,
+      "low": 85.18,
+      "volume": 89242872.0,
+      "amount": 7686445600.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 47.6864456,
+      "ma": {
+        "MA5": 80.168,
+        "MA10": 77.247,
+        "MA20": 77.5595,
+        "MA60": 74.5688
+      }
+    },
+    {
+      "code": "000938",
+      "symbol": "000938",
+      "thscode": "000938.SZ",
+      "name": "紫光股份",
+      "current_price": 38.61,
+      "price": 38.61,
+      "change_pct": -0.872914,
+      "prev_close": 38.95,
+      "open_price": 38.71,
+      "open": 38.71,
+      "high": 39.55,
+      "low": 38.4,
+      "volume": 154184180.0,
+      "amount": 5993303900.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 45.9933039,
+      "ma": {
+        "MA5": 36.956,
+        "MA10": 36.18,
+        "MA20": 37.3265,
+        "MA60": 34.3189
+      }
+    },
+    {
+      "code": "300418",
+      "symbol": "300418",
+      "thscode": "300418.SZ",
+      "name": "昆仑万维",
+      "current_price": 46.14,
+      "price": 46.14,
+      "change_pct": 4.887474,
+      "prev_close": 43.99,
+      "open_price": 44.0,
+      "open": 44.0,
+      "high": 47.59,
+      "low": 43.97,
+      "volume": 121481452.0,
+      "amount": 5529754200.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 45.5297542,
+      "ma": {
+        "MA5": 42.22,
+        "MA10": 42.335,
+        "MA20": 43.118,
+        "MA60": 42.2845
+      }
+    },
+    {
+      "code": "002131",
+      "symbol": "002131",
+      "thscode": "002131.SZ",
+      "name": "利欧股份",
+      "current_price": 5.03,
+      "price": 5.03,
+      "change_pct": 5.894737,
+      "prev_close": 4.75,
+      "open_price": 4.78,
+      "open": 4.78,
+      "high": 5.21,
+      "low": 4.75,
+      "volume": 833226780.0,
+      "amount": 4196670400.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 44.1966704,
+      "ma": {
+        "MA5": 4.694,
+        "MA10": 4.617,
+        "MA20": 5.0135,
+        "MA60": 4.7548
+      }
+    },
+    {
+      "code": "002396",
+      "symbol": "002396",
+      "thscode": "002396.SZ",
+      "name": "星网锐捷",
+      "current_price": 39.47,
+      "price": 39.47,
+      "change_pct": -2.205154,
+      "prev_close": 40.36,
+      "open_price": 40.16,
+      "open": 40.16,
+      "high": 41.18,
+      "low": 39.02,
+      "volume": 104467779.0,
+      "amount": 4174303400.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 44.1743034,
+      "ma": {
+        "MA5": 36.034,
+        "MA10": 33.589,
+        "MA20": 32.2175,
+        "MA60": 27.0443
+      }
+    },
+    {
+      "code": "600722",
+      "symbol": "600722",
+      "thscode": "600722.SH",
+      "name": "金牛化工",
+      "current_price": 17.84,
+      "price": 17.84,
+      "change_pct": 6.190476,
+      "prev_close": 16.8,
+      "open_price": 17.0,
+      "open": 17.0,
+      "high": 18.15,
+      "low": 17.0,
+      "volume": 136623010.0,
+      "amount": 2378602200.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 42.3786022,
+      "ma": {
+        "MA5": 15.588,
+        "MA10": 14.657,
+        "MA20": 13.241,
+        "MA60": 10.5097
+      }
+    },
+    {
+      "code": "600103",
+      "symbol": "600103",
+      "thscode": "600103.SH",
+      "name": "青山纸业",
+      "current_price": 4.19,
+      "price": 4.19,
+      "change_pct": 9.973753,
+      "prev_close": 3.81,
+      "open_price": 3.67,
+      "open": 3.67,
+      "high": 4.19,
+      "low": 3.67,
+      "volume": 589090320.0,
+      "amount": 2360609300.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 42.3606093,
+      "ma": {
+        "MA5": 3.828,
+        "MA10": 3.372,
+        "MA20": 3.181,
+        "MA60": 3.0823
+      }
+    },
+    {
+      "code": "300189",
+      "symbol": "300189",
+      "thscode": "300189.SZ",
+      "name": "神农种业",
+      "current_price": 7.55,
+      "price": 7.55,
+      "change_pct": 20.031797,
+      "prev_close": 6.29,
+      "open_price": 6.28,
+      "open": 6.28,
+      "high": 7.55,
+      "low": 6.21,
+      "volume": 324405560.0,
+      "amount": 2297550400.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 42.2975504,
+      "ma": {
+        "MA5": 6.634,
+        "MA10": 6.341,
+        "MA20": 5.677,
+        "MA60": 4.8575
+      }
+    },
+    {
+      "code": "002418",
+      "symbol": "002418",
+      "thscode": "002418.SZ",
+      "name": "康盛股份",
+      "current_price": 5.7,
+      "price": 5.7,
+      "change_pct": 5.751391,
+      "prev_close": 5.39,
+      "open_price": 5.51,
+      "open": 5.51,
+      "high": 5.86,
+      "low": 5.3,
+      "volume": 392917780.0,
+      "amount": 2178402100.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 42.1784021,
+      "ma": {
+        "MA5": 5.072,
+        "MA10": 4.391,
+        "MA20": 4.1185,
+        "MA60": 3.8977
+      }
+    },
+    {
+      "code": "000712",
+      "symbol": "000712",
+      "thscode": "000712.SZ",
+      "name": "锦龙股份",
+      "current_price": 12.97,
+      "price": 12.97,
+      "change_pct": -0.077042,
+      "prev_close": 12.98,
+      "open_price": 12.08,
+      "open": 12.08,
+      "high": 13.43,
+      "low": 11.68,
+      "volume": 177458950.0,
+      "amount": 2176974600.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 42.1769746,
+      "ma": {
+        "MA5": 11.654,
+        "MA10": 10.178,
+        "MA20": 9.7805,
+        "MA60": 9.0955
+      }
+    },
+    {
+      "code": "600664",
+      "symbol": "600664",
+      "thscode": "600664.SH",
+      "name": "哈药股份",
+      "current_price": 9.35,
+      "price": 9.35,
+      "change_pct": 2.52193,
+      "prev_close": 9.12,
+      "open_price": 9.06,
+      "open": 9.06,
+      "high": 9.49,
+      "low": 9.02,
+      "volume": 208439680.0,
+      "amount": 1931816100.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 41.9318161,
+      "ma": {
+        "MA5": 8.878,
+        "MA10": 8.713,
+        "MA20": 8.373,
+        "MA60": 5.5097
+      }
+    },
+    {
+      "code": "600227",
+      "symbol": "600227",
+      "thscode": "600227.SH",
+      "name": "赤天化",
+      "current_price": 5.21,
+      "price": 5.21,
+      "change_pct": 3.373016,
+      "prev_close": 5.04,
+      "open_price": 5.04,
+      "open": 5.04,
+      "high": 5.44,
+      "low": 4.93,
+      "volume": 360113880.0,
+      "amount": 1873840000.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 41.87384,
+      "ma": {
+        "MA5": 4.638,
+        "MA10": 4.236,
+        "MA20": 3.851,
+        "MA60": 3.1672
+      }
+    },
+    {
+      "code": "002081",
+      "symbol": "002081",
+      "thscode": "002081.SZ",
+      "name": "金螳螂",
+      "current_price": 5.73,
+      "price": 5.73,
+      "change_pct": -6.980519,
+      "prev_close": 6.16,
+      "open_price": 6.1,
+      "open": 6.1,
+      "high": 6.1,
+      "low": 5.64,
+      "volume": 321660380.0,
+      "amount": 1863741500.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 41.8637415,
+      "ma": {
+        "MA5": 5.768,
+        "MA10": 5.568,
+        "MA20": 5.1075,
+        "MA60": 4.535
+      }
+    },
+    {
+      "code": "003040",
+      "symbol": "003040",
+      "thscode": "003040.SZ",
+      "name": "楚天龙",
+      "current_price": 19.58,
+      "price": 19.58,
+      "change_pct": 10.0,
+      "prev_close": 17.8,
+      "open_price": 17.86,
+      "open": 17.86,
+      "high": 19.58,
+      "low": 17.51,
+      "volume": 92809172.0,
+      "amount": 1729204600.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 41.7292046,
+      "ma": {
+        "MA5": 18.328,
+        "MA10": 15.646,
+        "MA20": 13.892,
+        "MA60": 11.9067
+      }
+    },
+    {
+      "code": "600127",
+      "symbol": "600127",
+      "thscode": "600127.SH",
+      "name": "金健米业",
+      "current_price": 13.24,
+      "price": 13.24,
+      "change_pct": 9.966777,
+      "prev_close": 12.04,
+      "open_price": 12.05,
+      "open": 12.05,
+      "high": 13.24,
+      "low": 12.05,
+      "volume": 135257550.0,
+      "amount": 1722316000.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 41.722316,
+      "ma": {
+        "MA5": 11.526,
+        "MA10": 10.002,
+        "MA20": 8.112,
+        "MA60": 6.3822
+      }
+    },
+    {
+      "code": "600613",
+      "symbol": "600613",
+      "thscode": "600613.SH",
+      "name": "神奇制药",
+      "current_price": 11.24,
+      "price": 11.24,
+      "change_pct": 0.716846,
+      "prev_close": 11.16,
+      "open_price": 10.04,
+      "open": 10.04,
+      "high": 11.73,
+      "low": 10.04,
+      "volume": 147354970.0,
+      "amount": 1542984000.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 41.542984,
+      "ma": {
+        "MA5": 11.396,
+        "MA10": 10.249,
+        "MA20": 8.0115,
+        "MA60": 5.8657
+      }
+    },
+    {
+      "code": "001330",
+      "symbol": "001330",
+      "thscode": "001330.SZ",
+      "name": "博纳影业",
+      "current_price": 6.17,
+      "price": 6.17,
+      "change_pct": 9.982175,
+      "prev_close": 5.61,
+      "open_price": 5.71,
+      "open": 5.71,
+      "high": 6.17,
+      "low": 5.58,
+      "volume": 237908590.0,
+      "amount": 1398703800.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "二板定龙"
+      ],
+      "score": 41.3987038,
+      "ma": {
+        "MA5": 5.418,
+        "MA10": 5.095,
+        "MA20": 5.1535,
+        "MA60": 5.4227
+      }
+    },
+    {
+      "code": "002703",
+      "symbol": "002703",
+      "thscode": "002703.SZ",
+      "name": "浙江世宝",
+      "current_price": 18.24,
+      "price": 18.24,
+      "change_pct": 10.012063,
+      "prev_close": 16.58,
+      "open_price": 16.64,
+      "open": 16.64,
+      "high": 18.24,
+      "low": 16.44,
+      "volume": 75979076.0,
+      "amount": 1328428610.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 41.32842861,
+      "ma": {
+        "MA5": 17.134,
+        "MA10": 15.671,
+        "MA20": 15.4415,
+        "MA60": 14.4768
+      }
+    },
+    {
+      "code": "600479",
+      "symbol": "600479",
+      "thscode": "600479.SH",
+      "name": "千金药业",
+      "current_price": 13.37,
+      "price": 13.37,
+      "change_pct": 10.041152,
+      "prev_close": 12.15,
+      "open_price": 12.04,
+      "open": 12.04,
+      "high": 13.37,
+      "low": 11.58,
+      "volume": 103807410.0,
+      "amount": 1277636070.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 41.27763607,
+      "ma": {
+        "MA5": 12.398,
+        "MA10": 11.153,
+        "MA20": 10.522,
+        "MA60": 9.8742
+      }
+    },
+    {
+      "code": "600354",
+      "symbol": "600354",
+      "thscode": "600354.SH",
+      "name": "敦煌种业",
+      "current_price": 9.12,
+      "price": 9.12,
+      "change_pct": 10.012063,
+      "prev_close": 8.29,
+      "open_price": 8.29,
+      "open": 8.29,
+      "high": 9.12,
+      "low": 8.29,
+      "volume": 125384337.0,
+      "amount": 1098175170.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 41.09817517,
+      "ma": {
+        "MA5": 8.022,
+        "MA10": 7.395,
+        "MA20": 6.8175,
+        "MA60": 5.8142
+      }
+    },
+    {
+      "code": "600551",
+      "symbol": "600551",
+      "thscode": "600551.SH",
+      "name": "时代出版",
+      "current_price": 9.08,
+      "price": 9.08,
+      "change_pct": 10.060606,
+      "prev_close": 8.25,
+      "open_price": 8.73,
+      "open": 8.73,
+      "high": 9.08,
+      "low": 8.66,
+      "volume": 107463277.0,
+      "amount": 966869060.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破",
+        "三板定龙"
+      ],
+      "score": 40.96686906,
+      "ma": {
+        "MA5": 7.716,
+        "MA10": 7.302,
+        "MA20": 7.1225,
+        "MA60": 6.9365
+      }
+    },
+    {
+      "code": "600121",
+      "symbol": "600121",
+      "thscode": "600121.SH",
+      "name": "郑州煤电",
+      "current_price": 5.4,
+      "price": 5.4,
+      "change_pct": 9.979633,
+      "prev_close": 4.91,
+      "open_price": 4.8,
+      "open": 4.8,
+      "high": 5.4,
+      "low": 4.78,
+      "volume": 160722510.0,
+      "amount": 827542520.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破",
+        "二板定龙"
+      ],
+      "score": 40.82754252,
+      "ma": {
+        "MA5": 4.644,
+        "MA10": 4.356,
+        "MA20": 4.1775,
+        "MA60": 3.9553
+      }
+    },
+    {
+      "code": "600371",
+      "symbol": "600371",
+      "thscode": "600371.SH",
+      "name": "万向德农",
+      "current_price": 13.96,
+      "price": 13.96,
+      "change_pct": 10.00788,
+      "prev_close": 12.69,
+      "open_price": 13.61,
+      "open": 13.61,
+      "high": 13.96,
+      "low": 13.2,
+      "volume": 45056434.0,
+      "amount": 620258000.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破",
+        "三板定龙"
+      ],
+      "score": 40.620258,
+      "ma": {
+        "MA5": 11.644,
+        "MA10": 10.006,
+        "MA20": 8.6395,
+        "MA60": 7.3127
+      }
+    },
+    {
+      "code": "002084",
+      "symbol": "002084",
+      "thscode": "002084.SZ",
+      "name": "海鸥住工",
+      "current_price": 7.02,
+      "price": 7.02,
+      "change_pct": 10.031348,
+      "prev_close": 6.38,
+      "open_price": 7.02,
+      "open": 7.02,
+      "high": 7.02,
+      "low": 7.02,
+      "volume": 87083137.0,
+      "amount": 611323620.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破",
+        "三板定龙"
+      ],
+      "score": 40.61132362,
+      "ma": {
+        "MA5": 5.852,
+        "MA10": 4.796,
+        "MA20": 4.1385,
+        "MA60": 3.6808
+      }
+    },
+    {
+      "code": "002855",
+      "symbol": "002855",
+      "thscode": "002855.SZ",
+      "name": "捷荣技术",
+      "current_price": 17.71,
+      "price": 17.71,
+      "change_pct": 10.0,
+      "prev_close": 16.1,
+      "open_price": 17.4,
+      "open": 17.4,
+      "high": 17.71,
+      "low": 17.3,
+      "volume": 24368000.0,
+      "amount": 429559520.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破",
+        "三板定龙"
+      ],
+      "score": 40.42955952,
+      "ma": {
+        "MA5": 14.772,
+        "MA10": 12.482,
+        "MA20": 11.259,
+        "MA60": 10.1648
+      }
+    },
+    {
+      "code": "600540",
+      "symbol": "600540",
+      "thscode": "600540.SH",
+      "name": "新赛股份",
+      "current_price": 6.12,
+      "price": 6.12,
+      "change_pct": 10.071942,
+      "prev_close": 5.56,
+      "open_price": 6.11,
+      "open": 6.11,
+      "high": 6.12,
+      "low": 6.0,
+      "volume": 64977712.0,
+      "amount": 397313160.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破",
+        "三板定龙"
+      ],
+      "score": 40.39731316,
+      "ma": {
+        "MA5": 5.098,
+        "MA10": 4.565,
+        "MA20": 4.278,
+        "MA60": 3.8338
+      }
+    },
+    {
+      "code": "002909",
+      "symbol": "002909",
+      "thscode": "002909.SZ",
+      "name": "集泰股份",
+      "current_price": 6.62,
+      "price": 6.62,
+      "change_pct": 9.966777,
+      "prev_close": 6.02,
+      "open_price": 6.28,
+      "open": 6.28,
+      "high": 6.62,
+      "low": 5.76,
+      "volume": 56035416.0,
+      "amount": 341171960.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破",
+        "二板定龙"
+      ],
+      "score": 40.34117196,
+      "ma": {
+        "MA5": 5.758,
+        "MA10": 5.474,
+        "MA20": 5.3025,
+        "MA60": 5.071
+      }
+    },
+    {
+      "code": "601086",
+      "symbol": "601086",
+      "thscode": "601086.SH",
+      "name": "国芳集团",
+      "current_price": 10.09,
+      "price": 10.09,
+      "change_pct": 10.032715,
+      "prev_close": 9.17,
+      "open_price": 10.08,
+      "open": 10.08,
+      "high": 10.09,
+      "low": 9.85,
+      "volume": 29821319.0,
+      "amount": 299877040.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破",
+        "三板定龙"
+      ],
+      "score": 40.29987704,
+      "ma": {
+        "MA5": 8.534,
+        "MA10": 8.05,
+        "MA20": 8.019,
+        "MA60": 7.3803
+      }
+    },
+    {
+      "code": "605577",
+      "symbol": "605577",
+      "thscode": "605577.SH",
+      "name": "龙版传媒",
+      "current_price": 11.68,
+      "price": 11.68,
+      "change_pct": 9.981168,
+      "prev_close": 10.62,
+      "open_price": 11.4,
+      "open": 11.4,
+      "high": 11.68,
+      "low": 11.22,
+      "volume": 25282741.0,
+      "amount": 293317930.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破",
+        "二板定龙"
+      ],
+      "score": 40.29331793,
+      "ma": {
+        "MA5": 10.24,
+        "MA10": 10.071,
+        "MA20": 9.951,
+        "MA60": 9.5063
+      }
+    },
+    {
+      "code": "603721",
+      "symbol": "603721",
+      "thscode": "603721.SH",
+      "name": "中广天择",
+      "current_price": 21.01,
+      "price": 21.01,
+      "change_pct": 10.0,
+      "prev_close": 19.1,
+      "open_price": 21.01,
+      "open": 21.01,
+      "high": 21.01,
+      "low": 21.01,
+      "volume": 4624021.0,
+      "amount": 97150681.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破",
+        "二板定龙"
+      ],
+      "score": 40.097150681,
+      "ma": {
+        "MA5": 18.578,
+        "MA10": 18.071,
+        "MA20": 18.189,
+        "MA60": 17.7042
+      }
+    },
+    {
+      "code": "002679",
+      "symbol": "002679",
+      "thscode": "002679.SZ",
+      "name": "福建金森",
+      "current_price": 12.91,
+      "price": 12.91,
+      "change_pct": 9.965928,
+      "prev_close": 11.74,
+      "open_price": 12.91,
+      "open": 12.91,
+      "high": 12.91,
+      "low": 12.91,
+      "volume": 5896030.0,
+      "amount": 76117747.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破",
+        "三板定龙"
+      ],
+      "score": 40.076117747,
+      "ma": {
+        "MA5": 10.93,
+        "MA10": 10.112,
+        "MA20": 9.537,
+        "MA60": 8.6651
+      }
+    },
+    {
+      "code": "003005",
+      "symbol": "003005",
+      "thscode": "003005.SZ",
+      "name": "竞业达",
+      "current_price": 18.18,
+      "price": 18.18,
+      "change_pct": 9.981851,
+      "prev_close": 16.53,
+      "open_price": 18.18,
+      "open": 18.18,
+      "high": 18.18,
+      "low": 18.18,
+      "volume": 3831670.0,
+      "amount": 69659761.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破",
+        "三板定龙"
+      ],
+      "score": 40.069659761,
+      "ma": {
+        "MA5": 15.41,
+        "MA10": 14.429,
+        "MA20": 14.1645,
+        "MA60": 13.5228
+      }
+    },
+    {
+      "code": "000892",
+      "symbol": "000892",
+      "thscode": "000892.SZ",
+      "name": "欢瑞世纪",
+      "current_price": 4.73,
+      "price": 4.73,
+      "change_pct": 10.0,
+      "prev_close": 4.3,
+      "open_price": 4.73,
+      "open": 4.73,
+      "high": 4.73,
+      "low": 4.73,
+      "volume": 11688699.0,
+      "amount": 55287546.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破",
+        "二板定龙"
+      ],
+      "score": 40.055287546,
+      "ma": {
+        "MA5": 4.11,
+        "MA10": 3.915,
+        "MA20": 4.007,
+        "MA60": 3.7207
+      }
+    },
+    {
+      "code": "600892",
+      "symbol": "600892",
+      "thscode": "600892.SH",
+      "name": "大晟文化",
+      "current_price": 4.86,
+      "price": 4.86,
+      "change_pct": 9.954751,
+      "prev_close": 4.42,
+      "open_price": 4.86,
+      "open": 4.86,
+      "high": 4.86,
+      "low": 4.86,
+      "volume": 7364700.0,
+      "amount": 35792442.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破",
+        "二板定龙"
+      ],
+      "score": 40.035792442,
+      "ma": {
+        "MA5": 4.268,
+        "MA10": 4.029,
+        "MA20": 4.016,
+        "MA60": 3.6193
+      }
+    },
+    {
+      "code": "300308",
+      "symbol": "300308",
+      "thscode": "300308.SZ",
+      "name": "中际旭创",
+      "current_price": 873.1,
+      "price": 873.1,
+      "change_pct": 2.488555,
+      "prev_close": 851.9,
+      "open_price": 852.5,
+      "open": 852.5,
+      "high": 887.0,
+      "low": 837.33,
+      "volume": 20228652.0,
+      "amount": 17383177000.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军"
+      ],
+      "score": 37.383177,
+      "ma": {
+        "MA5": 860.074,
+        "MA10": 875.939,
+        "MA20": 905.3855,
+        "MA60": 1058.9577
+      }
+    },
+    {
+      "code": "600176",
+      "symbol": "600176",
+      "thscode": "600176.SH",
+      "name": "中国巨石",
+      "current_price": 43.9,
+      "price": 43.9,
+      "change_pct": -0.06829,
+      "prev_close": 43.93,
+      "open_price": 45.68,
+      "open": 45.68,
+      "high": 46.0,
+      "low": 43.02,
+      "volume": 231888790.0,
+      "amount": 10274665400.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军"
+      ],
+      "score": 30.2746654,
+      "ma": {
+        "MA5": 42.634,
+        "MA10": 41.685,
+        "MA20": 42.4045,
+        "MA60": 48.2452
+      }
+    },
+    {
+      "code": "600183",
+      "symbol": "600183",
+      "thscode": "600183.SH",
+      "name": "生益科技",
+      "current_price": 146.46,
+      "price": 146.46,
+      "change_pct": -4.52412,
+      "prev_close": 153.4,
+      "open_price": 152.0,
+      "open": 152.0,
+      "high": 152.41,
+      "low": 143.7,
+      "volume": 63864432.0,
+      "amount": 9326124600.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军"
+      ],
+      "score": 29.3261246,
+      "ma": {
+        "MA5": 143.3,
+        "MA10": 135.635,
+        "MA20": 136.616,
+        "MA60": 143.7117
+      }
+    },
+    {
+      "code": "600487",
+      "symbol": "600487",
+      "thscode": "600487.SH",
+      "name": "亨通光电",
+      "current_price": 67.78,
+      "price": 67.78,
+      "change_pct": 0.593648,
+      "prev_close": 67.38,
+      "open_price": 67.67,
+      "open": 67.67,
+      "high": 69.0,
+      "low": 65.07,
+      "volume": 125397167.0,
+      "amount": 8364398200.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军"
+      ],
+      "score": 28.3643982,
+      "ma": {
+        "MA5": 68.0,
+        "MA10": 64.814,
+        "MA20": 62.273,
+        "MA60": 75.6882
+      }
+    },
+    {
+      "code": "300058",
+      "symbol": "300058",
+      "thscode": "300058.SZ",
+      "name": "蓝色光标",
+      "current_price": 14.05,
+      "price": 14.05,
+      "change_pct": -0.35461,
+      "prev_close": 14.1,
+      "open_price": 13.99,
+      "open": 13.99,
+      "high": 14.58,
+      "low": 13.68,
+      "volume": 374004630.0,
+      "amount": 5303013800.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军"
+      ],
+      "score": 25.303013800000002,
+      "ma": {
+        "MA5": 13.644,
+        "MA10": 13.576,
+        "MA20": 14.542,
+        "MA60": 13.8462
+      }
+    },
+    {
+      "code": "000725",
+      "symbol": "000725",
+      "thscode": "000725.SZ",
+      "name": "京东方Ａ",
+      "current_price": 5.94,
+      "price": 5.94,
+      "change_pct": -1.164725,
+      "prev_close": 6.01,
+      "open_price": 6.01,
+      "open": 6.01,
+      "high": 6.01,
+      "low": 5.89,
+      "volume": 760340220.0,
+      "amount": 4506766200.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军"
+      ],
+      "score": 24.5067662,
+      "ma": {
+        "MA5": 5.906,
+        "MA10": 5.893,
+        "MA20": 5.944,
+        "MA60": 6.4485
+      }
+    },
+    {
+      "code": "000636",
+      "symbol": "000636",
+      "thscode": "000636.SZ",
+      "name": "风华高科",
+      "current_price": 52.53,
+      "price": 52.53,
+      "change_pct": -5.994989,
+      "prev_close": 55.88,
+      "open_price": 55.59,
+      "open": 55.59,
+      "high": 56.09,
+      "low": 52.12,
+      "volume": 78170157.0,
+      "amount": 4166248200.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军"
+      ],
+      "score": 24.1662482,
+      "ma": {
+        "MA5": 53.798,
+        "MA10": 53.61,
+        "MA20": 57.753,
+        "MA60": 58.924
+      }
+    },
+    {
+      "code": "600110",
+      "symbol": "600110",
+      "thscode": "600110.SH",
+      "name": "诺德股份",
+      "current_price": 12.03,
+      "price": 12.03,
+      "change_pct": 0.0,
+      "prev_close": 12.03,
+      "open_price": 12.0,
+      "open": 12.0,
+      "high": 12.6,
+      "low": 11.66,
+      "volume": 261033100.0,
+      "amount": 3146062300.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军"
+      ],
+      "score": 23.1460623,
+      "ma": {
+        "MA5": 11.652,
+        "MA10": 11.095,
+        "MA20": 10.659,
+        "MA60": 11.8717
+      }
+    },
+    {
+      "code": "002837",
+      "symbol": "002837",
+      "thscode": "002837.SZ",
+      "name": "英维克",
+      "current_price": 66.12,
+      "price": 66.12,
+      "change_pct": -3.064067,
+      "prev_close": 68.21,
+      "open_price": 67.61,
+      "open": 67.61,
+      "high": 67.77,
+      "low": 65.81,
+      "volume": 44439771.0,
+      "amount": 2953895200.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军"
+      ],
+      "score": 22.953895199999998,
+      "ma": {
+        "MA5": 65.37,
+        "MA10": 60.147,
+        "MA20": 57.868,
+        "MA60": 64.3853
+      }
+    },
+    {
+      "code": "002015",
+      "symbol": "002015",
+      "thscode": "002015.SZ",
+      "name": "协鑫能科",
+      "current_price": 17.42,
+      "price": 17.42,
+      "change_pct": 9.974747,
+      "prev_close": 15.84,
+      "open_price": 15.84,
+      "open": 15.84,
+      "high": 17.42,
+      "low": 15.71,
+      "volume": 125498627.0,
+      "amount": 2111441600.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军"
+      ],
+      "score": 22.1114416,
+      "ma": {
+        "MA5": 16.626,
+        "MA10": 15.678,
+        "MA20": 15.6375,
+        "MA60": 15.8355
+      }
+    },
+    {
+      "code": "600410",
+      "symbol": "600410",
+      "thscode": "600410.SH",
+      "name": "华胜天成",
+      "current_price": 15.22,
+      "price": 15.22,
+      "change_pct": 9.971098,
+      "prev_close": 13.84,
+      "open_price": 14.26,
+      "open": 14.26,
+      "high": 15.22,
+      "low": 14.0,
+      "volume": 118616965.0,
+      "amount": 1741884900.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军"
+      ],
+      "score": 21.7418849,
+      "ma": {
+        "MA5": 13.918,
+        "MA10": 13.678,
+        "MA20": 14.672,
+        "MA60": 15.2329
+      }
+    },
+    {
+      "code": "300927",
+      "symbol": "300927",
+      "thscode": "300927.SZ",
+      "name": "江天化学",
+      "current_price": 34.92,
+      "price": 34.92,
+      "change_pct": 20.0,
+      "prev_close": 29.1,
+      "open_price": 29.16,
+      "open": 29.16,
+      "high": 34.92,
+      "low": 29.16,
+      "volume": 26893564.0,
+      "amount": 865432150.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.86543215,
+      "ma": {
+        "MA5": 31.532,
+        "MA10": 29.254,
+        "MA20": 25.7235,
+        "MA60": 23.2501
+      }
+    },
+    {
+      "code": "000998",
+      "symbol": "000998",
+      "thscode": "000998.SZ",
+      "name": "隆平高科",
+      "current_price": 9.97,
+      "price": 9.97,
+      "change_pct": 10.04415,
+      "prev_close": 9.06,
+      "open_price": 9.05,
+      "open": 9.05,
+      "high": 9.97,
+      "low": 8.99,
+      "volume": 87576856.0,
+      "amount": 848880160.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.84888016,
+      "ma": {
+        "MA5": 9.242,
+        "MA10": 9.009,
+        "MA20": 8.669,
+        "MA60": 8.2254
+      }
+    },
+    {
+      "code": "002945",
+      "symbol": "002945",
+      "thscode": "002945.SZ",
+      "name": "华林证券",
+      "current_price": 16.04,
+      "price": 16.04,
+      "change_pct": 10.013717,
+      "prev_close": 14.58,
+      "open_price": 14.54,
+      "open": 14.54,
+      "high": 16.04,
+      "low": 14.46,
+      "volume": 52119192.0,
+      "amount": 820570180.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.82057018,
+      "ma": {
+        "MA5": 14.828,
+        "MA10": 14.387,
+        "MA20": 14.483,
+        "MA60": 13.9328
+      }
+    },
+    {
+      "code": "002041",
+      "symbol": "002041",
+      "thscode": "002041.SZ",
+      "name": "登海种业",
+      "current_price": 11.88,
+      "price": 11.88,
+      "change_pct": 10.0,
+      "prev_close": 10.8,
+      "open_price": 10.77,
+      "open": 10.77,
+      "high": 11.88,
+      "low": 10.62,
+      "volume": 67809022.0,
+      "amount": 776733660.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.77673366,
+      "ma": {
+        "MA5": 11.178,
+        "MA10": 10.663,
+        "MA20": 9.7835,
+        "MA60": 8.8373
+      }
+    },
+    {
+      "code": "000564",
+      "symbol": "000564",
+      "thscode": "000564.SZ",
+      "name": "供销大集",
+      "current_price": 1.66,
+      "price": 1.66,
+      "change_pct": 9.933775,
+      "prev_close": 1.51,
+      "open_price": 1.51,
+      "open": 1.51,
+      "high": 1.66,
+      "low": 1.5,
+      "volume": 457795580.0,
+      "amount": 741887940.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.74188794,
+      "ma": {
+        "MA5": 1.544,
+        "MA10": 1.498,
+        "MA20": 1.476,
+        "MA60": 1.419
+      }
+    },
+    {
+      "code": "000711",
+      "symbol": "000711",
+      "thscode": "000711.SZ",
+      "name": "京蓝科技",
+      "current_price": 6.48,
+      "price": 6.48,
+      "change_pct": 10.016978,
+      "prev_close": 5.89,
+      "open_price": 5.99,
+      "open": 5.99,
+      "high": 6.48,
+      "low": 5.95,
+      "volume": 116653215.0,
+      "amount": 738327490.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.73832749,
+      "ma": {
+        "MA5": 6.21,
+        "MA10": 6.221,
+        "MA20": 5.9405,
+        "MA60": 5.3375
+      }
+    },
+    {
+      "code": "600967",
+      "symbol": "600967",
+      "thscode": "600967.SH",
+      "name": "内蒙一机",
+      "current_price": 12.19,
+      "price": 12.19,
+      "change_pct": 10.018051,
+      "prev_close": 11.08,
+      "open_price": 11.05,
+      "open": 11.05,
+      "high": 12.19,
+      "low": 11.01,
+      "volume": 59605932.0,
+      "amount": 707237800.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.7072378,
+      "ma": {
+        "MA5": 11.336,
+        "MA10": 11.093,
+        "MA20": 11.3585,
+        "MA60": 11.2007
+      }
+    },
+    {
+      "code": "600785",
+      "symbol": "600785",
+      "thscode": "600785.SH",
+      "name": "新华百货",
+      "current_price": 12.66,
+      "price": 12.66,
+      "change_pct": 9.991312,
+      "prev_close": 11.51,
+      "open_price": 11.37,
+      "open": 11.37,
+      "high": 12.66,
+      "low": 11.37,
+      "volume": 56442848.0,
+      "amount": 696079770.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.69607977,
+      "ma": {
+        "MA5": 11.932,
+        "MA10": 10.95,
+        "MA20": 9.935,
+        "MA60": 9.6035
+      }
+    },
+    {
+      "code": "600313",
+      "symbol": "600313",
+      "thscode": "600313.SH",
+      "name": "农发种业",
+      "current_price": 7.9,
+      "price": 7.9,
+      "change_pct": 10.027855,
+      "prev_close": 7.18,
+      "open_price": 7.06,
+      "open": 7.06,
+      "high": 7.9,
+      "low": 7.06,
+      "volume": 88892433.0,
+      "amount": 682100760.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.68210076,
+      "ma": {
+        "MA5": 7.322,
+        "MA10": 7.082,
+        "MA20": 6.4865,
+        "MA60": 5.8176
+      }
+    },
+    {
+      "code": "000596",
+      "symbol": "000596",
+      "thscode": "000596.SZ",
+      "name": "古井贡酒",
+      "current_price": 100.88,
+      "price": 100.88,
+      "change_pct": 9.99891,
+      "prev_close": 91.71,
+      "open_price": 91.88,
+      "open": 91.88,
+      "high": 100.88,
+      "low": 91.5,
+      "volume": 6855355.0,
+      "amount": 672581060.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.67258106,
+      "ma": {
+        "MA5": 94.168,
+        "MA10": 92.842,
+        "MA20": 94.1,
+        "MA60": 86.5765
+      }
+    },
+    {
+      "code": "002349",
+      "symbol": "002349",
+      "thscode": "002349.SZ",
+      "name": "精华制药",
+      "current_price": 8.36,
+      "price": 8.36,
+      "change_pct": 10.0,
+      "prev_close": 7.6,
+      "open_price": 7.48,
+      "open": 7.48,
+      "high": 8.36,
+      "low": 7.45,
+      "volume": 84843303.0,
+      "amount": 672126880.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.67212688,
+      "ma": {
+        "MA5": 7.618,
+        "MA10": 7.305,
+        "MA20": 7.1225,
+        "MA60": 6.749
+      }
+    },
+    {
+      "code": "002721",
+      "symbol": "002721",
+      "thscode": "002721.SZ",
+      "name": "金一文化",
+      "current_price": 3.18,
+      "price": 3.18,
+      "change_pct": 10.034602,
+      "prev_close": 2.89,
+      "open_price": 2.91,
+      "open": 2.91,
+      "high": 3.18,
+      "low": 2.88,
+      "volume": 214569500.0,
+      "amount": 665585620.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.66558562,
+      "ma": {
+        "MA5": 3.04,
+        "MA10": 2.869,
+        "MA20": 2.8515,
+        "MA60": 2.4898
+      }
+    },
+    {
+      "code": "002172",
+      "symbol": "002172",
+      "thscode": "002172.SZ",
+      "name": "澳洋健康",
+      "current_price": 4.74,
+      "price": 4.74,
+      "change_pct": 9.976798,
+      "prev_close": 4.31,
+      "open_price": 4.3,
+      "open": 4.3,
+      "high": 4.74,
+      "low": 4.29,
+      "volume": 137753080.0,
+      "amount": 642258230.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.64225823,
+      "ma": {
+        "MA5": 4.602,
+        "MA10": 4.459,
+        "MA20": 4.155,
+        "MA60": 3.414
+      }
+    },
+    {
+      "code": "002291",
+      "symbol": "002291",
+      "thscode": "002291.SZ",
+      "name": "遥望科技",
+      "current_price": 6.01,
+      "price": 6.01,
+      "change_pct": 10.07326,
+      "prev_close": 5.46,
+      "open_price": 5.36,
+      "open": 5.36,
+      "high": 6.01,
+      "low": 5.34,
+      "volume": 105003268.0,
+      "amount": 604868780.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.60486878,
+      "ma": {
+        "MA5": 5.406,
+        "MA10": 5.288,
+        "MA20": 5.4415,
+        "MA60": 5.145
+      }
+    },
+    {
+      "code": "603123",
+      "symbol": "603123",
+      "thscode": "603123.SH",
+      "name": "翠微股份",
+      "current_price": 10.44,
+      "price": 10.44,
+      "change_pct": 10.010537,
+      "prev_close": 9.49,
+      "open_price": 9.58,
+      "open": 9.58,
+      "high": 10.44,
+      "low": 9.51,
+      "volume": 52085904.0,
+      "amount": 532781760.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.53278176,
+      "ma": {
+        "MA5": 9.89,
+        "MA10": 9.648,
+        "MA20": 9.534,
+        "MA60": 8.8993
+      }
+    },
+    {
+      "code": "002104",
+      "symbol": "002104",
+      "thscode": "002104.SZ",
+      "name": "恒宝股份",
+      "current_price": 12.28,
+      "price": 12.28,
+      "change_pct": 10.035842,
+      "prev_close": 11.16,
+      "open_price": 11.33,
+      "open": 11.33,
+      "high": 12.28,
+      "low": 11.22,
+      "volume": 37799323.0,
+      "amount": 455343600.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.4553436,
+      "ma": {
+        "MA5": 11.668,
+        "MA10": 11.133,
+        "MA20": 10.9115,
+        "MA60": 10.4858
+      }
+    },
+    {
+      "code": "002882",
+      "symbol": "002882",
+      "thscode": "002882.SZ",
+      "name": "金龙羽",
+      "current_price": 23.77,
+      "price": 23.77,
+      "change_pct": 9.995373,
+      "prev_close": 21.61,
+      "open_price": 21.96,
+      "open": 21.96,
+      "high": 23.77,
+      "low": 21.63,
+      "volume": 18737366.0,
+      "amount": 438768940.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.43876894,
+      "ma": {
+        "MA5": 22.442,
+        "MA10": 22.149,
+        "MA20": 22.1705,
+        "MA60": 20.2633
+      }
+    },
+    {
+      "code": "605188",
+      "symbol": "605188",
+      "thscode": "605188.SH",
+      "name": "国光连锁",
+      "current_price": 14.98,
+      "price": 14.98,
+      "change_pct": 9.985316,
+      "prev_close": 13.62,
+      "open_price": 13.78,
+      "open": 13.78,
+      "high": 14.98,
+      "low": 13.78,
+      "volume": 29351184.0,
+      "amount": 430148060.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.43014806,
+      "ma": {
+        "MA5": 13.218,
+        "MA10": 12.767,
+        "MA20": 12.871,
+        "MA60": 12.3613
+      }
+    },
+    {
+      "code": "600693",
+      "symbol": "600693",
+      "thscode": "600693.SH",
+      "name": "东百集团",
+      "current_price": 10.24,
+      "price": 10.24,
+      "change_pct": 9.989259,
+      "prev_close": 9.31,
+      "open_price": 9.5,
+      "open": 9.5,
+      "high": 10.24,
+      "low": 9.46,
+      "volume": 42392339.0,
+      "amount": 427555630.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.42755563,
+      "ma": {
+        "MA5": 9.472,
+        "MA10": 9.179,
+        "MA20": 9.517,
+        "MA60": 8.7112
+      }
+    },
+    {
+      "code": "300399",
+      "symbol": "300399",
+      "thscode": "300399.SZ",
+      "name": "天利科技",
+      "current_price": 21.19,
+      "price": 21.19,
+      "change_pct": 11.350499,
+      "prev_close": 19.03,
+      "open_price": 19.04,
+      "open": 19.04,
+      "high": 22.84,
+      "low": 19.0,
+      "volume": 19343350.0,
+      "amount": 407938810.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.40793881,
+      "ma": {
+        "MA5": 19.538,
+        "MA10": 18.657,
+        "MA20": 18.157,
+        "MA60": 18.0712
+      }
+    },
+    {
+      "code": "000721",
+      "symbol": "000721",
+      "thscode": "000721.SZ",
+      "name": "西安饮食",
+      "current_price": 7.59,
+      "price": 7.59,
+      "change_pct": 10.0,
+      "prev_close": 6.9,
+      "open_price": 6.95,
+      "open": 6.95,
+      "high": 7.59,
+      "low": 6.91,
+      "volume": 53801604.0,
+      "amount": 401457540.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.40145754,
+      "ma": {
+        "MA5": 7.058,
+        "MA10": 6.786,
+        "MA20": 6.709,
+        "MA60": 6.1587
+      }
+    },
+    {
+      "code": "002470",
+      "symbol": "002470",
+      "thscode": "002470.SZ",
+      "name": "金正大",
+      "current_price": 2.32,
+      "price": 2.32,
+      "change_pct": 9.952607,
+      "prev_close": 2.11,
+      "open_price": 2.11,
+      "open": 2.11,
+      "high": 2.32,
+      "low": 2.1,
+      "volume": 168195620.0,
+      "amount": 378220020.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.37822002,
+      "ma": {
+        "MA5": 2.136,
+        "MA10": 2.042,
+        "MA20": 2.0085,
+        "MA60": 1.9978
+      }
+    },
+    {
+      "code": "603980",
+      "symbol": "603980",
+      "thscode": "603980.SH",
+      "name": "吉华集团",
+      "current_price": 7.92,
+      "price": 7.92,
+      "change_pct": 10.0,
+      "prev_close": 7.2,
+      "open_price": 7.66,
+      "open": 7.66,
+      "high": 7.92,
+      "low": 7.6,
+      "volume": 46875040.0,
+      "amount": 368990900.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.3689909,
+      "ma": {
+        "MA5": 7.156,
+        "MA10": 6.919,
+        "MA20": 6.9315,
+        "MA60": 6.4431
+      }
+    },
+    {
+      "code": "002425",
+      "symbol": "002425",
+      "thscode": "002425.SZ",
+      "name": "凯撒文化",
+      "current_price": 3.6,
+      "price": 3.6,
+      "change_pct": 10.091743,
+      "prev_close": 3.27,
+      "open_price": 3.42,
+      "open": 3.42,
+      "high": 3.6,
+      "low": 3.41,
+      "volume": 100931420.0,
+      "amount": 356767000.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.356767,
+      "ma": {
+        "MA5": 3.274,
+        "MA10": 3.161,
+        "MA20": 3.2795,
+        "MA60": 2.9028
+      }
+    },
+    {
+      "code": "000626",
+      "symbol": "000626",
+      "thscode": "000626.SZ",
+      "name": "远大控股",
+      "current_price": 9.36,
+      "price": 9.36,
+      "change_pct": 6.242906,
+      "prev_close": 8.81,
+      "open_price": 8.78,
+      "open": 8.78,
+      "high": 9.69,
+      "low": 8.68,
+      "volume": 37462371.0,
+      "amount": 350932060.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.35093206,
+      "ma": {
+        "MA5": 8.872,
+        "MA10": 8.495,
+        "MA20": 8.124,
+        "MA60": 7.1777
+      }
+    },
+    {
+      "code": "000505",
+      "symbol": "000505",
+      "thscode": "000505.SZ",
+      "name": "京粮控股",
+      "current_price": 7.74,
+      "price": 7.74,
+      "change_pct": 9.943182,
+      "prev_close": 7.04,
+      "open_price": 6.98,
+      "open": 6.98,
+      "high": 7.74,
+      "low": 6.97,
+      "volume": 40794474.0,
+      "amount": 310148550.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.31014855,
+      "ma": {
+        "MA5": 7.27,
+        "MA10": 7.169,
+        "MA20": 6.5255,
+        "MA60": 5.7563
+      }
+    },
+    {
+      "code": "002107",
+      "symbol": "002107",
+      "thscode": "002107.SZ",
+      "name": "沃华医药",
+      "current_price": 7.37,
+      "price": 7.37,
+      "change_pct": 10.0,
+      "prev_close": 6.7,
+      "open_price": 6.7,
+      "open": 6.7,
+      "high": 7.37,
+      "low": 6.61,
+      "volume": 40036665.0,
+      "amount": 280337040.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.28033704,
+      "ma": {
+        "MA5": 6.854,
+        "MA10": 6.564,
+        "MA20": 6.3864,
+        "MA60": 6.1144
+      }
+    },
+    {
+      "code": "002955",
+      "symbol": "002955",
+      "thscode": "002955.SZ",
+      "name": "鸿合科技",
+      "current_price": 39.12,
+      "price": 39.12,
+      "change_pct": 10.011249,
+      "prev_close": 35.56,
+      "open_price": 35.56,
+      "open": 35.56,
+      "high": 39.12,
+      "low": 35.45,
+      "volume": 7372800.0,
+      "amount": 279193410.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.27919341,
+      "ma": {
+        "MA5": 35.208,
+        "MA10": 35.044,
+        "MA20": 35.0455,
+        "MA60": 33.1
+      }
+    },
+    {
+      "code": "603221",
+      "symbol": "603221",
+      "thscode": "603221.SH",
+      "name": "爱丽家居",
+      "current_price": 30.55,
+      "price": 30.55,
+      "change_pct": 10.010803,
+      "prev_close": 27.77,
+      "open_price": 29.52,
+      "open": 29.52,
+      "high": 30.55,
+      "low": 29.31,
+      "volume": 8576354.0,
+      "amount": 259408280.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.25940828,
+      "ma": {
+        "MA5": 28.454,
+        "MA10": 27.87,
+        "MA20": 24.667,
+        "MA60": 15.8958
+      }
+    },
+    {
+      "code": "600792",
+      "symbol": "600792",
+      "thscode": "600792.SH",
+      "name": "云煤能源",
+      "current_price": 4.42,
+      "price": 4.42,
+      "change_pct": 9.950249,
+      "prev_close": 4.02,
+      "open_price": 4.01,
+      "open": 4.01,
+      "high": 4.42,
+      "low": 3.98,
+      "volume": 52608902.0,
+      "amount": 224879500.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.2248795,
+      "ma": {
+        "MA5": 4.028,
+        "MA10": 3.872,
+        "MA20": 3.769,
+        "MA60": 3.5745
+      }
+    },
+    {
+      "code": "002295",
+      "symbol": "002295",
+      "thscode": "002295.SZ",
+      "name": "精艺股份",
+      "current_price": 10.62,
+      "price": 10.62,
+      "change_pct": 10.051813,
+      "prev_close": 9.65,
+      "open_price": 10.16,
+      "open": 10.16,
+      "high": 10.62,
+      "low": 10.16,
+      "volume": 21335399.0,
+      "amount": 224430810.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.22443081,
+      "ma": {
+        "MA5": 10.082,
+        "MA10": 9.527,
+        "MA20": 9.183,
+        "MA60": 8.8168
+      }
+    },
+    {
+      "code": "600318",
+      "symbol": "600318",
+      "thscode": "600318.SH",
+      "name": "新力金融",
+      "current_price": 7.49,
+      "price": 7.49,
+      "change_pct": 9.985316,
+      "prev_close": 6.81,
+      "open_price": 6.78,
+      "open": 6.78,
+      "high": 7.49,
+      "low": 6.76,
+      "volume": 28837802.0,
+      "amount": 208418140.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.20841814,
+      "ma": {
+        "MA5": 6.968,
+        "MA10": 6.72,
+        "MA20": 6.6515,
+        "MA60": 6.3863
+      }
+    },
+    {
+      "code": "000019",
+      "symbol": "000019",
+      "thscode": "000019.SZ",
+      "name": "深粮控股",
+      "current_price": 7.92,
+      "price": 7.92,
+      "change_pct": 10.0,
+      "prev_close": 7.2,
+      "open_price": 7.17,
+      "open": 7.17,
+      "high": 7.92,
+      "low": 7.11,
+      "volume": 23957572.0,
+      "amount": 185317240.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.18531724,
+      "ma": {
+        "MA5": 7.292,
+        "MA10": 6.952,
+        "MA20": 6.5965,
+        "MA60": 6.2098
+      }
+    },
+    {
+      "code": "605068",
+      "symbol": "605068",
+      "thscode": "605068.SH",
+      "name": "明新旭腾",
+      "current_price": 20.38,
+      "price": 20.38,
+      "change_pct": 9.98381,
+      "prev_close": 18.53,
+      "open_price": 18.7,
+      "open": 18.7,
+      "high": 20.38,
+      "low": 18.7,
+      "volume": 9185473.0,
+      "amount": 182024990.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.18202499,
+      "ma": {
+        "MA5": 18.304,
+        "MA10": 17.759,
+        "MA20": 18.9195,
+        "MA60": 17.9138
+      }
+    },
+    {
+      "code": "603207",
+      "symbol": "603207",
+      "thscode": "603207.SH",
+      "name": "小方制药",
+      "current_price": 25.4,
+      "price": 25.4,
+      "change_pct": 10.004331,
+      "prev_close": 23.09,
+      "open_price": 23.09,
+      "open": 23.09,
+      "high": 25.4,
+      "low": 23.01,
+      "volume": 5789656.0,
+      "amount": 143859430.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.14385943,
+      "ma": {
+        "MA5": 23.732,
+        "MA10": 23.844,
+        "MA20": 23.624,
+        "MA60": 22.924
+      }
+    },
+    {
+      "code": "603376",
+      "symbol": "603376",
+      "thscode": "603376.SH",
+      "name": "大明电子",
+      "current_price": 28.48,
+      "price": 28.48,
+      "change_pct": 10.003862,
+      "prev_close": 25.89,
+      "open_price": 26.38,
+      "open": 26.38,
+      "high": 28.48,
+      "low": 26.23,
+      "volume": 4806481.0,
+      "amount": 134188585.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.134188585,
+      "ma": {
+        "MA5": 26.46,
+        "MA10": 26.669,
+        "MA20": 26.4865,
+        "MA60": 25.4992
+      }
+    },
+    {
+      "code": "600830",
+      "symbol": "600830",
+      "thscode": "600830.SH",
+      "name": "香溢融通",
+      "current_price": 9.23,
+      "price": 9.23,
+      "change_pct": 10.011919,
+      "prev_close": 8.39,
+      "open_price": 8.39,
+      "open": 8.39,
+      "high": 9.23,
+      "low": 8.38,
+      "volume": 14082909.0,
+      "amount": 127022994.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.127022994,
+      "ma": {
+        "MA5": 8.596,
+        "MA10": 8.375,
+        "MA20": 8.2365,
+        "MA60": 8.136
+      }
+    },
+    {
+      "code": "605365",
+      "symbol": "605365",
+      "thscode": "605365.SH",
+      "name": "立达信",
+      "current_price": 15.66,
+      "price": 15.66,
+      "change_pct": 9.97191,
+      "prev_close": 14.24,
+      "open_price": 14.23,
+      "open": 14.23,
+      "high": 15.66,
+      "low": 14.15,
+      "volume": 7922909.0,
+      "amount": 121662012.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.121662012,
+      "ma": {
+        "MA5": 14.566,
+        "MA10": 14.264,
+        "MA20": 14.0845,
+        "MA60": 14.0187
+      }
+    },
+    {
+      "code": "002696",
+      "symbol": "002696",
+      "thscode": "002696.SZ",
+      "name": "百洋股份",
+      "current_price": 7.28,
+      "price": 7.28,
+      "change_pct": 9.969789,
+      "prev_close": 6.62,
+      "open_price": 6.52,
+      "open": 6.52,
+      "high": 7.28,
+      "low": 6.52,
+      "volume": 16737410.0,
+      "amount": 118505378.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.118505378,
+      "ma": {
+        "MA5": 6.584,
+        "MA10": 6.343,
+        "MA20": 6.1405,
+        "MA60": 5.537
+      }
+    },
+    {
+      "code": "605300",
+      "symbol": "605300",
+      "thscode": "605300.SH",
+      "name": "佳禾食品",
+      "current_price": 10.73,
+      "price": 10.73,
+      "change_pct": 10.051282,
+      "prev_close": 9.75,
+      "open_price": 9.88,
+      "open": 9.88,
+      "high": 10.73,
+      "low": 9.69,
+      "volume": 7758848.0,
+      "amount": 81359131.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.081359131,
+      "ma": {
+        "MA5": 9.956,
+        "MA10": 9.815,
+        "MA20": 9.833,
+        "MA60": 9.358
+      }
+    },
+    {
+      "code": "600828",
+      "symbol": "600828",
+      "thscode": "600828.SH",
+      "name": "茂业商业",
+      "current_price": 4.37,
+      "price": 4.37,
+      "change_pct": 10.075567,
+      "prev_close": 3.97,
+      "open_price": 3.96,
+      "open": 3.96,
+      "high": 4.37,
+      "low": 3.96,
+      "volume": 15983600.0,
+      "amount": 68165125.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "趋势突破"
+      ],
+      "score": 20.068165125,
+      "ma": {
+        "MA5": 4.082,
+        "MA10": 4.006,
+        "MA20": 3.993,
+        "MA60": 3.8075
+      }
+    }
+  ],
+  "top5": [
+    {
+      "code": "300364",
+      "symbol": "300364",
+      "thscode": "300364.SZ",
+      "name": "中文在线",
+      "current_price": 28.12,
+      "price": 28.12,
+      "change_pct": 3.079179,
+      "prev_close": 27.28,
+      "open_price": 28.84,
+      "open": 28.84,
+      "high": 29.9,
+      "low": 27.78,
+      "volume": 179147160.0,
+      "amount": 5182690200.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 85.1826902,
+      "ma": {
+        "MA5": 24.552,
+        "MA10": 23.684,
+        "MA20": 24.532,
+        "MA60": 23.5353
+      }
+    },
+    {
+      "code": "603269",
+      "symbol": "603269",
+      "thscode": "603269.SH",
+      "name": "海鸥股份",
+      "current_price": 25.26,
+      "price": 25.26,
+      "change_pct": 3.52459,
+      "prev_close": 24.4,
+      "open_price": 25.86,
+      "open": 25.86,
+      "high": 26.84,
+      "low": 23.89,
+      "volume": 93554851.0,
+      "amount": 2386286100.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 82.3862861,
+      "ma": {
+        "MA5": 22.072,
+        "MA10": 20.018,
+        "MA20": 18.0365,
+        "MA60": 15.8199
+      }
+    },
+    {
+      "code": "000560",
+      "symbol": "000560",
+      "thscode": "000560.SZ",
+      "name": "我爱我家",
+      "current_price": 3.19,
+      "price": 3.19,
+      "change_pct": 10.0,
+      "prev_close": 2.9,
+      "open_price": 3.05,
+      "open": 3.05,
+      "high": 3.19,
+      "low": 2.98,
+      "volume": 859103970.0,
+      "amount": 2691171300.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破",
+        "三板定龙"
+      ],
+      "score": 62.6911713,
+      "ma": {
+        "MA5": 2.706,
+        "MA10": 2.503,
+        "MA20": 2.3605,
+        "MA60": 2.229
+      }
+    },
+    {
+      "code": "300413",
+      "symbol": "300413",
+      "thscode": "300413.SZ",
+      "name": "芒果超媒",
+      "current_price": 20.38,
+      "price": 20.38,
+      "change_pct": 20.023557,
+      "prev_close": 16.98,
+      "open_price": 20.38,
+      "open": 20.38,
+      "high": 20.38,
+      "low": 19.66,
+      "volume": 121299124.0,
+      "amount": 2466141300.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破",
+        "二板定龙"
+      ],
+      "score": 62.4661413,
+      "ma": {
+        "MA5": 15.96,
+        "MA10": 15.297,
+        "MA20": 15.58,
+        "MA60": 15.3463
+      }
+    },
+    {
+      "code": "603533",
+      "symbol": "603533",
+      "thscode": "603533.SH",
+      "name": "掌阅科技",
+      "current_price": 24.85,
+      "price": 24.85,
+      "change_pct": 10.004427,
+      "prev_close": 22.59,
+      "open_price": 24.7,
+      "open": 24.7,
+      "high": 24.85,
+      "low": 24.1,
+      "volume": 47779782.0,
+      "amount": 1183063440.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "容量中军",
+        "趋势突破",
+        "二板定龙"
+      ],
+      "score": 61.18306344,
+      "ma": {
+        "MA5": 21.89,
+        "MA10": 21.354,
+        "MA20": 21.9755,
+        "MA60": 20.6718
+      }
+    }
+  ],
+  "top2": [
+    {
+      "code": "300364",
+      "symbol": "300364",
+      "thscode": "300364.SZ",
+      "name": "中文在线",
+      "current_price": 28.12,
+      "price": 28.12,
+      "change_pct": 3.079179,
+      "prev_close": 27.28,
+      "open_price": 28.84,
+      "open": 28.84,
+      "high": 29.9,
+      "low": 27.78,
+      "volume": 179147160.0,
+      "amount": 5182690200.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 85.1826902,
+      "ma": {
+        "MA5": 24.552,
+        "MA10": 23.684,
+        "MA20": 24.532,
+        "MA60": 23.5353
+      }
+    },
+    {
+      "code": "603269",
+      "symbol": "603269",
+      "thscode": "603269.SH",
+      "name": "海鸥股份",
+      "current_price": 25.26,
+      "price": 25.26,
+      "change_pct": 3.52459,
+      "prev_close": 24.4,
+      "open_price": 25.86,
+      "open": 25.86,
+      "high": 26.84,
+      "low": 23.89,
+      "volume": 93554851.0,
+      "amount": 2386286100.0,
+      "source": "hithink_financial_api",
+      "source_ts": null,
+      "timestamp": null,
+      "ingest_ts": "2026-09-01T13:25:24.995631+08:00",
+      "request_id": null,
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "score": 82.3862861,
+      "ma": {
+        "MA5": 22.072,
+        "MA10": 20.018,
+        "MA20": 18.0365,
+        "MA60": 15.8199
+      }
+    }
+  ],
+  "tactics_enabled": [
+    "龙头首次开板",
+    "首阴",
+    "弱转强/反包",
+    "容量中军",
+    "趋势突破",
+    "10天8板",
+    "二板定龙",
+    "三板定龙"
+  ],
+  "new_entries_allowed": true,
+  "signal_lifecycle": {
+    "module": "scripts.signal_tracker",
+    "status": "READY",
+    "events": [
+      {
+        "code": "300364",
+        "from": "KEEP",
+        "to": "UPGRADE",
+        "timestamp": "2026-09-01T13:25:24.995631+08:00",
+        "reason": "strategy_refresh",
+        "replacement_code": ""
+      },
+      {
+        "code": "603269",
+        "from": null,
+        "to": "KEEP",
+        "timestamp": "2026-09-01T13:25:24.995631+08:00",
+        "reason": "strategy_refresh",
+        "replacement_code": ""
+      }
+    ],
+    "valid_states": [
+      "KEEP",
+      "UPGRADE",
+      "DOWNGRADE",
+      "CLOSE",
+      "REPLACE"
+    ]
+  },
+  "delivery": {
+    "adapter": "runtime.signal_delivery.SignalDeliveryHandoff",
+    "channel": "gpt_tasks",
+    "delivery_id": "63adbc0bc37f42c2912166bd6a993f0c",
+    "status": "OUTBOX_RECORDED",
+    "attempted": true,
+    "signal_count": 2,
+    "user_visible": "EXTERNAL_UNVERIFIED"
+  },
+  "api_call_evidence": {
+    "provider": "hithink_financial_api",
+    "endpoint": "/api/a-share/prices/snapshot",
+    "request_id": "e0c51d175c3f49f18d356f467a772318",
+    "http_status": 200,
+    "authenticated": true,
+    "credential_exposed": false,
+    "ingest_ts": "2026-09-01T13:25:27.591359+08:00"
+  },
+  "provider_boundary": "HiThinkSinaGroundTruthProvider",
+  "generated_at": "2026-09-01T13:25:24.995631+08:00",
+  "production_acceptance_card": {
+    "title": "Trading Desk 生产验收",
+    "source_status": "OK",
+    "market_gate": "GREEN",
+    "universe_size": 5360,
+    "signal_result": [
+      {
+        "code": "300364",
+        "name": "中文在线"
+      },
+      {
+        "code": "603269",
+        "name": "海鸥股份"
+      }
+    ],
+    "timestamp": "2026-09-01T13:25:24.995631+08:00",
+    "delivery_id": "63adbc0bc37f42c2912166bd6a993f0c",
+    "disclaimer": "生产链路验收消息，不作为交易建议"
+  },
+  "production_ready": true,
+  "slot": "13:25",
+  "slot_id": "13:25",
+  "trade_date": "2026-09-01"
+}
