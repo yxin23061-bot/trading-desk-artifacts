@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "trade_date": "2026-09-02",
+  "slot_id": "14:50",
+  "generated_at": "2026-09-02T14:50:19.442932+08:00",
+  "source_status": "OK",
+  "market_gate": "GREEN",
+  "signal_count": 0,
+  "publish_timestamp": "2026-09-02T14:52:33.645909+08:00",
+  "files": {
+    "market_snapshot.json": {
+      "sha256": "a4238d132da71bc7381d336c8a14170339cd97ae387a85b96b6f6cbc36b7fe26",
+      "size": 80140
+    },
+    "task_status.json": {
+      "sha256": "9dcca14f98cdf3bc458387c2c12aeb6185ac4979dbe19e33e2da95b364108d2e",
+      "size": 366
+    },
+    "signal_output.json": {
+      "sha256": "5bd7ae9c42dbad19a69d2fdedeffe77265cb5257f6f5968e545f7f1bd76b7db9",
+      "size": 655
+    },
+    "delivery_status.json": {
+      "sha256": "e00f585b712203137fdbb80549bea64bec507591346c3ddeac674d6fd9c4f344",
+      "size": 735
+    }
+  }
+}
