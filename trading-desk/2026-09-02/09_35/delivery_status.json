@@ -1,0 +1,24 @@
+{
+  "slot": "09:35",
+  "slot_id": "09:35",
+  "trade_date": "2026-09-02",
+  "generated_at": "2026-09-02T09:35:10.920146+08:00",
+  "DELIVERY_STATUS": "DELIVERY_ATTEMPTED",
+  "OUTBOX_STATUS": "OUTBOX_RECORDED",
+  "delivery_attempted": true,
+  "invocation_result": {
+    "handoff_id": "46d4ecfb96b74215b31f69b9169273f6",
+    "created_at": "2026-09-02T09:35:10.841775+08:00",
+    "channel": "gpt_tasks",
+    "signal_count": 0,
+    "signals": [],
+    "delivery_status": "OUTBOX_RECORDED",
+    "user_visible_status": "EXTERNAL_UNVERIFIED",
+    "read_after_write": "PASS"
+  },
+  "retry_result": null,
+  "delivery_error": null,
+  "ledger_read_after_write": "PASS",
+  "GPT_TASK_RETURNED": false,
+  "USER_VISIBLE_STATUS": "EXTERNAL_UNVERIFIED"
+}
