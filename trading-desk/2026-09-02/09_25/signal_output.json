@@ -1,0 +1,16 @@
+{
+  "slot": "09:25",
+  "slot_id": "09:25",
+  "trade_date": "2026-09-02",
+  "generated_at": "2026-09-02T09:25:08.990177+08:00",
+  "signal_status": "SIGNAL_BLOCKED",
+  "signal_count": 0,
+  "signals": [],
+  "retroactive_diagnostic_only": false,
+  "morning_ledger_path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/trading_state/2026-09-02/07_30/signal_ledger.json",
+  "morning_signal_ids": [],
+  "top2_tracked": false,
+  "market_snapshot_hash": "05b9b66f211770c8d972dfd44b94958fa4438348cd56a2dbddd905d6d55f60bb",
+  "strategy_snapshot_hash": null,
+  "continuity_policy": "07:30_IDS_IMMUTABLE_UNTIL_EXPLICIT_CANCEL_STOP_EXIT"
+}

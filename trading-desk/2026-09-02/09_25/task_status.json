@@ -1,0 +1,13 @@
+{
+  "slot": "09:25",
+  "slot_id": "09:25",
+  "trade_date": "2026-09-02",
+  "generated_at": "2026-09-02T09:25:08.990177+08:00",
+  "JOB_STATUS": "LOCAL_SLOT_WRITTEN",
+  "DATA_STATUS": "DATA_MISSING",
+  "SIGNAL_STATUS": "SIGNAL_BLOCKED",
+  "BROKEN_STAGE": "MORNING_LEDGER_MISSING",
+  "morning_ledger_exists": false,
+  "morning_signal_ids": [],
+  "pm_required": false
+}
