@@ -1,0 +1,32 @@
+{
+  "slot": "09:35",
+  "slot_id": "09:35",
+  "trade_date": "2026-09-04",
+  "generated_at": "2026-09-04T09:35:17.191018+08:00",
+  "signal_status": "DATA_GAP",
+  "signal_count": 0,
+  "signals": [],
+  "retroactive_diagnostic_only": false,
+  "morning_ledger_path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/trading_state/2026-09-04/07_30/signal_ledger.json",
+  "morning_signal_ids": [],
+  "top2_tracked": false,
+  "market_snapshot_hash": "e7c124785ad8a66d95b768650fc9bffc0fa2a2f56e058d4e887a98823d1fb3c3",
+  "strategy_snapshot_hash": null,
+  "continuity_policy": "07:30_IDS_IMMUTABLE_UNTIL_EXPLICIT_CANCEL_STOP_EXIT",
+  "auction_snapshot_ts": null,
+  "intraday_tracking": {
+    "schema_version": 1,
+    "trade_date": "2026-09-04",
+    "slot": "09:35",
+    "generated_at": "2026-09-04T09:35:17.112532+08:00",
+    "status": "DATA_GAP",
+    "gap_reason": "SIGNAL_LEDGER_MISSING",
+    "user_visible": true,
+    "user_visible_status": "CARD_READY",
+    "signals": [],
+    "new_watches": [],
+    "model_position_count": 0,
+    "model_outcomes": [],
+    "disclaimer": "仅为模型Signal理论跟踪，不管理或代表用户真实持仓。"
+  }
+}
