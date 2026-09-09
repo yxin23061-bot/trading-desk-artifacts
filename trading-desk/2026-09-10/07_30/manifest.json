@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "trade_date": "2026-09-10",
+  "slot_id": "07:30",
+  "artifact_id": "2026-09-10:07:30:05436e66ff6c0756",
+  "artifact_hash": "05436e66ff6c07567291c1e0017e6d6a34ec0dfcdb60fb767974c75f69d0bc60",
+  "manifest_status": "REMOTE_HASH_READBACK_REQUIRED",
+  "provider": "HiThink",
+  "publish_timestamp": "2026-09-10T07:30:40.958722+08:00",
+  "files": {
+    "morning_plan.json": {
+      "sha256": "532ccfe9d0feebb16015f06b888bb7eab408ac4b3af086dd7f2a154bb2a603f8",
+      "size": 593
+    },
+    "candidate_5.json": {
+      "sha256": "2a1cb13d2b72f56ff3c90468afb62067ad27c1bead384f911b4315a3a35e1afe",
+      "size": 6978
+    },
+    "signal_ledger.json": {
+      "sha256": "5b779c259965e3aaaedb4cbfc23cde8522bd8a51e847d41985afdda6338871cc",
+      "size": 6109
+    },
+    "gpt_task_payload.json": {
+      "sha256": "e262e3ebaf61f696e7fd988fa32a98fe590cd5575b34957201fac70b792241d9",
+      "size": 10273
+    }
+  }
+}

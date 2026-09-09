@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "trade_date": "2026-09-10",
+  "slot_id": "07:30",
+  "created_at": "2026-09-10T07:30:04.136179+08:00",
+  "strategy_engine": "runtime.production_strategy.ProductionStrategyPipeline",
+  "source_status": "OK",
+  "market_gate": {
+    "state": "GREEN",
+    "reason": "verified breadth permits entries",
+    "data_gap": false
+  },
+  "candidate_count": 5,
+  "insufficient_reason": null,
+  "top2_signal_ids": [
+    "sig_e4ecd22fdad34021f6f51217",
+    "sig_8917826972dc94c896eb8ac6"
+  ],
+  "snapshot_hash": "334939d36c840a7efb869cc37a026a819ea37929dfda51a94cc6f653b84febd8"
+}

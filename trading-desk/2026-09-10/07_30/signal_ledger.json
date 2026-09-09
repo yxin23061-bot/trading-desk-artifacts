@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "trade_date": "2026-09-10",
+  "slot_id": "07:30",
+  "created_at": "2026-09-10T07:30:04.136179+08:00",
+  "append_only": true,
+  "immutable_signal_ids": true,
+  "signals": [
+    {
+      "signal_id": "sig_e4ecd22fdad34021f6f51217",
+      "candidate_id": "2026-09-10:01:600108",
+      "trade_date": "2026-09-10",
+      "created_at": "2026-09-10T07:30:04.136179+08:00",
+      "code": "600108",
+      "symbol": "600108",
+      "name": "亚盛集团",
+      "strategy": "首阴",
+      "trigger_range": {
+        "reference_price": 5.71
+      },
+      "trigger_low": null,
+      "trigger_high": null,
+      "confirm_conditions": {
+        "reference_price": 5.71
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 3.81,
+      "rank_0730": 1,
+      "top2_fixed": true,
+      "buy_condition": null,
+      "tp1": 6.1,
+      "tp2": 6.39,
+      "stop": 3.81,
+      "time_stop": null,
+      "baseline": 5.28,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-10T07:30:04.136179+08:00",
+      "last_update": "2026-09-10T07:30:04.136179+08:00",
+      "source_timestamp": "2026-09-10T07:30:07+08:00",
+      "source_score": 84.5250266,
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ]
+    },
+    {
+      "signal_id": "sig_8917826972dc94c896eb8ac6",
+      "candidate_id": "2026-09-10:02:688498",
+      "trade_date": "2026-09-10",
+      "created_at": "2026-09-10T07:30:04.136179+08:00",
+      "code": "688498",
+      "symbol": "688498",
+      "name": "源杰科技",
+      "strategy": "首阴",
+      "trigger_range": {
+        "reference_price": 1718.0
+      },
+      "trigger_low": null,
+      "trigger_high": null,
+      "confirm_conditions": {
+        "reference_price": 1718.0
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 1564.33,
+      "rank_0730": 2,
+      "top2_fixed": true,
+      "buy_condition": null,
+      "tp1": 1864.03,
+      "tp2": 1952.8,
+      "stop": 1564.33,
+      "time_stop": null,
+      "baseline": 1715.0,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-10T07:30:04.136179+08:00",
+      "last_update": "2026-09-10T07:30:04.136179+08:00",
+      "source_timestamp": "2026-09-10T07:30:07+08:00",
+      "source_score": 64.4916569,
+      "source_tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ]
+    },
+    {
+      "signal_id": "sig_8683aba216224c6d507f72df",
+      "candidate_id": "2026-09-10:03:600722",
+      "trade_date": "2026-09-10",
+      "created_at": "2026-09-10T07:30:04.136179+08:00",
+      "code": "600722",
+      "symbol": "600722",
+      "name": "金牛化工",
+      "strategy": "首阴",
+      "trigger_range": {
+        "reference_price": 20.0
+      },
+      "trigger_low": null,
+      "trigger_high": null,
+      "confirm_conditions": {
+        "reference_price": 20.0
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 15.35,
+      "rank_0730": 3,
+      "top2_fixed": false,
+      "buy_condition": null,
+      "tp1": 22.27,
+      "tp2": 23.33,
+      "stop": 15.35,
+      "time_stop": null,
+      "baseline": 19.77,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-10T07:30:04.136179+08:00",
+      "last_update": "2026-09-10T07:30:04.136179+08:00",
+      "source_timestamp": "2026-09-10T07:30:07+08:00",
+      "source_score": 63.4652884,
+      "source_tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ]
+    },
+    {
+      "signal_id": "sig_0a6811ad1b1a6caa58a866f6",
+      "candidate_id": "2026-09-10:04:002349",
+      "trade_date": "2026-09-10",
+      "created_at": "2026-09-10T07:30:04.136179+08:00",
+      "code": "002349",
+      "symbol": "002349",
+      "name": "精华制药",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "reference_price": 9.26
+      },
+      "trigger_low": null,
+      "trigger_high": null,
+      "confirm_conditions": {
+        "reference_price": 9.26
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 7.52,
+      "rank_0730": 4,
+      "top2_fixed": false,
+      "buy_condition": null,
+      "tp1": 9.72,
+      "tp2": 10.19,
+      "stop": 7.52,
+      "time_stop": null,
+      "baseline": 8.42,
+      "mainline_hypothesis": "创新药+中药+原料药",
+      "status": "WATCH",
+      "last_transition": "2026-09-10T07:30:04.136179+08:00",
+      "last_update": "2026-09-10T07:30:04.136179+08:00",
+      "source_timestamp": "2026-09-10T07:30:07+08:00",
+      "source_score": 61.08382741,
+      "source_tactics": [
+        "容量中军",
+        "趋势突破",
+        "二板定龙"
+      ]
+    },
+    {
+      "signal_id": "sig_4ea9fcbecdc4565c501fa13d",
+      "candidate_id": "2026-09-10:05:600865",
+      "trade_date": "2026-09-10",
+      "created_at": "2026-09-10T07:30:04.136179+08:00",
+      "code": "600865",
+      "symbol": "600865",
+      "name": "百大集团",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "reference_price": 15.11
+      },
+      "trigger_low": null,
+      "trigger_high": null,
+      "confirm_conditions": {
+        "reference_price": 15.11
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 9.85,
+      "rank_0730": 5,
+      "top2_fixed": false,
+      "buy_condition": null,
+      "tp1": 15.87,
+      "tp2": 16.62,
+      "stop": 9.85,
+      "time_stop": null,
+      "baseline": 13.74,
+      "mainline_hypothesis": "商业零售+恒隆租约+物业租赁",
+      "status": "WATCH",
+      "last_transition": "2026-09-10T07:30:04.136179+08:00",
+      "last_update": "2026-09-10T07:30:04.136179+08:00",
+      "source_timestamp": "2026-09-10T07:30:07+08:00",
+      "source_score": 61.0387286,
+      "source_tactics": [
+        "容量中军",
+        "趋势突破",
+        "三板定龙"
+      ]
+    }
+  ],
+  "top2_signal_ids": [
+    "sig_e4ecd22fdad34021f6f51217",
+    "sig_8917826972dc94c896eb8ac6"
+  ],
+  "snapshot_hash": "334939d36c840a7efb869cc37a026a819ea37929dfda51a94cc6f653b84febd8",
+  "lifecycle_events": []
+}
