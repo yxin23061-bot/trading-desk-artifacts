@@ -1,0 +1,381 @@
+{
+  "slot": "20:00",
+  "slot_id": "20:00",
+  "trade_date": "2026-09-07",
+  "generated_at": "2026-09-07T20:01:10.833754+08:00",
+  "DELIVERY_STATUS": "DELIVERY_ATTEMPTED",
+  "OUTBOX_STATUS": "OUTBOX_RECORDED",
+  "delivery_attempted": true,
+  "invocation_result": {
+    "handoff_id": "9fb32b0c8f0e4b269da22256c38264b2",
+    "created_at": "2026-09-07T20:01:10.306818+08:00",
+    "channel": "gpt_tasks",
+    "signal_count": 0,
+    "signals": [],
+    "delivery_status": "OUTBOX_RECORDED",
+    "user_visible_status": "EXTERNAL_UNVERIFIED",
+    "ground_truth": {
+      "schema_version": 1,
+      "trading_date": "2026-09-07",
+      "trade_date": "2026-09-07",
+      "slot": "20:00",
+      "slot_id": "20:00",
+      "generated_at": "2026-09-07T20:01:10.833754+08:00",
+      "artifact_id": "2026-09-07:20:00:2f5747eb687fc4bf",
+      "artifact_path": "trading-desk/2026-09-07/20_00/gpt_task_payload.json",
+      "artifact_hash": "2f5747eb687fc4bf458cc2e4ff89c91bbc2a9ea5128d515d9b98944be2b3f984",
+      "artifact_component_hashes": {
+        "market_snapshot.json": "caf62629207c154beda400a2bc3d3dcd276e07078ae6186a3b2ba483a9d4d3a2",
+        "task_status.json": "5673377eb530acdcbf0528ff318f2be4b4694fdd9881a6b2caa7651bb8fc53e9",
+        "signal_output.json": "caaba4f27883f6fb5b29b91299a0fc0216e3e6b854bca86ef03a1fe5b2a9d107"
+      },
+      "manifest_status": "LOCAL_ARTIFACT_READBACK_PASS",
+      "data_status": "DATA_DEGRADED",
+      "provider": "HiThink",
+      "top5": [
+        {
+          "code": "000592",
+          "symbol": "000592",
+          "thscode": "000592.SZ",
+          "name": "平潭发展",
+          "current_price": 7.87,
+          "price": 7.87,
+          "change_pct": 5.073431,
+          "prev_close": 7.49,
+          "open_price": 8.11,
+          "open": 8.11,
+          "high": 8.23,
+          "low": 7.76,
+          "volume": 526053580.0,
+          "amount": 4169067700.0,
+          "source": "hithink_financial_api",
+          "source_ts": "2026-09-07T20:50:41+08:00",
+          "timestamp": "2026-09-07T20:50:41+08:00",
+          "ingest_ts": "2026-09-07T20:01:10.833754+08:00",
+          "request_id": "a7ea196474e14b649b06e2b98705023b",
+          "strategy": "首阴",
+          "tactics": [
+            "首阴",
+            "弱转强/反包",
+            "容量中军",
+            "趋势突破"
+          ],
+          "signal_id": "sig_a2c9c52f7350c3a0bb269781",
+          "trigger": 8.23,
+          "execution_zone": [
+            8.23,
+            8.35
+          ],
+          "stop": 6.66,
+          "risk_price": 6.66,
+          "tp1": 8.64,
+          "tp2": 9.05,
+          "volume_ratio": 2.527,
+          "theme": null,
+          "sector_strength": null,
+          "score": 84.1690677,
+          "ma": {
+            "MA5": 7.212,
+            "MA10": 6.895,
+            "MA20": 6.662,
+            "MA60": 6.4607
+          }
+        },
+        {
+          "code": "601118",
+          "symbol": "601118",
+          "thscode": "601118.SH",
+          "name": "海南橡胶",
+          "current_price": 7.2,
+          "price": 7.2,
+          "change_pct": 2.418208,
+          "prev_close": 7.03,
+          "open_price": 7.43,
+          "open": 7.43,
+          "high": 7.73,
+          "low": 7.08,
+          "volume": 252358920.0,
+          "amount": 1871865100.0,
+          "source": "hithink_financial_api",
+          "source_ts": "2026-09-07T20:50:41+08:00",
+          "timestamp": "2026-09-07T20:50:41+08:00",
+          "ingest_ts": "2026-09-07T20:01:10.833754+08:00",
+          "request_id": "a7ea196474e14b649b06e2b98705023b",
+          "strategy": "首阴",
+          "tactics": [
+            "首阴",
+            "容量中军",
+            "趋势突破"
+          ],
+          "signal_id": "sig_33bc3d6e8ec26f2d37171003",
+          "trigger": 7.73,
+          "execution_zone": [
+            7.73,
+            7.85
+          ],
+          "stop": 6.17,
+          "risk_price": 6.17,
+          "tp1": 8.12,
+          "tp2": 8.5,
+          "volume_ratio": 1.7561,
+          "theme": null,
+          "sector_strength": null,
+          "score": 61.8718651,
+          "ma": {
+            "MA5": 6.814,
+            "MA10": 6.639,
+            "MA20": 6.1665,
+            "MA60": 5.4405
+          }
+        },
+        {
+          "code": "688583",
+          "symbol": "688583",
+          "thscode": "688583.SH",
+          "name": "思看科技",
+          "current_price": 90.0,
+          "price": 90.0,
+          "change_pct": 12.079701,
+          "prev_close": 80.3,
+          "open_price": 95.85,
+          "open": 95.85,
+          "high": 96.36,
+          "low": 87.96,
+          "volume": 8917620.0,
+          "amount": 839544180.0,
+          "source": "hithink_financial_api",
+          "source_ts": "2026-09-07T20:50:41+08:00",
+          "timestamp": "2026-09-07T20:50:41+08:00",
+          "ingest_ts": "2026-09-07T20:01:10.833754+08:00",
+          "request_id": "a7ea196474e14b649b06e2b98705023b",
+          "strategy": "首阴",
+          "tactics": [
+            "首阴",
+            "弱转强/反包",
+            "趋势突破"
+          ],
+          "signal_id": "sig_f4c209bfb733c8c71d3e2618",
+          "trigger": 98.58,
+          "execution_zone": [
+            98.58,
+            100.06
+          ],
+          "stop": 84.73,
+          "risk_price": 84.73,
+          "tp1": 103.51,
+          "tp2": 108.44,
+          "volume_ratio": 2.922,
+          "theme": null,
+          "sector_strength": null,
+          "score": 60.83954418,
+          "ma": {
+            "MA5": 83.712,
+            "MA10": 85.041,
+            "MA20": 84.7295,
+            "MA60": 81.371
+          }
+        },
+        {
+          "code": "603228",
+          "symbol": "603228",
+          "thscode": "603228.SH",
+          "name": "景旺电子",
+          "current_price": 105.97,
+          "price": 105.97,
+          "change_pct": 9.995848,
+          "prev_close": 96.34,
+          "open_price": 98.98,
+          "open": 98.98,
+          "high": 105.97,
+          "low": 98.55,
+          "volume": 50535836.0,
+          "amount": 5269098200.0,
+          "source": "hithink_financial_api",
+          "source_ts": "2026-09-07T20:50:41+08:00",
+          "timestamp": "2026-09-07T20:50:41+08:00",
+          "ingest_ts": "2026-09-07T20:01:10.833754+08:00",
+          "request_id": "a7ea196474e14b649b06e2b98705023b",
+          "strategy": "容量中军",
+          "tactics": [
+            "容量中军",
+            "趋势突破"
+          ],
+          "signal_id": "sig_e3caece9971a0994b1cf9495",
+          "trigger": 106.01,
+          "execution_zone": [
+            106.01,
+            107.6
+          ],
+          "stop": 93.92,
+          "risk_price": 93.92,
+          "tp1": 111.31,
+          "tp2": 116.61,
+          "volume_ratio": 1.123,
+          "theme": "AI算力PCB+光模块PCB+高端产能",
+          "sector_strength": 19.77,
+          "score": 45.2690982,
+          "ma": {
+            "MA5": 93.768,
+            "MA10": 93.715,
+            "MA20": 93.9245,
+            "MA60": 80.7697
+          }
+        },
+        {
+          "code": "300413",
+          "symbol": "300413",
+          "thscode": "300413.SZ",
+          "name": "芒果超媒",
+          "current_price": 22.1,
+          "price": 22.1,
+          "change_pct": 4.0,
+          "prev_close": 21.25,
+          "open_price": 21.0,
+          "open": 21.0,
+          "high": 22.22,
+          "low": 20.22,
+          "volume": 218720370.0,
+          "amount": 4620367500.0,
+          "source": "hithink_financial_api",
+          "source_ts": "2026-09-07T20:50:41+08:00",
+          "timestamp": "2026-09-07T20:50:41+08:00",
+          "ingest_ts": "2026-09-07T20:01:10.833754+08:00",
+          "request_id": "a7ea196474e14b649b06e2b98705023b",
+          "strategy": "容量中军",
+          "tactics": [
+            "容量中军",
+            "趋势突破"
+          ],
+          "signal_id": "sig_229e414c5724ed8d354b0772",
+          "trigger": 23.5,
+          "execution_zone": [
+            23.5,
+            23.85
+          ],
+          "stop": 16.54,
+          "risk_price": 16.54,
+          "tp1": 24.68,
+          "tp2": 25.85,
+          "volume_ratio": 3.2869,
+          "theme": null,
+          "sector_strength": null,
+          "score": 44.6203675,
+          "ma": {
+            "MA5": 20.88,
+            "MA10": 17.789,
+            "MA20": 16.5435,
+            "MA60": 15.6975
+          }
+        }
+      ],
+      "top2": [],
+      "top2_signal_ids": [],
+      "signal_events": [],
+      "strategy_states": [],
+      "SOURCE_OF_TRUTH": "PRODUCTION_ARTIFACT_ONLY",
+      "NO_WEB_SEARCH_FOR_TRADING_DATA": true,
+      "NO_POSTHOC_RECONSTRUCTION": true,
+      "render_lines": [
+        "【Trading Desk｜20:00｜PRODUCTION_ARTIFACT_ONLY】",
+        "交易日：2026-09-07｜artifact_id=2026-09-07:20:00:2f5747eb687fc4bf",
+        "JOB=JOB_SUCCESS｜DATA=DATA_DEGRADED｜SIGNAL=SIGNAL_BLOCKED",
+        "MODEL_POSITION=NONE｜REAL_POSITION_READ=false",
+        "本时点无合法Signal",
+        "NO_WEB_SEARCH_FOR_TRADING_DATA=true｜NO_POSTHOC_RECONSTRUCTION=true",
+        "DELIVERY=GPT_TASK_ARTIFACT_RENDER｜USER_VISIBLE=本回合",
+        "这是生产模型结果展示，不构成交易建议。"
+      ],
+      "ledger_manifest": {
+        "trade_date": "2026-09-07",
+        "consumer_slot": "20:00",
+        "recognized_execution_slots": [
+          "09:27",
+          "09:35",
+          "10:00",
+          "10:25",
+          "11:25",
+          "13:25",
+          "14:25",
+          "14:50"
+        ],
+        "auction_execution_slot": "09:27",
+        "auction_snapshot_ts": "09:25 final",
+        "legacy_09_25_execution_rejected": true,
+        "event_count": 0,
+        "signal_ids": [],
+        "morning_candidate_ledger": "DATA_GAP",
+        "daily_ledger_manifest": {
+          "schema_version": 1,
+          "trading_date": "2026-09-07",
+          "required": 9,
+          "completed": 3,
+          "status": "INCOMPLETE",
+          "slots": [
+            {
+              "slot": "07:30",
+              "complete": false
+            },
+            {
+              "slot": "09:27",
+              "complete": true
+            },
+            {
+              "slot": "09:35",
+              "complete": true
+            },
+            {
+              "slot": "10:00",
+              "complete": false
+            },
+            {
+              "slot": "10:25",
+              "complete": false
+            },
+            {
+              "slot": "11:25",
+              "complete": false
+            },
+            {
+              "slot": "13:25",
+              "complete": false
+            },
+            {
+              "slot": "14:25",
+              "complete": false
+            },
+            {
+              "slot": "14:50",
+              "complete": true
+            }
+          ]
+        },
+        "missing_slots": [
+          "10:00",
+          "10:25",
+          "11:25",
+          "13:25",
+          "14:25"
+        ],
+        "slot_history_status": "DATA_GAP",
+        "settlement_status": "SETTLEMENT_INCOMPLETE",
+        "settlement_incomplete_reasons": [
+          "MORNING_LEDGER_MISSING",
+          "SIGNAL_SLOT_HISTORY_INCOMPLETE"
+        ],
+        "model_signal_event_count": 0,
+        "model_fill_count": 0,
+        "real_exchange_positions_read": false,
+        "fabricated_performance_fields": false,
+        "no_web_reconstruction": true
+      },
+      "morning_ledger_ref": "trading-desk/2026-09-07/07_30/manifest.json",
+      "close_settlement_ref": "trading-desk/2026-09-07/20_00/market_snapshot.json"
+    },
+    "read_after_write": "PASS"
+  },
+  "retry_result": null,
+  "delivery_error": null,
+  "ledger_read_after_write": "PASS",
+  "GPT_TASK_RETURNED": false,
+  "USER_VISIBLE_STATUS": "EXTERNAL_UNVERIFIED"
+}

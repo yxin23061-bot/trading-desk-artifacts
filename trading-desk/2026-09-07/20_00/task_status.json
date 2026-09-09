@@ -1,0 +1,17 @@
+{
+  "slot": "20:00",
+  "slot_id": "20:00",
+  "trade_date": "2026-09-07",
+  "generated_at": "2026-09-07T20:01:10.833754+08:00",
+  "JOB_STATUS": "JOB_SUCCESS",
+  "DATA_STATUS": "DATA_DEGRADED",
+  "SIGNAL_STATUS": "SIGNAL_BLOCKED",
+  "BROKEN_STAGE": "SIGNAL_LEDGER_MISSING",
+  "DATA_BROKEN_STAGE": null,
+  "SIGNAL_CONTEXT_BROKEN_STAGE": "SIGNAL_LEDGER_MISSING",
+  "morning_ledger_exists": false,
+  "morning_signal_ids": [],
+  "pm_required": false,
+  "execution_slot": "20:00",
+  "auction_snapshot_ts": null
+}
