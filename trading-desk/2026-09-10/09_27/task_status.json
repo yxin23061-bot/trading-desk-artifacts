@@ -1,0 +1,30 @@
+{
+  "slot": "09:27",
+  "slot_id": "09:27",
+  "trade_date": "2026-09-10",
+  "generated_at": "2026-09-10T09:29:59.323336+08:00",
+  "JOB_STATUS": "JOB_SUCCESS",
+  "DATA_STATUS": "DATA_MISSING",
+  "SIGNAL_STATUS": "LIVE_SLOT_SIGNAL_READY",
+  "BROKEN_STAGE": "AUCTION_CORE_DATA_MISSING",
+  "DATA_BROKEN_STAGE": "AUCTION_CORE_DATA_MISSING",
+  "SIGNAL_CONTEXT_BROKEN_STAGE": "REALTIME_MARKET_MISSING",
+  "morning_ledger_exists": true,
+  "morning_signal_ids": [
+    "sig_e4ecd22fdad34021f6f51217",
+    "sig_8917826972dc94c896eb8ac6",
+    "sig_8683aba216224c6d507f72df",
+    "sig_0a6811ad1b1a6caa58a866f6",
+    "sig_4ea9fcbecdc4565c501fa13d"
+  ],
+  "pm_required": false,
+  "execution_slot": "09:27",
+  "auction_snapshot_ts": "09:25 final",
+  "INTRADAY_SIGNAL_TRACKING": "DATA_GAP",
+  "USER_VISIBLE_CARD": true,
+  "SIGNAL_OUTCOME": "SIGNAL_PRESENT",
+  "ACTION": "MODEL_SIGNAL",
+  "MODEL_POSITION": "NO_MODEL_FILL",
+  "REAL_POSITION_READ": false,
+  "SIGNAL_PROVENANCE": null
+}
