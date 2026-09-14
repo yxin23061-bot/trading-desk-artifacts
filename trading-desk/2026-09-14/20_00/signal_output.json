@@ -1,0 +1,127 @@
+{
+  "slot": "20:00",
+  "slot_id": "20:00",
+  "trade_date": "2026-09-14",
+  "generated_at": "2026-09-14T21:37:21.539970+08:00",
+  "signal_status": "TOP2_TRACKED_NO_CHANGE",
+  "signal_count": 2,
+  "signals": [
+    {
+      "signal_id": "sig_ab0367e0432c3ce73e11d29c",
+      "candidate_id": "2026-09-14:01:000978",
+      "trade_date": "2026-09-14",
+      "created_at": "2026-09-14T07:30:48.100200+08:00",
+      "code": "000978",
+      "symbol": "000978",
+      "name": "桂林旅游",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 10.66,
+        "high": 10.82,
+        "reference_price": 10.66
+      },
+      "trigger_low": 10.66,
+      "trigger_high": 10.82,
+      "trigger": 10.66,
+      "execution_zone": [
+        10.66,
+        10.82
+      ],
+      "confirm_conditions": {
+        "low": 10.66,
+        "high": 10.82,
+        "reference_price": 10.66
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 6.86,
+      "rank_0730": 1,
+      "top2_fixed": true,
+      "buy_condition": null,
+      "tp1": 11.19,
+      "tp2": 11.73,
+      "stop": 6.86,
+      "time_stop": null,
+      "baseline": 9.69,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-14T07:30:48.100200+08:00",
+      "last_update": "2026-09-14T07:30:48.100200+08:00",
+      "source_timestamp": "2026-09-14T07:30:07+08:00",
+      "source_score": 61.6811954,
+      "source_tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "old_state": "WATCH",
+      "new_state": "NO_CHANGE",
+      "reason": "TOP2_TRACKING",
+      "observed_at": "2026-09-14T21:37:21.539970+08:00"
+    },
+    {
+      "signal_id": "sig_dbd233182306c12b1caa0be4",
+      "candidate_id": "2026-09-14:02:002384",
+      "trade_date": "2026-09-14",
+      "created_at": "2026-09-14T07:30:48.100200+08:00",
+      "code": "002384",
+      "symbol": "002384",
+      "name": "东山精密",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 219.85,
+        "high": 223.15,
+        "reference_price": 219.85
+      },
+      "trigger_low": 219.85,
+      "trigger_high": 223.15,
+      "trigger": 219.85,
+      "execution_zone": [
+        219.85,
+        223.15
+      ],
+      "confirm_conditions": {
+        "low": 219.85,
+        "high": 223.15,
+        "reference_price": 219.85
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 194.57,
+      "rank_0730": 2,
+      "top2_fixed": true,
+      "buy_condition": null,
+      "tp1": 230.84,
+      "tp2": 241.84,
+      "stop": 194.57,
+      "time_stop": null,
+      "baseline": 193.74,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-14T07:30:48.100200+08:00",
+      "last_update": "2026-09-14T07:30:48.100200+08:00",
+      "source_timestamp": "2026-09-14T07:30:07+08:00",
+      "source_score": 54.420146,
+      "source_tactics": [
+        "首阴",
+        "容量中军"
+      ],
+      "old_state": "WATCH",
+      "new_state": "NO_CHANGE",
+      "reason": "TOP2_TRACKING",
+      "observed_at": "2026-09-14T21:37:21.539970+08:00"
+    }
+  ],
+  "retroactive_diagnostic_only": false,
+  "morning_ledger_path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/trading_state/2026-09-14/07_30/signal_ledger.json",
+  "morning_signal_ids": [
+    "sig_ab0367e0432c3ce73e11d29c",
+    "sig_dbd233182306c12b1caa0be4",
+    "sig_ffb9d4750a05acc9a671090e",
+    "sig_293c93e90eb9424352745eeb",
+    "sig_33890863ac625cd246fee26c"
+  ],
+  "top2_tracked": true,
+  "market_snapshot_hash": "18881054fe7be27d9ac00ee58e32768fc1b5fe650ace3a4dc6d8cd38c523d2ec",
+  "strategy_snapshot_hash": "f282f2e1b10ae16d3a1f327f490dd78d8c52a10f7526c477faf181ca06fcdbbc",
+  "continuity_policy": "07:30_IDS_IMMUTABLE_UNTIL_EXPLICIT_CANCEL_STOP_EXIT",
+  "auction_snapshot_ts": null
+}
