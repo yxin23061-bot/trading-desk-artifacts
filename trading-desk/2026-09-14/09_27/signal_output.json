@@ -1,0 +1,550 @@
+{
+  "slot": "09:27",
+  "slot_id": "09:27",
+  "trade_date": "2026-09-14",
+  "generated_at": "2026-09-14T09:34:47.532313+08:00",
+  "signal_status": "LIVE_SLOT_SIGNAL_READY",
+  "signal_count": 5,
+  "signals": [
+    {
+      "signal_id": "sig_ab0367e0432c3ce73e11d29c",
+      "candidate_id": "2026-09-14:01:000978",
+      "trade_date": "2026-09-14",
+      "created_at": "2026-09-14T07:30:48.100200+08:00",
+      "code": "000978",
+      "symbol": "000978",
+      "name": "桂林旅游",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 10.66,
+        "high": 10.82,
+        "reference_price": 10.66
+      },
+      "trigger_low": 10.66,
+      "trigger_high": 10.82,
+      "trigger": 10.66,
+      "execution_zone": [
+        10.66,
+        10.82
+      ],
+      "confirm_conditions": {
+        "low": 10.66,
+        "high": 10.82,
+        "reference_price": 10.66
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 6.86,
+      "rank_0730": 1,
+      "top2_fixed": true,
+      "buy_condition": null,
+      "tp1": 11.19,
+      "tp2": 11.73,
+      "stop": 6.86,
+      "time_stop": null,
+      "baseline": 9.69,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-14T07:30:48.100200+08:00",
+      "last_update": "2026-09-14T07:30:48.100200+08:00",
+      "source_timestamp": "2026-09-14T07:30:07+08:00",
+      "source_score": 61.6811954,
+      "source_tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "old_state": "WATCH",
+      "new_state": "WATCH",
+      "reason": "DATA_MISSING_SIGNAL_PRESERVED"
+    },
+    {
+      "signal_id": "sig_dbd233182306c12b1caa0be4",
+      "candidate_id": "2026-09-14:02:002384",
+      "trade_date": "2026-09-14",
+      "created_at": "2026-09-14T07:30:48.100200+08:00",
+      "code": "002384",
+      "symbol": "002384",
+      "name": "东山精密",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 219.85,
+        "high": 223.15,
+        "reference_price": 219.85
+      },
+      "trigger_low": 219.85,
+      "trigger_high": 223.15,
+      "trigger": 219.85,
+      "execution_zone": [
+        219.85,
+        223.15
+      ],
+      "confirm_conditions": {
+        "low": 219.85,
+        "high": 223.15,
+        "reference_price": 219.85
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 194.57,
+      "rank_0730": 2,
+      "top2_fixed": true,
+      "buy_condition": null,
+      "tp1": 230.84,
+      "tp2": 241.84,
+      "stop": 194.57,
+      "time_stop": null,
+      "baseline": 193.74,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-14T07:30:48.100200+08:00",
+      "last_update": "2026-09-14T07:30:48.100200+08:00",
+      "source_timestamp": "2026-09-14T07:30:07+08:00",
+      "source_score": 54.420146,
+      "source_tactics": [
+        "首阴",
+        "容量中军"
+      ],
+      "old_state": "WATCH",
+      "new_state": "WATCH",
+      "reason": "DATA_MISSING_SIGNAL_PRESERVED"
+    },
+    {
+      "signal_id": "sig_ffb9d4750a05acc9a671090e",
+      "candidate_id": "2026-09-14:03:601869",
+      "trade_date": "2026-09-14",
+      "created_at": "2026-09-14T07:30:48.100200+08:00",
+      "code": "601869",
+      "symbol": "601869",
+      "name": "长飞光纤",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 475.52,
+        "high": 482.65,
+        "reference_price": 475.52
+      },
+      "trigger_low": 475.52,
+      "trigger_high": 482.65,
+      "trigger": 475.52,
+      "execution_zone": [
+        475.52,
+        482.65
+      ],
+      "confirm_conditions": {
+        "low": 475.52,
+        "high": 482.65,
+        "reference_price": 475.52
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 400.22,
+      "rank_0730": 3,
+      "top2_fixed": false,
+      "buy_condition": null,
+      "tp1": 499.3,
+      "tp2": 523.07,
+      "stop": 400.22,
+      "time_stop": null,
+      "baseline": 435.74,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-14T07:30:48.100200+08:00",
+      "last_update": "2026-09-14T07:30:48.100200+08:00",
+      "source_timestamp": "2026-09-14T07:30:07+08:00",
+      "source_score": 48.447753,
+      "source_tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "old_state": "WATCH",
+      "new_state": "WATCH",
+      "reason": "DATA_MISSING_SIGNAL_PRESERVED"
+    },
+    {
+      "signal_id": "sig_293c93e90eb9424352745eeb",
+      "candidate_id": "2026-09-14:04:603083",
+      "trade_date": "2026-09-14",
+      "created_at": "2026-09-14T07:30:48.100200+08:00",
+      "code": "603083",
+      "symbol": "603083",
+      "name": "剑桥科技",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 237.87,
+        "high": 241.44,
+        "reference_price": 237.87
+      },
+      "trigger_low": 237.87,
+      "trigger_high": 241.44,
+      "trigger": 237.87,
+      "execution_zone": [
+        237.87,
+        241.44
+      ],
+      "confirm_conditions": {
+        "low": 237.87,
+        "high": 241.44,
+        "reference_price": 237.87
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 193.32,
+      "rank_0730": 4,
+      "top2_fixed": false,
+      "buy_condition": null,
+      "tp1": 249.76,
+      "tp2": 261.66,
+      "stop": 193.32,
+      "time_stop": null,
+      "baseline": 234.43,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-14T07:30:48.100200+08:00",
+      "last_update": "2026-09-14T07:30:48.100200+08:00",
+      "source_timestamp": "2026-09-14T07:30:07+08:00",
+      "source_score": 47.6128344,
+      "source_tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "old_state": "WATCH",
+      "new_state": "WATCH",
+      "reason": "DATA_MISSING_SIGNAL_PRESERVED"
+    },
+    {
+      "signal_id": "sig_33890863ac625cd246fee26c",
+      "candidate_id": "2026-09-14:05:600150",
+      "trade_date": "2026-09-14",
+      "created_at": "2026-09-14T07:30:48.100200+08:00",
+      "code": "600150",
+      "symbol": "600150",
+      "name": "中国船舶",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 41.18,
+        "high": 41.8,
+        "reference_price": 41.18
+      },
+      "trigger_low": 41.18,
+      "trigger_high": 41.8,
+      "trigger": 41.18,
+      "execution_zone": [
+        41.18,
+        41.8
+      ],
+      "confirm_conditions": {
+        "low": 41.18,
+        "high": 41.8,
+        "reference_price": 41.18
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 35.49,
+      "rank_0730": 5,
+      "top2_fixed": false,
+      "buy_condition": null,
+      "tp1": 43.24,
+      "tp2": 45.3,
+      "stop": 35.49,
+      "time_stop": null,
+      "baseline": 40.82,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-14T07:30:48.100200+08:00",
+      "last_update": "2026-09-14T07:30:48.100200+08:00",
+      "source_timestamp": "2026-09-14T07:30:07+08:00",
+      "source_score": 47.2477942,
+      "source_tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "old_state": "WATCH",
+      "new_state": "WATCH",
+      "reason": "DATA_MISSING_SIGNAL_PRESERVED"
+    }
+  ],
+  "retroactive_diagnostic_only": false,
+  "morning_ledger_path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/trading_state/2026-09-14/07_30/signal_ledger.json",
+  "morning_signal_ids": [
+    "sig_ab0367e0432c3ce73e11d29c",
+    "sig_dbd233182306c12b1caa0be4",
+    "sig_ffb9d4750a05acc9a671090e",
+    "sig_293c93e90eb9424352745eeb",
+    "sig_33890863ac625cd246fee26c"
+  ],
+  "top2_tracked": true,
+  "market_snapshot_hash": "453364980c6eb06bf820450d8a28a2b0802817ab4ebd1d0d0f285720c2da3db0",
+  "strategy_snapshot_hash": "f282f2e1b10ae16d3a1f327f490dd78d8c52a10f7526c477faf181ca06fcdbbc",
+  "continuity_policy": "07:30_IDS_IMMUTABLE_UNTIL_EXPLICIT_CANCEL_STOP_EXIT",
+  "auction_snapshot_ts": "09:25 final",
+  "intraday_tracking": {
+    "schema_version": 1,
+    "trade_date": "2026-09-14",
+    "slot": "09:27",
+    "generated_at": "2026-09-14T09:27:02.054337+08:00",
+    "status": "DATA_GAP",
+    "gap_reason": "REALTIME_MARKET_MISSING",
+    "user_visible": true,
+    "user_visible_status": "CARD_READY",
+    "signals": [
+      {
+        "signal_id": "sig_ab0367e0432c3ce73e11d29c",
+        "candidate_id": "2026-09-14:01:000978",
+        "trade_date": "2026-09-14",
+        "created_at": "2026-09-14T07:30:48.100200+08:00",
+        "code": "000978",
+        "symbol": "000978",
+        "name": "桂林旅游",
+        "strategy": "首阴",
+        "trigger_range": {
+          "low": 10.66,
+          "high": 10.82,
+          "reference_price": 10.66
+        },
+        "trigger_low": 10.66,
+        "trigger_high": 10.82,
+        "trigger": 10.66,
+        "execution_zone": [
+          10.66,
+          10.82
+        ],
+        "confirm_conditions": {
+          "low": 10.66,
+          "high": 10.82,
+          "reference_price": 10.66
+        },
+        "risk_level": "UNASSESSED",
+        "risk_price": 6.86,
+        "rank_0730": 1,
+        "top2_fixed": true,
+        "buy_condition": null,
+        "tp1": 11.19,
+        "tp2": 11.73,
+        "stop": 6.86,
+        "time_stop": null,
+        "baseline": 9.69,
+        "mainline_hypothesis": null,
+        "status": "WATCH",
+        "last_transition": "2026-09-14T07:30:48.100200+08:00",
+        "last_update": "2026-09-14T07:30:48.100200+08:00",
+        "source_timestamp": "2026-09-14T07:30:07+08:00",
+        "source_score": 61.6811954,
+        "source_tactics": [
+          "首阴",
+          "容量中军",
+          "趋势突破"
+        ],
+        "old_state": "WATCH",
+        "new_state": "WATCH",
+        "reason": "DATA_MISSING_SIGNAL_PRESERVED"
+      },
+      {
+        "signal_id": "sig_dbd233182306c12b1caa0be4",
+        "candidate_id": "2026-09-14:02:002384",
+        "trade_date": "2026-09-14",
+        "created_at": "2026-09-14T07:30:48.100200+08:00",
+        "code": "002384",
+        "symbol": "002384",
+        "name": "东山精密",
+        "strategy": "首阴",
+        "trigger_range": {
+          "low": 219.85,
+          "high": 223.15,
+          "reference_price": 219.85
+        },
+        "trigger_low": 219.85,
+        "trigger_high": 223.15,
+        "trigger": 219.85,
+        "execution_zone": [
+          219.85,
+          223.15
+        ],
+        "confirm_conditions": {
+          "low": 219.85,
+          "high": 223.15,
+          "reference_price": 219.85
+        },
+        "risk_level": "UNASSESSED",
+        "risk_price": 194.57,
+        "rank_0730": 2,
+        "top2_fixed": true,
+        "buy_condition": null,
+        "tp1": 230.84,
+        "tp2": 241.84,
+        "stop": 194.57,
+        "time_stop": null,
+        "baseline": 193.74,
+        "mainline_hypothesis": null,
+        "status": "WATCH",
+        "last_transition": "2026-09-14T07:30:48.100200+08:00",
+        "last_update": "2026-09-14T07:30:48.100200+08:00",
+        "source_timestamp": "2026-09-14T07:30:07+08:00",
+        "source_score": 54.420146,
+        "source_tactics": [
+          "首阴",
+          "容量中军"
+        ],
+        "old_state": "WATCH",
+        "new_state": "WATCH",
+        "reason": "DATA_MISSING_SIGNAL_PRESERVED"
+      },
+      {
+        "signal_id": "sig_ffb9d4750a05acc9a671090e",
+        "candidate_id": "2026-09-14:03:601869",
+        "trade_date": "2026-09-14",
+        "created_at": "2026-09-14T07:30:48.100200+08:00",
+        "code": "601869",
+        "symbol": "601869",
+        "name": "长飞光纤",
+        "strategy": "容量中军",
+        "trigger_range": {
+          "low": 475.52,
+          "high": 482.65,
+          "reference_price": 475.52
+        },
+        "trigger_low": 475.52,
+        "trigger_high": 482.65,
+        "trigger": 475.52,
+        "execution_zone": [
+          475.52,
+          482.65
+        ],
+        "confirm_conditions": {
+          "low": 475.52,
+          "high": 482.65,
+          "reference_price": 475.52
+        },
+        "risk_level": "UNASSESSED",
+        "risk_price": 400.22,
+        "rank_0730": 3,
+        "top2_fixed": false,
+        "buy_condition": null,
+        "tp1": 499.3,
+        "tp2": 523.07,
+        "stop": 400.22,
+        "time_stop": null,
+        "baseline": 435.74,
+        "mainline_hypothesis": null,
+        "status": "WATCH",
+        "last_transition": "2026-09-14T07:30:48.100200+08:00",
+        "last_update": "2026-09-14T07:30:48.100200+08:00",
+        "source_timestamp": "2026-09-14T07:30:07+08:00",
+        "source_score": 48.447753,
+        "source_tactics": [
+          "容量中军",
+          "趋势突破"
+        ],
+        "old_state": "WATCH",
+        "new_state": "WATCH",
+        "reason": "DATA_MISSING_SIGNAL_PRESERVED"
+      },
+      {
+        "signal_id": "sig_293c93e90eb9424352745eeb",
+        "candidate_id": "2026-09-14:04:603083",
+        "trade_date": "2026-09-14",
+        "created_at": "2026-09-14T07:30:48.100200+08:00",
+        "code": "603083",
+        "symbol": "603083",
+        "name": "剑桥科技",
+        "strategy": "容量中军",
+        "trigger_range": {
+          "low": 237.87,
+          "high": 241.44,
+          "reference_price": 237.87
+        },
+        "trigger_low": 237.87,
+        "trigger_high": 241.44,
+        "trigger": 237.87,
+        "execution_zone": [
+          237.87,
+          241.44
+        ],
+        "confirm_conditions": {
+          "low": 237.87,
+          "high": 241.44,
+          "reference_price": 237.87
+        },
+        "risk_level": "UNASSESSED",
+        "risk_price": 193.32,
+        "rank_0730": 4,
+        "top2_fixed": false,
+        "buy_condition": null,
+        "tp1": 249.76,
+        "tp2": 261.66,
+        "stop": 193.32,
+        "time_stop": null,
+        "baseline": 234.43,
+        "mainline_hypothesis": null,
+        "status": "WATCH",
+        "last_transition": "2026-09-14T07:30:48.100200+08:00",
+        "last_update": "2026-09-14T07:30:48.100200+08:00",
+        "source_timestamp": "2026-09-14T07:30:07+08:00",
+        "source_score": 47.6128344,
+        "source_tactics": [
+          "容量中军",
+          "趋势突破"
+        ],
+        "old_state": "WATCH",
+        "new_state": "WATCH",
+        "reason": "DATA_MISSING_SIGNAL_PRESERVED"
+      },
+      {
+        "signal_id": "sig_33890863ac625cd246fee26c",
+        "candidate_id": "2026-09-14:05:600150",
+        "trade_date": "2026-09-14",
+        "created_at": "2026-09-14T07:30:48.100200+08:00",
+        "code": "600150",
+        "symbol": "600150",
+        "name": "中国船舶",
+        "strategy": "容量中军",
+        "trigger_range": {
+          "low": 41.18,
+          "high": 41.8,
+          "reference_price": 41.18
+        },
+        "trigger_low": 41.18,
+        "trigger_high": 41.8,
+        "trigger": 41.18,
+        "execution_zone": [
+          41.18,
+          41.8
+        ],
+        "confirm_conditions": {
+          "low": 41.18,
+          "high": 41.8,
+          "reference_price": 41.18
+        },
+        "risk_level": "UNASSESSED",
+        "risk_price": 35.49,
+        "rank_0730": 5,
+        "top2_fixed": false,
+        "buy_condition": null,
+        "tp1": 43.24,
+        "tp2": 45.3,
+        "stop": 35.49,
+        "time_stop": null,
+        "baseline": 40.82,
+        "mainline_hypothesis": null,
+        "status": "WATCH",
+        "last_transition": "2026-09-14T07:30:48.100200+08:00",
+        "last_update": "2026-09-14T07:30:48.100200+08:00",
+        "source_timestamp": "2026-09-14T07:30:07+08:00",
+        "source_score": 47.2477942,
+        "source_tactics": [
+          "容量中军",
+          "趋势突破"
+        ],
+        "old_state": "WATCH",
+        "new_state": "WATCH",
+        "reason": "DATA_MISSING_SIGNAL_PRESERVED"
+      }
+    ],
+    "new_watches": [],
+    "model_position_count": 0,
+    "model_outcomes": [],
+    "disclaimer": "仅为模型Signal理论跟踪，不管理或代表用户真实持仓。",
+    "signal_ids": [
+      "sig_ab0367e0432c3ce73e11d29c",
+      "sig_dbd233182306c12b1caa0be4",
+      "sig_ffb9d4750a05acc9a671090e",
+      "sig_293c93e90eb9424352745eeb",
+      "sig_33890863ac625cd246fee26c"
+    ],
+    "dynamic_signal_settlement": null
+  }
+}
