@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "trade_date": "2026-09-15",
+  "slot_id": "07:30",
+  "created_at": "2026-09-15T07:39:25.055485+08:00",
+  "append_only": true,
+  "immutable_signal_ids": true,
+  "signals": [
+    {
+      "signal_id": "sig_656a4c7f954441896781819d",
+      "candidate_id": "2026-09-15:01:600722",
+      "trade_date": "2026-09-15",
+      "created_at": "2026-09-15T07:39:25.055485+08:00",
+      "code": "600722",
+      "symbol": "600722",
+      "name": "金牛化工",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 21.21,
+        "high": 21.53,
+        "reference_price": 21.21
+      },
+      "trigger_low": 21.21,
+      "trigger_high": 21.53,
+      "trigger": 21.21,
+      "execution_zone": [
+        21.21,
+        21.53
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 16.19,
+      "rank_0730": 1,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 21.21,
+        "high": 21.53
+      },
+      "tp1": 22.27,
+      "tp2": 23.33,
+      "stop": 16.19,
+      "time_stop": "2026-09-15T14:50:00+08:00",
+      "baseline": 16.98,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-15T07:39:25.055485+08:00",
+      "last_update": "2026-09-15T07:39:25.055485+08:00",
+      "source_timestamp": "2026-09-15T07:39:18+08:00",
+      "source_score": 62.1158526,
+      "source_tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "trading_date": "2026-09-15",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_7b37699b653ce8443bb0c69f",
+      "candidate_id": "2026-09-15:02:000980",
+      "trade_date": "2026-09-15",
+      "created_at": "2026-09-15T07:39:25.055485+08:00",
+      "code": "000980",
+      "symbol": "000980",
+      "name": "众泰汽车",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 2.33,
+        "high": 2.36,
+        "reference_price": 2.33
+      },
+      "trigger_low": 2.33,
+      "trigger_high": 2.36,
+      "trigger": 2.33,
+      "execution_zone": [
+        2.33,
+        2.36
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 1.76,
+      "rank_0730": 2,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 2.33,
+        "high": 2.36
+      },
+      "tp1": 2.45,
+      "tp2": 2.56,
+      "stop": 1.76,
+      "time_stop": "2026-09-15T14:50:00+08:00",
+      "baseline": 2.12,
+      "mainline_hypothesis": "A0车型+复工复产+海外布局",
+      "status": "WATCH",
+      "last_transition": "2026-09-15T07:39:25.055485+08:00",
+      "last_update": "2026-09-15T07:39:25.055485+08:00",
+      "source_timestamp": "2026-09-15T07:39:18+08:00",
+      "source_score": 61.1727794,
+      "source_tactics": [
+        "容量中军",
+        "趋势突破",
+        "二板定龙"
+      ],
+      "trading_date": "2026-09-15",
+      "setup_type": "容量中军",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_3a80b1ddc87968de11c0ba06",
+      "candidate_id": "2026-09-15:03:601869",
+      "trade_date": "2026-09-15",
+      "created_at": "2026-09-15T07:39:25.055485+08:00",
+      "code": "601869",
+      "symbol": "601869",
+      "name": "长飞光纤",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 475.52,
+        "high": 482.65,
+        "reference_price": 475.52
+      },
+      "trigger_low": 475.52,
+      "trigger_high": 482.65,
+      "trigger": 475.52,
+      "execution_zone": [
+        475.52,
+        482.65
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 404.39,
+      "rank_0730": 3,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 475.52,
+        "high": 482.65
+      },
+      "tp1": 499.3,
+      "tp2": 523.07,
+      "stop": 404.39,
+      "time_stop": "2026-09-15T14:50:00+08:00",
+      "baseline": 473.99,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-15T07:39:25.055485+08:00",
+      "last_update": "2026-09-15T07:39:25.055485+08:00",
+      "source_timestamp": "2026-09-15T07:39:18+08:00",
+      "source_score": 46.9777058,
+      "source_tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "trading_date": "2026-09-15",
+      "setup_type": "容量中军",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_741c3ebe1712078b95156f18",
+      "candidate_id": "2026-09-15:04:603259",
+      "trade_date": "2026-09-15",
+      "created_at": "2026-09-15T07:39:25.055485+08:00",
+      "code": "603259",
+      "symbol": "603259",
+      "name": "药明康德",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 173.09,
+        "high": 175.69,
+        "reference_price": 173.09
+      },
+      "trigger_low": 173.09,
+      "trigger_high": 175.69,
+      "trigger": 173.09,
+      "execution_zone": [
+        173.09,
+        175.69
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 157.67,
+      "rank_0730": 4,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 173.09,
+        "high": 175.69
+      },
+      "tp1": 181.74,
+      "tp2": 190.4,
+      "stop": 157.67,
+      "time_stop": "2026-09-15T14:50:00+08:00",
+      "baseline": 151.24,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-15T07:39:25.055485+08:00",
+      "last_update": "2026-09-15T07:39:25.055485+08:00",
+      "source_timestamp": "2026-09-15T07:39:18+08:00",
+      "source_score": 46.8694298,
+      "source_tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "trading_date": "2026-09-15",
+      "setup_type": "容量中军",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_0ab1d02871f3212d10a7a65e",
+      "candidate_id": "2026-09-15:05:600150",
+      "trade_date": "2026-09-15",
+      "created_at": "2026-09-15T07:39:25.055485+08:00",
+      "code": "600150",
+      "symbol": "600150",
+      "name": "中国船舶",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 41.18,
+        "high": 41.8,
+        "reference_price": 41.18
+      },
+      "trigger_low": 41.18,
+      "trigger_high": 41.8,
+      "trigger": 41.18,
+      "execution_zone": [
+        41.18,
+        41.8
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 35.76,
+      "rank_0730": 5,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 41.18,
+        "high": 41.8
+      },
+      "tp1": 43.24,
+      "tp2": 45.3,
+      "stop": 35.76,
+      "time_stop": "2026-09-15T14:50:00+08:00",
+      "baseline": 39.75,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-15T07:39:25.055485+08:00",
+      "last_update": "2026-09-15T07:39:25.055485+08:00",
+      "source_timestamp": "2026-09-15T07:39:18+08:00",
+      "source_score": 45.8043204,
+      "source_tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "trading_date": "2026-09-15",
+      "setup_type": "容量中军",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    }
+  ],
+  "top2_signal_ids": [
+    "sig_656a4c7f954441896781819d",
+    "sig_7b37699b653ce8443bb0c69f"
+  ],
+  "snapshot_hash": "a6c6f0ec432556544de10057df810dfe11ed1c09dbc225ba96d3b19f5e33b7d3",
+  "lifecycle_events": []
+}
