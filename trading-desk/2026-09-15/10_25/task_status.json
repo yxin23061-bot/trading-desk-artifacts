@@ -1,0 +1,30 @@
+{
+  "slot": "10:25",
+  "slot_id": "10:25",
+  "trade_date": "2026-09-15",
+  "generated_at": "2026-09-15T10:25:19.175130+08:00",
+  "JOB_STATUS": "JOB_SUCCESS",
+  "DATA_STATUS": "DATA_OK",
+  "SIGNAL_STATUS": "LIVE_SLOT_SIGNAL_READY",
+  "BROKEN_STAGE": null,
+  "DATA_BROKEN_STAGE": null,
+  "SIGNAL_CONTEXT_BROKEN_STAGE": null,
+  "morning_ledger_exists": true,
+  "morning_signal_ids": [
+    "sig_656a4c7f954441896781819d",
+    "sig_7b37699b653ce8443bb0c69f",
+    "sig_3a80b1ddc87968de11c0ba06",
+    "sig_741c3ebe1712078b95156f18",
+    "sig_0ab1d02871f3212d10a7a65e"
+  ],
+  "pm_required": false,
+  "execution_slot": "10:25",
+  "auction_snapshot_ts": null,
+  "INTRADAY_SIGNAL_TRACKING": "OK",
+  "USER_VISIBLE_CARD": true,
+  "SIGNAL_OUTCOME": "SIGNAL_PRESENT",
+  "ACTION": "MODEL_SIGNAL",
+  "MODEL_POSITION": "OPEN",
+  "REAL_POSITION_READ": false,
+  "SIGNAL_PROVENANCE": "HITHINK_POINT_IN_TIME_SHARED_SIGNAL_ENGINE"
+}
