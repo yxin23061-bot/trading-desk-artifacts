@@ -1,0 +1,18 @@
+{
+  "A_CHAIN": "DATA_GAP",
+  "B_CHAIN": "NOT_REPLAYED",
+  "DATA_STATUS": "DATA_GAP",
+  "FAILED_STAGE": "POINT_IN_TIME_GROUND_TRUTH_UNAVAILABLE",
+  "JOB_STATUS": "RECOVERED_STRUCTURE",
+  "created_at": "2026-09-16T11:16:18.112362+08:00",
+  "generated_at": "2026-09-16T11:16:18.112362+08:00",
+  "historical_trigger_allowed": false,
+  "pm_required": false,
+  "recovery_status": "RECOVERED_STRUCTURE",
+  "slot": "09:35",
+  "slot_id": "09:35",
+  "trade_date": "2026-09-16",
+  "trading_date": "2026-09-16",
+  "trading_day_id": "CN_A_20260916",
+  "trigger_verification": "UNVERIFIED_TRIGGER"
+}
