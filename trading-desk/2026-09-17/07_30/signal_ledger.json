@@ -1,0 +1,292 @@
+{
+  "trading_day_id": "CN_A_20260917",
+  "schema_version": 1,
+  "trade_date": "2026-09-17",
+  "slot_id": "07:30",
+  "created_at": "2026-09-17T07:30:14.787567+08:00",
+  "append_only": true,
+  "immutable_signal_ids": true,
+  "signals": [
+    {
+      "signal_id": "sig_61879b74b6b9863dbec1008c",
+      "candidate_id": "2026-09-17:01:603186",
+      "trade_date": "2026-09-17",
+      "created_at": "2026-09-17T07:30:14.787567+08:00",
+      "code": "603186",
+      "symbol": "603186",
+      "name": "",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 264.0,
+        "high": 267.96,
+        "reference_price": 264.0
+      },
+      "trigger_low": 264.0,
+      "trigger_high": 267.96,
+      "trigger": 264.0,
+      "execution_zone": [
+        264.0,
+        267.96
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 193.7,
+      "rank_0730": 1,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 264.0,
+        "high": 267.96
+      },
+      "tp1": 277.2,
+      "tp2": 290.4,
+      "stop": 193.7,
+      "time_stop": "2026-09-17T14:50:00+08:00",
+      "baseline": 251.57,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-17T07:30:14.787567+08:00",
+      "last_update": "2026-09-17T07:30:14.787567+08:00",
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_score": 66.8688488,
+      "source_tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "trading_date": "2026-09-17",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_9026794320cb7cf10add431a",
+      "candidate_id": "2026-09-17:02:002491",
+      "trade_date": "2026-09-17",
+      "created_at": "2026-09-17T07:30:14.787567+08:00",
+      "code": "002491",
+      "symbol": "002491",
+      "name": "",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 24.45,
+        "high": 24.82,
+        "reference_price": 24.45
+      },
+      "trigger_low": 24.45,
+      "trigger_high": 24.82,
+      "trigger": 24.45,
+      "execution_zone": [
+        24.45,
+        24.82
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 21.56,
+      "rank_0730": 2,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 24.45,
+        "high": 24.82
+      },
+      "tp1": 25.67,
+      "tp2": 26.9,
+      "stop": 21.56,
+      "time_stop": "2026-09-17T14:50:00+08:00",
+      "baseline": 22.23,
+      "mainline_hypothesis": "光纤光缆+网络安全+中报增长",
+      "status": "WATCH",
+      "last_transition": "2026-09-17T07:30:14.787567+08:00",
+      "last_update": "2026-09-17T07:30:14.787567+08:00",
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_score": 66.7190728,
+      "source_tactics": [
+        "容量中军",
+        "趋势突破",
+        "二板定龙"
+      ],
+      "trading_date": "2026-09-17",
+      "setup_type": "容量中军",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_6b0a8ecc4b660fa3bdc5dad5",
+      "candidate_id": "2026-09-17:03:000993",
+      "trade_date": "2026-09-17",
+      "created_at": "2026-09-17T07:30:14.787567+08:00",
+      "code": "000993",
+      "symbol": "000993",
+      "name": "",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 18.48,
+        "high": 18.76,
+        "reference_price": 18.48
+      },
+      "trigger_low": 18.48,
+      "trigger_high": 18.76,
+      "trigger": 18.48,
+      "execution_zone": [
+        18.48,
+        18.76
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 11.48,
+      "rank_0730": 3,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 18.48,
+        "high": 18.76
+      },
+      "tp1": 19.4,
+      "tp2": 20.33,
+      "stop": 11.48,
+      "time_stop": "2026-09-17T14:50:00+08:00",
+      "baseline": 16.8,
+      "mainline_hypothesis": "海上风电+清洁能源+福建国资",
+      "status": "WATCH",
+      "last_transition": "2026-09-17T07:30:14.787567+08:00",
+      "last_update": "2026-09-17T07:30:14.787567+08:00",
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_score": 61.8113848,
+      "source_tactics": [
+        "容量中军",
+        "趋势突破",
+        "三板定龙"
+      ],
+      "trading_date": "2026-09-17",
+      "setup_type": "容量中军",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_ebb2c03ba22fcb5932385cdc",
+      "candidate_id": "2026-09-17:04:601218",
+      "trade_date": "2026-09-17",
+      "created_at": "2026-09-17T07:30:14.787567+08:00",
+      "code": "601218",
+      "symbol": "601218",
+      "name": "",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 5.7,
+        "high": 5.79,
+        "reference_price": 5.7
+      },
+      "trigger_low": 5.7,
+      "trigger_high": 5.79,
+      "trigger": 5.7,
+      "execution_zone": [
+        5.7,
+        5.79
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 4.59,
+      "rank_0730": 4,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 5.7,
+        "high": 5.79
+      },
+      "tp1": 5.99,
+      "tp2": 6.27,
+      "stop": 4.59,
+      "time_stop": "2026-09-17T14:50:00+08:00",
+      "baseline": 5.18,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-17T07:30:14.787567+08:00",
+      "last_update": "2026-09-17T07:30:14.787567+08:00",
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_score": 61.3090429,
+      "source_tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "trading_date": "2026-09-17",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_87d7ad1b4cae8bd8ce2534a7",
+      "candidate_id": "2026-09-17:05:002886",
+      "trade_date": "2026-09-17",
+      "created_at": "2026-09-17T07:30:14.787567+08:00",
+      "code": "002886",
+      "symbol": "002886",
+      "name": "",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 30.84,
+        "high": 31.3,
+        "reference_price": 30.84
+      },
+      "trigger_low": 30.84,
+      "trigger_high": 31.3,
+      "trigger": 30.84,
+      "execution_zone": [
+        30.84,
+        31.3
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 25.16,
+      "rank_0730": 5,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 30.84,
+        "high": 31.3
+      },
+      "tp1": 32.38,
+      "tp2": 33.92,
+      "stop": 25.16,
+      "time_stop": "2026-09-17T14:50:00+08:00",
+      "baseline": 26.85,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-17T07:30:14.787567+08:00",
+      "last_update": "2026-09-17T07:30:14.787567+08:00",
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_score": 61.14238418,
+      "source_tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "trading_date": "2026-09-17",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    }
+  ],
+  "top2_signal_ids": [
+    "sig_61879b74b6b9863dbec1008c",
+    "sig_9026794320cb7cf10add431a"
+  ],
+  "snapshot_hash": "5af58534828e6a85f759154bd3aec310c8272048c27239d208daa53a81c139fd",
+  "lifecycle_events": []
+}
