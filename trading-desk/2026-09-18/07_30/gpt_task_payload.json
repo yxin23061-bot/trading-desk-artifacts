@@ -1,0 +1,460 @@
+{
+  "trading_day_id": "CN_A_20260918",
+  "schema_version": 1,
+  "trade_date": "2026-09-18",
+  "slot_id": "07:30",
+  "created_at": "2026-09-18T07:30:13.063223+08:00",
+  "trading_date": "2026-09-18",
+  "slot": "07:30",
+  "artifact_id": "2026-09-18:07:30:5100e47abbc81fde",
+  "artifact_path": "trading-desk/2026-09-18/07_30/gpt_task_payload.json",
+  "artifact_hash": "5100e47abbc81fded544dd3046372a206136b9555cb167f83137bb1b2119fc82",
+  "manifest_status": "LOCAL_ARTIFACT_READBACK_PASS",
+  "data_status": "DATA_OK",
+  "provider": "HiThink",
+  "top5": [
+    {
+      "code": "301626",
+      "symbol": "301626",
+      "thscode": "301626.SZ",
+      "name": "",
+      "current_price": 325.2,
+      "price": 325.2,
+      "change_pct": 3.438405,
+      "prev_close": 314.39,
+      "open_price": 332.0,
+      "open": 332.0,
+      "high": 335.0,
+      "low": 319.3,
+      "volume": 3154561.0,
+      "amount": 1030704760.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-09-18T07:30:11+08:00",
+      "timestamp": "2026-09-18T07:30:11+08:00",
+      "ingest_ts": "2026-09-18T07:30:12.382172+08:00",
+      "request_id": "7cf84d77e1a24cb889ff6cf10a588c44",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_ad8bd84ef2e51e32b169c3a5",
+      "entry": 335.0,
+      "limit_up": 377.27,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 335.0,
+      "execution_zone": [
+        335.0,
+        340.02
+      ],
+      "stop": 273.52,
+      "risk_price": 273.52,
+      "tp1": 351.75,
+      "tp2": 368.5,
+      "volume_ratio": 1.46,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 81.03070476,
+      "ma": {
+        "MA5": 303.522,
+        "MA10": 289.198,
+        "MA20": 273.5165,
+        "MA60": 271.303
+      }
+    },
+    {
+      "code": "002080",
+      "symbol": "002080",
+      "thscode": "002080.SZ",
+      "name": "",
+      "current_price": 58.69,
+      "price": 58.69,
+      "change_pct": 5.028633,
+      "prev_close": 55.88,
+      "open_price": 60.92,
+      "open": 60.92,
+      "high": 61.47,
+      "low": 58.5,
+      "volume": 97385881.0,
+      "amount": 5846451300.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-09-18T07:30:11+08:00",
+      "timestamp": "2026-09-18T07:30:11+08:00",
+      "ingest_ts": "2026-09-18T07:30:12.382172+08:00",
+      "request_id": "7cf84d77e1a24cb889ff6cf10a588c44",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_2dbaa6528c22116800a2dabf",
+      "entry": 61.47,
+      "limit_up": 61.47,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 61.47,
+      "execution_zone": [
+        61.47,
+        62.39
+      ],
+      "stop": 51.67,
+      "risk_price": 51.67,
+      "tp1": 64.54,
+      "tp2": 67.62,
+      "volume_ratio": 2.0442,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 65.8464513,
+      "ma": {
+        "MA5": 54.53,
+        "MA10": 52.154,
+        "MA20": 51.6735,
+        "MA60": 58.2833
+      }
+    },
+    {
+      "code": "688432",
+      "symbol": "688432",
+      "thscode": "688432.SH",
+      "name": "",
+      "current_price": 55.0,
+      "price": 55.0,
+      "change_pct": 1.738809,
+      "prev_close": 54.06,
+      "open_price": 57.0,
+      "open": 57.0,
+      "high": 60.59,
+      "low": 53.69,
+      "volume": 101930418.0,
+      "amount": 5745853800.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-09-18T07:30:11+08:00",
+      "timestamp": "2026-09-18T07:30:11+08:00",
+      "ingest_ts": "2026-09-18T07:30:12.382172+08:00",
+      "request_id": "7cf84d77e1a24cb889ff6cf10a588c44",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_5853d85e9f4d68634bcc6bde",
+      "entry": 60.59,
+      "limit_up": 64.87,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 60.59,
+      "execution_zone": [
+        60.59,
+        61.5
+      ],
+      "stop": 44.96,
+      "risk_price": 44.96,
+      "tp1": 63.62,
+      "tp2": 66.65,
+      "volume_ratio": 1.4241,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 65.7458538,
+      "ma": {
+        "MA5": 49.096,
+        "MA10": 47.109,
+        "MA20": 44.957,
+        "MA60": 39.1745
+      }
+    },
+    {
+      "code": "300489",
+      "symbol": "300489",
+      "thscode": "300489.SZ",
+      "name": "",
+      "current_price": 223.6,
+      "price": 223.6,
+      "change_pct": 6.248515,
+      "prev_close": 210.45,
+      "open_price": 238.19,
+      "open": 238.19,
+      "high": 244.28,
+      "low": 218.09,
+      "volume": 18548816.0,
+      "amount": 4224479400.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-09-18T07:30:11+08:00",
+      "timestamp": "2026-09-18T07:30:11+08:00",
+      "ingest_ts": "2026-09-18T07:30:12.382172+08:00",
+      "request_id": "7cf84d77e1a24cb889ff6cf10a588c44",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_0a7b54053df9e3e7beb16d39",
+      "entry": 258.6,
+      "limit_up": 252.54,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 258.6,
+      "execution_zone": [
+        258.6,
+        262.48
+      ],
+      "stop": 219.63,
+      "risk_price": 219.63,
+      "tp1": 271.53,
+      "tp2": 284.46,
+      "volume_ratio": 1.565,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 64.2244794,
+      "ma": {
+        "MA5": 208.472,
+        "MA10": 213.877,
+        "MA20": 219.6265,
+        "MA60": 223.0857
+      }
+    },
+    {
+      "code": "000338",
+      "symbol": "000338",
+      "thscode": "000338.SZ",
+      "name": "",
+      "current_price": 26.65,
+      "price": 26.65,
+      "change_pct": 4.4279,
+      "prev_close": 25.52,
+      "open_price": 26.79,
+      "open": 26.79,
+      "high": 27.17,
+      "low": 26.37,
+      "volume": 131599016.0,
+      "amount": 3524320400.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-09-18T07:30:11+08:00",
+      "timestamp": "2026-09-18T07:30:11+08:00",
+      "ingest_ts": "2026-09-18T07:30:12.382172+08:00",
+      "request_id": "7cf84d77e1a24cb889ff6cf10a588c44",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_91609114fa237dd63da3cb89",
+      "entry": 29.39,
+      "limit_up": 28.07,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 29.39,
+      "execution_zone": [
+        29.39,
+        29.83
+      ],
+      "stop": 26.89,
+      "risk_price": 26.89,
+      "tp1": 30.86,
+      "tp2": 32.33,
+      "volume_ratio": 1.4155,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 63.5243204,
+      "ma": {
+        "MA5": 26.136,
+        "MA10": 26.636,
+        "MA20": 26.8885,
+        "MA60": 27.5107
+      }
+    }
+  ],
+  "top2": [
+    {
+      "signal_id": "sig_ad8bd84ef2e51e32b169c3a5",
+      "candidate_id": "2026-09-18:01:301626",
+      "trade_date": "2026-09-18",
+      "created_at": "2026-09-18T07:30:13.063223+08:00",
+      "code": "301626",
+      "symbol": "301626",
+      "name": "",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 335.0,
+        "high": 340.02,
+        "reference_price": 335.0
+      },
+      "trigger_low": 335.0,
+      "trigger_high": 340.02,
+      "trigger": 335.0,
+      "execution_zone": [
+        335.0,
+        340.02
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 273.52,
+      "rank_0730": 1,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 335.0,
+        "high": 340.02
+      },
+      "tp1": 351.75,
+      "tp2": 368.5,
+      "stop": 273.52,
+      "time_stop": "2026-09-18T14:50:00+08:00",
+      "baseline": 314.39,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-18T07:30:13.063223+08:00",
+      "last_update": "2026-09-18T07:30:13.063223+08:00",
+      "source_timestamp": "2026-09-18T07:30:11+08:00",
+      "source_score": 81.03070476,
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "trading_date": "2026-09-18",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_2dbaa6528c22116800a2dabf",
+      "candidate_id": "2026-09-18:02:002080",
+      "trade_date": "2026-09-18",
+      "created_at": "2026-09-18T07:30:13.063223+08:00",
+      "code": "002080",
+      "symbol": "002080",
+      "name": "",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 61.47,
+        "high": 62.39,
+        "reference_price": 61.47
+      },
+      "trigger_low": 61.47,
+      "trigger_high": 62.39,
+      "trigger": 61.47,
+      "execution_zone": [
+        61.47,
+        62.39
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 51.67,
+      "rank_0730": 2,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 61.47,
+        "high": 62.39
+      },
+      "tp1": 64.54,
+      "tp2": 67.62,
+      "stop": 51.67,
+      "time_stop": "2026-09-18T14:50:00+08:00",
+      "baseline": 55.88,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-18T07:30:13.063223+08:00",
+      "last_update": "2026-09-18T07:30:13.063223+08:00",
+      "source_timestamp": "2026-09-18T07:30:11+08:00",
+      "source_score": 65.8464513,
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军"
+      ],
+      "trading_date": "2026-09-18",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    }
+  ],
+  "top2_signal_ids": [
+    "sig_ad8bd84ef2e51e32b169c3a5",
+    "sig_2dbaa6528c22116800a2dabf"
+  ],
+  "signal_events": [],
+  "strategy_states": [
+    "WATCH",
+    "WATCH"
+  ],
+  "SOURCE_OF_TRUTH": "PRODUCTION_ARTIFACT_ONLY",
+  "NO_WEB_SEARCH_FOR_TRADING_DATA": true,
+  "NO_POSTHOC_RECONSTRUCTION": true,
+  "render_lines": [
+    "【Trading Desk｜07:30｜PRODUCTION_ARTIFACT_ONLY】",
+    "交易日：2026-09-18｜artifact_id=2026-09-18:07:30:5100e47abbc81fde",
+    "Top5=5｜Top2 Signal ID=sig_ad8bd84ef2e51e32b169c3a5、sig_2dbaa6528c22116800a2dabf",
+    "NO_WEB_SEARCH_FOR_TRADING_DATA=true｜NO_POSTHOC_RECONSTRUCTION=true",
+    "这是生产模型候选账本，不构成交易建议。"
+  ]
+}

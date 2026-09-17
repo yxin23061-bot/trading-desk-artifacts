@@ -1,0 +1,293 @@
+{
+  "trading_day_id": "CN_A_20260918",
+  "schema_version": 1,
+  "trade_date": "2026-09-18",
+  "slot_id": "07:30",
+  "created_at": "2026-09-18T07:30:13.063223+08:00",
+  "append_only": true,
+  "immutable_signal_ids": true,
+  "signals": [
+    {
+      "signal_id": "sig_ad8bd84ef2e51e32b169c3a5",
+      "candidate_id": "2026-09-18:01:301626",
+      "trade_date": "2026-09-18",
+      "created_at": "2026-09-18T07:30:13.063223+08:00",
+      "code": "301626",
+      "symbol": "301626",
+      "name": "",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 335.0,
+        "high": 340.02,
+        "reference_price": 335.0
+      },
+      "trigger_low": 335.0,
+      "trigger_high": 340.02,
+      "trigger": 335.0,
+      "execution_zone": [
+        335.0,
+        340.02
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 273.52,
+      "rank_0730": 1,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 335.0,
+        "high": 340.02
+      },
+      "tp1": 351.75,
+      "tp2": 368.5,
+      "stop": 273.52,
+      "time_stop": "2026-09-18T14:50:00+08:00",
+      "baseline": 314.39,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-18T07:30:13.063223+08:00",
+      "last_update": "2026-09-18T07:30:13.063223+08:00",
+      "source_timestamp": "2026-09-18T07:30:11+08:00",
+      "source_score": 81.03070476,
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "trading_date": "2026-09-18",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_2dbaa6528c22116800a2dabf",
+      "candidate_id": "2026-09-18:02:002080",
+      "trade_date": "2026-09-18",
+      "created_at": "2026-09-18T07:30:13.063223+08:00",
+      "code": "002080",
+      "symbol": "002080",
+      "name": "",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 61.47,
+        "high": 62.39,
+        "reference_price": 61.47
+      },
+      "trigger_low": 61.47,
+      "trigger_high": 62.39,
+      "trigger": 61.47,
+      "execution_zone": [
+        61.47,
+        62.39
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 51.67,
+      "rank_0730": 2,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 61.47,
+        "high": 62.39
+      },
+      "tp1": 64.54,
+      "tp2": 67.62,
+      "stop": 51.67,
+      "time_stop": "2026-09-18T14:50:00+08:00",
+      "baseline": 55.88,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-18T07:30:13.063223+08:00",
+      "last_update": "2026-09-18T07:30:13.063223+08:00",
+      "source_timestamp": "2026-09-18T07:30:11+08:00",
+      "source_score": 65.8464513,
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军"
+      ],
+      "trading_date": "2026-09-18",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_5853d85e9f4d68634bcc6bde",
+      "candidate_id": "2026-09-18:03:688432",
+      "trade_date": "2026-09-18",
+      "created_at": "2026-09-18T07:30:13.063223+08:00",
+      "code": "688432",
+      "symbol": "688432",
+      "name": "",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 60.59,
+        "high": 61.5,
+        "reference_price": 60.59
+      },
+      "trigger_low": 60.59,
+      "trigger_high": 61.5,
+      "trigger": 60.59,
+      "execution_zone": [
+        60.59,
+        61.5
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 44.96,
+      "rank_0730": 3,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 60.59,
+        "high": 61.5
+      },
+      "tp1": 63.62,
+      "tp2": 66.65,
+      "stop": 44.96,
+      "time_stop": "2026-09-18T14:50:00+08:00",
+      "baseline": 54.06,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-18T07:30:13.063223+08:00",
+      "last_update": "2026-09-18T07:30:13.063223+08:00",
+      "source_timestamp": "2026-09-18T07:30:11+08:00",
+      "source_score": 65.7458538,
+      "source_tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "trading_date": "2026-09-18",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_0a7b54053df9e3e7beb16d39",
+      "candidate_id": "2026-09-18:04:300489",
+      "trade_date": "2026-09-18",
+      "created_at": "2026-09-18T07:30:13.063223+08:00",
+      "code": "300489",
+      "symbol": "300489",
+      "name": "",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 258.6,
+        "high": 262.48,
+        "reference_price": 258.6
+      },
+      "trigger_low": 258.6,
+      "trigger_high": 262.48,
+      "trigger": 258.6,
+      "execution_zone": [
+        258.6,
+        262.48
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 219.63,
+      "rank_0730": 4,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 258.6,
+        "high": 262.48
+      },
+      "tp1": 271.53,
+      "tp2": 284.46,
+      "stop": 219.63,
+      "time_stop": "2026-09-18T14:50:00+08:00",
+      "baseline": 210.45,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-18T07:30:13.063223+08:00",
+      "last_update": "2026-09-18T07:30:13.063223+08:00",
+      "source_timestamp": "2026-09-18T07:30:11+08:00",
+      "source_score": 64.2244794,
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军"
+      ],
+      "trading_date": "2026-09-18",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_91609114fa237dd63da3cb89",
+      "candidate_id": "2026-09-18:05:000338",
+      "trade_date": "2026-09-18",
+      "created_at": "2026-09-18T07:30:13.063223+08:00",
+      "code": "000338",
+      "symbol": "000338",
+      "name": "",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 29.39,
+        "high": 29.83,
+        "reference_price": 29.39
+      },
+      "trigger_low": 29.39,
+      "trigger_high": 29.83,
+      "trigger": 29.39,
+      "execution_zone": [
+        29.39,
+        29.83
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 26.89,
+      "rank_0730": 5,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 29.39,
+        "high": 29.83
+      },
+      "tp1": 30.86,
+      "tp2": 32.33,
+      "stop": 26.89,
+      "time_stop": "2026-09-18T14:50:00+08:00",
+      "baseline": 25.52,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-18T07:30:13.063223+08:00",
+      "last_update": "2026-09-18T07:30:13.063223+08:00",
+      "source_timestamp": "2026-09-18T07:30:11+08:00",
+      "source_score": 63.5243204,
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军"
+      ],
+      "trading_date": "2026-09-18",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    }
+  ],
+  "top2_signal_ids": [
+    "sig_ad8bd84ef2e51e32b169c3a5",
+    "sig_2dbaa6528c22116800a2dabf"
+  ],
+  "snapshot_hash": "5198016f5dce21d45ba5a8a6d52ee287a5b77f69b02de8dbb282e3f5c5f7e1d9",
+  "lifecycle_events": []
+}
