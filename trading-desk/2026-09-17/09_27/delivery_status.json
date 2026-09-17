@@ -1,0 +1,10 @@
+{
+  "GPT_TASK_RETURNED": false,
+  "USER_VISIBLE_STATUS": "EXTERNAL_UNVERIFIED",
+  "generated_at": "2026-09-17T09:27:46.025785+08:00",
+  "ledger_read_after_write": "PASS",
+  "slot": "09:27",
+  "slot_id": "09:27",
+  "trade_date": "2026-09-17",
+  "trading_day_id": "CN_A_20260917"
+}
