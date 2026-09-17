@@ -1,0 +1,1278 @@
+{
+  "NO_POSTHOC_RECONSTRUCTION": true,
+  "NO_WEB_SEARCH_FOR_TRADING_DATA": true,
+  "SOURCE_OF_TRUTH": "PRODUCTION_ARTIFACT_ONLY",
+  "artifact_component_hashes": {
+    "market_snapshot.json": "02044441cf981e505d0d087a1ca21fe7e6ff70365104b96954d36e6130693b31",
+    "signal_output.json": "bc0f01ce49b50259049f53418cdfc3ed032ac393d28cd6eb3fd8e364a958ca15",
+    "task_status.json": "52bf424ada4c6a71351c2138fb91b972516afbefac393bad22879ba62232943d"
+  },
+  "artifact_hash": "9585a7a606afe652d556a30f6aa00100279de7d4c6c4473891bff4e90b499cbf",
+  "artifact_id": "2026-09-17:10:00:9585a7a606afe652",
+  "artifact_path": "trading-desk/2026-09-17/10_00/gpt_task_payload.json",
+  "data_status": "DATA_DEGRADED",
+  "dynamic_evaluation_scope": "EVALUATED_SETUPS_ONLY",
+  "dynamic_signal_status": "DYNAMIC_SIGNAL_UNVERIFIED",
+  "funnel": {
+    "admission_status": "AUDITED",
+    "data_insufficient": 0,
+    "existing_signals": 0,
+    "observed_new_signals": 0,
+    "qualification_coverage": {
+      "display_name": "涨停原因分组强度",
+      "full_market_sector_coverage": false,
+      "mapped_scanner_rows": 17,
+      "scanner_rows": 1063,
+      "scope": "LIMIT_UP_REASON_GROUP_STRENGTH",
+      "source": "HITHINK_LIMIT_UP_POOL",
+      "source_pool_rows": 19
+    },
+    "qualification_data_status": "NOT_EVALUATED",
+    "qualified_setups": 0,
+    "scanner_hits": 1063,
+    "signals": 0,
+    "strategy_rejected": 0,
+    "top_execution": 0,
+    "universe": 5365
+  },
+  "generated_at": "2026-09-17T10:00:31.551002+08:00",
+  "manifest_status": "LOCAL_ARTIFACT_READBACK_PASS",
+  "production_ready": false,
+  "provider": "HiThink",
+  "qualification_data_status": "NOT_EVALUATED",
+  "render_lines": [
+    "【Trading Desk｜10:00】",
+    "交易日：2026-09-17",
+    "早盘链：OK｜全A链：OK",
+    "全A 5365 → 扫描命中 1063 → 合格结构 0 → 新信号 0 → 执行 0",
+    "市场Gate：GREEN｜DYNAMIC_SIGNAL_UNVERIFIED",
+    "动态准入尚未完整核验。",
+    "模型成交 0｜未验证历史触发不补认。"
+  ],
+  "schema_version": 1,
+  "signal_events": [
+    {
+      "action": "WATCH",
+      "amount": 2046517200.0,
+      "code": "603186",
+      "definition": {
+        "baseline": 251.57,
+        "buy_condition": {
+          "high": 267.96,
+          "low": 264.0,
+          "type": "PRICE_IN_ZONE"
+        },
+        "candidate_id": "2026-09-17:01:603186",
+        "code": "603186",
+        "confirm_condition": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "confirm_conditions": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "created_at": "2026-09-17T07:30:14.787567+08:00",
+        "execution_zone": [
+          264.0,
+          267.96
+        ],
+        "last_transition": "2026-09-17T07:30:14.787567+08:00",
+        "last_update": "2026-09-17T07:30:14.787567+08:00",
+        "mainline_hypothesis": null,
+        "name": "",
+        "rank_0730": 1,
+        "risk_level": "UNASSESSED",
+        "risk_price": 193.7,
+        "setup_type": "首阴",
+        "signal_id": "sig_61879b74b6b9863dbec1008c",
+        "source_score": 66.8688488,
+        "source_tactics": [
+          "首阴",
+          "容量中军",
+          "趋势突破"
+        ],
+        "source_timestamp": "2026-09-17T07:30:10+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "status": "WATCH",
+        "stop": 193.7,
+        "strategy": "首阴",
+        "symbol": "603186",
+        "time_stop": "2026-09-17T14:50:00+08:00",
+        "top2_fixed": true,
+        "tp1": 277.2,
+        "tp2": 290.4,
+        "trade_date": "2026-09-17",
+        "trading_date": "2026-09-17",
+        "trigger": 264.0,
+        "trigger_high": 267.96,
+        "trigger_low": 264.0,
+        "trigger_range": {
+          "high": 267.96,
+          "low": 264.0,
+          "reference_price": 264.0
+        }
+      },
+      "execution_zone": [
+        264.0,
+        267.96
+      ],
+      "fill": null,
+      "high": 253.0,
+      "join_status": "PASS",
+      "last_price": 243.77,
+      "low": 241.13,
+      "model_only": true,
+      "name": "",
+      "new_state": "WATCH",
+      "observed_at": "2026-09-17T10:00:31.551002+08:00",
+      "old_state": "WATCH",
+      "open": 250.0,
+      "price": 243.77,
+      "quote_symbol": "603186.SH",
+      "quote_timestamp": "2026-09-17T10:00:24+08:00",
+      "real_position_action": false,
+      "reason": "PRICE_OUTSIDE_TRIGGER_ZONE",
+      "risk_price": 193.7,
+      "signal_id": "sig_61879b74b6b9863dbec1008c",
+      "slot": "10:00",
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "stop": 193.7,
+      "strategy": "首阴",
+      "symbol": "603186",
+      "terminal": false,
+      "tp1": 277.2,
+      "tp2": 290.4,
+      "trade_date": "2026-09-17",
+      "trading_day_id": "CN_A_20260917",
+      "trigger": 264.0,
+      "volume": 8314900.0
+    },
+    {
+      "action": "WATCH",
+      "amount": 896264750.0,
+      "code": "000993",
+      "definition": {
+        "baseline": 16.8,
+        "buy_condition": {
+          "high": 18.76,
+          "low": 18.48,
+          "type": "PRICE_IN_ZONE"
+        },
+        "candidate_id": "2026-09-17:03:000993",
+        "code": "000993",
+        "confirm_condition": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "confirm_conditions": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "created_at": "2026-09-17T07:30:14.787567+08:00",
+        "execution_zone": [
+          18.48,
+          18.76
+        ],
+        "last_transition": "2026-09-17T07:30:14.787567+08:00",
+        "last_update": "2026-09-17T07:30:14.787567+08:00",
+        "mainline_hypothesis": "海上风电+清洁能源+福建国资",
+        "name": "",
+        "rank_0730": 3,
+        "risk_level": "UNASSESSED",
+        "risk_price": 11.48,
+        "setup_type": "容量中军",
+        "signal_id": "sig_6b0a8ecc4b660fa3bdc5dad5",
+        "source_score": 61.8113848,
+        "source_tactics": [
+          "容量中军",
+          "趋势突破",
+          "三板定龙"
+        ],
+        "source_timestamp": "2026-09-17T07:30:10+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "status": "WATCH",
+        "stop": 11.48,
+        "strategy": "容量中军",
+        "symbol": "000993",
+        "time_stop": "2026-09-17T14:50:00+08:00",
+        "top2_fixed": false,
+        "tp1": 19.4,
+        "tp2": 20.33,
+        "trade_date": "2026-09-17",
+        "trading_date": "2026-09-17",
+        "trigger": 18.48,
+        "trigger_high": 18.76,
+        "trigger_low": 18.48,
+        "trigger_range": {
+          "high": 18.76,
+          "low": 18.48,
+          "reference_price": 18.48
+        }
+      },
+      "execution_zone": [
+        18.48,
+        18.76
+      ],
+      "fill": null,
+      "high": 17.54,
+      "join_status": "PASS",
+      "last_price": 17.1,
+      "low": 16.63,
+      "model_only": true,
+      "name": "",
+      "new_state": "WATCH",
+      "observed_at": "2026-09-17T10:00:31.551002+08:00",
+      "old_state": "WATCH",
+      "open": 16.64,
+      "price": 17.1,
+      "quote_symbol": "000993.SZ",
+      "quote_timestamp": "2026-09-17T10:00:24+08:00",
+      "real_position_action": false,
+      "reason": "PRICE_OUTSIDE_TRIGGER_ZONE",
+      "risk_price": 11.48,
+      "signal_id": "sig_6b0a8ecc4b660fa3bdc5dad5",
+      "slot": "10:00",
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "stop": 11.48,
+      "strategy": "容量中军",
+      "symbol": "000993",
+      "terminal": false,
+      "tp1": 19.4,
+      "tp2": 20.33,
+      "trade_date": "2026-09-17",
+      "trading_day_id": "CN_A_20260917",
+      "trigger": 18.48,
+      "volume": 53282101.0
+    },
+    {
+      "action": "WATCH",
+      "amount": 290473810.0,
+      "code": "002886",
+      "definition": {
+        "baseline": 26.85,
+        "buy_condition": {
+          "high": 31.3,
+          "low": 30.84,
+          "type": "PRICE_IN_ZONE"
+        },
+        "candidate_id": "2026-09-17:05:002886",
+        "code": "002886",
+        "confirm_condition": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "confirm_conditions": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "created_at": "2026-09-17T07:30:14.787567+08:00",
+        "execution_zone": [
+          30.84,
+          31.3
+        ],
+        "last_transition": "2026-09-17T07:30:14.787567+08:00",
+        "last_update": "2026-09-17T07:30:14.787567+08:00",
+        "mainline_hypothesis": null,
+        "name": "",
+        "rank_0730": 5,
+        "risk_level": "UNASSESSED",
+        "risk_price": 25.16,
+        "setup_type": "首阴",
+        "signal_id": "sig_87d7ad1b4cae8bd8ce2534a7",
+        "source_score": 61.14238418,
+        "source_tactics": [
+          "首阴",
+          "容量中军",
+          "趋势突破"
+        ],
+        "source_timestamp": "2026-09-17T07:30:10+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "status": "WATCH",
+        "stop": 25.16,
+        "strategy": "首阴",
+        "symbol": "002886",
+        "time_stop": "2026-09-17T14:50:00+08:00",
+        "top2_fixed": false,
+        "tp1": 32.38,
+        "tp2": 33.92,
+        "trade_date": "2026-09-17",
+        "trading_date": "2026-09-17",
+        "trigger": 30.84,
+        "trigger_high": 31.3,
+        "trigger_low": 30.84,
+        "trigger_range": {
+          "high": 31.3,
+          "low": 30.84,
+          "reference_price": 30.84
+        }
+      },
+      "execution_zone": [
+        30.84,
+        31.3
+      ],
+      "fill": null,
+      "high": 27.12,
+      "join_status": "PASS",
+      "last_price": 26.47,
+      "low": 26.25,
+      "model_only": true,
+      "name": "",
+      "new_state": "WATCH",
+      "observed_at": "2026-09-17T10:00:31.551002+08:00",
+      "old_state": "WATCH",
+      "open": 26.65,
+      "price": 26.47,
+      "quote_symbol": "002886.SZ",
+      "quote_timestamp": "2026-09-17T10:00:24+08:00",
+      "real_position_action": false,
+      "reason": "PRICE_OUTSIDE_TRIGGER_ZONE",
+      "risk_price": 25.16,
+      "signal_id": "sig_87d7ad1b4cae8bd8ce2534a7",
+      "slot": "10:00",
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "stop": 25.16,
+      "strategy": "首阴",
+      "symbol": "002886",
+      "terminal": false,
+      "tp1": 32.38,
+      "tp2": 33.92,
+      "trade_date": "2026-09-17",
+      "trading_day_id": "CN_A_20260917",
+      "trigger": 30.84,
+      "volume": 10869600.0
+    },
+    {
+      "action": "WATCH",
+      "amount": 3004474800.0,
+      "code": "002491",
+      "definition": {
+        "baseline": 22.23,
+        "buy_condition": {
+          "high": 24.82,
+          "low": 24.45,
+          "type": "PRICE_IN_ZONE"
+        },
+        "candidate_id": "2026-09-17:02:002491",
+        "code": "002491",
+        "confirm_condition": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "confirm_conditions": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "created_at": "2026-09-17T07:30:14.787567+08:00",
+        "execution_zone": [
+          24.45,
+          24.82
+        ],
+        "last_transition": "2026-09-17T07:30:14.787567+08:00",
+        "last_update": "2026-09-17T07:30:14.787567+08:00",
+        "mainline_hypothesis": "光纤光缆+网络安全+中报增长",
+        "name": "",
+        "rank_0730": 2,
+        "risk_level": "UNASSESSED",
+        "risk_price": 21.56,
+        "setup_type": "容量中军",
+        "signal_id": "sig_9026794320cb7cf10add431a",
+        "source_score": 66.7190728,
+        "source_tactics": [
+          "容量中军",
+          "趋势突破",
+          "二板定龙"
+        ],
+        "source_timestamp": "2026-09-17T07:30:10+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "status": "WATCH",
+        "stop": 21.56,
+        "strategy": "容量中军",
+        "symbol": "002491",
+        "time_stop": "2026-09-17T14:50:00+08:00",
+        "top2_fixed": true,
+        "tp1": 25.67,
+        "tp2": 26.9,
+        "trade_date": "2026-09-17",
+        "trading_date": "2026-09-17",
+        "trigger": 24.45,
+        "trigger_high": 24.82,
+        "trigger_low": 24.45,
+        "trigger_range": {
+          "high": 24.82,
+          "low": 24.45,
+          "reference_price": 24.45
+        }
+      },
+      "execution_zone": [
+        24.45,
+        24.82
+      ],
+      "fill": null,
+      "high": 24.85,
+      "join_status": "PASS",
+      "last_price": 24.0,
+      "low": 23.6,
+      "model_only": true,
+      "name": "",
+      "new_state": "WATCH",
+      "observed_at": "2026-09-17T10:00:31.551002+08:00",
+      "old_state": "WATCH",
+      "open": 24.48,
+      "price": 24.0,
+      "quote_symbol": "002491.SZ",
+      "quote_timestamp": "2026-09-17T10:00:24+08:00",
+      "real_position_action": false,
+      "reason": "PRICE_OUTSIDE_TRIGGER_ZONE",
+      "risk_price": 21.56,
+      "signal_id": "sig_9026794320cb7cf10add431a",
+      "slot": "10:00",
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "stop": 21.56,
+      "strategy": "容量中军",
+      "symbol": "002491",
+      "terminal": false,
+      "tp1": 25.67,
+      "tp2": 26.9,
+      "trade_date": "2026-09-17",
+      "trading_day_id": "CN_A_20260917",
+      "trigger": 24.45,
+      "volume": 124671496.0
+    },
+    {
+      "action": "WATCH",
+      "amount": 503385290.0,
+      "code": "601218",
+      "definition": {
+        "baseline": 5.18,
+        "buy_condition": {
+          "high": 5.79,
+          "low": 5.7,
+          "type": "PRICE_IN_ZONE"
+        },
+        "candidate_id": "2026-09-17:04:601218",
+        "code": "601218",
+        "confirm_condition": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "confirm_conditions": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "created_at": "2026-09-17T07:30:14.787567+08:00",
+        "execution_zone": [
+          5.7,
+          5.79
+        ],
+        "last_transition": "2026-09-17T07:30:14.787567+08:00",
+        "last_update": "2026-09-17T07:30:14.787567+08:00",
+        "mainline_hypothesis": null,
+        "name": "",
+        "rank_0730": 4,
+        "risk_level": "UNASSESSED",
+        "risk_price": 4.59,
+        "setup_type": "首阴",
+        "signal_id": "sig_ebb2c03ba22fcb5932385cdc",
+        "source_score": 61.3090429,
+        "source_tactics": [
+          "首阴",
+          "容量中军",
+          "趋势突破"
+        ],
+        "source_timestamp": "2026-09-17T07:30:10+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "status": "WATCH",
+        "stop": 4.59,
+        "strategy": "首阴",
+        "symbol": "601218",
+        "time_stop": "2026-09-17T14:50:00+08:00",
+        "top2_fixed": false,
+        "tp1": 5.99,
+        "tp2": 6.27,
+        "trade_date": "2026-09-17",
+        "trading_date": "2026-09-17",
+        "trigger": 5.7,
+        "trigger_high": 5.79,
+        "trigger_low": 5.7,
+        "trigger_range": {
+          "high": 5.79,
+          "low": 5.7,
+          "reference_price": 5.7
+        }
+      },
+      "execution_zone": [
+        5.7,
+        5.79
+      ],
+      "fill": null,
+      "high": 5.24,
+      "join_status": "PASS",
+      "last_price": 5.02,
+      "low": 4.83,
+      "model_only": true,
+      "name": "",
+      "new_state": "WATCH",
+      "observed_at": "2026-09-17T10:00:31.551002+08:00",
+      "old_state": "WATCH",
+      "open": 5.09,
+      "price": 5.02,
+      "quote_symbol": "601218.SH",
+      "quote_timestamp": "2026-09-17T10:00:24+08:00",
+      "real_position_action": false,
+      "reason": "PRICE_OUTSIDE_TRIGGER_ZONE",
+      "risk_price": 4.59,
+      "signal_id": "sig_ebb2c03ba22fcb5932385cdc",
+      "slot": "10:00",
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "stop": 4.59,
+      "strategy": "首阴",
+      "symbol": "601218",
+      "terminal": false,
+      "tp1": 5.99,
+      "tp2": 6.27,
+      "trade_date": "2026-09-17",
+      "trading_day_id": "CN_A_20260917",
+      "trigger": 5.7,
+      "volume": 100074048.0
+    },
+    {
+      "action": "HOLD_SIGNAL",
+      "amount": 375520710.0,
+      "code": "002613",
+      "definition": {
+        "amount": 279688050.0,
+        "assume_fill": false,
+        "buy_condition": {
+          "high": 3.81,
+          "low": 3.75,
+          "type": "PRICE_IN_ZONE"
+        },
+        "candidate_id": "DYN_7968a5a2a1859bbfabf11aa8",
+        "change_pct": 7.449857,
+        "code": "002613",
+        "confirm_condition": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "confirm_conditions": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "created_at": "2026-09-17T09:54:08.899015+08:00",
+        "current_price": 3.75,
+        "discovery_time": "2026-09-17T09:54:08.899015+08:00",
+        "entry": 3.75,
+        "execution_zone": [
+          3.75,
+          3.81
+        ],
+        "high": 3.84,
+        "ingest_ts": "2026-09-17T09:54:08.212038+08:00",
+        "limit_up": 3.84,
+        "low": 3.47,
+        "ma": {
+          "MA10": 3.501,
+          "MA20": 3.4795,
+          "MA5": 3.542,
+          "MA60": 3.4095
+        },
+        "name": "",
+        "one_word_limit_up": false,
+        "open": 3.5,
+        "open_price": 3.5,
+        "prev_close": 3.49,
+        "price": 3.75,
+        "qualification_version": "CANONICAL_ENTRY_V2_20260916",
+        "qualified_at_creation": true,
+        "request_id": "24a2c6d7f45f41ed8c65a8201791c36e",
+        "risk_price": 3.48,
+        "scanner_hit_id": "scan_f24682520429ca26b7a1ea60",
+        "score": 20.27968805,
+        "sector_strength": 116,
+        "setup_type": "趋势突破",
+        "signal_id": "DYN_7968a5a2a1859bbfabf11aa8",
+        "source": "hithink_financial_api",
+        "source_timestamp": "2026-09-17T09:54:05+08:00",
+        "source_ts": "2026-09-17T09:54:05+08:00",
+        "source_type": "INTRADAY_DYNAMIC",
+        "status": "WATCH",
+        "stop": 3.48,
+        "strategy": "趋势突破",
+        "strategy_tag": "趋势突破",
+        "symbol": "002613",
+        "tactics": [
+          "趋势突破"
+        ],
+        "theme": "未分类",
+        "theme_evidence": {
+          "display_name": "涨停原因分组强度",
+          "full_market_sector_coverage": false,
+          "join_key": "normalized_thscode_or_ticker",
+          "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR",
+          "source": "HITHINK_LIMIT_UP_POOL",
+          "status": "MAPPED"
+        },
+        "thscode": "002613.SZ",
+        "tick_size": 0.01,
+        "time_stop": "2026-09-17T14:50:00+08:00",
+        "timestamp": "2026-09-17T09:54:05+08:00",
+        "tp1": 3.94,
+        "tp2": 4.12,
+        "trading_date": "2026-09-17",
+        "trigger": 3.75,
+        "trigger_high": 3.81,
+        "trigger_low": 3.75,
+        "volume": 74872091.0,
+        "volume_ratio": 2.7237
+      },
+      "execution_zone": [
+        3.75,
+        3.81
+      ],
+      "fill": null,
+      "high": 3.84,
+      "join_status": "PASS",
+      "last_price": 3.84,
+      "low": 3.47,
+      "model_only": true,
+      "name": "",
+      "new_state": "HOLD_SIGNAL",
+      "observed_at": "2026-09-17T10:00:31.551002+08:00",
+      "old_state": "HOLD_SIGNAL",
+      "open": 3.5,
+      "price": 3.84,
+      "quote_symbol": "002613.SZ",
+      "quote_timestamp": "2026-09-17T10:00:24+08:00",
+      "real_position_action": false,
+      "reason": "MODEL_POSITION_TRACKED",
+      "risk_price": 3.48,
+      "signal_id": "DYN_7968a5a2a1859bbfabf11aa8",
+      "slot": "10:00",
+      "source_timestamp": "2026-09-17T09:54:05+08:00",
+      "source_type": "INTRADAY_DYNAMIC",
+      "stop": 3.48,
+      "strategy": "趋势突破",
+      "symbol": "002613",
+      "terminal": false,
+      "tp1": 3.94,
+      "tp2": 4.12,
+      "trade_date": "2026-09-17",
+      "trading_day_id": "CN_A_20260917",
+      "trigger": 3.75,
+      "volume": 100259891.0
+    },
+    {
+      "action": "HOLD_SIGNAL",
+      "amount": 528473820.0,
+      "code": "002137",
+      "definition": {
+        "amount": 521727740.0,
+        "assume_fill": false,
+        "buy_condition": {
+          "high": 8.83,
+          "low": 8.7,
+          "type": "PRICE_IN_ZONE"
+        },
+        "candidate_id": "DYN_85353ddf74d7b24d9086f9c5",
+        "change_pct": 6.097561,
+        "code": "002137",
+        "confirm_condition": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "confirm_conditions": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "created_at": "2026-09-17T10:00:17.840369+08:00",
+        "current_price": 8.7,
+        "discovery_time": "2026-09-17T10:00:17.840369+08:00",
+        "entry": 8.7,
+        "execution_zone": [
+          8.7,
+          8.83
+        ],
+        "high": 9.02,
+        "ingest_ts": "2026-09-17T10:00:17.178854+08:00",
+        "limit_up": 9.02,
+        "low": 8.47,
+        "ma": {
+          "MA10": 7.694,
+          "MA20": 7.685,
+          "MA5": 7.642,
+          "MA60": 8.415
+        },
+        "name": "",
+        "one_word_limit_up": false,
+        "open": 8.48,
+        "open_price": 8.48,
+        "prev_close": 8.2,
+        "price": 8.7,
+        "qualification_version": "CANONICAL_ENTRY_V2_20260916",
+        "qualified_at_creation": true,
+        "request_id": "51743de43f674ed68272f0cc521156af",
+        "risk_price": 7.68,
+        "scanner_hit_id": "scan_1ccf55869c6a7949d2ac467e",
+        "score": 20.52172774,
+        "sector_strength": 27.32,
+        "setup_type": "二板定龙",
+        "signal_id": "DYN_85353ddf74d7b24d9086f9c5",
+        "source": "hithink_financial_api",
+        "source_timestamp": "2026-09-17T10:00:14+08:00",
+        "source_ts": "2026-09-17T10:00:14+08:00",
+        "source_type": "INTRADAY_DYNAMIC",
+        "status": "WATCH",
+        "stop": 7.68,
+        "strategy": "二板定龙",
+        "strategy_tag": "二板定龙",
+        "symbol": "002137",
+        "tactics": [
+          "二板定龙"
+        ],
+        "theme": "先进封装+间接持股宇树科技+参股六度人和（腾讯投资）",
+        "theme_evidence": {
+          "display_name": "涨停原因分组强度",
+          "full_market_sector_coverage": false,
+          "join_key": "normalized_thscode_or_ticker",
+          "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR",
+          "source": "HITHINK_LIMIT_UP_POOL",
+          "status": "MAPPED"
+        },
+        "thscode": "002137.SZ",
+        "tick_size": 0.01,
+        "time_stop": "2026-09-17T14:50:00+08:00",
+        "timestamp": "2026-09-17T10:00:14+08:00",
+        "tp1": 9.13,
+        "tp2": 9.57,
+        "trading_date": "2026-09-17",
+        "trigger": 8.7,
+        "trigger_high": 8.83,
+        "trigger_low": 8.7,
+        "volume": 59184301.0,
+        "volume_ratio": 3.8008
+      },
+      "execution_zone": [
+        8.7,
+        8.83
+      ],
+      "fill": null,
+      "high": 9.02,
+      "join_status": "PASS",
+      "last_price": 8.7,
+      "low": 8.47,
+      "model_only": true,
+      "name": "",
+      "new_state": "HOLD_SIGNAL",
+      "observed_at": "2026-09-17T10:00:31.551002+08:00",
+      "old_state": "TRIGGERED_BUY",
+      "open": 8.48,
+      "price": 8.7,
+      "quote_symbol": "002137.SZ",
+      "quote_timestamp": "2026-09-17T10:00:24+08:00",
+      "real_position_action": false,
+      "reason": "MODEL_POSITION_TRACKED",
+      "risk_price": 7.68,
+      "signal_id": "DYN_85353ddf74d7b24d9086f9c5",
+      "slot": "10:00",
+      "source_timestamp": "2026-09-17T10:00:14+08:00",
+      "source_type": "INTRADAY_DYNAMIC",
+      "stop": 7.68,
+      "strategy": "二板定龙",
+      "symbol": "002137",
+      "terminal": false,
+      "tp1": 9.13,
+      "tp2": 9.57,
+      "trade_date": "2026-09-17",
+      "trading_day_id": "CN_A_20260917",
+      "trigger": 8.7,
+      "volume": 59958801.0
+    }
+  ],
+  "slot": "10:00",
+  "slot_id": "10:00",
+  "strategy_states": [
+    "WATCH",
+    "WATCH",
+    "WATCH",
+    "WATCH",
+    "WATCH",
+    "HOLD_SIGNAL",
+    "HOLD_SIGNAL"
+  ],
+  "top2": [
+    {
+      "action": "WATCH",
+      "amount": 2046517200.0,
+      "code": "603186",
+      "definition": {
+        "baseline": 251.57,
+        "buy_condition": {
+          "high": 267.96,
+          "low": 264.0,
+          "type": "PRICE_IN_ZONE"
+        },
+        "candidate_id": "2026-09-17:01:603186",
+        "code": "603186",
+        "confirm_condition": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "confirm_conditions": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "created_at": "2026-09-17T07:30:14.787567+08:00",
+        "execution_zone": [
+          264.0,
+          267.96
+        ],
+        "last_transition": "2026-09-17T07:30:14.787567+08:00",
+        "last_update": "2026-09-17T07:30:14.787567+08:00",
+        "mainline_hypothesis": null,
+        "name": "",
+        "rank_0730": 1,
+        "risk_level": "UNASSESSED",
+        "risk_price": 193.7,
+        "setup_type": "首阴",
+        "signal_id": "sig_61879b74b6b9863dbec1008c",
+        "source_score": 66.8688488,
+        "source_tactics": [
+          "首阴",
+          "容量中军",
+          "趋势突破"
+        ],
+        "source_timestamp": "2026-09-17T07:30:10+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "status": "WATCH",
+        "stop": 193.7,
+        "strategy": "首阴",
+        "symbol": "603186",
+        "time_stop": "2026-09-17T14:50:00+08:00",
+        "top2_fixed": true,
+        "tp1": 277.2,
+        "tp2": 290.4,
+        "trade_date": "2026-09-17",
+        "trading_date": "2026-09-17",
+        "trigger": 264.0,
+        "trigger_high": 267.96,
+        "trigger_low": 264.0,
+        "trigger_range": {
+          "high": 267.96,
+          "low": 264.0,
+          "reference_price": 264.0
+        }
+      },
+      "execution_zone": [
+        264.0,
+        267.96
+      ],
+      "fill": null,
+      "high": 253.0,
+      "join_status": "PASS",
+      "last_price": 243.77,
+      "low": 241.13,
+      "model_only": true,
+      "name": "",
+      "new_state": "WATCH",
+      "observed_at": "2026-09-17T10:00:31.551002+08:00",
+      "old_state": "WATCH",
+      "open": 250.0,
+      "price": 243.77,
+      "quote_symbol": "603186.SH",
+      "quote_timestamp": "2026-09-17T10:00:24+08:00",
+      "real_position_action": false,
+      "reason": "PRICE_OUTSIDE_TRIGGER_ZONE",
+      "risk_price": 193.7,
+      "signal_id": "sig_61879b74b6b9863dbec1008c",
+      "slot": "10:00",
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "stop": 193.7,
+      "strategy": "首阴",
+      "symbol": "603186",
+      "terminal": false,
+      "tp1": 277.2,
+      "tp2": 290.4,
+      "trade_date": "2026-09-17",
+      "trading_day_id": "CN_A_20260917",
+      "trigger": 264.0,
+      "volume": 8314900.0
+    },
+    {
+      "action": "WATCH",
+      "amount": 3004474800.0,
+      "code": "002491",
+      "definition": {
+        "baseline": 22.23,
+        "buy_condition": {
+          "high": 24.82,
+          "low": 24.45,
+          "type": "PRICE_IN_ZONE"
+        },
+        "candidate_id": "2026-09-17:02:002491",
+        "code": "002491",
+        "confirm_condition": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "confirm_conditions": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "created_at": "2026-09-17T07:30:14.787567+08:00",
+        "execution_zone": [
+          24.45,
+          24.82
+        ],
+        "last_transition": "2026-09-17T07:30:14.787567+08:00",
+        "last_update": "2026-09-17T07:30:14.787567+08:00",
+        "mainline_hypothesis": "光纤光缆+网络安全+中报增长",
+        "name": "",
+        "rank_0730": 2,
+        "risk_level": "UNASSESSED",
+        "risk_price": 21.56,
+        "setup_type": "容量中军",
+        "signal_id": "sig_9026794320cb7cf10add431a",
+        "source_score": 66.7190728,
+        "source_tactics": [
+          "容量中军",
+          "趋势突破",
+          "二板定龙"
+        ],
+        "source_timestamp": "2026-09-17T07:30:10+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "status": "WATCH",
+        "stop": 21.56,
+        "strategy": "容量中军",
+        "symbol": "002491",
+        "time_stop": "2026-09-17T14:50:00+08:00",
+        "top2_fixed": true,
+        "tp1": 25.67,
+        "tp2": 26.9,
+        "trade_date": "2026-09-17",
+        "trading_date": "2026-09-17",
+        "trigger": 24.45,
+        "trigger_high": 24.82,
+        "trigger_low": 24.45,
+        "trigger_range": {
+          "high": 24.82,
+          "low": 24.45,
+          "reference_price": 24.45
+        }
+      },
+      "execution_zone": [
+        24.45,
+        24.82
+      ],
+      "fill": null,
+      "high": 24.85,
+      "join_status": "PASS",
+      "last_price": 24.0,
+      "low": 23.6,
+      "model_only": true,
+      "name": "",
+      "new_state": "WATCH",
+      "observed_at": "2026-09-17T10:00:31.551002+08:00",
+      "old_state": "WATCH",
+      "open": 24.48,
+      "price": 24.0,
+      "quote_symbol": "002491.SZ",
+      "quote_timestamp": "2026-09-17T10:00:24+08:00",
+      "real_position_action": false,
+      "reason": "PRICE_OUTSIDE_TRIGGER_ZONE",
+      "risk_price": 21.56,
+      "signal_id": "sig_9026794320cb7cf10add431a",
+      "slot": "10:00",
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "stop": 21.56,
+      "strategy": "容量中军",
+      "symbol": "002491",
+      "terminal": false,
+      "tp1": 25.67,
+      "tp2": 26.9,
+      "trade_date": "2026-09-17",
+      "trading_day_id": "CN_A_20260917",
+      "trigger": 24.45,
+      "volume": 124671496.0
+    }
+  ],
+  "top2_signal_ids": [
+    "sig_61879b74b6b9863dbec1008c",
+    "sig_9026794320cb7cf10add431a"
+  ],
+  "top5": [
+    {
+      "baseline": 251.57,
+      "buy_condition": {
+        "high": 267.96,
+        "low": 264.0,
+        "type": "PRICE_IN_ZONE"
+      },
+      "candidate_id": "2026-09-17:01:603186",
+      "code": "603186",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "created_at": "2026-09-17T07:30:14.787567+08:00",
+      "execution_zone": [
+        264.0,
+        267.96
+      ],
+      "last_transition": "2026-09-17T07:30:14.787567+08:00",
+      "last_update": "2026-09-17T07:30:14.787567+08:00",
+      "mainline_hypothesis": null,
+      "name": "",
+      "rank_0730": 1,
+      "risk_level": "UNASSESSED",
+      "risk_price": 193.7,
+      "setup_type": "首阴",
+      "signal_id": "sig_61879b74b6b9863dbec1008c",
+      "source_score": 66.8688488,
+      "source_tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "status": "WATCH",
+      "stop": 193.7,
+      "strategy": "首阴",
+      "symbol": "603186",
+      "time_stop": "2026-09-17T14:50:00+08:00",
+      "top2_fixed": true,
+      "tp1": 277.2,
+      "tp2": 290.4,
+      "trade_date": "2026-09-17",
+      "trading_date": "2026-09-17",
+      "trigger": 264.0,
+      "trigger_high": 267.96,
+      "trigger_low": 264.0,
+      "trigger_range": {
+        "high": 267.96,
+        "low": 264.0,
+        "reference_price": 264.0
+      }
+    },
+    {
+      "baseline": 22.23,
+      "buy_condition": {
+        "high": 24.82,
+        "low": 24.45,
+        "type": "PRICE_IN_ZONE"
+      },
+      "candidate_id": "2026-09-17:02:002491",
+      "code": "002491",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "created_at": "2026-09-17T07:30:14.787567+08:00",
+      "execution_zone": [
+        24.45,
+        24.82
+      ],
+      "last_transition": "2026-09-17T07:30:14.787567+08:00",
+      "last_update": "2026-09-17T07:30:14.787567+08:00",
+      "mainline_hypothesis": "光纤光缆+网络安全+中报增长",
+      "name": "",
+      "rank_0730": 2,
+      "risk_level": "UNASSESSED",
+      "risk_price": 21.56,
+      "setup_type": "容量中军",
+      "signal_id": "sig_9026794320cb7cf10add431a",
+      "source_score": 66.7190728,
+      "source_tactics": [
+        "容量中军",
+        "趋势突破",
+        "二板定龙"
+      ],
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "status": "WATCH",
+      "stop": 21.56,
+      "strategy": "容量中军",
+      "symbol": "002491",
+      "time_stop": "2026-09-17T14:50:00+08:00",
+      "top2_fixed": true,
+      "tp1": 25.67,
+      "tp2": 26.9,
+      "trade_date": "2026-09-17",
+      "trading_date": "2026-09-17",
+      "trigger": 24.45,
+      "trigger_high": 24.82,
+      "trigger_low": 24.45,
+      "trigger_range": {
+        "high": 24.82,
+        "low": 24.45,
+        "reference_price": 24.45
+      }
+    },
+    {
+      "baseline": 16.8,
+      "buy_condition": {
+        "high": 18.76,
+        "low": 18.48,
+        "type": "PRICE_IN_ZONE"
+      },
+      "candidate_id": "2026-09-17:03:000993",
+      "code": "000993",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "created_at": "2026-09-17T07:30:14.787567+08:00",
+      "execution_zone": [
+        18.48,
+        18.76
+      ],
+      "last_transition": "2026-09-17T07:30:14.787567+08:00",
+      "last_update": "2026-09-17T07:30:14.787567+08:00",
+      "mainline_hypothesis": "海上风电+清洁能源+福建国资",
+      "name": "",
+      "rank_0730": 3,
+      "risk_level": "UNASSESSED",
+      "risk_price": 11.48,
+      "setup_type": "容量中军",
+      "signal_id": "sig_6b0a8ecc4b660fa3bdc5dad5",
+      "source_score": 61.8113848,
+      "source_tactics": [
+        "容量中军",
+        "趋势突破",
+        "三板定龙"
+      ],
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "status": "WATCH",
+      "stop": 11.48,
+      "strategy": "容量中军",
+      "symbol": "000993",
+      "time_stop": "2026-09-17T14:50:00+08:00",
+      "top2_fixed": false,
+      "tp1": 19.4,
+      "tp2": 20.33,
+      "trade_date": "2026-09-17",
+      "trading_date": "2026-09-17",
+      "trigger": 18.48,
+      "trigger_high": 18.76,
+      "trigger_low": 18.48,
+      "trigger_range": {
+        "high": 18.76,
+        "low": 18.48,
+        "reference_price": 18.48
+      }
+    },
+    {
+      "baseline": 5.18,
+      "buy_condition": {
+        "high": 5.79,
+        "low": 5.7,
+        "type": "PRICE_IN_ZONE"
+      },
+      "candidate_id": "2026-09-17:04:601218",
+      "code": "601218",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "created_at": "2026-09-17T07:30:14.787567+08:00",
+      "execution_zone": [
+        5.7,
+        5.79
+      ],
+      "last_transition": "2026-09-17T07:30:14.787567+08:00",
+      "last_update": "2026-09-17T07:30:14.787567+08:00",
+      "mainline_hypothesis": null,
+      "name": "",
+      "rank_0730": 4,
+      "risk_level": "UNASSESSED",
+      "risk_price": 4.59,
+      "setup_type": "首阴",
+      "signal_id": "sig_ebb2c03ba22fcb5932385cdc",
+      "source_score": 61.3090429,
+      "source_tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "status": "WATCH",
+      "stop": 4.59,
+      "strategy": "首阴",
+      "symbol": "601218",
+      "time_stop": "2026-09-17T14:50:00+08:00",
+      "top2_fixed": false,
+      "tp1": 5.99,
+      "tp2": 6.27,
+      "trade_date": "2026-09-17",
+      "trading_date": "2026-09-17",
+      "trigger": 5.7,
+      "trigger_high": 5.79,
+      "trigger_low": 5.7,
+      "trigger_range": {
+        "high": 5.79,
+        "low": 5.7,
+        "reference_price": 5.7
+      }
+    },
+    {
+      "baseline": 26.85,
+      "buy_condition": {
+        "high": 31.3,
+        "low": 30.84,
+        "type": "PRICE_IN_ZONE"
+      },
+      "candidate_id": "2026-09-17:05:002886",
+      "code": "002886",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "created_at": "2026-09-17T07:30:14.787567+08:00",
+      "execution_zone": [
+        30.84,
+        31.3
+      ],
+      "last_transition": "2026-09-17T07:30:14.787567+08:00",
+      "last_update": "2026-09-17T07:30:14.787567+08:00",
+      "mainline_hypothesis": null,
+      "name": "",
+      "rank_0730": 5,
+      "risk_level": "UNASSESSED",
+      "risk_price": 25.16,
+      "setup_type": "首阴",
+      "signal_id": "sig_87d7ad1b4cae8bd8ce2534a7",
+      "source_score": 61.14238418,
+      "source_tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "source_timestamp": "2026-09-17T07:30:10+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "status": "WATCH",
+      "stop": 25.16,
+      "strategy": "首阴",
+      "symbol": "002886",
+      "time_stop": "2026-09-17T14:50:00+08:00",
+      "top2_fixed": false,
+      "tp1": 32.38,
+      "tp2": 33.92,
+      "trade_date": "2026-09-17",
+      "trading_date": "2026-09-17",
+      "trigger": 30.84,
+      "trigger_high": 31.3,
+      "trigger_low": 30.84,
+      "trigger_range": {
+        "high": 31.3,
+        "low": 30.84,
+        "reference_price": 30.84
+      }
+    }
+  ],
+  "trade_date": "2026-09-17",
+  "trading_date": "2026-09-17",
+  "trading_day_id": "CN_A_20260917",
+  "validation_status": "LIVE_VALIDATION"
+}
