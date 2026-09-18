@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-09-18T20:21:54.822356+08:00",
+  "generated_at": "2026-09-18T20:21:54.822356+08:00",
+  "historical_trigger_allowed": false,
+  "recovery_status": "RECOVERED_STRUCTURE",
+  "signal_count": 0,
+  "signal_status": "UNVERIFIED_TRIGGER",
+  "signals": [],
+  "slot": "20:00",
+  "slot_id": "20:00",
+  "trade_date": "2026-09-18",
+  "trading_date": "2026-09-18",
+  "trading_day_id": "CN_A_20260918",
+  "trigger_verification": "UNVERIFIED_TRIGGER"
+}
