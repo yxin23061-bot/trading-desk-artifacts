@@ -1,0 +1,14 @@
+{
+  "A_CHAIN": "OK",
+  "BROKEN_STAGE": null,
+  "B_CHAIN": "OK",
+  "DATA_STATUS": "DATA_OK",
+  "JOB_STATUS": "JOB_SUCCESS",
+  "MODEL_POSITION": "OPEN",
+  "generated_at": "2026-09-18T11:25:26.160154+08:00",
+  "pm_required": false,
+  "slot": "11:25",
+  "slot_id": "11:25",
+  "trade_date": "2026-09-18",
+  "trading_day_id": "CN_A_20260918"
+}
