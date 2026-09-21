@@ -1,0 +1,73 @@
+{
+  "acceptance_required": "DUAL_CHAIN_LIVE_E2E_AND_40D_REPLAY",
+  "api_call_evidence": {
+    "authenticated": true,
+    "credential_exposed": false,
+    "endpoint": "/api/a-share/prices/snapshot",
+    "http_status": 200,
+    "ingest_ts": "2026-09-21T10:25:12.060332+08:00",
+    "provider": "hithink_financial_api",
+    "request_id": "5f46ea14606f467c8a0dbcf7cd907f01"
+  },
+  "auction": [],
+  "candidate_pool": [],
+  "core_fields_contract": {
+    "auction_complete": false,
+    "auction_data_status_final": false,
+    "auction_required": [],
+    "auction_snapshot_ts": null,
+    "execution_slot": "10:25",
+    "morning_core_ok": false,
+    "quote_complete": true,
+    "quote_required": [
+      "price",
+      "change_pct",
+      "amount",
+      "volume",
+      "timestamp"
+    ],
+    "satisfied": true,
+    "slot": "10:25"
+  },
+  "data_capabilities": {},
+  "delivery": {
+    "attempted": false,
+    "signal_count": 0,
+    "status": "AWAITING_SIGNAL_LEDGER",
+    "user_visible": "EXTERNAL_UNVERIFIED"
+  },
+  "generated_at": "2026-09-21T10:25:35.198749+08:00",
+  "market_gate": {
+    "data_gap": true,
+    "state": "DATA_GAP"
+  },
+  "new_entries_allowed": false,
+  "production_acceptance_card": {
+    "delivery_id": null,
+    "disclaimer": "生产链路验收消息，不作为交易建议",
+    "market_gate": "DATA_GAP",
+    "signal_result": "NO_TRADE",
+    "source_status": "DATA_GAP",
+    "timestamp": "2026-09-21T10:25:35.198749+08:00",
+    "title": "Trading Desk 生产验收",
+    "universe_size": 0
+  },
+  "production_ready": false,
+  "provider_boundary": "HiThinkSinaGroundTruthProvider",
+  "quotes": {},
+  "scan_error": "HiThinkRateLimitError",
+  "signal_lifecycle": {
+    "events": [],
+    "status": "AWAITING_RISK_ADMISSION"
+  },
+  "slot": "10:25",
+  "slot_data_status": "DATA_DEGRADED",
+  "slot_id": "10:25",
+  "source_status": "DATA_GAP",
+  "started_at": "2026-09-21T10:25:06.479987+08:00",
+  "top2": [],
+  "top5": [],
+  "trade_date": "2026-09-21",
+  "trading_day_id": "CN_A_20260921",
+  "universe_size": 0
+}
