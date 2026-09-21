@@ -1,0 +1,312 @@
+{
+  "generated_at": "2026-09-21T10:03:54.515207+08:00",
+  "intraday_tracking": {
+    "A_CHAIN": "DATA_GAP",
+    "B_CHAIN": "OK",
+    "admission": {
+      "chain": "B",
+      "count_unit": "UNIQUE_CODE_STRATEGY_SOURCE",
+      "coverage": {
+        "determined": 0,
+        "missing": 1617,
+        "outside_mainline": 0,
+        "ratio": 0.0,
+        "scope": "SCANNER_CANDIDATES",
+        "source": "HITHINK_CURRENT_INDEX_MEMBERSHIP_V1",
+        "total": 1617
+      },
+      "independent_audit": {
+        "agent": "AuditAgent",
+        "event_count": 0,
+        "model_only": true,
+        "real_trading_enabled": false,
+        "status": "PASS"
+      },
+      "observed_at": "2026-09-21T10:03:54.515207+08:00",
+      "opportunities": [],
+      "opportunity_reconciliation": {
+        "first_rejection_counts": {},
+        "outcomes": {},
+        "scanner_hits": 1617,
+        "status": "FAIL",
+        "unique_opportunities": 0
+      },
+      "qualification_data_status": "NOT_EVALUATED",
+      "qualification_rule_version": "CANONICAL_ENTRY_V2_20260916",
+      "rows": [],
+      "slot": "10:00",
+      "summary": {
+        "DATA_INSUFFICIENT": 0,
+        "EXECUTABLE": 0,
+        "EXISTING_SIGNAL": 0,
+        "FILLED": 0,
+        "MERGED_STRATEGY_VOTE": 0,
+        "NEW_SIGNAL": 0,
+        "QUALIFIED": 0,
+        "STRATEGY_REJECTED": 0,
+        "all_rejection_counts": {},
+        "evaluated_setups": 0,
+        "execution_rejection_counts": {},
+        "first_rejection_counts": {},
+        "qualified_opportunities": 0
+      },
+      "trade_date": "2026-09-21"
+    },
+    "chain_errors": {},
+    "funnel": {
+      "admission_status": "AUDITED",
+      "buy_event_count": 0,
+      "confirmed_signals": 0,
+      "data_insufficient": 0,
+      "executable_signals": 0,
+      "execution_rejection_counts": {},
+      "existing_signals": 0,
+      "exit_event_count": 0,
+      "model_fills": 0,
+      "observed_new_signals": 0,
+      "opportunity_reconciliation": {
+        "first_rejection_counts": {},
+        "outcomes": {},
+        "scanner_hits": 1617,
+        "status": "FAIL",
+        "unique_opportunities": 0
+      },
+      "qualification_coverage": {
+        "determined": 0,
+        "missing": 1617,
+        "outside_mainline": 0,
+        "ratio": 0.0,
+        "scope": "SCANNER_CANDIDATES",
+        "source": "HITHINK_CURRENT_INDEX_MEMBERSHIP_V1",
+        "total": 1617
+      },
+      "qualification_data_status": "NOT_EVALUATED",
+      "qualified_opportunities": 0,
+      "qualified_setups": 0,
+      "qualified_strategy_votes": 0,
+      "scanner_hits": 1617,
+      "signals": 0,
+      "strategy_rejected": 0,
+      "top_execution": 0,
+      "universe": 5369
+    },
+    "model_account": {
+      "account_return_pct": null,
+      "account_status": "PASS",
+      "capital_basis_status": "FUNDING_LEDGER_UNVERIFIED",
+      "cash": 1960717.71,
+      "historical_review_open_positions": 0,
+      "inferred_net_funding": 2000000.0,
+      "mark_asof": "2026-09-21T10:03:54.515207+08:00",
+      "market_value": 0,
+      "net_asset_value": 1960717.71,
+      "position_count": 0,
+      "position_rules": "EXISTING_BROKER_UNCHANGED",
+      "positions": [],
+      "priced_positions": 0,
+      "real_positions_read": false,
+      "realized_pnl_all_books": -39282.29,
+      "scope": "MODEL_ACCOUNT_ONLY",
+      "total_pnl_all_books": -39282.29,
+      "unique_held_symbols": 0,
+      "unrealized_pnl": 0,
+      "verified_strategy_closed_count": 9,
+      "verified_strategy_realized_pnl": 1380.1
+    },
+    "model_fill_count": 0,
+    "model_position_count": 0,
+    "real_positions_read": false,
+    "reconciliation": {
+      "counts": {
+        "BUY_EVENT_COUNT": 117,
+        "CLOSED_POSITION_COUNT": 117,
+        "EXIT_EVENT_COUNT": 117,
+        "MODEL_POSITION_CREATED_COUNT": 117,
+        "OPEN_MODEL_POSITION_COUNT": 0,
+        "RENDERER_POSITION_COUNT": 0
+      },
+      "errors": [],
+      "real_positions_read": false,
+      "slot_buy_count": 0,
+      "slot_sell_count": 0,
+      "sources": [
+        {
+          "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/A/signal_event.jsonl",
+          "sha256": "fe42d85e9385bbe993f9399e63bbbfba720de002ac477cefe2f528fb6db391b7"
+        },
+        {
+          "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/A/model_portfolio/paper_broker.json",
+          "sha256": "ca1147983d98f5fabf22ccf67a446ecb9a8957345a5dfe47519edbccbcbf3d24"
+        },
+        {
+          "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/signal_event.jsonl",
+          "sha256": "e11ab384980ded92b5e5bf0df685204aa9e96f24fcf368b147afdb4bfb02c89e"
+        },
+        {
+          "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/model_portfolio/paper_broker.json",
+          "sha256": "a493bc3e33a922c3a01ecb0f5261c4c5a510bf815342206ed3d43b5d02b704b7"
+        },
+        {
+          "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/fill_imports.jsonl",
+          "sha256": "120022ae3556f456fe85cd960ada921587357c4851de045f85ed00fe510353a3"
+        }
+      ],
+      "status": "PASS"
+    },
+    "render_lines": [
+      "## Trading Desk · 交易盯盘",
+      "2026-09-21　10:00 ｜ 模型账户  ",
+      "",
+      "**当前动作｜先核验异常 · 新机会暂不作为行动依据**  ",
+      "> **系统异常：**数据或账务核验未通过，当前结果需复核。  ",
+      "",
+      "---",
+      "",
+      "市场：**等待主线确认**  ",
+      "主线 Top 3｜资料待核验  ",
+      "",
+      "今日5只：**早盘锁定 · 持续跟踪**  ",
+      "",
+      "冻结名单不完整，正在核验。  ",
+      "",
+      "盘中新机会：**先看状态，再看价位**  ",
+      "",
+      "当前没有仍有效的盘中新机会。  ",
+      "",
+      "---",
+      "",
+      "模型账户：**持有 0只 / 0笔｜新买 0｜止盈 0｜止损 0**  ",
+      "可用现金 **1,960,717.71 元**　持仓市值 0.00 元  ",
+      "账户账面已实现 **-39,282.29 元**　持仓浮盈亏 **0.00 元**  ",
+      "账户合计盈亏 **-39,282.29 元**（账面口径，包含待复核历史交易）  ",
+      "账户收益率：本金流水未完整核验，暂不显示。  ",
+      "估值时点：2026-09-21 10:03:54；浮盈亏已扣买入费用，未扣未来卖出费用。  ",
+      "已核验战法样本：9笔已结束，净损益 1,380.10 元；此数不代表整个账户收益。  ",
+      "",
+      "系统健康：**故障 · 正在核验恢复**  "
+    ],
+    "signal_contract": "FAIL",
+    "signals": [],
+    "status": "RECONCILIATION_FAIL",
+    "supervisor": {
+      "a_track": "DATA_GAP",
+      "attempts": 1,
+      "auto_pause": false,
+      "b_track": "OK",
+      "checked_at": "2026-09-21T10:03:54.515207+08:00",
+      "checks": {
+        "AGENT_HEARTBEAT": "PASS",
+        "DB": "PASS",
+        "HISTORICAL_40D": "DATA_GAP",
+        "HITHINK": "PASS",
+        "MAINLINE": "DATA_GAP",
+        "MODEL_POSITION_FUNNEL": "PASS",
+        "OPPORTUNITY_RECONCILIATION": "FAIL",
+        "PUBLISHER": "PENDING",
+        "SCANNER": "INCOMPLETE",
+        "SCHEDULER": "STALE",
+        "SIGNAL_CONTINUITY": "FAIL",
+        "USER_OUTPUT": "PASS"
+      },
+      "day": "2026-09-21",
+      "historical_days": 7,
+      "hithink_coverage": {
+        "expected": 5369,
+        "ratio": 0.9966474203762339,
+        "status": "PASS",
+        "valid": 5351
+      },
+      "master": "TRADING_DESK_MASTER",
+      "missing_historical_days": [
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-07",
+        "2026-09-09",
+        "2026-09-11"
+      ],
+      "real_positions_read": false,
+      "reconciliation": {
+        "counts": {
+          "BUY_EVENT_COUNT": 117,
+          "CLOSED_POSITION_COUNT": 117,
+          "EXIT_EVENT_COUNT": 117,
+          "MODEL_POSITION_CREATED_COUNT": 117,
+          "OPEN_MODEL_POSITION_COUNT": 0,
+          "RENDERER_POSITION_COUNT": 0
+        },
+        "errors": [],
+        "real_positions_read": false,
+        "slot_buy_count": 0,
+        "slot_sell_count": 0,
+        "sources": [
+          {
+            "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/A/signal_event.jsonl",
+            "sha256": "fe42d85e9385bbe993f9399e63bbbfba720de002ac477cefe2f528fb6db391b7"
+          },
+          {
+            "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/A/model_portfolio/paper_broker.json",
+            "sha256": "ca1147983d98f5fabf22ccf67a446ecb9a8957345a5dfe47519edbccbcbf3d24"
+          },
+          {
+            "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/signal_event.jsonl",
+            "sha256": "e11ab384980ded92b5e5bf0df685204aa9e96f24fcf368b147afdb4bfb02c89e"
+          },
+          {
+            "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/model_portfolio/paper_broker.json",
+            "sha256": "a493bc3e33a922c3a01ecb0f5261c4c5a510bf815342206ed3d43b5d02b704b7"
+          },
+          {
+            "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/fill_imports.jsonl",
+            "sha256": "120022ae3556f456fe85cd960ada921587357c4851de045f85ed00fe510353a3"
+          }
+        ],
+        "status": "PASS"
+      },
+      "retry_required": false,
+      "slot": "10:00",
+      "status": "FAIL",
+      "user_output_audit": {
+        "errors": [],
+        "facts_modified": false,
+        "scope": "CARD_ACCOUNT_AND_USER_CONTRACT",
+        "status": "PASS"
+      }
+    },
+    "user_visible": false
+  },
+  "signal_count": 0,
+  "signal_status": "NO_VALID_SIGNAL",
+  "signals": [],
+  "slot": "10:00",
+  "slot_id": "10:00",
+  "trade_date": "2026-09-21",
+  "trading_day_id": "CN_A_20260921"
+}
