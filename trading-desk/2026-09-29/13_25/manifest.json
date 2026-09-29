@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "trade_date": "2026-09-29",
+  "slot_id": "13:25",
+  "generated_at": "2026-09-29T13:25:41.719831+08:00",
+  "source_status": "OK",
+  "market_gate": "GREEN",
+  "signal_count": 21,
+  "recovery_status": null,
+  "trigger_verification": null,
+  "artifact_id": "2026-09-29:13:25:d9983d4619e21f7d",
+  "artifact_hash": "d9983d4619e21f7dc708f35b603c2ab9790b99d89665261c07dc2cdc911c27b4",
+  "manifest_status": "REMOTE_HASH_READBACK_REQUIRED",
+  "data_status": "DATA_OK",
+  "provider": "HiThink",
+  "publish_timestamp": "2026-09-29T13:27:52.805397+08:00",
+  "files": {
+    "market_snapshot.json": {
+      "sha256": "5764474fa7db4673625e6150c2db4d10ddc3b7c827fecb310a5f63932d1c4923",
+      "size": 71635121
+    },
+    "task_status.json": {
+      "sha256": "ac9fe40b1a748cd5279630b4337033ee9cc597d14407d1a76f7a50ede9eade94",
+      "size": 344
+    },
+    "signal_output.json": {
+      "sha256": "0164b2aa15eeb9380470858d1e49e632a54dfe43cf497ecd8a2d62881b0c7e46",
+      "size": 57617812
+    },
+    "gpt_task_payload.json": {
+      "sha256": "ab03ffea6b5495880f54a02a8ca1f01dcecb2f72db4f41533ee51c8c1396a50a",
+      "size": 208855
+    },
+    "delivery_status.json": {
+      "sha256": "283ea1302e4745fb7e5165769bbb6d64843d2f8f0dd1dbd91679911a24fd645f",
+      "size": 280
+    }
+  }
+}
