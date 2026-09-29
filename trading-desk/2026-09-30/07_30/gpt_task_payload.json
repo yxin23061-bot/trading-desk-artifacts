@@ -1,0 +1,764 @@
+{
+  "trading_day_id": "CN_A_20260930",
+  "schema_version": 1,
+  "trade_date": "2026-09-30",
+  "slot_id": "07:30",
+  "created_at": "2026-09-30T07:30:16.421379+08:00",
+  "trading_date": "2026-09-30",
+  "slot": "07:30",
+  "artifact_id": "2026-09-30:07:30:26d6a5b656547c24",
+  "artifact_path": "trading-desk/2026-09-30/07_30/gpt_task_payload.json",
+  "artifact_hash": "26d6a5b656547c24a5b775aeb01d375e430b3552b0af319185c787f2584b8ae2",
+  "manifest_status": "LOCAL_ARTIFACT_READBACK_PASS",
+  "data_status": "DATA_OK",
+  "provider": "HiThink",
+  "top5": [
+    {
+      "code": "688469",
+      "symbol": "688469",
+      "thscode": "688469.SH",
+      "name": "芯联集成-U",
+      "current_price": 9.0,
+      "price": 9.0,
+      "change_pct": 4.651163,
+      "prev_close": 8.6,
+      "open_price": 9.33,
+      "open": 9.33,
+      "high": 9.75,
+      "low": 8.92,
+      "volume": 259112100.0,
+      "amount": 2402018400.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-09-30T07:30:12+08:00",
+      "timestamp": "2026-09-30T07:30:12+08:00",
+      "ingest_ts": "2026-09-30T07:30:13.998293+08:00",
+      "request_id": "2d88a25946d242dbbf3a1000704bc131",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_114cfaee8b64355308929719",
+      "entry": 9.75,
+      "limit_up": 10.32,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 9.75,
+      "execution_zone": [
+        9.75,
+        9.9
+      ],
+      "stop": 8.54,
+      "risk_price": 8.54,
+      "tp1": 10.24,
+      "tp2": 10.73,
+      "volume_ratio": 2.9462,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 82.4020184,
+      "ma": {
+        "MA5": 8.762,
+        "MA10": 8.649,
+        "MA20": 8.537,
+        "MA60": 8.4608
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "新能源汽车",
+          "智能电网",
+          "特高压",
+          "充电桩",
+          "机器人概念",
+          "5G",
+          "融资融券",
+          "传感器",
+          "光伏概念",
+          "芯片概念",
+          "无人驾驶",
+          "沪股通",
+          "储能",
+          "MCU芯片",
+          "消费电子概念",
+          "数据中心(AIDC)",
+          "中芯国际概念",
+          "第三代半导体",
+          "汽车芯片",
+          "MicroLED概念",
+          "比亚迪概念",
+          "共封装光学(CPO)",
+          "AI眼镜"
+        ],
+        "industry": [
+          "半导体",
+          "集成电路制造"
+        ],
+        "name": "芯联集成-U",
+        "sector": [
+          "半导体",
+          "集成电路制造"
+        ],
+        "symbol": "688469",
+        "theme": [
+          "新能源汽车",
+          "智能电网",
+          "特高压",
+          "充电桩",
+          "机器人概念",
+          "5G",
+          "融资融券",
+          "传感器",
+          "光伏概念",
+          "芯片概念",
+          "无人驾驶",
+          "沪股通",
+          "储能",
+          "MCU芯片",
+          "消费电子概念",
+          "数据中心(AIDC)",
+          "中芯国际概念",
+          "第三代半导体",
+          "汽车芯片",
+          "MicroLED概念",
+          "比亚迪概念",
+          "共封装光学(CPO)",
+          "AI眼镜"
+        ]
+      },
+      "sector_symbols": [
+        "881121.TI",
+        "884227.TI"
+      ],
+      "sector_membership_observed_at": "2026-09-30T06:45:02.888189+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": false,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "001330",
+      "symbol": "001330",
+      "thscode": "001330.SZ",
+      "name": "博纳影业",
+      "current_price": 6.63,
+      "price": 6.63,
+      "change_pct": 4.245283,
+      "prev_close": 6.36,
+      "open_price": 6.8,
+      "open": 6.8,
+      "high": 6.97,
+      "low": 6.16,
+      "volume": 315032680.0,
+      "amount": 2088367300.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-09-30T07:30:12+08:00",
+      "timestamp": "2026-09-30T07:30:12+08:00",
+      "ingest_ts": "2026-09-30T07:30:13.998293+08:00",
+      "request_id": "2d88a25946d242dbbf3a1000704bc131",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_6f8862219668aa2fa6472414",
+      "entry": 6.97,
+      "limit_up": 7.0,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 6.97,
+      "execution_zone": [
+        6.97,
+        7.07
+      ],
+      "stop": 5.82,
+      "risk_price": 5.82,
+      "tp1": 7.32,
+      "tp2": 7.67,
+      "volume_ratio": 2.0446,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 82.0883673,
+      "ma": {
+        "MA5": 6.008,
+        "MA10": 5.726,
+        "MA20": 5.818,
+        "MA60": 5.245
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "新疆振兴",
+          "文化传媒概念",
+          "阿里巴巴概念",
+          "深股通",
+          "腾讯概念",
+          "抖音概念(字节概念)",
+          "AIGC概念",
+          "短剧游戏",
+          "AI视频",
+          "西部大开发",
+          "IP经济(谷子经济)",
+          "AI应用"
+        ],
+        "industry": [
+          "影视院线"
+        ],
+        "name": "博纳影业",
+        "sector": [
+          "影视院线"
+        ],
+        "symbol": "001330",
+        "theme": [
+          "新疆振兴",
+          "文化传媒概念",
+          "阿里巴巴概念",
+          "深股通",
+          "腾讯概念",
+          "抖音概念(字节概念)",
+          "AIGC概念",
+          "短剧游戏",
+          "AI视频",
+          "西部大开发",
+          "IP经济(谷子经济)",
+          "AI应用"
+        ]
+      },
+      "sector_symbols": [
+        "881274.TI"
+      ],
+      "sector_membership_observed_at": "2026-09-30T06:45:02.888189+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": false,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "000560",
+      "symbol": "000560",
+      "thscode": "000560.SZ",
+      "name": "我爱我家",
+      "current_price": 3.76,
+      "price": 3.76,
+      "change_pct": 1.347709,
+      "prev_close": 3.71,
+      "open_price": 3.79,
+      "open": 3.79,
+      "high": 3.95,
+      "low": 3.56,
+      "volume": 805681980.0,
+      "amount": 3044448500.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-09-30T07:30:12+08:00",
+      "timestamp": "2026-09-30T07:30:12+08:00",
+      "ingest_ts": "2026-09-30T07:30:13.998293+08:00",
+      "request_id": "2d88a25946d242dbbf3a1000704bc131",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_16a090db3a4704992612daeb",
+      "entry": 4.1,
+      "limit_up": 4.08,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 4.1,
+      "execution_zone": [
+        4.1,
+        4.16
+      ],
+      "stop": 3.15,
+      "risk_price": 3.15,
+      "tp1": 4.3,
+      "tp2": 4.51,
+      "volume_ratio": 1.4783,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 63.0444485,
+      "ma": {
+        "MA5": 3.7,
+        "MA10": 3.265,
+        "MA20": 3.1535,
+        "MA60": 2.5305
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "京津冀一体化",
+          "融资融券",
+          "华为概念",
+          "深股通",
+          "租售同权",
+          "人工智能",
+          "物业管理",
+          "鸿蒙概念",
+          "数字经济",
+          "AIGC概念",
+          "ChatGPT概念",
+          "数据要素",
+          "西部大开发",
+          "AI应用"
+        ],
+        "industry": [
+          "房地产",
+          "房地产服务"
+        ],
+        "name": "我爱我家",
+        "sector": [
+          "房地产",
+          "房地产服务"
+        ],
+        "symbol": "000560",
+        "theme": [
+          "京津冀一体化",
+          "融资融券",
+          "华为概念",
+          "深股通",
+          "租售同权",
+          "人工智能",
+          "物业管理",
+          "鸿蒙概念",
+          "数字经济",
+          "AIGC概念",
+          "ChatGPT概念",
+          "数据要素",
+          "西部大开发",
+          "AI应用"
+        ]
+      },
+      "sector_symbols": [
+        "881153.TI",
+        "884248.TI"
+      ],
+      "sector_membership_observed_at": "2026-09-30T06:45:02.888189+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": false,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "601218",
+      "symbol": "601218",
+      "thscode": "601218.SH",
+      "name": "吉鑫科技",
+      "current_price": 6.13,
+      "price": 6.13,
+      "change_pct": 1.322314,
+      "prev_close": 6.05,
+      "open_price": 6.3,
+      "open": 6.3,
+      "high": 6.6,
+      "low": 5.75,
+      "volume": 284779770.0,
+      "amount": 1760320300.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-09-30T07:30:12+08:00",
+      "timestamp": "2026-09-30T07:30:12+08:00",
+      "ingest_ts": "2026-09-30T07:30:13.998293+08:00",
+      "request_id": "2d88a25946d242dbbf3a1000704bc131",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_7074a25c819b628eb5f14bec",
+      "entry": 6.6,
+      "limit_up": 6.66,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 6.6,
+      "execution_zone": [
+        6.6,
+        6.7
+      ],
+      "stop": 5.04,
+      "risk_price": 5.04,
+      "tp1": 6.93,
+      "tp2": 7.26,
+      "volume_ratio": 2.6408,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 61.760320300000004,
+      "ma": {
+        "MA5": 5.588,
+        "MA10": 5.507,
+        "MA20": 5.045,
+        "MA60": 4.6067
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "海工装备",
+          "风电",
+          "融资融券",
+          "金属回收",
+          "沪股通",
+          "绿色电力"
+        ],
+        "industry": [
+          "风电设备",
+          "风电零部件"
+        ],
+        "name": "吉鑫科技",
+        "sector": [
+          "风电设备",
+          "风电零部件"
+        ],
+        "symbol": "601218",
+        "theme": [
+          "海工装备",
+          "风电",
+          "融资融券",
+          "金属回收",
+          "沪股通",
+          "绿色电力"
+        ]
+      },
+      "sector_symbols": [
+        "881280.TI",
+        "884308.TI"
+      ],
+      "sector_membership_observed_at": "2026-09-30T06:45:02.888189+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": false,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "603259",
+      "symbol": "603259",
+      "thscode": "603259.SH",
+      "name": "药明康德",
+      "current_price": 160.66,
+      "price": 160.66,
+      "change_pct": -0.704574,
+      "prev_close": 161.8,
+      "open_price": 161.81,
+      "open": 161.81,
+      "high": 166.68,
+      "low": 159.47,
+      "volume": 30317949.0,
+      "amount": 4927714400.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-09-30T07:30:12+08:00",
+      "timestamp": "2026-09-30T07:30:12+08:00",
+      "ingest_ts": "2026-09-30T07:30:13.998293+08:00",
+      "request_id": "2d88a25946d242dbbf3a1000704bc131",
+      "strategy": "容量中军",
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_c0fc0a7b177a69881ed50437",
+      "entry": 171.2,
+      "limit_up": 177.98,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 171.2,
+      "execution_zone": [
+        171.2,
+        173.77
+      ],
+      "stop": 158.59,
+      "risk_price": 158.59,
+      "tp1": 179.76,
+      "tp2": 188.32,
+      "volume_ratio": 0.9137,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 44.9277144,
+      "ma": {
+        "MA5": 164.132,
+        "MA10": 162.349,
+        "MA20": 158.5945,
+        "MA60": 146.748
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "融资融券",
+          "沪股通",
+          "人民币贬值受益",
+          "创新药",
+          "同花顺漂亮100",
+          "CRO概念",
+          "同花顺出海50"
+        ],
+        "industry": [
+          "医疗服务",
+          "医疗研发外包"
+        ],
+        "name": "药明康德",
+        "sector": [
+          "医疗服务",
+          "医疗研发外包"
+        ],
+        "symbol": "603259",
+        "theme": [
+          "融资融券",
+          "沪股通",
+          "人民币贬值受益",
+          "创新药",
+          "同花顺漂亮100",
+          "CRO概念",
+          "同花顺出海50"
+        ]
+      },
+      "sector_symbols": [
+        "881175.TI",
+        "884244.TI"
+      ],
+      "sector_membership_observed_at": "2026-09-30T06:45:02.888189+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": false,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    }
+  ],
+  "top2": [
+    {
+      "signal_id": "sig_114cfaee8b64355308929719",
+      "candidate_id": "2026-09-30:01:688469",
+      "trade_date": "2026-09-30",
+      "created_at": "2026-09-30T07:30:16.421379+08:00",
+      "code": "688469",
+      "symbol": "688469",
+      "name": "芯联集成-U",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 9.75,
+        "high": 9.9,
+        "reference_price": 9.75
+      },
+      "trigger_low": 9.75,
+      "trigger_high": 9.9,
+      "trigger": 9.75,
+      "execution_zone": [
+        9.75,
+        9.9
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 8.54,
+      "rank_0730": 1,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 9.75,
+        "high": 9.9
+      },
+      "tp1": 10.24,
+      "tp2": 10.73,
+      "stop": 8.54,
+      "time_stop": "2026-09-30T14:50:00+08:00",
+      "baseline": 8.6,
+      "limit_up": 10.32,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-30T07:30:16.421379+08:00",
+      "last_update": "2026-09-30T07:30:16.421379+08:00",
+      "source_timestamp": "2026-09-30T07:30:12+08:00",
+      "source_score": 82.4020184,
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881121.TI",
+        "884227.TI"
+      ],
+      "sector_membership_observed_at": "2026-09-30T06:45:02.888189+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-09-30",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_6f8862219668aa2fa6472414",
+      "candidate_id": "2026-09-30:02:001330",
+      "trade_date": "2026-09-30",
+      "created_at": "2026-09-30T07:30:16.421379+08:00",
+      "code": "001330",
+      "symbol": "001330",
+      "name": "博纳影业",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 6.97,
+        "high": 7.07,
+        "reference_price": 6.97
+      },
+      "trigger_low": 6.97,
+      "trigger_high": 7.07,
+      "trigger": 6.97,
+      "execution_zone": [
+        6.97,
+        7.07
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 5.82,
+      "rank_0730": 2,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 6.97,
+        "high": 7.07
+      },
+      "tp1": 7.32,
+      "tp2": 7.67,
+      "stop": 5.82,
+      "time_stop": "2026-09-30T14:50:00+08:00",
+      "baseline": 6.36,
+      "limit_up": 7.0,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-30T07:30:16.421379+08:00",
+      "last_update": "2026-09-30T07:30:16.421379+08:00",
+      "source_timestamp": "2026-09-30T07:30:12+08:00",
+      "source_score": 82.0883673,
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881274.TI"
+      ],
+      "sector_membership_observed_at": "2026-09-30T06:45:02.888189+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-09-30",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    }
+  ],
+  "top2_signal_ids": [
+    "sig_114cfaee8b64355308929719",
+    "sig_6f8862219668aa2fa6472414"
+  ],
+  "signal_events": [],
+  "strategy_states": [
+    "WATCH",
+    "WATCH"
+  ],
+  "SOURCE_OF_TRUTH": "PRODUCTION_ARTIFACT_ONLY",
+  "NO_WEB_SEARCH_FOR_TRADING_DATA": true,
+  "NO_POSTHOC_RECONSTRUCTION": true,
+  "render_lines": [
+    "## Trading Desk · 盘前计划",
+    "2026-09-30　07:30 ｜ 模型账户  ",
+    "",
+    "**当前动作｜盘前准备 · 等待开盘确认**  ",
+    "",
+    "---",
+    "",
+    "市场：**等待主线确认**  ",
+    "主线 Top 3｜资料待核验  ",
+    "",
+    "今日5只：**早盘锁定 · 持续跟踪**  ",
+    "",
+    "**芯联集成-U（688469）｜观察**  ",
+    "现价 待核验　触发 9.75–9.90　**止损 8.54**  ",
+    "动作：等待条件确认  ",
+    "",
+    "**博纳影业（001330）｜观察**  ",
+    "现价 待核验　触发 6.97–7.07　**止损 5.82**  ",
+    "动作：等待条件确认  ",
+    "",
+    "**我爱我家（000560）｜观察**  ",
+    "现价 待核验　触发 4.10–4.16　**止损 3.15**  ",
+    "动作：等待条件确认  ",
+    "",
+    "**吉鑫科技（601218）｜观察**  ",
+    "现价 待核验　触发 6.60–6.70　**止损 5.04**  ",
+    "动作：等待条件确认  ",
+    "",
+    "**药明康德（603259）｜观察**  ",
+    "现价 待核验　触发 171.20–173.77　**止损 158.59**  ",
+    "动作：等待条件确认  ",
+    "",
+    "盘中新机会：**先看状态，再看价位**  ",
+    "",
+    "等待开盘核验。  ",
+    "",
+    "---",
+    "",
+    "模型账户：**盘前待同步**  ",
+    "账户资金与收益：等待同步核验。  ",
+    "",
+    "系统健康：**降级 · 部分数据或投递待核验**  "
+  ]
+}

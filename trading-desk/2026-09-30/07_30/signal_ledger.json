@@ -1,0 +1,332 @@
+{
+  "trading_day_id": "CN_A_20260930",
+  "schema_version": 1,
+  "trade_date": "2026-09-30",
+  "slot_id": "07:30",
+  "created_at": "2026-09-30T07:30:16.421379+08:00",
+  "append_only": true,
+  "immutable_signal_ids": true,
+  "signals": [
+    {
+      "signal_id": "sig_114cfaee8b64355308929719",
+      "candidate_id": "2026-09-30:01:688469",
+      "trade_date": "2026-09-30",
+      "created_at": "2026-09-30T07:30:16.421379+08:00",
+      "code": "688469",
+      "symbol": "688469",
+      "name": "芯联集成-U",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 9.75,
+        "high": 9.9,
+        "reference_price": 9.75
+      },
+      "trigger_low": 9.75,
+      "trigger_high": 9.9,
+      "trigger": 9.75,
+      "execution_zone": [
+        9.75,
+        9.9
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 8.54,
+      "rank_0730": 1,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 9.75,
+        "high": 9.9
+      },
+      "tp1": 10.24,
+      "tp2": 10.73,
+      "stop": 8.54,
+      "time_stop": "2026-09-30T14:50:00+08:00",
+      "baseline": 8.6,
+      "limit_up": 10.32,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-30T07:30:16.421379+08:00",
+      "last_update": "2026-09-30T07:30:16.421379+08:00",
+      "source_timestamp": "2026-09-30T07:30:12+08:00",
+      "source_score": 82.4020184,
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881121.TI",
+        "884227.TI"
+      ],
+      "sector_membership_observed_at": "2026-09-30T06:45:02.888189+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-09-30",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_6f8862219668aa2fa6472414",
+      "candidate_id": "2026-09-30:02:001330",
+      "trade_date": "2026-09-30",
+      "created_at": "2026-09-30T07:30:16.421379+08:00",
+      "code": "001330",
+      "symbol": "001330",
+      "name": "博纳影业",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 6.97,
+        "high": 7.07,
+        "reference_price": 6.97
+      },
+      "trigger_low": 6.97,
+      "trigger_high": 7.07,
+      "trigger": 6.97,
+      "execution_zone": [
+        6.97,
+        7.07
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 5.82,
+      "rank_0730": 2,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 6.97,
+        "high": 7.07
+      },
+      "tp1": 7.32,
+      "tp2": 7.67,
+      "stop": 5.82,
+      "time_stop": "2026-09-30T14:50:00+08:00",
+      "baseline": 6.36,
+      "limit_up": 7.0,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-30T07:30:16.421379+08:00",
+      "last_update": "2026-09-30T07:30:16.421379+08:00",
+      "source_timestamp": "2026-09-30T07:30:12+08:00",
+      "source_score": 82.0883673,
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881274.TI"
+      ],
+      "sector_membership_observed_at": "2026-09-30T06:45:02.888189+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-09-30",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_16a090db3a4704992612daeb",
+      "candidate_id": "2026-09-30:03:000560",
+      "trade_date": "2026-09-30",
+      "created_at": "2026-09-30T07:30:16.421379+08:00",
+      "code": "000560",
+      "symbol": "000560",
+      "name": "我爱我家",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 4.1,
+        "high": 4.16,
+        "reference_price": 4.1
+      },
+      "trigger_low": 4.1,
+      "trigger_high": 4.16,
+      "trigger": 4.1,
+      "execution_zone": [
+        4.1,
+        4.16
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 3.15,
+      "rank_0730": 3,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 4.1,
+        "high": 4.16
+      },
+      "tp1": 4.3,
+      "tp2": 4.51,
+      "stop": 3.15,
+      "time_stop": "2026-09-30T14:50:00+08:00",
+      "baseline": 3.71,
+      "limit_up": 4.08,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-30T07:30:16.421379+08:00",
+      "last_update": "2026-09-30T07:30:16.421379+08:00",
+      "source_timestamp": "2026-09-30T07:30:12+08:00",
+      "source_score": 63.0444485,
+      "source_tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881153.TI",
+        "884248.TI"
+      ],
+      "sector_membership_observed_at": "2026-09-30T06:45:02.888189+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-09-30",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_7074a25c819b628eb5f14bec",
+      "candidate_id": "2026-09-30:04:601218",
+      "trade_date": "2026-09-30",
+      "created_at": "2026-09-30T07:30:16.421379+08:00",
+      "code": "601218",
+      "symbol": "601218",
+      "name": "吉鑫科技",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 6.6,
+        "high": 6.7,
+        "reference_price": 6.6
+      },
+      "trigger_low": 6.6,
+      "trigger_high": 6.7,
+      "trigger": 6.6,
+      "execution_zone": [
+        6.6,
+        6.7
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 5.04,
+      "rank_0730": 4,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 6.6,
+        "high": 6.7
+      },
+      "tp1": 6.93,
+      "tp2": 7.26,
+      "stop": 5.04,
+      "time_stop": "2026-09-30T14:50:00+08:00",
+      "baseline": 6.05,
+      "limit_up": 6.66,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-30T07:30:16.421379+08:00",
+      "last_update": "2026-09-30T07:30:16.421379+08:00",
+      "source_timestamp": "2026-09-30T07:30:12+08:00",
+      "source_score": 61.760320300000004,
+      "source_tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881280.TI",
+        "884308.TI"
+      ],
+      "sector_membership_observed_at": "2026-09-30T06:45:02.888189+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-09-30",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    },
+    {
+      "signal_id": "sig_c0fc0a7b177a69881ed50437",
+      "candidate_id": "2026-09-30:05:603259",
+      "trade_date": "2026-09-30",
+      "created_at": "2026-09-30T07:30:16.421379+08:00",
+      "code": "603259",
+      "symbol": "603259",
+      "name": "药明康德",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 171.2,
+        "high": 173.77,
+        "reference_price": 171.2
+      },
+      "trigger_low": 171.2,
+      "trigger_high": 173.77,
+      "trigger": 171.2,
+      "execution_zone": [
+        171.2,
+        173.77
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 158.59,
+      "rank_0730": 5,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 171.2,
+        "high": 173.77
+      },
+      "tp1": 179.76,
+      "tp2": 188.32,
+      "stop": 158.59,
+      "time_stop": "2026-09-30T14:50:00+08:00",
+      "baseline": 161.8,
+      "limit_up": 177.98,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-09-30T07:30:16.421379+08:00",
+      "last_update": "2026-09-30T07:30:16.421379+08:00",
+      "source_timestamp": "2026-09-30T07:30:12+08:00",
+      "source_score": 44.9277144,
+      "source_tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881175.TI",
+        "884244.TI"
+      ],
+      "sector_membership_observed_at": "2026-09-30T06:45:02.888189+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-09-30",
+      "setup_type": "容量中军",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      }
+    }
+  ],
+  "top2_signal_ids": [
+    "sig_114cfaee8b64355308929719",
+    "sig_6f8862219668aa2fa6472414"
+  ],
+  "snapshot_hash": "f6258f9f45b5dca3c28c176ac0799b5d3ab35a2806425f3a2b6632dc428672a9",
+  "lifecycle_events": []
+}
