@@ -1,0 +1,14 @@
+{
+  "A_CHAIN": "DATA_GAP",
+  "BROKEN_STAGE": null,
+  "B_CHAIN": "OK",
+  "DATA_STATUS": "DATA_DEGRADED",
+  "JOB_STATUS": "JOB_PARTIAL",
+  "MODEL_POSITION": "NONE",
+  "generated_at": "2026-10-08T10:28:53.074788+08:00",
+  "pm_required": false,
+  "slot": "10:25",
+  "slot_id": "10:25",
+  "trade_date": "2026-10-08",
+  "trading_day_id": "CN_A_20261008"
+}
