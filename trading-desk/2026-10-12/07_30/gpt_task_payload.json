@@ -1,0 +1,741 @@
+{
+  "trading_day_id": "CN_A_20261012",
+  "schema_version": 1,
+  "trade_date": "2026-10-12",
+  "slot_id": "07:30",
+  "created_at": "2026-10-12T07:30:22.567639+08:00",
+  "trading_date": "2026-10-12",
+  "slot": "07:30",
+  "artifact_id": "2026-10-12:07:30:c04f54b53c888c24",
+  "artifact_path": "trading-desk/2026-10-12/07_30/gpt_task_payload.json",
+  "artifact_hash": "c04f54b53c888c2470b4bbe953686bf1ce45aa8d0c3b42f2e42d5c91aa490216",
+  "manifest_status": "LOCAL_ARTIFACT_READBACK_PASS",
+  "data_status": "DATA_OK",
+  "provider": "HiThink",
+  "top5": [
+    {
+      "code": "002242",
+      "symbol": "002242",
+      "thscode": "002242.SZ",
+      "name": "九阳股份",
+      "current_price": 15.13,
+      "price": 15.13,
+      "change_pct": 10.036364,
+      "prev_close": 13.75,
+      "open_price": 14.3,
+      "open": 14.3,
+      "high": 15.13,
+      "low": 13.6,
+      "volume": 139229380.0,
+      "amount": 2062716600.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-12T07:30:16+08:00",
+      "timestamp": "2026-10-12T07:30:16+08:00",
+      "ingest_ts": "2026-10-12T07:30:17.729742+08:00",
+      "request_id": "6a6d11965423447e85dbd9caa7a8bd93",
+      "strategy": "容量中军",
+      "tactics": [
+        "容量中军",
+        "趋势突破",
+        "三板定龙"
+      ],
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_3e0263baa227707fc4a75f63",
+      "entry": 15.13,
+      "limit_up": 15.13,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 15.13,
+      "execution_zone": [
+        15.13,
+        15.36
+      ],
+      "stop": 10.05,
+      "risk_price": 10.05,
+      "tp1": 15.89,
+      "tp2": 16.64,
+      "volume_ratio": 5.338,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "MAPPED",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 62.0627166,
+      "ma": {
+        "MA5": 12.614,
+        "MA10": 11.069,
+        "MA20": 10.055,
+        "MA60": 9.1422
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "家用电器",
+          "机器人概念",
+          "融资融券",
+          "智能家居",
+          "净水概念",
+          "深股通",
+          "绿色电力"
+        ],
+        "industry": [
+          "小家电"
+        ],
+        "name": "九阳股份",
+        "sector": [
+          "小家电"
+        ],
+        "symbol": "002242",
+        "theme": [
+          "家用电器",
+          "机器人概念",
+          "融资融券",
+          "智能家居",
+          "净水概念",
+          "深股通",
+          "绿色电力"
+        ]
+      },
+      "sector_symbols": [
+        "881173.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-12T06:45:06.047803+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": "机器人投资+厨房小家电+内容电商",
+      "mainline_confirmed": false
+    },
+    {
+      "code": "600825",
+      "symbol": "600825",
+      "thscode": "600825.SH",
+      "name": "新华传媒",
+      "current_price": 12.53,
+      "price": 12.53,
+      "change_pct": 10.00878,
+      "prev_close": 11.39,
+      "open_price": 12.53,
+      "open": 12.53,
+      "high": 12.53,
+      "low": 12.53,
+      "volume": 49929048.0,
+      "amount": 625610970.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-12T07:30:16+08:00",
+      "timestamp": "2026-10-12T07:30:16+08:00",
+      "ingest_ts": "2026-10-12T07:30:17.729742+08:00",
+      "request_id": "6a6d11965423447e85dbd9caa7a8bd93",
+      "strategy": "趋势突破",
+      "tactics": [
+        "趋势突破",
+        "10天8板",
+        "三板定龙"
+      ],
+      "strategy_id": "trend_breakout",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_cb24bf5359934b12399d8d96",
+      "entry": 12.53,
+      "limit_up": 12.53,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 12.53,
+      "execution_zone": [
+        12.53,
+        12.72
+      ],
+      "stop": 6.77,
+      "risk_price": 6.77,
+      "tp1": 13.16,
+      "tp2": 13.78,
+      "volume_ratio": 4.4155,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "MAPPED",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 60.62561097,
+      "ma": {
+        "MA5": 10.446,
+        "MA10": 8.463,
+        "MA20": 6.7745,
+        "MA60": 5.5025
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "创投",
+          "文化传媒概念",
+          "融资融券",
+          "上海国企改革",
+          "沪股通",
+          "无人零售",
+          "独角兽概念",
+          "国企改革",
+          "AI语料"
+        ],
+        "industry": [
+          "文化传媒",
+          "出版"
+        ],
+        "name": "新华传媒",
+        "sector": [
+          "文化传媒",
+          "出版"
+        ],
+        "symbol": "600825",
+        "theme": [
+          "创投",
+          "文化传媒概念",
+          "融资融券",
+          "上海国企改革",
+          "沪股通",
+          "无人零售",
+          "独角兽概念",
+          "国企改革",
+          "AI语料"
+        ]
+      },
+      "sector_symbols": [
+        "881164.TI",
+        "884176.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-12T06:45:06.047803+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": "拟收购财联社+重大资产重组+图书发行",
+      "mainline_confirmed": false
+    },
+    {
+      "code": "605378",
+      "symbol": "605378",
+      "thscode": "605378.SH",
+      "name": "野马电池",
+      "current_price": 18.08,
+      "price": 18.08,
+      "change_pct": 4.690214,
+      "prev_close": 17.27,
+      "open_price": 18.45,
+      "open": 18.45,
+      "high": 18.99,
+      "low": 17.62,
+      "volume": 28501455.0,
+      "amount": 520790920.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-12T07:30:16+08:00",
+      "timestamp": "2026-10-12T07:30:16+08:00",
+      "ingest_ts": "2026-10-12T07:30:17.729742+08:00",
+      "request_id": "6a6d11965423447e85dbd9caa7a8bd93",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "趋势突破"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.2-20260930",
+      "scanner_hit_id": "scan_5ba6fd0bd81c320b65a388ab",
+      "entry": 18.99,
+      "limit_up": 19.0,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 18.99,
+      "execution_zone": [
+        18.99,
+        19.27
+      ],
+      "stop": 14.99,
+      "risk_price": 14.99,
+      "tp1": 19.94,
+      "tp2": 20.89,
+      "volume_ratio": 4.1065,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 60.52079092,
+      "ma": {
+        "MA5": 16.596,
+        "MA10": 15.79,
+        "MA20": 14.994,
+        "MA60": 14.1735
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "锂电池概念",
+          "沪股通",
+          "人民币贬值受益",
+          "工业互联网",
+          "长三角一体化",
+          "共同富裕示范区"
+        ],
+        "industry": [
+          "电池",
+          "其他电池"
+        ],
+        "name": "野马电池",
+        "sector": [
+          "电池",
+          "其他电池"
+        ],
+        "symbol": "605378",
+        "theme": [
+          "锂电池概念",
+          "沪股通",
+          "人民币贬值受益",
+          "工业互联网",
+          "长三角一体化",
+          "共同富裕示范区"
+        ]
+      },
+      "sector_symbols": [
+        "881281.TI",
+        "884312.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-12T06:45:06.047803+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "601872",
+      "symbol": "601872",
+      "thscode": "601872.SH",
+      "name": "招商轮船",
+      "current_price": 22.07,
+      "price": 22.07,
+      "change_pct": 0.181571,
+      "prev_close": 22.03,
+      "open_price": 22.47,
+      "open": 22.47,
+      "high": 22.65,
+      "low": 20.65,
+      "volume": 211556770.0,
+      "amount": 4564449400.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-12T07:30:16+08:00",
+      "timestamp": "2026-10-12T07:30:16+08:00",
+      "ingest_ts": "2026-10-12T07:30:17.729742+08:00",
+      "request_id": "6a6d11965423447e85dbd9caa7a8bd93",
+      "strategy": "容量中军",
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_5b5ef3a114c157d762760c11",
+      "entry": 22.98,
+      "limit_up": 24.23,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 22.98,
+      "execution_zone": [
+        22.98,
+        23.32
+      ],
+      "stop": 20.7,
+      "risk_price": 20.7,
+      "tp1": 24.13,
+      "tp2": 25.28,
+      "volume_ratio": 1.3584,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 44.5644494,
+      "ma": {
+        "MA5": 20.958,
+        "MA10": 21.325,
+        "MA20": 20.7,
+        "MA60": 18.2508
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "海峡两岸",
+          "天然气",
+          "融资融券",
+          "航运概念",
+          "上海自贸区",
+          "冷链物流",
+          "一带一路",
+          "沪股通",
+          "央企国企改革",
+          "人工智能",
+          "俄乌冲突概念",
+          "国企改革",
+          "高股息精选",
+          "2026中报预增"
+        ],
+        "industry": [
+          "港口航运",
+          "航运"
+        ],
+        "name": "招商轮船",
+        "sector": [
+          "港口航运",
+          "航运"
+        ],
+        "symbol": "601872",
+        "theme": [
+          "海峡两岸",
+          "天然气",
+          "融资融券",
+          "航运概念",
+          "上海自贸区",
+          "冷链物流",
+          "一带一路",
+          "沪股通",
+          "央企国企改革",
+          "人工智能",
+          "俄乌冲突概念",
+          "国企改革",
+          "高股息精选",
+          "2026中报预增"
+        ]
+      },
+      "sector_symbols": [
+        "881148.TI",
+        "884191.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-12T06:45:06.047803+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "300489",
+      "symbol": "300489",
+      "thscode": "300489.SZ",
+      "name": "光智科技",
+      "current_price": 278.82,
+      "price": 278.82,
+      "change_pct": 6.015209,
+      "prev_close": 263.0,
+      "open_price": 256.04,
+      "open": 256.04,
+      "high": 284.0,
+      "low": 255.01,
+      "volume": 16512195.0,
+      "amount": 4506745400.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-12T07:30:16+08:00",
+      "timestamp": "2026-10-12T07:30:16+08:00",
+      "ingest_ts": "2026-10-12T07:30:17.729742+08:00",
+      "request_id": "6a6d11965423447e85dbd9caa7a8bd93",
+      "strategy": "容量中军",
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_295542c39545eb55160d78f8",
+      "entry": 292.96,
+      "limit_up": 315.6,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 292.96,
+      "execution_zone": [
+        292.96,
+        297.35
+      ],
+      "stop": 236.07,
+      "risk_price": 236.07,
+      "tp1": 307.61,
+      "tp2": 322.26,
+      "volume_ratio": 1.3244,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 44.5067454,
+      "ma": {
+        "MA5": 266.994,
+        "MA10": 258.258,
+        "MA20": 236.0675,
+        "MA60": 218.7505
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "新能源汽车",
+          "核电",
+          "无人机",
+          "无人驾驶",
+          "深股通",
+          "氢能源",
+          "第三代半导体",
+          "先进封装",
+          "核污染防治",
+          "低空经济"
+        ],
+        "industry": [
+          "光学光电子",
+          "光学元件"
+        ],
+        "name": "光智科技",
+        "sector": [
+          "光学光电子",
+          "光学元件"
+        ],
+        "symbol": "300489",
+        "theme": [
+          "新能源汽车",
+          "核电",
+          "无人机",
+          "无人驾驶",
+          "深股通",
+          "氢能源",
+          "第三代半导体",
+          "先进封装",
+          "核污染防治",
+          "低空经济"
+        ]
+      },
+      "sector_symbols": [
+        "881122.TI",
+        "884096.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-12T06:45:06.047803+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    }
+  ],
+  "top2": [
+    {
+      "signal_id": "sig_3e0263baa227707fc4a75f63",
+      "candidate_id": "2026-10-12:01:002242",
+      "trade_date": "2026-10-12",
+      "created_at": "2026-10-12T07:30:22.567639+08:00",
+      "code": "002242",
+      "symbol": "002242",
+      "name": "九阳股份",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 15.13,
+        "high": 15.36,
+        "reference_price": 15.13
+      },
+      "trigger_low": 15.13,
+      "trigger_high": 15.36,
+      "trigger": 15.13,
+      "execution_zone": [
+        15.13,
+        15.36
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 10.05,
+      "rank_0730": 1,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 15.13,
+        "high": 15.36
+      },
+      "tp1": 15.89,
+      "tp2": 16.64,
+      "stop": 10.05,
+      "time_stop": "2026-10-12T14:50:00+08:00",
+      "baseline": 13.75,
+      "limit_up": 15.13,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-10-12T07:30:22.567639+08:00",
+      "last_update": "2026-10-12T07:30:22.567639+08:00",
+      "source_timestamp": "2026-10-12T07:30:16+08:00",
+      "source_score": 62.0627166,
+      "source_tactics": [
+        "容量中军",
+        "趋势突破",
+        "三板定龙"
+      ],
+      "sector_symbols": [
+        "881173.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-12T06:45:06.047803+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-10-12",
+      "setup_type": "容量中军",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "strategy_id": "capacity_core",
+      "strategy_family": "容量中军",
+      "strategy_version": "v1.0.0-20260917",
+      "experiment_id": "forward-paper:7f5db3c",
+      "code_sha256": "af4a71046a18e0b3af6329b1f1b15d2b3a6309cf0d883e664402efd332153d2b",
+      "input_sha256": "28899eaaea121dca722b84e4e7a38d639c2eefde6339c8229222346a8c8446c0",
+      "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1"
+    },
+    {
+      "signal_id": "sig_cb24bf5359934b12399d8d96",
+      "candidate_id": "2026-10-12:02:600825",
+      "trade_date": "2026-10-12",
+      "created_at": "2026-10-12T07:30:22.567639+08:00",
+      "code": "600825",
+      "symbol": "600825",
+      "name": "新华传媒",
+      "strategy": "趋势突破",
+      "trigger_range": {
+        "low": 12.53,
+        "high": 12.72,
+        "reference_price": 12.53
+      },
+      "trigger_low": 12.53,
+      "trigger_high": 12.72,
+      "trigger": 12.53,
+      "execution_zone": [
+        12.53,
+        12.72
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 6.77,
+      "rank_0730": 2,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 12.53,
+        "high": 12.72
+      },
+      "tp1": 13.16,
+      "tp2": 13.78,
+      "stop": 6.77,
+      "time_stop": "2026-10-12T14:50:00+08:00",
+      "baseline": 11.39,
+      "limit_up": 12.53,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-10-12T07:30:22.567639+08:00",
+      "last_update": "2026-10-12T07:30:22.567639+08:00",
+      "source_timestamp": "2026-10-12T07:30:16+08:00",
+      "source_score": 60.62561097,
+      "source_tactics": [
+        "趋势突破",
+        "10天8板",
+        "三板定龙"
+      ],
+      "sector_symbols": [
+        "881164.TI",
+        "884176.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-12T06:45:06.047803+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-10-12",
+      "setup_type": "趋势突破",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "strategy_id": "trend_breakout",
+      "strategy_family": "趋势突破",
+      "strategy_version": "v1.0.0-20260917",
+      "experiment_id": "forward-paper:7f5db3c",
+      "code_sha256": "af4a71046a18e0b3af6329b1f1b15d2b3a6309cf0d883e664402efd332153d2b",
+      "input_sha256": "28899eaaea121dca722b84e4e7a38d639c2eefde6339c8229222346a8c8446c0",
+      "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1"
+    }
+  ],
+  "top2_signal_ids": [
+    "sig_3e0263baa227707fc4a75f63",
+    "sig_cb24bf5359934b12399d8d96"
+  ],
+  "signal_events": [],
+  "strategy_states": [
+    "WATCH",
+    "WATCH"
+  ],
+  "SOURCE_OF_TRUTH": "PRODUCTION_ARTIFACT_ONLY",
+  "NO_WEB_SEARCH_FOR_TRADING_DATA": true,
+  "NO_POSTHOC_RECONSTRUCTION": true,
+  "render_lines": [
+    "## Trading Desk · 盘前计划",
+    "2026-10-12　07:30 ｜ 模型账户  ",
+    "",
+    "**当前动作｜盘前准备 · 等待开盘确认**  ",
+    "",
+    "---",
+    "",
+    "市场：**等待主线确认**  ",
+    "主线 Top 3｜暂未形成符合条件的主线  ",
+    "",
+    "今日5只：**早盘锁定 · 持续跟踪**  ",
+    "",
+    "**九阳股份（002242）｜观察**  ",
+    "现价 待核验　触发 15.13–15.36　**止损 10.05**  ",
+    "动作：等待条件确认  ",
+    "",
+    "**新华传媒（600825）｜观察**  ",
+    "现价 待核验　触发 12.53–12.72　**止损 6.77**  ",
+    "动作：等待条件确认  ",
+    "",
+    "**野马电池（605378）｜观察**  ",
+    "现价 待核验　触发 18.99–19.27　**止损 14.99**  ",
+    "动作：等待条件确认  ",
+    "",
+    "**招商轮船（601872）｜观察**  ",
+    "现价 待核验　触发 22.98–23.32　**止损 20.70**  ",
+    "动作：等待条件确认  ",
+    "",
+    "**光智科技（300489）｜观察**  ",
+    "现价 待核验　触发 292.96–297.35　**止损 236.07**  ",
+    "动作：等待条件确认  ",
+    "",
+    "盘中新机会：**先看状态，再看价位**  ",
+    "",
+    "等待开盘核验。  ",
+    "",
+    "---",
+    "",
+    "模型账户：**盘前待同步**  ",
+    "账户资金与收益：等待同步核验。  ",
+    "",
+    "系统健康：**降级 · 部分数据或投递待核验**  "
+  ]
+}
