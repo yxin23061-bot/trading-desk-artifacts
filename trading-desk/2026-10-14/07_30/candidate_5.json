@@ -1,0 +1,571 @@
+{
+  "trading_day_id": "CN_A_20261014",
+  "schema_version": 1,
+  "trade_date": "2026-10-14",
+  "slot_id": "07:30",
+  "created_at": "2026-10-14T07:30:17.315276+08:00",
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "code": "605287",
+      "symbol": "605287",
+      "thscode": "605287.SH",
+      "name": "德才股份",
+      "current_price": 45.8,
+      "price": 45.8,
+      "change_pct": 3.61991,
+      "prev_close": 44.2,
+      "open_price": 48.62,
+      "open": 48.62,
+      "high": 48.62,
+      "low": 45.58,
+      "volume": 30065287.0,
+      "amount": 1440036700.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-14T07:30:11+08:00",
+      "timestamp": "2026-10-14T07:30:11+08:00",
+      "ingest_ts": "2026-10-14T07:30:13.910711+08:00",
+      "request_id": "a93e59517beb4a319fe20ada486d6d8f",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.2-20260930",
+      "scanner_hit_id": "scan_bffccc36d50183dbfda835d2",
+      "entry": 48.62,
+      "limit_up": 48.62,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 48.62,
+      "execution_zone": [
+        48.62,
+        49.35
+      ],
+      "stop": 37.01,
+      "risk_price": 37.01,
+      "tp1": 51.05,
+      "tp2": 53.48,
+      "volume_ratio": 6.365,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 81.4400367,
+      "ma": {
+        "MA5": 40.82,
+        "MA10": 37.911,
+        "MA20": 37.008,
+        "MA60": 36.743
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "文化传媒概念",
+          "乡村振兴",
+          "新型城镇化",
+          "沪股通",
+          "虚拟现实",
+          "人工智能",
+          "装配式建筑",
+          "光伏建筑一体化",
+          "AIGC概念",
+          "短剧游戏",
+          "AI视频",
+          "AI智能体",
+          "AI应用"
+        ],
+        "industry": [
+          "建筑装饰",
+          "装饰园林"
+        ],
+        "name": "德才股份",
+        "sector": [
+          "建筑装饰",
+          "装饰园林"
+        ],
+        "symbol": "605287",
+        "theme": [
+          "文化传媒概念",
+          "乡村振兴",
+          "新型城镇化",
+          "沪股通",
+          "虚拟现实",
+          "人工智能",
+          "装配式建筑",
+          "光伏建筑一体化",
+          "AIGC概念",
+          "短剧游戏",
+          "AI视频",
+          "AI智能体",
+          "AI应用"
+        ]
+      },
+      "sector_symbols": [
+        "881116.TI",
+        "884065.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-14T06:45:06.047609+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "600693",
+      "symbol": "600693",
+      "thscode": "600693.SH",
+      "name": "东百集团",
+      "current_price": 12.3,
+      "price": 12.3,
+      "change_pct": 10.017889,
+      "prev_close": 11.18,
+      "open_price": 12.3,
+      "open": 12.3,
+      "high": 12.3,
+      "low": 10.58,
+      "volume": 171583740.0,
+      "amount": 2058068600.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-14T07:30:11+08:00",
+      "timestamp": "2026-10-14T07:30:11+08:00",
+      "ingest_ts": "2026-10-14T07:30:13.910711+08:00",
+      "request_id": "a93e59517beb4a319fe20ada486d6d8f",
+      "strategy": "容量中军",
+      "tactics": [
+        "容量中军",
+        "趋势突破",
+        "二板定龙"
+      ],
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_27d9a1bfc439d9d4f12c6b4e",
+      "entry": 12.3,
+      "limit_up": 12.3,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 12.3,
+      "execution_zone": [
+        12.3,
+        12.48
+      ],
+      "stop": 9.96,
+      "risk_price": 9.96,
+      "tp1": 12.92,
+      "tp2": 13.53,
+      "volume_ratio": 2.1604,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "MAPPED",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 62.0580686,
+      "ma": {
+        "MA5": 10.486,
+        "MA10": 9.98,
+        "MA20": 9.9625,
+        "MA60": 9.4295
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "海峡两岸",
+          "融资融券",
+          "冷链物流",
+          "旅游概念",
+          "福建自贸区",
+          "沪股通",
+          "阿里巴巴概念",
+          "跨境电商",
+          "免税店",
+          "物业管理",
+          "数字经济",
+          "统一大市场",
+          "共封装光学(CPO)",
+          "IP经济(谷子经济)"
+        ],
+        "industry": [
+          "零售",
+          "百货零售"
+        ],
+        "name": "东百集团",
+        "sector": [
+          "零售",
+          "百货零售"
+        ],
+        "symbol": "600693",
+        "theme": [
+          "海峡两岸",
+          "融资融券",
+          "冷链物流",
+          "旅游概念",
+          "福建自贸区",
+          "沪股通",
+          "阿里巴巴概念",
+          "跨境电商",
+          "免税店",
+          "物业管理",
+          "数字经济",
+          "统一大市场",
+          "共封装光学(CPO)",
+          "IP经济(谷子经济)"
+        ]
+      },
+      "sector_symbols": [
+        "881158.TI",
+        "884160.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-14T06:45:06.047609+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": "光探测芯片+股权收购+商业零售",
+      "mainline_confirmed": false
+    },
+    {
+      "code": "300006",
+      "symbol": "300006",
+      "thscode": "300006.SZ",
+      "name": "莱美药业",
+      "current_price": 6.58,
+      "price": 6.58,
+      "change_pct": 0.304878,
+      "prev_close": 6.56,
+      "open_price": 6.8,
+      "open": 6.8,
+      "high": 7.37,
+      "low": 6.55,
+      "volume": 249661390.0,
+      "amount": 1709898800.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-14T07:30:11+08:00",
+      "timestamp": "2026-10-14T07:30:11+08:00",
+      "ingest_ts": "2026-10-14T07:30:13.910711+08:00",
+      "request_id": "a93e59517beb4a319fe20ada486d6d8f",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.2-20260930",
+      "scanner_hit_id": "scan_82f5a3aef129299c151fe0cf",
+      "entry": 7.37,
+      "limit_up": 7.87,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 7.37,
+      "execution_zone": [
+        7.37,
+        7.48
+      ],
+      "stop": 5.44,
+      "risk_price": 5.44,
+      "tp1": 7.74,
+      "tp2": 8.11,
+      "volume_ratio": 5.4938,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 61.7098988,
+      "ma": {
+        "MA5": 5.908,
+        "MA10": 5.681,
+        "MA20": 5.443,
+        "MA60": 5.2873
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "生物疫苗",
+          "融资融券",
+          "眼科医疗",
+          "医疗器械概念",
+          "细胞免疫治疗",
+          "医药电商",
+          "深股通",
+          "创新药",
+          "知识产权保护",
+          "仿制药一致性评价",
+          "辅助生殖",
+          "幽门螺杆菌概念",
+          "肝炎概念",
+          "国企改革",
+          "西部大开发"
+        ],
+        "industry": [
+          "化学制药",
+          "化学制剂"
+        ],
+        "name": "莱美药业",
+        "sector": [
+          "化学制药",
+          "化学制剂"
+        ],
+        "symbol": "300006",
+        "theme": [
+          "生物疫苗",
+          "融资融券",
+          "眼科医疗",
+          "医疗器械概念",
+          "细胞免疫治疗",
+          "医药电商",
+          "深股通",
+          "创新药",
+          "知识产权保护",
+          "仿制药一致性评价",
+          "辅助生殖",
+          "幽门螺杆菌概念",
+          "肝炎概念",
+          "国企改革",
+          "西部大开发"
+        ]
+      },
+      "sector_symbols": [
+        "881140.TI",
+        "884144.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-14T06:45:06.047609+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "605577",
+      "symbol": "605577",
+      "thscode": "605577.SH",
+      "name": "龙版传媒",
+      "current_price": 19.6,
+      "price": 19.6,
+      "change_pct": 9.988777,
+      "prev_close": 17.82,
+      "open_price": 19.6,
+      "open": 19.6,
+      "high": 19.6,
+      "low": 18.1,
+      "volume": 58283170.0,
+      "amount": 1116260390.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-14T07:30:11+08:00",
+      "timestamp": "2026-10-14T07:30:11+08:00",
+      "ingest_ts": "2026-10-14T07:30:13.910711+08:00",
+      "request_id": "a93e59517beb4a319fe20ada486d6d8f",
+      "strategy": "容量中军",
+      "tactics": [
+        "容量中军",
+        "趋势突破",
+        "三板定龙"
+      ],
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_a34cbed1182a96f58057eca2",
+      "entry": 19.6,
+      "limit_up": 19.6,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 19.6,
+      "execution_zone": [
+        19.6,
+        19.89
+      ],
+      "stop": 16.14,
+      "risk_price": 16.14,
+      "tp1": 20.58,
+      "tp2": 21.56,
+      "volume_ratio": 1.5977,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "MAPPED",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 61.11626039,
+      "ma": {
+        "MA5": 16.926,
+        "MA10": 16.443,
+        "MA20": 16.137,
+        "MA60": 11.8642
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "文化传媒概念",
+          "在线教育",
+          "一带一路",
+          "沪股通",
+          "黑龙江自贸区",
+          "国企改革",
+          "AI视频",
+          "IP经济(谷子经济)"
+        ],
+        "industry": [
+          "文化传媒",
+          "出版"
+        ],
+        "name": "龙版传媒",
+        "sector": [
+          "文化传媒",
+          "出版"
+        ],
+        "symbol": "605577",
+        "theme": [
+          "文化传媒概念",
+          "在线教育",
+          "一带一路",
+          "沪股通",
+          "黑龙江自贸区",
+          "国企改革",
+          "AI视频",
+          "IP经济(谷子经济)"
+        ]
+      },
+      "sector_symbols": [
+        "881164.TI",
+        "884176.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-14T06:45:06.047609+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": "AI漫剧+数字出版+出版发行",
+      "mainline_confirmed": false
+    },
+    {
+      "code": "300489",
+      "symbol": "300489",
+      "thscode": "300489.SZ",
+      "name": "光智科技",
+      "current_price": 301.22,
+      "price": 301.22,
+      "change_pct": 14.072559,
+      "prev_close": 264.06,
+      "open_price": 250.0,
+      "open": 250.0,
+      "high": 313.0,
+      "low": 250.0,
+      "volume": 18697900.0,
+      "amount": 5291344000.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-14T07:30:11+08:00",
+      "timestamp": "2026-10-14T07:30:11+08:00",
+      "ingest_ts": "2026-10-14T07:30:13.910711+08:00",
+      "request_id": "a93e59517beb4a319fe20ada486d6d8f",
+      "strategy": "容量中军",
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_93cd1cb8b2b8cf575c4d2f1c",
+      "entry": 313.0,
+      "limit_up": 316.87,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 313.0,
+      "execution_zone": [
+        313.0,
+        317.69
+      ],
+      "stop": 242.13,
+      "risk_price": 242.13,
+      "tp1": 328.65,
+      "tp2": 344.3,
+      "volume_ratio": 1.4378,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "score": 45.291344,
+      "ma": {
+        "MA5": 277.09,
+        "MA10": 268.443,
+        "MA20": 242.1345,
+        "MA60": 220.0885
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "新能源汽车",
+          "核电",
+          "无人机",
+          "无人驾驶",
+          "深股通",
+          "氢能源",
+          "第三代半导体",
+          "先进封装",
+          "核污染防治",
+          "低空经济"
+        ],
+        "industry": [
+          "光学光电子",
+          "光学元件"
+        ],
+        "name": "光智科技",
+        "sector": [
+          "光学光电子",
+          "光学元件"
+        ],
+        "symbol": "300489",
+        "theme": [
+          "新能源汽车",
+          "核电",
+          "无人机",
+          "无人驾驶",
+          "深股通",
+          "氢能源",
+          "第三代半导体",
+          "先进封装",
+          "核污染防治",
+          "低空经济"
+        ]
+      },
+      "sector_symbols": [
+        "881122.TI",
+        "884096.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-14T06:45:06.047609+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    }
+  ],
+  "insufficient_reason": null
+}
