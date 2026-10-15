@@ -1,0 +1,4699 @@
+{
+  "generated_at": "2026-10-15T09:35:50.613088+08:00",
+  "intraday_tracking": {
+    "A_CHAIN": "OK",
+    "B_CHAIN": "OK",
+    "admission": {
+      "admission_mode": "LIFECYCLE_ONLY",
+      "chain": "B",
+      "count_unit": "UNIQUE_CODE_STRATEGY_SOURCE",
+      "coverage": {
+        "determined": 5365,
+        "meets_minimum": true,
+        "minimum": 0.95,
+        "missing": 1,
+        "outside_mainline": 5269,
+        "ratio": 0.9998136414461424,
+        "scope": "ORIGINAL_SCANNER_CANDIDATE_STOCKS",
+        "source": "HITHINK_CURRENT_INDEX_MEMBERSHIP_V1",
+        "total": 5366
+      },
+      "independent_audit": {
+        "agent": "AuditAgent",
+        "event_count": 0,
+        "model_only": true,
+        "real_trading_enabled": false,
+        "status": "PASS"
+      },
+      "not_evaluated_candidates": [
+        {
+          "code": "000002",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000011",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000055",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000088",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000089",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000156",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000409",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000498",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000503",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000516",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000530",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000538",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000550",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000570",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000573",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000607",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000626",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000635",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000665",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000678",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000690",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000692",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000710",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000719",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000722",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000739",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000768",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000823",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000828",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000829",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000869",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000892",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000972",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000993",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "000995",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001206",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001211",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001216",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001225",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001228",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001231",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001238",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001266",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001283",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001299",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001317",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001318",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001322",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001323",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001325",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001326",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001330",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001338",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001368",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001872",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001914",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001965",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "001979",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002003",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002014",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002022",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002029",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002030",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002039",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002058",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002086",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002099",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002103",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002142",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002148",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002164",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002172",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002181",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002184",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002212",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002238",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002242",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002246",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002259",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002264",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002291",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002292",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002322",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002329",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002331",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002332",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002343",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002349",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002354",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002374",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002376",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002382",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002384",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002395",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002404",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002419",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002425",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002439",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002441",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002445",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002463",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002469",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002474",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002480",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002481",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002508",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002577",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002597",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002608",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002609",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002614",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002623",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002639",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002640",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002659",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002679",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002687",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002693",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002696",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002697",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002702",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002712",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002724",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002728",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002755",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002761",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002774",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002780",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002799",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002811",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002813",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002815",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002818",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002820",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002832",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002860",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002862",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002866",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002869",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002878",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002882",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002893",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002899",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002905",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002907",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002908",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002911",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002912",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002913",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002917",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002961",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002972",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002980",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002990",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "002995",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "003005",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "003006",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "003029",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "003037",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "003816",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300006",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300031",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300061",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300072",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300079",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300096",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300107",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300111",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300121",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300133",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300148",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300182",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300192",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300194",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300199",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300225",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300226",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300234",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300235",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300239",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300244",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300271",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300289",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300291",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300299",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300300",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300308",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300324",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300333",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300350",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300358",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300359",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300364",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300368",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300369",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300386",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300389",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300413",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300426",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300434",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300439",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300473",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300489",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300498",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300501",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300502",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300516",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300522",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300523",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300530",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300546",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300556",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300579",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300612",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300634",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300637",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300642",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300647",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300659",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300675",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300676",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300702",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300715",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300740",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300746",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300750",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300760",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300770",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300781",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300787",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300791",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300792",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300805",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300824",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300829",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300832",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300833",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300845",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300847",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300852",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300860",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300872",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300888",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300906",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300908",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300915",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300941",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300960",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300964",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300981",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300987",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300989",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300990",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "300997",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301001",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301010",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301011",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301015",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301025",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301036",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301041",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301047",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301052",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301066",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301081",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301102",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301108",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301118",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301119",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301122",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301127",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301132",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301166",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301181",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301190",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301195",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301206",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301207",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301210",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301211",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301218",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301220",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301226",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301231",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301234",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301251",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301262",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301279",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301282",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301299",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301310",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301311",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301315",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301318",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301356",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301372",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301378",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301419",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301486",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301487",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301507",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301513",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301550",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301551",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301558",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301560",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301592",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301608",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301658",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "301678",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "302132",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600000",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600004",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600007",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600011",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600018",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600019",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600020",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600023",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600025",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600026",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600027",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600028",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600033",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600035",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600036",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600037",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600039",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600048",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600052",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600064",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600066",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600072",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600098",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600121",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600127",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600167",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600177",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600189",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600199",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600202",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600207",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600210",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600223",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600228",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600229",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600237",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600241",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600246",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600249",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600256",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600295",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600301",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600303",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600310",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600312",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600315",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600316",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600318",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600325",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600333",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600351",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600358",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600368",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600373",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600377",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600400",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600403",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600408",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600419",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600429",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600551",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600556",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600558",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600560",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600562",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600571",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600573",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600577",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600582",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600583",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600593",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600597",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600598",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600603",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600605",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600617",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600621",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600629",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600637",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600640",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600641",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600642",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600661",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600674",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600679",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600681",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600693",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600715",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600717",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600746",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600764",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600785",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600787",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600789",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600795",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600802",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600803",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600812",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600831",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600843",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600847",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600851",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600853",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600863",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600864",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600874",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600886",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600887",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600892",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600900",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600901",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600919",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600938",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600941",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600959",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600968",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "600977",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601001",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601018",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601033",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601077",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601083",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601088",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601098",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601107",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601139",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601169",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601188",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601225",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601228",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601229",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601288",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601298",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601326",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601328",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601368",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601398",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601518",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601519",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601528",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601566",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601595",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601598",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601599",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601658",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601728",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601766",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601801",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601808",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601811",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601825",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601857",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601880",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601898",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601900",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601919",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601921",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601929",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601939",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601949",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601956",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601963",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601985",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601988",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601992",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601998",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "601999",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603000",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603001",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603067",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603071",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603073",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603096",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603099",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603101",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603103",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603105",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603116",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603153",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603155",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603170",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603183",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603188",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603200",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603209",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603216",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603228",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603232",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603235",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603258",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603266",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603276",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603289",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603328",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603329",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603355",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603373",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603386",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603391",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603418",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603456",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603458",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603466",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603500",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603511",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603519",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603528",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603529",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603533",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603565",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603578",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603580",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603598",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603602",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603636",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603665",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603669",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603689",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603711",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603721",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603727",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603755",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603766",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603776",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603798",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603818",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603863",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603868",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603882",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603883",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603889",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603898",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603919",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603927",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603939",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603948",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603956",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603967",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603968",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603976",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603978",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603980",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603986",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603995",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "603999",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "605009",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "605058",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "605089",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "605100",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "605136",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "605188",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "605228",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "605258",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "605287",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "605368",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "605388",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "605398",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "605577",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688004",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688008",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688018",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688023",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688026",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688030",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688137",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688152",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688156",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688175",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688178",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688185",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688186",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688193",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688196",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688199",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688225",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688228",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688244",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688256",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688265",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688276",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688311",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688315",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688356",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688365",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688388",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688489",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688499",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688517",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688543",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688552",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688561",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688575",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688586",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688606",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688613",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688617",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688655",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688661",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688739",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688768",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "688825",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920006",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920021",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920066",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920075",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920174",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920206",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920227",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920262",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920344",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920429",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920509",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920592",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920599",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920627",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920735",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920748",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920779",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920799",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920873",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920946",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920976",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        },
+        {
+          "code": "920992",
+          "decision": "NOT_EVALUATED_FOR_SLOT",
+          "reason": "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT"
+        }
+      ],
+      "observed_at": "2026-10-15T09:35:50.613088+08:00",
+      "opportunities": [],
+      "opportunity_observations": [],
+      "opportunity_reconciliation": {
+        "accounted_candidates": 634,
+        "first_rejection_counts": {},
+        "not_evaluated_candidates": 634,
+        "not_evaluated_reason_counts": {
+          "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT": 634
+        },
+        "outcomes": {},
+        "scanner_hits": 634,
+        "status": "PASS",
+        "unique_opportunities": 0,
+        "unique_scanner_candidates": 634
+      },
+      "qualification_data_status": "NOT_EVALUATED",
+      "qualification_rule_version": "CANONICAL_ENTRY_V2_20260916",
+      "rows": [],
+      "slot": "09:35",
+      "summary": {
+        "DATA_INSUFFICIENT": 0,
+        "EXECUTABLE": 0,
+        "EXISTING_SIGNAL": 0,
+        "FILLED": 0,
+        "MERGED_STRATEGY_VOTE": 0,
+        "NEW_SIGNAL": 0,
+        "QUALIFIED": 0,
+        "STRATEGY_REJECTED": 0,
+        "all_rejection_counts": {},
+        "evaluated_setups": 0,
+        "execution_rejection_counts": {},
+        "first_rejection_counts": {},
+        "qualified_opportunities": 0
+      },
+      "trade_date": "2026-10-15"
+    },
+    "alert_error": null,
+    "alert_events": [],
+    "chain_errors": {},
+    "funnel": {
+      "admission_mode": "LIFECYCLE_ONLY",
+      "admission_status": "AUDITED",
+      "buy_event_count": 0,
+      "confirmed_signals": 0,
+      "data_insufficient": 0,
+      "executable_signals": 0,
+      "execution_rejection_counts": {},
+      "existing_signals": 0,
+      "exit_event_count": 0,
+      "model_fills": 0,
+      "not_evaluated_candidates": 634,
+      "observed_new_signals": 0,
+      "opportunity_reconciliation": {
+        "accounted_candidates": 634,
+        "first_rejection_counts": {},
+        "not_evaluated_candidates": 634,
+        "not_evaluated_reason_counts": {
+          "DYNAMIC_DISCOVERY_DISABLED_FOR_SLOT": 634
+        },
+        "outcomes": {},
+        "scanner_hits": 634,
+        "status": "PASS",
+        "unique_opportunities": 0,
+        "unique_scanner_candidates": 634
+      },
+      "qualification_coverage": {
+        "determined": 5365,
+        "meets_minimum": true,
+        "minimum": 0.95,
+        "missing": 1,
+        "outside_mainline": 5269,
+        "ratio": 0.9998136414461424,
+        "scope": "ORIGINAL_SCANNER_CANDIDATE_STOCKS",
+        "source": "HITHINK_CURRENT_INDEX_MEMBERSHIP_V1",
+        "total": 5366
+      },
+      "qualification_data_status": "NOT_EVALUATED",
+      "qualified_opportunities": 0,
+      "qualified_setups": 0,
+      "qualified_strategy_votes": 0,
+      "scanner_hits": 634,
+      "signals": 0,
+      "strategy_rejected": 0,
+      "top_execution": 0,
+      "universe": 5378
+    },
+    "model_account": {
+      "account_return_pct": null,
+      "account_status": "PASS",
+      "capital_basis_status": "FUNDING_LEDGER_UNVERIFIED",
+      "cash": 11830070.14,
+      "historical_review_open_positions": 0,
+      "inferred_net_funding": 12000000.0,
+      "mark_asof": "2026-10-15T09:35:50.613088+08:00",
+      "market_value": 0,
+      "net_asset_value": 11830070.14,
+      "position_count": 0,
+      "position_rules": "EXISTING_BROKER_UNCHANGED",
+      "positions": [],
+      "priced_positions": 0,
+      "real_positions_read": false,
+      "realized_pnl_all_books": -169929.86,
+      "scope": "MODEL_ACCOUNT_ONLY",
+      "total_pnl_all_books": -169929.86,
+      "unique_held_symbols": 0,
+      "unrealized_pnl": 0,
+      "verified_strategy_closed_count": 102,
+      "verified_strategy_realized_pnl": -129267.47
+    },
+    "model_fill_count": 0,
+    "model_position_count": 0,
+    "opportunity_observations": [],
+    "real_positions_read": false,
+    "reconciliation": {
+      "counts": {
+        "BUY_EVENT_COUNT": 210,
+        "CLOSED_POSITION_COUNT": 210,
+        "EXIT_EVENT_COUNT": 210,
+        "MODEL_POSITION_CREATED_COUNT": 210,
+        "OPEN_MODEL_POSITION_COUNT": 0,
+        "RENDERER_POSITION_COUNT": 0
+      },
+      "errors": [],
+      "real_positions_read": false,
+      "slot_buy_count": 0,
+      "slot_sell_count": 0,
+      "sources": [
+        {
+          "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/A/signal_event.jsonl",
+          "sha256": "1b54ac4e3e6d916996ba0f20153391446749043e98573e0a9e114bdd4c01c9b2"
+        },
+        {
+          "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/A/model_portfolio/paper_broker.json",
+          "sha256": "2211a99c78a90304be1f5313b3b9c93fa8097fa6fbf4db572ec352e3e8ef8dcc"
+        },
+        {
+          "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/signal_event.jsonl",
+          "sha256": "368bfb669ffd76271277504c8249f9cc93f436d3eac7ef511346c6532ad2df2f"
+        },
+        {
+          "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/model_portfolio/paper_broker.json",
+          "sha256": "8f13a6700c434eb928b58ce44f47cf93f90abec61447263e42711b2613fff26e"
+        },
+        {
+          "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/fill_imports.jsonl",
+          "sha256": "120022ae3556f456fe85cd960ada921587357c4851de045f85ed00fe510353a3"
+        }
+      ],
+      "status": "PASS"
+    },
+    "render_lines": [
+      "> 模型账户（PaperBroker 模拟）｜以下为模拟状态与模拟成交，非实盘指令，不构成买卖建议。  ",
+      "## Trading Desk · 交易盯盘",
+      "2026-10-15　09:35 ｜ 模型账户  ",
+      "",
+      "**当前状态｜不新增 · 优先跟踪已有持仓风险**  ",
+      "漏斗｜扫描 5 → 合格 5 → 确认 0 → 可执行 0 → 成交 0  ",
+      "",
+      "---",
+      "",
+      "市场：**禁止新增**  ",
+      "主线 Top 3｜**印制电路板** · **出版** · **游戏**  ",
+      "",
+      "今日5只：**早盘锁定 · 持续跟踪**  ",
+      "",
+      "**兴森科技（002436）｜已取消**  ",
+      "现价 37.09　触发 48.76–49.49　**止损 40.83**  ",
+      "模型状态：本次不再触发  ",
+      "",
+      "**晶雪节能（301010）｜观察**  ",
+      "现价 25.80　触发 28.37–28.80　**止损 19.34**  ",
+      "模型状态：等待条件确认  ",
+      "",
+      "**雪人集团（002639）｜观察**  ",
+      "现价 14.96　触发 15.99–16.23　**止损 13.87**  ",
+      "模型状态：等待条件确认  ",
+      "",
+      "**大连圣亚（600593）｜观察**  ",
+      "现价 51.53　触发 54.81–55.63　**止损 45.48**  ",
+      "模型状态：等待条件确认  ",
+      "",
+      "**宝通科技（300031）｜观察**  ",
+      "现价 23.24　触发 24.00–24.36　**止损 20.72**  ",
+      "模型状态：等待条件确认  ",
+      "",
+      "盘中新机会：**先看状态，再看价位**  ",
+      "",
+      "当前没有仍有效的盘中新机会。  ",
+      "",
+      "---",
+      "",
+      "模型账户：**持有 0只 / 0笔｜新买 0｜止盈 0｜止损 0**  ",
+      "可用现金 **11,830,070.14 元**　持仓市值 0.00 元  ",
+      "账户账面已实现 **-169,929.86 元**　持仓浮盈亏 **0.00 元**  ",
+      "账户合计盈亏 **-169,929.86 元**（账面口径，包含待复核历史交易）  ",
+      "账户收益率：本金流水未完整核验，暂不显示。  ",
+      "估值时点：2026-10-15 09:35:50；浮盈亏已扣买入费用，未扣未来卖出费用。  ",
+      "已核验战法样本：102笔已结束，净损益 -129,267.47 元；此数不代表整个账户收益。  ",
+      "",
+      "系统健康：**降级 · 部分数据或投递待核验**  "
+    ],
+    "signal_contract": "PASS",
+    "signals": [
+      {
+        "action": "CANCEL",
+        "amount": 555625410.0,
+        "code": "002436",
+        "definition": {
+          "baseline": 36.19,
+          "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+          "benchmark_symbol": "000001.SH",
+          "buy_condition": {
+            "high": 49.49,
+            "low": 48.76,
+            "type": "PRICE_IN_ZONE"
+          },
+          "candidate_id": "2026-10-15:05:002436",
+          "code": "002436",
+          "code_sha256": "a2ff3e7f4984105665f61d8e1d50333f0901c608b0d22d6544e0fd45b67281bb",
+          "confirm_condition": {
+            "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+          },
+          "confirm_conditions": {
+            "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+          },
+          "created_at": "2026-10-15T07:30:21.397424+08:00",
+          "execution_zone": [
+            48.76,
+            49.49
+          ],
+          "experiment_id": "forward-paper:4e0f491",
+          "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1",
+          "input_sha256": "6fd6a5c5c381cc6d8a21a116d3d82e445386d0de04959064fbb4f99ef44476f6",
+          "last_transition": "2026-10-15T07:30:21.397424+08:00",
+          "last_update": "2026-10-15T07:30:21.397424+08:00",
+          "limit_up": 39.81,
+          "mainline_hypothesis": null,
+          "name": "兴森科技",
+          "rank_0730": 5,
+          "risk_level": "UNASSESSED",
+          "risk_price": 40.83,
+          "sector_membership_observed_at": "2026-10-15T06:45:07.182561+08:00",
+          "sector_symbols": [
+            "881270.TI",
+            "884092.TI"
+          ],
+          "setup_type": "弱转强/反包",
+          "signal_id": "sig_505089effa4e976703a99c8d",
+          "source_scan_priority": 46.0899495,
+          "source_score": null,
+          "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+          "source_tactics": [
+            "弱转强/反包",
+            "容量中军"
+          ],
+          "source_timestamp": "2026-10-15T07:30:16+08:00",
+          "source_type": "TODAY_CANDIDATES",
+          "status": "WATCH",
+          "stop": 40.83,
+          "strategy": "弱转强/反包",
+          "strategy_family": "弱转强/反包",
+          "strategy_id": "weak_to_strong_reversal",
+          "strategy_version": "v1.0.0-20260917",
+          "symbol": "002436",
+          "time_stop": "2026-10-15T14:50:00+08:00",
+          "top2_fixed": false,
+          "tp1": 51.2,
+          "tp2": 53.64,
+          "trade_date": "2026-10-15",
+          "trading_date": "2026-10-15",
+          "trigger": 48.76,
+          "trigger_high": 49.49,
+          "trigger_low": 48.76,
+          "trigger_range": {
+            "high": 49.49,
+            "low": 48.76,
+            "reference_price": 48.76
+          }
+        },
+        "execution_checked_at": "2026-10-15T09:36:27.630843+08:00",
+        "execution_eligible": false,
+        "execution_zone": [
+          48.76,
+          49.49
+        ],
+        "fill": null,
+        "high": 37.29,
+        "join_status": "PASS",
+        "last_price": 37.09,
+        "limit_down": null,
+        "limit_up": null,
+        "low": 35.55,
+        "model_only": true,
+        "name": "兴森科技",
+        "new_state": "CANCEL",
+        "observed_at": "2026-10-15T09:35:50.613088+08:00",
+        "old_state": "CANCEL",
+        "open": 35.58,
+        "price": 37.09,
+        "quote_symbol": "002436.SZ",
+        "quote_timestamp": "2026-10-15T09:35:30+08:00",
+        "real_position_action": false,
+        "reason": "TERMINAL_PRESERVED",
+        "risk_price": 40.83,
+        "signal_id": "sig_505089effa4e976703a99c8d",
+        "slot": "09:35",
+        "source_timestamp": "2026-10-15T07:30:16+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "stop": 40.83,
+        "strategy": "弱转强/反包",
+        "symbol": "002436",
+        "terminal": true,
+        "tp1": 51.2,
+        "tp2": 53.64,
+        "trade_date": "2026-10-15",
+        "trading_day_id": "CN_A_20261015",
+        "trigger": 48.76,
+        "trigger_confirmed": false,
+        "volume": 15207134.0
+      },
+      {
+        "action": "WATCH",
+        "amount": 156388650.0,
+        "code": "301010",
+        "definition": {
+          "baseline": 23.7,
+          "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+          "benchmark_symbol": "000001.SH",
+          "buy_condition": {
+            "high": 28.8,
+            "low": 28.37,
+            "type": "PRICE_IN_ZONE"
+          },
+          "candidate_id": "2026-10-15:04:301010",
+          "code": "301010",
+          "code_sha256": "a2ff3e7f4984105665f61d8e1d50333f0901c608b0d22d6544e0fd45b67281bb",
+          "confirm_condition": {
+            "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+          },
+          "confirm_conditions": {
+            "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+          },
+          "created_at": "2026-10-15T07:30:21.397424+08:00",
+          "execution_zone": [
+            28.37,
+            28.8
+          ],
+          "experiment_id": "forward-paper:4e0f491",
+          "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1",
+          "input_sha256": "6fd6a5c5c381cc6d8a21a116d3d82e445386d0de04959064fbb4f99ef44476f6",
+          "last_transition": "2026-10-15T07:30:21.397424+08:00",
+          "last_update": "2026-10-15T07:30:21.397424+08:00",
+          "limit_up": 28.44,
+          "mainline_hypothesis": null,
+          "name": "晶雪节能",
+          "rank_0730": 4,
+          "risk_level": "UNASSESSED",
+          "risk_price": 19.34,
+          "sector_membership_observed_at": "2026-10-15T06:45:07.182561+08:00",
+          "sector_symbols": [
+            "881115.TI",
+            "884062.TI"
+          ],
+          "setup_type": "首阴",
+          "signal_id": "sig_5aa6a39cd2cadc1227b3e6d3",
+          "source_scan_priority": 60.71453049,
+          "source_score": null,
+          "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+          "source_tactics": [
+            "首阴",
+            "弱转强/反包",
+            "趋势突破"
+          ],
+          "source_timestamp": "2026-10-15T07:30:16+08:00",
+          "source_type": "TODAY_CANDIDATES",
+          "status": "WATCH",
+          "stop": 19.34,
+          "strategy": "首阴",
+          "strategy_family": "龙头首阴",
+          "strategy_id": "dragon_first_yin",
+          "strategy_version": "v1.0.2-20260930",
+          "symbol": "301010",
+          "time_stop": "2026-10-15T14:50:00+08:00",
+          "top2_fixed": false,
+          "tp1": 29.79,
+          "tp2": 31.21,
+          "trade_date": "2026-10-15",
+          "trading_date": "2026-10-15",
+          "trigger": 28.37,
+          "trigger_high": 28.8,
+          "trigger_low": 28.37,
+          "trigger_range": {
+            "high": 28.8,
+            "low": 28.37,
+            "reference_price": 28.37
+          }
+        },
+        "execution_checked_at": "2026-10-15T09:36:27.638715+08:00",
+        "execution_eligible": false,
+        "execution_zone": [
+          28.37,
+          28.8
+        ],
+        "fill": null,
+        "high": 26.88,
+        "join_status": "PASS",
+        "last_price": 25.8,
+        "limit_down": null,
+        "limit_up": null,
+        "low": 25.04,
+        "model_only": true,
+        "name": "晶雪节能",
+        "new_state": "WATCH",
+        "observed_at": "2026-10-15T09:35:50.613088+08:00",
+        "old_state": "WATCH",
+        "open": 25.04,
+        "price": 25.8,
+        "quote_symbol": "301010.SZ",
+        "quote_timestamp": "2026-10-15T09:35:30+08:00",
+        "real_position_action": false,
+        "reason": "PRICE_OUTSIDE_TRIGGER_ZONE",
+        "risk_price": 19.34,
+        "signal_id": "sig_5aa6a39cd2cadc1227b3e6d3",
+        "slot": "09:35",
+        "source_timestamp": "2026-10-15T07:30:16+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "stop": 19.34,
+        "strategy": "首阴",
+        "symbol": "301010",
+        "terminal": false,
+        "tp1": 29.79,
+        "tp2": 31.21,
+        "trade_date": "2026-10-15",
+        "trading_day_id": "CN_A_20261015",
+        "trigger": 28.37,
+        "trigger_confirmed": false,
+        "volume": 6043926.0
+      },
+      {
+        "action": "WATCH",
+        "amount": 407841140.0,
+        "code": "002639",
+        "definition": {
+          "baseline": 14.59,
+          "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+          "benchmark_symbol": "000001.SH",
+          "buy_condition": {
+            "high": 16.23,
+            "low": 15.99,
+            "type": "PRICE_IN_ZONE"
+          },
+          "candidate_id": "2026-10-15:01:002639",
+          "code": "002639",
+          "code_sha256": "a2ff3e7f4984105665f61d8e1d50333f0901c608b0d22d6544e0fd45b67281bb",
+          "confirm_condition": {
+            "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+          },
+          "confirm_conditions": {
+            "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+          },
+          "created_at": "2026-10-15T07:30:21.397424+08:00",
+          "execution_zone": [
+            15.99,
+            16.23
+          ],
+          "experiment_id": "forward-paper:4e0f491",
+          "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1",
+          "input_sha256": "6fd6a5c5c381cc6d8a21a116d3d82e445386d0de04959064fbb4f99ef44476f6",
+          "last_transition": "2026-10-15T07:30:21.397424+08:00",
+          "last_update": "2026-10-15T07:30:21.397424+08:00",
+          "limit_up": 16.05,
+          "mainline_hypothesis": null,
+          "name": "雪人集团",
+          "rank_0730": 1,
+          "risk_level": "UNASSESSED",
+          "risk_price": 13.87,
+          "sector_membership_observed_at": "2026-10-15T06:45:07.182561+08:00",
+          "sector_symbols": [
+            "881117.TI",
+            "884073.TI"
+          ],
+          "setup_type": "首阴",
+          "signal_id": "sig_b1e16d005f8ffb431116661c",
+          "source_scan_priority": 82.922718,
+          "source_score": null,
+          "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+          "source_tactics": [
+            "首阴",
+            "弱转强/反包",
+            "容量中军",
+            "趋势突破"
+          ],
+          "source_timestamp": "2026-10-15T07:30:16+08:00",
+          "source_type": "TODAY_CANDIDATES",
+          "status": "WATCH",
+          "stop": 13.87,
+          "strategy": "首阴",
+          "strategy_family": "龙头首阴",
+          "strategy_id": "dragon_first_yin",
+          "strategy_version": "v1.0.2-20260930",
+          "symbol": "002639",
+          "time_stop": "2026-10-15T14:50:00+08:00",
+          "top2_fixed": true,
+          "tp1": 16.79,
+          "tp2": 17.59,
+          "trade_date": "2026-10-15",
+          "trading_date": "2026-10-15",
+          "trigger": 15.99,
+          "trigger_high": 16.23,
+          "trigger_low": 15.99,
+          "trigger_range": {
+            "high": 16.23,
+            "low": 15.99,
+            "reference_price": 15.99
+          }
+        },
+        "execution_checked_at": "2026-10-15T09:36:27.638963+08:00",
+        "execution_eligible": false,
+        "execution_zone": [
+          15.99,
+          16.23
+        ],
+        "fill": null,
+        "high": 15.18,
+        "join_status": "PASS",
+        "last_price": 14.96,
+        "limit_down": null,
+        "limit_up": null,
+        "low": 14.51,
+        "model_only": true,
+        "name": "雪人集团",
+        "new_state": "WATCH",
+        "observed_at": "2026-10-15T09:35:50.613088+08:00",
+        "old_state": "WATCH",
+        "open": 15.0,
+        "price": 14.96,
+        "quote_symbol": "002639.SZ",
+        "quote_timestamp": "2026-10-15T09:35:30+08:00",
+        "real_position_action": false,
+        "reason": "PRICE_OUTSIDE_TRIGGER_ZONE",
+        "risk_price": 13.87,
+        "signal_id": "sig_b1e16d005f8ffb431116661c",
+        "slot": "09:35",
+        "source_timestamp": "2026-10-15T07:30:16+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "stop": 13.87,
+        "strategy": "首阴",
+        "symbol": "002639",
+        "terminal": false,
+        "tp1": 16.79,
+        "tp2": 17.59,
+        "trade_date": "2026-10-15",
+        "trading_day_id": "CN_A_20261015",
+        "trigger": 15.99,
+        "trigger_confirmed": false,
+        "volume": 27315663.0
+      },
+      {
+        "action": "WATCH",
+        "amount": 175099700.0,
+        "code": "600593",
+        "definition": {
+          "baseline": 49.83,
+          "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+          "benchmark_symbol": "000001.SH",
+          "buy_condition": {
+            "high": 55.63,
+            "low": 54.81,
+            "type": "PRICE_IN_ZONE"
+          },
+          "candidate_id": "2026-10-15:02:600593",
+          "code": "600593",
+          "code_sha256": "a2ff3e7f4984105665f61d8e1d50333f0901c608b0d22d6544e0fd45b67281bb",
+          "confirm_condition": {
+            "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+          },
+          "confirm_conditions": {
+            "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+          },
+          "created_at": "2026-10-15T07:30:21.397424+08:00",
+          "execution_zone": [
+            54.81,
+            55.63
+          ],
+          "experiment_id": "forward-paper:4e0f491",
+          "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1",
+          "input_sha256": "6fd6a5c5c381cc6d8a21a116d3d82e445386d0de04959064fbb4f99ef44476f6",
+          "last_transition": "2026-10-15T07:30:21.397424+08:00",
+          "last_update": "2026-10-15T07:30:21.397424+08:00",
+          "limit_up": 54.81,
+          "mainline_hypothesis": null,
+          "name": "大连圣亚",
+          "rank_0730": 2,
+          "risk_level": "UNASSESSED",
+          "risk_price": 45.48,
+          "sector_membership_observed_at": "2026-10-15T06:45:07.182561+08:00",
+          "sector_symbols": [
+            "881160.TI",
+            "884163.TI"
+          ],
+          "setup_type": "首阴",
+          "signal_id": "sig_bdb76b7553aaafc2f0adf703",
+          "source_scan_priority": 81.00261925,
+          "source_score": null,
+          "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+          "source_tactics": [
+            "首阴",
+            "弱转强/反包",
+            "容量中军",
+            "趋势突破"
+          ],
+          "source_timestamp": "2026-10-15T07:30:16+08:00",
+          "source_type": "TODAY_CANDIDATES",
+          "status": "WATCH",
+          "stop": 45.48,
+          "strategy": "首阴",
+          "strategy_family": "龙头首阴",
+          "strategy_id": "dragon_first_yin",
+          "strategy_version": "v1.0.2-20260930",
+          "symbol": "600593",
+          "time_stop": "2026-10-15T14:50:00+08:00",
+          "top2_fixed": true,
+          "tp1": 57.55,
+          "tp2": 60.29,
+          "trade_date": "2026-10-15",
+          "trading_date": "2026-10-15",
+          "trigger": 54.81,
+          "trigger_high": 55.63,
+          "trigger_low": 54.81,
+          "trigger_range": {
+            "high": 55.63,
+            "low": 54.81,
+            "reference_price": 54.81
+          }
+        },
+        "execution_checked_at": "2026-10-15T09:36:27.639070+08:00",
+        "execution_eligible": false,
+        "execution_zone": [
+          54.81,
+          55.63
+        ],
+        "fill": null,
+        "high": 52.7,
+        "join_status": "PASS",
+        "last_price": 51.53,
+        "limit_down": null,
+        "limit_up": null,
+        "low": 50.0,
+        "model_only": true,
+        "name": "大连圣亚",
+        "new_state": "WATCH",
+        "observed_at": "2026-10-15T09:35:50.613088+08:00",
+        "old_state": "WATCH",
+        "open": 52.46,
+        "price": 51.53,
+        "quote_symbol": "600593.SH",
+        "quote_timestamp": "2026-10-15T09:35:30+08:00",
+        "real_position_action": false,
+        "reason": "PRICE_OUTSIDE_TRIGGER_ZONE",
+        "risk_price": 45.48,
+        "signal_id": "sig_bdb76b7553aaafc2f0adf703",
+        "slot": "09:35",
+        "source_timestamp": "2026-10-15T07:30:16+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "stop": 45.48,
+        "strategy": "首阴",
+        "symbol": "600593",
+        "terminal": false,
+        "tp1": 57.55,
+        "tp2": 60.29,
+        "trade_date": "2026-10-15",
+        "trading_day_id": "CN_A_20261015",
+        "trigger": 54.81,
+        "trigger_confirmed": false,
+        "volume": 3404500.0
+      },
+      {
+        "action": "WATCH",
+        "amount": 210893080.0,
+        "code": "300031",
+        "definition": {
+          "baseline": 21.47,
+          "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+          "benchmark_symbol": "000001.SH",
+          "buy_condition": {
+            "high": 24.36,
+            "low": 24.0,
+            "type": "PRICE_IN_ZONE"
+          },
+          "candidate_id": "2026-10-15:03:300031",
+          "code": "300031",
+          "code_sha256": "a2ff3e7f4984105665f61d8e1d50333f0901c608b0d22d6544e0fd45b67281bb",
+          "confirm_condition": {
+            "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+          },
+          "confirm_conditions": {
+            "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+          },
+          "created_at": "2026-10-15T07:30:21.397424+08:00",
+          "execution_zone": [
+            24.0,
+            24.36
+          ],
+          "experiment_id": "forward-paper:4e0f491",
+          "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1",
+          "input_sha256": "6fd6a5c5c381cc6d8a21a116d3d82e445386d0de04959064fbb4f99ef44476f6",
+          "last_transition": "2026-10-15T07:30:21.397424+08:00",
+          "last_update": "2026-10-15T07:30:21.397424+08:00",
+          "limit_up": 25.76,
+          "mainline_hypothesis": null,
+          "name": "宝通科技",
+          "rank_0730": 3,
+          "risk_level": "UNASSESSED",
+          "risk_price": 20.72,
+          "sector_membership_observed_at": "2026-10-15T06:45:07.182561+08:00",
+          "sector_symbols": [
+            "881275.TI"
+          ],
+          "setup_type": "弱转强/反包",
+          "signal_id": "sig_fb0a1b7daa2d7ad6daacdcaf",
+          "source_scan_priority": 61.4831659,
+          "source_score": null,
+          "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+          "source_tactics": [
+            "弱转强/反包",
+            "容量中军",
+            "趋势突破"
+          ],
+          "source_timestamp": "2026-10-15T07:30:16+08:00",
+          "source_type": "TODAY_CANDIDATES",
+          "status": "WATCH",
+          "stop": 20.72,
+          "strategy": "弱转强/反包",
+          "strategy_family": "弱转强/反包",
+          "strategy_id": "weak_to_strong_reversal",
+          "strategy_version": "v1.0.0-20260917",
+          "symbol": "300031",
+          "time_stop": "2026-10-15T14:50:00+08:00",
+          "top2_fixed": false,
+          "tp1": 25.2,
+          "tp2": 26.4,
+          "trade_date": "2026-10-15",
+          "trading_date": "2026-10-15",
+          "trigger": 24.0,
+          "trigger_high": 24.36,
+          "trigger_low": 24.0,
+          "trigger_range": {
+            "high": 24.36,
+            "low": 24.0,
+            "reference_price": 24.0
+          }
+        },
+        "execution_checked_at": "2026-10-15T09:36:27.639161+08:00",
+        "execution_eligible": false,
+        "execution_zone": [
+          24.0,
+          24.36
+        ],
+        "fill": null,
+        "high": 23.47,
+        "join_status": "PASS",
+        "last_price": 23.24,
+        "limit_down": null,
+        "limit_up": null,
+        "low": 22.1,
+        "model_only": true,
+        "name": "宝通科技",
+        "new_state": "WATCH",
+        "observed_at": "2026-10-15T09:35:50.613088+08:00",
+        "old_state": "WATCH",
+        "open": 22.41,
+        "price": 23.24,
+        "quote_symbol": "300031.SZ",
+        "quote_timestamp": "2026-10-15T09:35:30+08:00",
+        "real_position_action": false,
+        "reason": "PRICE_OUTSIDE_TRIGGER_ZONE",
+        "risk_price": 20.72,
+        "signal_id": "sig_fb0a1b7daa2d7ad6daacdcaf",
+        "slot": "09:35",
+        "source_timestamp": "2026-10-15T07:30:16+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "stop": 20.72,
+        "strategy": "弱转强/反包",
+        "symbol": "300031",
+        "terminal": false,
+        "tp1": 25.2,
+        "tp2": 26.4,
+        "trade_date": "2026-10-15",
+        "trading_day_id": "CN_A_20261015",
+        "trigger": 24.0,
+        "trigger_confirmed": false,
+        "volume": 9212236.0
+      }
+    ],
+    "status": "JOB_PARTIAL",
+    "supervisor": {
+      "a_track": "OK",
+      "attempts": 1,
+      "auto_pause": false,
+      "b_track": "OK",
+      "checked_at": "2026-10-15T09:35:50.613088+08:00",
+      "checks": {
+        "AGENT_HEARTBEAT": "PASS",
+        "DB": "PASS",
+        "HISTORICAL_40D": "DATA_GAP",
+        "HITHINK": "PASS",
+        "MAINLINE": "PASS",
+        "MODEL_POSITION_FUNNEL": "PASS",
+        "OPPORTUNITY_RECONCILIATION": "PASS",
+        "PUBLISHER": "PENDING",
+        "SCANNER": "INCOMPLETE",
+        "SCHEDULER": "PASS",
+        "SIGNAL_CONTINUITY": "PASS",
+        "USER_OUTPUT": "PASS"
+      },
+      "day": "2026-10-15",
+      "health_checked_at": "2026-10-15T09:37:21.122073+08:00",
+      "historical_days": 17,
+      "hithink_coverage": {
+        "expected": 5378,
+        "ratio": 0.9977686872443288,
+        "status": "PASS",
+        "valid": 5366
+      },
+      "master": "TRADING_DESK_MASTER",
+      "missing_historical_days": [
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-07",
+        "2026-09-09",
+        "2026-09-11",
+        "2026-09-23",
+        "2026-09-24"
+      ],
+      "real_positions_read": false,
+      "reconciliation": {
+        "counts": {
+          "BUY_EVENT_COUNT": 210,
+          "CLOSED_POSITION_COUNT": 210,
+          "EXIT_EVENT_COUNT": 210,
+          "MODEL_POSITION_CREATED_COUNT": 210,
+          "OPEN_MODEL_POSITION_COUNT": 0,
+          "RENDERER_POSITION_COUNT": 0
+        },
+        "errors": [],
+        "real_positions_read": false,
+        "slot_buy_count": 0,
+        "slot_sell_count": 0,
+        "sources": [
+          {
+            "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/A/signal_event.jsonl",
+            "sha256": "1b54ac4e3e6d916996ba0f20153391446749043e98573e0a9e114bdd4c01c9b2"
+          },
+          {
+            "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/A/model_portfolio/paper_broker.json",
+            "sha256": "2211a99c78a90304be1f5313b3b9c93fa8097fa6fbf4db572ec352e3e8ef8dcc"
+          },
+          {
+            "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/signal_event.jsonl",
+            "sha256": "368bfb669ffd76271277504c8249f9cc93f436d3eac7ef511346c6532ad2df2f"
+          },
+          {
+            "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/model_portfolio/paper_broker.json",
+            "sha256": "8f13a6700c434eb928b58ce44f47cf93f90abec61447263e42711b2613fff26e"
+          },
+          {
+            "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/fill_imports.jsonl",
+            "sha256": "120022ae3556f456fe85cd960ada921587357c4851de045f85ed00fe510353a3"
+          }
+        ],
+        "status": "PASS"
+      },
+      "retry_required": false,
+      "slot": "09:35",
+      "status": "DEGRADED",
+      "user_output_audit": {
+        "errors": [],
+        "facts_modified": false,
+        "scope": "CARD_ACCOUNT_AND_USER_CONTRACT",
+        "status": "PASS"
+      }
+    },
+    "user_visible": false
+  },
+  "signal_count": 5,
+  "signal_status": "SIGNAL_READY",
+  "signals": [
+    {
+      "action": "CANCEL",
+      "amount": 555625410.0,
+      "code": "002436",
+      "definition": {
+        "baseline": 36.19,
+        "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+        "benchmark_symbol": "000001.SH",
+        "buy_condition": {
+          "high": 49.49,
+          "low": 48.76,
+          "type": "PRICE_IN_ZONE"
+        },
+        "candidate_id": "2026-10-15:05:002436",
+        "code": "002436",
+        "code_sha256": "a2ff3e7f4984105665f61d8e1d50333f0901c608b0d22d6544e0fd45b67281bb",
+        "confirm_condition": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "confirm_conditions": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "created_at": "2026-10-15T07:30:21.397424+08:00",
+        "execution_zone": [
+          48.76,
+          49.49
+        ],
+        "experiment_id": "forward-paper:4e0f491",
+        "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1",
+        "input_sha256": "6fd6a5c5c381cc6d8a21a116d3d82e445386d0de04959064fbb4f99ef44476f6",
+        "last_transition": "2026-10-15T07:30:21.397424+08:00",
+        "last_update": "2026-10-15T07:30:21.397424+08:00",
+        "limit_up": 39.81,
+        "mainline_hypothesis": null,
+        "name": "兴森科技",
+        "rank_0730": 5,
+        "risk_level": "UNASSESSED",
+        "risk_price": 40.83,
+        "sector_membership_observed_at": "2026-10-15T06:45:07.182561+08:00",
+        "sector_symbols": [
+          "881270.TI",
+          "884092.TI"
+        ],
+        "setup_type": "弱转强/反包",
+        "signal_id": "sig_505089effa4e976703a99c8d",
+        "source_scan_priority": 46.0899495,
+        "source_score": null,
+        "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+        "source_tactics": [
+          "弱转强/反包",
+          "容量中军"
+        ],
+        "source_timestamp": "2026-10-15T07:30:16+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "status": "WATCH",
+        "stop": 40.83,
+        "strategy": "弱转强/反包",
+        "strategy_family": "弱转强/反包",
+        "strategy_id": "weak_to_strong_reversal",
+        "strategy_version": "v1.0.0-20260917",
+        "symbol": "002436",
+        "time_stop": "2026-10-15T14:50:00+08:00",
+        "top2_fixed": false,
+        "tp1": 51.2,
+        "tp2": 53.64,
+        "trade_date": "2026-10-15",
+        "trading_date": "2026-10-15",
+        "trigger": 48.76,
+        "trigger_high": 49.49,
+        "trigger_low": 48.76,
+        "trigger_range": {
+          "high": 49.49,
+          "low": 48.76,
+          "reference_price": 48.76
+        }
+      },
+      "execution_checked_at": "2026-10-15T09:36:27.630843+08:00",
+      "execution_eligible": false,
+      "execution_zone": [
+        48.76,
+        49.49
+      ],
+      "fill": null,
+      "high": 37.29,
+      "join_status": "PASS",
+      "last_price": 37.09,
+      "limit_down": null,
+      "limit_up": null,
+      "low": 35.55,
+      "model_only": true,
+      "name": "兴森科技",
+      "new_state": "CANCEL",
+      "observed_at": "2026-10-15T09:35:50.613088+08:00",
+      "old_state": "CANCEL",
+      "open": 35.58,
+      "price": 37.09,
+      "quote_symbol": "002436.SZ",
+      "quote_timestamp": "2026-10-15T09:35:30+08:00",
+      "real_position_action": false,
+      "reason": "TERMINAL_PRESERVED",
+      "risk_price": 40.83,
+      "signal_id": "sig_505089effa4e976703a99c8d",
+      "slot": "09:35",
+      "source_timestamp": "2026-10-15T07:30:16+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "stop": 40.83,
+      "strategy": "弱转强/反包",
+      "symbol": "002436",
+      "terminal": true,
+      "tp1": 51.2,
+      "tp2": 53.64,
+      "trade_date": "2026-10-15",
+      "trading_day_id": "CN_A_20261015",
+      "trigger": 48.76,
+      "trigger_confirmed": false,
+      "volume": 15207134.0
+    },
+    {
+      "action": "WATCH",
+      "amount": 156388650.0,
+      "code": "301010",
+      "definition": {
+        "baseline": 23.7,
+        "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+        "benchmark_symbol": "000001.SH",
+        "buy_condition": {
+          "high": 28.8,
+          "low": 28.37,
+          "type": "PRICE_IN_ZONE"
+        },
+        "candidate_id": "2026-10-15:04:301010",
+        "code": "301010",
+        "code_sha256": "a2ff3e7f4984105665f61d8e1d50333f0901c608b0d22d6544e0fd45b67281bb",
+        "confirm_condition": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "confirm_conditions": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "created_at": "2026-10-15T07:30:21.397424+08:00",
+        "execution_zone": [
+          28.37,
+          28.8
+        ],
+        "experiment_id": "forward-paper:4e0f491",
+        "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1",
+        "input_sha256": "6fd6a5c5c381cc6d8a21a116d3d82e445386d0de04959064fbb4f99ef44476f6",
+        "last_transition": "2026-10-15T07:30:21.397424+08:00",
+        "last_update": "2026-10-15T07:30:21.397424+08:00",
+        "limit_up": 28.44,
+        "mainline_hypothesis": null,
+        "name": "晶雪节能",
+        "rank_0730": 4,
+        "risk_level": "UNASSESSED",
+        "risk_price": 19.34,
+        "sector_membership_observed_at": "2026-10-15T06:45:07.182561+08:00",
+        "sector_symbols": [
+          "881115.TI",
+          "884062.TI"
+        ],
+        "setup_type": "首阴",
+        "signal_id": "sig_5aa6a39cd2cadc1227b3e6d3",
+        "source_scan_priority": 60.71453049,
+        "source_score": null,
+        "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+        "source_tactics": [
+          "首阴",
+          "弱转强/反包",
+          "趋势突破"
+        ],
+        "source_timestamp": "2026-10-15T07:30:16+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "status": "WATCH",
+        "stop": 19.34,
+        "strategy": "首阴",
+        "strategy_family": "龙头首阴",
+        "strategy_id": "dragon_first_yin",
+        "strategy_version": "v1.0.2-20260930",
+        "symbol": "301010",
+        "time_stop": "2026-10-15T14:50:00+08:00",
+        "top2_fixed": false,
+        "tp1": 29.79,
+        "tp2": 31.21,
+        "trade_date": "2026-10-15",
+        "trading_date": "2026-10-15",
+        "trigger": 28.37,
+        "trigger_high": 28.8,
+        "trigger_low": 28.37,
+        "trigger_range": {
+          "high": 28.8,
+          "low": 28.37,
+          "reference_price": 28.37
+        }
+      },
+      "execution_checked_at": "2026-10-15T09:36:27.638715+08:00",
+      "execution_eligible": false,
+      "execution_zone": [
+        28.37,
+        28.8
+      ],
+      "fill": null,
+      "high": 26.88,
+      "join_status": "PASS",
+      "last_price": 25.8,
+      "limit_down": null,
+      "limit_up": null,
+      "low": 25.04,
+      "model_only": true,
+      "name": "晶雪节能",
+      "new_state": "WATCH",
+      "observed_at": "2026-10-15T09:35:50.613088+08:00",
+      "old_state": "WATCH",
+      "open": 25.04,
+      "price": 25.8,
+      "quote_symbol": "301010.SZ",
+      "quote_timestamp": "2026-10-15T09:35:30+08:00",
+      "real_position_action": false,
+      "reason": "PRICE_OUTSIDE_TRIGGER_ZONE",
+      "risk_price": 19.34,
+      "signal_id": "sig_5aa6a39cd2cadc1227b3e6d3",
+      "slot": "09:35",
+      "source_timestamp": "2026-10-15T07:30:16+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "stop": 19.34,
+      "strategy": "首阴",
+      "symbol": "301010",
+      "terminal": false,
+      "tp1": 29.79,
+      "tp2": 31.21,
+      "trade_date": "2026-10-15",
+      "trading_day_id": "CN_A_20261015",
+      "trigger": 28.37,
+      "trigger_confirmed": false,
+      "volume": 6043926.0
+    },
+    {
+      "action": "WATCH",
+      "amount": 407841140.0,
+      "code": "002639",
+      "definition": {
+        "baseline": 14.59,
+        "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+        "benchmark_symbol": "000001.SH",
+        "buy_condition": {
+          "high": 16.23,
+          "low": 15.99,
+          "type": "PRICE_IN_ZONE"
+        },
+        "candidate_id": "2026-10-15:01:002639",
+        "code": "002639",
+        "code_sha256": "a2ff3e7f4984105665f61d8e1d50333f0901c608b0d22d6544e0fd45b67281bb",
+        "confirm_condition": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "confirm_conditions": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "created_at": "2026-10-15T07:30:21.397424+08:00",
+        "execution_zone": [
+          15.99,
+          16.23
+        ],
+        "experiment_id": "forward-paper:4e0f491",
+        "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1",
+        "input_sha256": "6fd6a5c5c381cc6d8a21a116d3d82e445386d0de04959064fbb4f99ef44476f6",
+        "last_transition": "2026-10-15T07:30:21.397424+08:00",
+        "last_update": "2026-10-15T07:30:21.397424+08:00",
+        "limit_up": 16.05,
+        "mainline_hypothesis": null,
+        "name": "雪人集团",
+        "rank_0730": 1,
+        "risk_level": "UNASSESSED",
+        "risk_price": 13.87,
+        "sector_membership_observed_at": "2026-10-15T06:45:07.182561+08:00",
+        "sector_symbols": [
+          "881117.TI",
+          "884073.TI"
+        ],
+        "setup_type": "首阴",
+        "signal_id": "sig_b1e16d005f8ffb431116661c",
+        "source_scan_priority": 82.922718,
+        "source_score": null,
+        "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+        "source_tactics": [
+          "首阴",
+          "弱转强/反包",
+          "容量中军",
+          "趋势突破"
+        ],
+        "source_timestamp": "2026-10-15T07:30:16+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "status": "WATCH",
+        "stop": 13.87,
+        "strategy": "首阴",
+        "strategy_family": "龙头首阴",
+        "strategy_id": "dragon_first_yin",
+        "strategy_version": "v1.0.2-20260930",
+        "symbol": "002639",
+        "time_stop": "2026-10-15T14:50:00+08:00",
+        "top2_fixed": true,
+        "tp1": 16.79,
+        "tp2": 17.59,
+        "trade_date": "2026-10-15",
+        "trading_date": "2026-10-15",
+        "trigger": 15.99,
+        "trigger_high": 16.23,
+        "trigger_low": 15.99,
+        "trigger_range": {
+          "high": 16.23,
+          "low": 15.99,
+          "reference_price": 15.99
+        }
+      },
+      "execution_checked_at": "2026-10-15T09:36:27.638963+08:00",
+      "execution_eligible": false,
+      "execution_zone": [
+        15.99,
+        16.23
+      ],
+      "fill": null,
+      "high": 15.18,
+      "join_status": "PASS",
+      "last_price": 14.96,
+      "limit_down": null,
+      "limit_up": null,
+      "low": 14.51,
+      "model_only": true,
+      "name": "雪人集团",
+      "new_state": "WATCH",
+      "observed_at": "2026-10-15T09:35:50.613088+08:00",
+      "old_state": "WATCH",
+      "open": 15.0,
+      "price": 14.96,
+      "quote_symbol": "002639.SZ",
+      "quote_timestamp": "2026-10-15T09:35:30+08:00",
+      "real_position_action": false,
+      "reason": "PRICE_OUTSIDE_TRIGGER_ZONE",
+      "risk_price": 13.87,
+      "signal_id": "sig_b1e16d005f8ffb431116661c",
+      "slot": "09:35",
+      "source_timestamp": "2026-10-15T07:30:16+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "stop": 13.87,
+      "strategy": "首阴",
+      "symbol": "002639",
+      "terminal": false,
+      "tp1": 16.79,
+      "tp2": 17.59,
+      "trade_date": "2026-10-15",
+      "trading_day_id": "CN_A_20261015",
+      "trigger": 15.99,
+      "trigger_confirmed": false,
+      "volume": 27315663.0
+    },
+    {
+      "action": "WATCH",
+      "amount": 175099700.0,
+      "code": "600593",
+      "definition": {
+        "baseline": 49.83,
+        "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+        "benchmark_symbol": "000001.SH",
+        "buy_condition": {
+          "high": 55.63,
+          "low": 54.81,
+          "type": "PRICE_IN_ZONE"
+        },
+        "candidate_id": "2026-10-15:02:600593",
+        "code": "600593",
+        "code_sha256": "a2ff3e7f4984105665f61d8e1d50333f0901c608b0d22d6544e0fd45b67281bb",
+        "confirm_condition": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "confirm_conditions": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "created_at": "2026-10-15T07:30:21.397424+08:00",
+        "execution_zone": [
+          54.81,
+          55.63
+        ],
+        "experiment_id": "forward-paper:4e0f491",
+        "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1",
+        "input_sha256": "6fd6a5c5c381cc6d8a21a116d3d82e445386d0de04959064fbb4f99ef44476f6",
+        "last_transition": "2026-10-15T07:30:21.397424+08:00",
+        "last_update": "2026-10-15T07:30:21.397424+08:00",
+        "limit_up": 54.81,
+        "mainline_hypothesis": null,
+        "name": "大连圣亚",
+        "rank_0730": 2,
+        "risk_level": "UNASSESSED",
+        "risk_price": 45.48,
+        "sector_membership_observed_at": "2026-10-15T06:45:07.182561+08:00",
+        "sector_symbols": [
+          "881160.TI",
+          "884163.TI"
+        ],
+        "setup_type": "首阴",
+        "signal_id": "sig_bdb76b7553aaafc2f0adf703",
+        "source_scan_priority": 81.00261925,
+        "source_score": null,
+        "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+        "source_tactics": [
+          "首阴",
+          "弱转强/反包",
+          "容量中军",
+          "趋势突破"
+        ],
+        "source_timestamp": "2026-10-15T07:30:16+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "status": "WATCH",
+        "stop": 45.48,
+        "strategy": "首阴",
+        "strategy_family": "龙头首阴",
+        "strategy_id": "dragon_first_yin",
+        "strategy_version": "v1.0.2-20260930",
+        "symbol": "600593",
+        "time_stop": "2026-10-15T14:50:00+08:00",
+        "top2_fixed": true,
+        "tp1": 57.55,
+        "tp2": 60.29,
+        "trade_date": "2026-10-15",
+        "trading_date": "2026-10-15",
+        "trigger": 54.81,
+        "trigger_high": 55.63,
+        "trigger_low": 54.81,
+        "trigger_range": {
+          "high": 55.63,
+          "low": 54.81,
+          "reference_price": 54.81
+        }
+      },
+      "execution_checked_at": "2026-10-15T09:36:27.639070+08:00",
+      "execution_eligible": false,
+      "execution_zone": [
+        54.81,
+        55.63
+      ],
+      "fill": null,
+      "high": 52.7,
+      "join_status": "PASS",
+      "last_price": 51.53,
+      "limit_down": null,
+      "limit_up": null,
+      "low": 50.0,
+      "model_only": true,
+      "name": "大连圣亚",
+      "new_state": "WATCH",
+      "observed_at": "2026-10-15T09:35:50.613088+08:00",
+      "old_state": "WATCH",
+      "open": 52.46,
+      "price": 51.53,
+      "quote_symbol": "600593.SH",
+      "quote_timestamp": "2026-10-15T09:35:30+08:00",
+      "real_position_action": false,
+      "reason": "PRICE_OUTSIDE_TRIGGER_ZONE",
+      "risk_price": 45.48,
+      "signal_id": "sig_bdb76b7553aaafc2f0adf703",
+      "slot": "09:35",
+      "source_timestamp": "2026-10-15T07:30:16+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "stop": 45.48,
+      "strategy": "首阴",
+      "symbol": "600593",
+      "terminal": false,
+      "tp1": 57.55,
+      "tp2": 60.29,
+      "trade_date": "2026-10-15",
+      "trading_day_id": "CN_A_20261015",
+      "trigger": 54.81,
+      "trigger_confirmed": false,
+      "volume": 3404500.0
+    },
+    {
+      "action": "WATCH",
+      "amount": 210893080.0,
+      "code": "300031",
+      "definition": {
+        "baseline": 21.47,
+        "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+        "benchmark_symbol": "000001.SH",
+        "buy_condition": {
+          "high": 24.36,
+          "low": 24.0,
+          "type": "PRICE_IN_ZONE"
+        },
+        "candidate_id": "2026-10-15:03:300031",
+        "code": "300031",
+        "code_sha256": "a2ff3e7f4984105665f61d8e1d50333f0901c608b0d22d6544e0fd45b67281bb",
+        "confirm_condition": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "confirm_conditions": {
+          "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+        },
+        "created_at": "2026-10-15T07:30:21.397424+08:00",
+        "execution_zone": [
+          24.0,
+          24.36
+        ],
+        "experiment_id": "forward-paper:4e0f491",
+        "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1",
+        "input_sha256": "6fd6a5c5c381cc6d8a21a116d3d82e445386d0de04959064fbb4f99ef44476f6",
+        "last_transition": "2026-10-15T07:30:21.397424+08:00",
+        "last_update": "2026-10-15T07:30:21.397424+08:00",
+        "limit_up": 25.76,
+        "mainline_hypothesis": null,
+        "name": "宝通科技",
+        "rank_0730": 3,
+        "risk_level": "UNASSESSED",
+        "risk_price": 20.72,
+        "sector_membership_observed_at": "2026-10-15T06:45:07.182561+08:00",
+        "sector_symbols": [
+          "881275.TI"
+        ],
+        "setup_type": "弱转强/反包",
+        "signal_id": "sig_fb0a1b7daa2d7ad6daacdcaf",
+        "source_scan_priority": 61.4831659,
+        "source_score": null,
+        "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+        "source_tactics": [
+          "弱转强/反包",
+          "容量中军",
+          "趋势突破"
+        ],
+        "source_timestamp": "2026-10-15T07:30:16+08:00",
+        "source_type": "TODAY_CANDIDATES",
+        "status": "WATCH",
+        "stop": 20.72,
+        "strategy": "弱转强/反包",
+        "strategy_family": "弱转强/反包",
+        "strategy_id": "weak_to_strong_reversal",
+        "strategy_version": "v1.0.0-20260917",
+        "symbol": "300031",
+        "time_stop": "2026-10-15T14:50:00+08:00",
+        "top2_fixed": false,
+        "tp1": 25.2,
+        "tp2": 26.4,
+        "trade_date": "2026-10-15",
+        "trading_date": "2026-10-15",
+        "trigger": 24.0,
+        "trigger_high": 24.36,
+        "trigger_low": 24.0,
+        "trigger_range": {
+          "high": 24.36,
+          "low": 24.0,
+          "reference_price": 24.0
+        }
+      },
+      "execution_checked_at": "2026-10-15T09:36:27.639161+08:00",
+      "execution_eligible": false,
+      "execution_zone": [
+        24.0,
+        24.36
+      ],
+      "fill": null,
+      "high": 23.47,
+      "join_status": "PASS",
+      "last_price": 23.24,
+      "limit_down": null,
+      "limit_up": null,
+      "low": 22.1,
+      "model_only": true,
+      "name": "宝通科技",
+      "new_state": "WATCH",
+      "observed_at": "2026-10-15T09:35:50.613088+08:00",
+      "old_state": "WATCH",
+      "open": 22.41,
+      "price": 23.24,
+      "quote_symbol": "300031.SZ",
+      "quote_timestamp": "2026-10-15T09:35:30+08:00",
+      "real_position_action": false,
+      "reason": "PRICE_OUTSIDE_TRIGGER_ZONE",
+      "risk_price": 20.72,
+      "signal_id": "sig_fb0a1b7daa2d7ad6daacdcaf",
+      "slot": "09:35",
+      "source_timestamp": "2026-10-15T07:30:16+08:00",
+      "source_type": "TODAY_CANDIDATES",
+      "stop": 20.72,
+      "strategy": "弱转强/反包",
+      "symbol": "300031",
+      "terminal": false,
+      "tp1": 25.2,
+      "tp2": 26.4,
+      "trade_date": "2026-10-15",
+      "trading_day_id": "CN_A_20261015",
+      "trigger": 24.0,
+      "trigger_confirmed": false,
+      "volume": 9212236.0
+    }
+  ],
+  "slot": "09:35",
+  "slot_id": "09:35",
+  "trade_date": "2026-10-15",
+  "trading_day_id": "CN_A_20261015"
+}
