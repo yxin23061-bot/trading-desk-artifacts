@@ -1,0 +1,70 @@
+{
+  "trading_day_id": "CN_A_20261021",
+  "schema_version": 1,
+  "trade_date": "2026-10-21",
+  "slot_id": "07:30",
+  "created_at": "2026-10-21T07:30:21.274657+08:00",
+  "strategy_engine": "runtime.production_strategy.ProductionStrategyPipeline",
+  "source_status": "OK",
+  "market_gate": {
+    "state": "YELLOW",
+    "reason": "promotion_rate<30%；退潮/分歧只允许修复承接类战法",
+    "data_gap": false,
+    "gate_version": "MARKET_GATE_V2_YELLOW_20260917",
+    "allowed_strategies": [
+      "容量中军",
+      "弱转强/反包",
+      "首阴"
+    ]
+  },
+  "candidate_count": 5,
+  "insufficient_reason": null,
+  "top2_signal_ids": [
+    "sig_28d1a0105613b8808c8a9a57",
+    "sig_8ca2b89e7f1b8e5a25918436"
+  ],
+  "snapshot_hash": "e2da5de33d6e64b97396571f8e8c60844c3ec152baa0134f990980cd83e6f20b",
+  "engine_input_ref": {
+    "schema": "ENGINE_INPUT_V1",
+    "observed_at": "2026-10-21T07:30:18.058514+08:00",
+    "slot": "07:30",
+    "provider_evidence": {
+      "provider": "hithink_financial_api",
+      "endpoint": "/api/a-share/prices/snapshot",
+      "request_id": "327c7a8d82e24651b87aad5a8490da1b",
+      "http_status": 200,
+      "authenticated": true,
+      "credential_exposed": false,
+      "ingest_ts": "2026-10-21T07:30:06.677731+08:00"
+    },
+    "parts": {
+      "snapshot": {
+        "path": "replay_inputs/objects/9fab25be15b5766a389d0b59c5a8134e67a73072a21a5abb491c6ad53bed8109.json",
+        "sha256": "9fab25be15b5766a389d0b59c5a8134e67a73072a21a5abb491c6ad53bed8109",
+        "size": 8627652
+      },
+      "history": {
+        "path": "replay_inputs/objects/c76e4da2cb445466dd6c0efc02e6220f7cb7cd3405143876c675fb033b23c91d.json",
+        "sha256": "c76e4da2cb445466dd6c0efc02e6220f7cb7cd3405143876c675fb033b23c91d",
+        "size": 60721785
+      },
+      "special": {
+        "path": "replay_inputs/objects/264dd9256b42565b93b70d62fd48c1d5483aa08fa7143f5845b796e2f368c42c.json",
+        "sha256": "264dd9256b42565b93b70d62fd48c1d5483aa08fa7143f5845b796e2f368c42c",
+        "size": 250701
+      },
+      "mapping": {
+        "path": "replay_inputs/objects/dd40b95ba1341d8429abd58a083f16e22a1434138253642a24e68db5b3fb9de6.json",
+        "sha256": "dd40b95ba1341d8429abd58a083f16e22a1434138253642a24e68db5b3fb9de6",
+        "size": 3868266
+      },
+      "previous_mainline": {
+        "path": "replay_inputs/objects/5ce63968929c3a9ef27d4aa0b18a66d0367aa9cdfff4cb42effab6771a015ad8.json",
+        "sha256": "5ce63968929c3a9ef27d4aa0b18a66d0367aa9cdfff4cb42effab6771a015ad8",
+        "size": 840103
+      }
+    },
+    "captured_before_strategy": true,
+    "reconstructed_from_artifact": false
+  }
+}

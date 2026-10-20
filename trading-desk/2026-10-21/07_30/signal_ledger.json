@@ -1,0 +1,373 @@
+{
+  "trading_day_id": "CN_A_20261021",
+  "schema_version": 1,
+  "trade_date": "2026-10-21",
+  "slot_id": "07:30",
+  "created_at": "2026-10-21T07:30:21.274657+08:00",
+  "append_only": true,
+  "immutable_signal_ids": true,
+  "signals": [
+    {
+      "signal_id": "sig_28d1a0105613b8808c8a9a57",
+      "candidate_id": "2026-10-21:01:003029",
+      "trade_date": "2026-10-21",
+      "created_at": "2026-10-21T07:30:21.274657+08:00",
+      "code": "003029",
+      "symbol": "003029",
+      "name": "吉大正元",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 26.61,
+        "high": 27.01,
+        "reference_price": 26.61
+      },
+      "trigger_low": 26.61,
+      "trigger_high": 27.01,
+      "trigger": 26.61,
+      "execution_zone": [
+        26.61,
+        27.01
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 18.91,
+      "rank_0730": 1,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 26.61,
+        "high": 27.01
+      },
+      "tp1": 27.94,
+      "tp2": 29.27,
+      "stop": 18.91,
+      "time_stop": "2026-10-21T14:50:00+08:00",
+      "baseline": 24.19,
+      "limit_up": 26.61,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-10-21T07:30:21.274657+08:00",
+      "last_update": "2026-10-21T07:30:21.274657+08:00",
+      "source_timestamp": "2026-10-21T07:30:15+08:00",
+      "source_scan_priority": 61.12402425,
+      "source_score": null,
+      "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+      "source_tactics": [
+        "容量中军",
+        "趋势突破",
+        "三板定龙"
+      ],
+      "sector_symbols": [
+        "881272.TI",
+        "884296.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-21T06:45:06.822223+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-10-21",
+      "setup_type": "容量中军",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "strategy_id": "capacity_core",
+      "strategy_family": "容量中军",
+      "strategy_version": "v1.0.0-20260917",
+      "experiment_id": "forward-paper:d663bc2",
+      "code_sha256": "3ef3e250bd75b5fb7f2ee1c0982126f0ec351731d9bc05be23b47ac0b525d0cc",
+      "input_sha256": "1ee47dfcb72e42497bd8b36d1c5cd47e04b463893fa46902b8fb0dfa455d89bc",
+      "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1"
+    },
+    {
+      "signal_id": "sig_8ca2b89e7f1b8e5a25918436",
+      "candidate_id": "2026-10-21:02:000823",
+      "trade_date": "2026-10-21",
+      "created_at": "2026-10-21T07:30:21.274657+08:00",
+      "code": "000823",
+      "symbol": "000823",
+      "name": "超声电子",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 27.74,
+        "high": 28.16,
+        "reference_price": 27.74
+      },
+      "trigger_low": 27.74,
+      "trigger_high": 28.16,
+      "trigger": 27.74,
+      "execution_zone": [
+        27.74,
+        28.16
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 24.06,
+      "rank_0730": 2,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 27.74,
+        "high": 28.16
+      },
+      "tp1": 29.13,
+      "tp2": 30.51,
+      "stop": 24.06,
+      "time_stop": "2026-10-21T14:50:00+08:00",
+      "baseline": 24.71,
+      "limit_up": 27.18,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-10-21T07:30:21.274657+08:00",
+      "last_update": "2026-10-21T07:30:21.274657+08:00",
+      "source_timestamp": "2026-10-21T07:30:15+08:00",
+      "source_scan_priority": 44.84854,
+      "source_score": null,
+      "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+      "source_tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881270.TI",
+        "884092.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-21T06:45:06.822223+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-10-21",
+      "setup_type": "容量中军",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "strategy_id": "capacity_core",
+      "strategy_family": "容量中军",
+      "strategy_version": "v1.0.0-20260917",
+      "experiment_id": "forward-paper:d663bc2",
+      "code_sha256": "3ef3e250bd75b5fb7f2ee1c0982126f0ec351731d9bc05be23b47ac0b525d0cc",
+      "input_sha256": "1ee47dfcb72e42497bd8b36d1c5cd47e04b463893fa46902b8fb0dfa455d89bc",
+      "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1"
+    },
+    {
+      "signal_id": "sig_324e3f7adc7585733ca20683",
+      "candidate_id": "2026-10-21:03:601398",
+      "trade_date": "2026-10-21",
+      "created_at": "2026-10-21T07:30:21.274657+08:00",
+      "code": "601398",
+      "symbol": "601398",
+      "name": "工商银行",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 8.65,
+        "high": 8.78,
+        "reference_price": 8.65
+      },
+      "trigger_low": 8.65,
+      "trigger_high": 8.78,
+      "trigger": 8.65,
+      "execution_zone": [
+        8.65,
+        8.78
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 8.22,
+      "rank_0730": 3,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 8.65,
+        "high": 8.78
+      },
+      "tp1": 9.08,
+      "tp2": 9.52,
+      "stop": 8.22,
+      "time_stop": "2026-10-21T14:50:00+08:00",
+      "baseline": 8.6,
+      "limit_up": 9.46,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-10-21T07:30:21.274657+08:00",
+      "last_update": "2026-10-21T07:30:21.274657+08:00",
+      "source_timestamp": "2026-10-21T07:30:15+08:00",
+      "source_scan_priority": 43.4023444,
+      "source_score": null,
+      "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+      "source_tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881155.TI",
+        "884249.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-21T06:45:06.822223+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-10-21",
+      "setup_type": "容量中军",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "strategy_id": "capacity_core",
+      "strategy_family": "容量中军",
+      "strategy_version": "v1.0.0-20260917",
+      "experiment_id": "forward-paper:d663bc2",
+      "code_sha256": "3ef3e250bd75b5fb7f2ee1c0982126f0ec351731d9bc05be23b47ac0b525d0cc",
+      "input_sha256": "1ee47dfcb72e42497bd8b36d1c5cd47e04b463893fa46902b8fb0dfa455d89bc",
+      "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1"
+    },
+    {
+      "signal_id": "sig_bef59923a22751cd94e32237",
+      "candidate_id": "2026-10-21:04:601288",
+      "trade_date": "2026-10-21",
+      "created_at": "2026-10-21T07:30:21.274657+08:00",
+      "code": "601288",
+      "symbol": "601288",
+      "name": "农业银行",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 7.54,
+        "high": 7.65,
+        "reference_price": 7.54
+      },
+      "trigger_low": 7.54,
+      "trigger_high": 7.65,
+      "trigger": 7.54,
+      "execution_zone": [
+        7.54,
+        7.65
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 7.04,
+      "rank_0730": 4,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 7.54,
+        "high": 7.65
+      },
+      "tp1": 7.92,
+      "tp2": 8.29,
+      "stop": 7.04,
+      "time_stop": "2026-10-21T14:50:00+08:00",
+      "baseline": 7.49,
+      "limit_up": 8.24,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-10-21T07:30:21.274657+08:00",
+      "last_update": "2026-10-21T07:30:21.274657+08:00",
+      "source_timestamp": "2026-10-21T07:30:15+08:00",
+      "source_scan_priority": 43.3837891,
+      "source_score": null,
+      "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+      "source_tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881155.TI",
+        "884249.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-21T06:45:06.822223+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-10-21",
+      "setup_type": "容量中军",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "strategy_id": "capacity_core",
+      "strategy_family": "容量中军",
+      "strategy_version": "v1.0.0-20260917",
+      "experiment_id": "forward-paper:d663bc2",
+      "code_sha256": "3ef3e250bd75b5fb7f2ee1c0982126f0ec351731d9bc05be23b47ac0b525d0cc",
+      "input_sha256": "1ee47dfcb72e42497bd8b36d1c5cd47e04b463893fa46902b8fb0dfa455d89bc",
+      "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1"
+    },
+    {
+      "signal_id": "sig_47f0e274db5976193c653446",
+      "candidate_id": "2026-10-21:05:600036",
+      "trade_date": "2026-10-21",
+      "created_at": "2026-10-21T07:30:21.274657+08:00",
+      "code": "600036",
+      "symbol": "600036",
+      "name": "招商银行",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 43.16,
+        "high": 43.81,
+        "reference_price": 43.16
+      },
+      "trigger_low": 43.16,
+      "trigger_high": 43.81,
+      "trigger": 43.16,
+      "execution_zone": [
+        43.16,
+        43.81
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 41.0,
+      "rank_0730": 5,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 43.16,
+        "high": 43.81
+      },
+      "tp1": 45.32,
+      "tp2": 47.48,
+      "stop": 41.0,
+      "time_stop": "2026-10-21T14:50:00+08:00",
+      "baseline": 43.05,
+      "limit_up": 47.36,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-10-21T07:30:21.274657+08:00",
+      "last_update": "2026-10-21T07:30:21.274657+08:00",
+      "source_timestamp": "2026-10-21T07:30:15+08:00",
+      "source_scan_priority": 43.2350552,
+      "source_score": null,
+      "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+      "source_tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881155.TI",
+        "884250.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-21T06:45:06.822223+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-10-21",
+      "setup_type": "容量中军",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "strategy_id": "capacity_core",
+      "strategy_family": "容量中军",
+      "strategy_version": "v1.0.0-20260917",
+      "experiment_id": "forward-paper:d663bc2",
+      "code_sha256": "3ef3e250bd75b5fb7f2ee1c0982126f0ec351731d9bc05be23b47ac0b525d0cc",
+      "input_sha256": "1ee47dfcb72e42497bd8b36d1c5cd47e04b463893fa46902b8fb0dfa455d89bc",
+      "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1"
+    }
+  ],
+  "top2_signal_ids": [
+    "sig_28d1a0105613b8808c8a9a57",
+    "sig_8ca2b89e7f1b8e5a25918436"
+  ],
+  "snapshot_hash": "e2da5de33d6e64b97396571f8e8c60844c3ec152baa0134f990980cd83e6f20b",
+  "lifecycle_events": []
+}
