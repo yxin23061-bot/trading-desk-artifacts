@@ -1,0 +1,379 @@
+{
+  "trading_day_id": "CN_A_20261027",
+  "schema_version": 1,
+  "trade_date": "2026-10-27",
+  "slot_id": "07:30",
+  "created_at": "2026-10-27T07:30:15.276494+08:00",
+  "append_only": true,
+  "immutable_signal_ids": true,
+  "signals": [
+    {
+      "signal_id": "sig_fdc70938ebcf3a8b1ac05892",
+      "candidate_id": "2026-10-27:01:603278",
+      "trade_date": "2026-10-27",
+      "created_at": "2026-10-27T07:30:15.276494+08:00",
+      "code": "603278",
+      "symbol": "603278",
+      "name": "大业股份",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 17.56,
+        "high": 17.82,
+        "reference_price": 17.56
+      },
+      "trigger_low": 17.56,
+      "trigger_high": 17.82,
+      "trigger": 17.56,
+      "execution_zone": [
+        17.56,
+        17.82
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 11.03,
+      "rank_0730": 1,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 17.56,
+        "high": 17.82
+      },
+      "tp1": 18.44,
+      "tp2": 19.32,
+      "stop": 11.03,
+      "time_stop": "2026-10-27T14:50:00+08:00",
+      "baseline": 15.96,
+      "limit_up": 17.56,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-10-27T07:30:15.276494+08:00",
+      "last_update": "2026-10-27T07:30:15.276494+08:00",
+      "source_timestamp": "2026-10-27T07:30:10+08:00",
+      "source_scan_priority": 82.2652998,
+      "source_score": null,
+      "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881117.TI",
+        "884075.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-27T06:45:02.895005+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-10-27",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "strategy_id": "dragon_first_yin",
+      "strategy_family": "龙头首阴",
+      "strategy_version": "v1.0.2-20260930",
+      "experiment_id": "forward-paper:d663bc2",
+      "code_sha256": "3ef3e250bd75b5fb7f2ee1c0982126f0ec351731d9bc05be23b47ac0b525d0cc",
+      "input_sha256": "149ad584df9b642441ce2a9f584dcfbc31ee5de5ed446230d62cb5f116265644",
+      "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1"
+    },
+    {
+      "signal_id": "sig_13bc4b5b34fc7d2d0864ce95",
+      "candidate_id": "2026-10-27:02:301313",
+      "trade_date": "2026-10-27",
+      "created_at": "2026-10-27T07:30:15.276494+08:00",
+      "code": "301313",
+      "symbol": "301313",
+      "name": "凡拓数创",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 70.78,
+        "high": 71.84,
+        "reference_price": 70.78
+      },
+      "trigger_low": 70.78,
+      "trigger_high": 71.84,
+      "trigger": 70.78,
+      "execution_zone": [
+        70.78,
+        71.84
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 37.41,
+      "rank_0730": 2,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 70.78,
+        "high": 71.84
+      },
+      "tp1": 74.32,
+      "tp2": 77.86,
+      "stop": 37.41,
+      "time_stop": "2026-10-27T14:50:00+08:00",
+      "baseline": 61.44,
+      "limit_up": 73.73,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-10-27T07:30:15.276494+08:00",
+      "last_update": "2026-10-27T07:30:15.276494+08:00",
+      "source_timestamp": "2026-10-27T07:30:10+08:00",
+      "source_scan_priority": 82.201143,
+      "source_score": null,
+      "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881164.TI",
+        "884261.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-27T06:45:02.895005+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-10-27",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "strategy_id": "dragon_first_yin",
+      "strategy_family": "龙头首阴",
+      "strategy_version": "v1.0.2-20260930",
+      "experiment_id": "forward-paper:d663bc2",
+      "code_sha256": "3ef3e250bd75b5fb7f2ee1c0982126f0ec351731d9bc05be23b47ac0b525d0cc",
+      "input_sha256": "149ad584df9b642441ce2a9f584dcfbc31ee5de5ed446230d62cb5f116265644",
+      "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1"
+    },
+    {
+      "signal_id": "sig_b7d118a524945220ec97f099",
+      "candidate_id": "2026-10-27:03:603160",
+      "trade_date": "2026-10-27",
+      "created_at": "2026-10-27T07:30:15.276494+08:00",
+      "code": "603160",
+      "symbol": "603160",
+      "name": "汇顶科技",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 60.9,
+        "high": 61.81,
+        "reference_price": 60.9
+      },
+      "trigger_low": 60.9,
+      "trigger_high": 61.81,
+      "trigger": 60.9,
+      "execution_zone": [
+        60.9,
+        61.81
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 52.31,
+      "rank_0730": 3,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 60.9,
+        "high": 61.81
+      },
+      "tp1": 63.95,
+      "tp2": 66.99,
+      "stop": 52.31,
+      "time_stop": "2026-10-27T14:50:00+08:00",
+      "baseline": 56.49,
+      "limit_up": 62.14,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-10-27T07:30:15.276494+08:00",
+      "last_update": "2026-10-27T07:30:15.276494+08:00",
+      "source_timestamp": "2026-10-27T07:30:10+08:00",
+      "source_scan_priority": 81.24736866,
+      "source_score": null,
+      "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881121.TI",
+        "884288.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-27T06:45:02.895005+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-10-27",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "strategy_id": "dragon_first_yin",
+      "strategy_family": "龙头首阴",
+      "strategy_version": "v1.0.2-20260930",
+      "experiment_id": "forward-paper:d663bc2",
+      "code_sha256": "3ef3e250bd75b5fb7f2ee1c0982126f0ec351731d9bc05be23b47ac0b525d0cc",
+      "input_sha256": "149ad584df9b642441ce2a9f584dcfbc31ee5de5ed446230d62cb5f116265644",
+      "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1"
+    },
+    {
+      "signal_id": "sig_5a9e739426a54af6c4c6fdba",
+      "candidate_id": "2026-10-27:04:603466",
+      "trade_date": "2026-10-27",
+      "created_at": "2026-10-27T07:30:15.276494+08:00",
+      "code": "603466",
+      "symbol": "603466",
+      "name": "风语筑",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 15.98,
+        "high": 16.22,
+        "reference_price": 15.98
+      },
+      "trigger_low": 15.98,
+      "trigger_high": 16.22,
+      "trigger": 15.98,
+      "execution_zone": [
+        15.98,
+        16.22
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 12.96,
+      "rank_0730": 4,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 15.98,
+        "high": 16.22
+      },
+      "tp1": 16.78,
+      "tp2": 17.58,
+      "stop": 12.96,
+      "time_stop": "2026-10-27T14:50:00+08:00",
+      "baseline": 14.69,
+      "limit_up": 16.16,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-10-27T07:30:15.276494+08:00",
+      "last_update": "2026-10-27T07:30:15.276494+08:00",
+      "source_timestamp": "2026-10-27T07:30:10+08:00",
+      "source_scan_priority": 62.2970852,
+      "source_score": null,
+      "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+      "source_tactics": [
+        "首阴",
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881164.TI",
+        "884261.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-27T06:45:02.895005+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-10-27",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "strategy_id": "dragon_first_yin",
+      "strategy_family": "龙头首阴",
+      "strategy_version": "v1.0.2-20260930",
+      "experiment_id": "forward-paper:d663bc2",
+      "code_sha256": "3ef3e250bd75b5fb7f2ee1c0982126f0ec351731d9bc05be23b47ac0b525d0cc",
+      "input_sha256": "149ad584df9b642441ce2a9f584dcfbc31ee5de5ed446230d62cb5f116265644",
+      "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1"
+    },
+    {
+      "signal_id": "sig_1cd1ced7583a6d793882d60f",
+      "candidate_id": "2026-10-27:05:688787",
+      "trade_date": "2026-10-27",
+      "created_at": "2026-10-27T07:30:15.276494+08:00",
+      "code": "688787",
+      "symbol": "688787",
+      "name": "海天瑞声",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 155.5,
+        "high": 157.83,
+        "reference_price": 155.5
+      },
+      "trigger_low": 155.5,
+      "trigger_high": 157.83,
+      "trigger": 155.5,
+      "execution_zone": [
+        155.5,
+        157.83
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 95.79,
+      "rank_0730": 5,
+      "top2_fixed": false,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 155.5,
+        "high": 157.83
+      },
+      "tp1": 163.28,
+      "tp2": 171.05,
+      "stop": 95.79,
+      "time_stop": "2026-10-27T14:50:00+08:00",
+      "baseline": 141.0,
+      "limit_up": 169.2,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-10-27T07:30:15.276494+08:00",
+      "last_update": "2026-10-27T07:30:15.276494+08:00",
+      "source_timestamp": "2026-10-27T07:30:10+08:00",
+      "source_scan_priority": 61.8757435,
+      "source_score": null,
+      "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军"
+      ],
+      "sector_symbols": [
+        "881271.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-27T06:45:02.895005+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-10-27",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "strategy_id": "dragon_first_yin",
+      "strategy_family": "龙头首阴",
+      "strategy_version": "v1.0.2-20260930",
+      "experiment_id": "forward-paper:d663bc2",
+      "code_sha256": "3ef3e250bd75b5fb7f2ee1c0982126f0ec351731d9bc05be23b47ac0b525d0cc",
+      "input_sha256": "149ad584df9b642441ce2a9f584dcfbc31ee5de5ed446230d62cb5f116265644",
+      "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1"
+    }
+  ],
+  "top2_signal_ids": [
+    "sig_fdc70938ebcf3a8b1ac05892",
+    "sig_13bc4b5b34fc7d2d0864ce95"
+  ],
+  "snapshot_hash": "80ce8d07cd0c4704c37be1d3606feb87b54d0f86778b0b749a1abfcc991dfb6a",
+  "lifecycle_events": []
+}
