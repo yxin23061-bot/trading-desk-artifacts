@@ -1,0 +1,758 @@
+{
+  "trading_day_id": "CN_A_20261028",
+  "schema_version": 1,
+  "trade_date": "2026-10-28",
+  "slot_id": "07:30",
+  "created_at": "2026-10-28T07:30:13.209115+08:00",
+  "trading_date": "2026-10-28",
+  "slot": "07:30",
+  "artifact_id": "2026-10-28:07:30:c712cc2de9ca7780",
+  "artifact_path": "trading-desk/2026-10-28/07_30/gpt_task_payload.json",
+  "artifact_hash": "c712cc2de9ca7780af73e0f1496622f55bf6453b17f62709c4bb9c3e61b68be0",
+  "manifest_status": "LOCAL_ARTIFACT_READBACK_PASS",
+  "data_status": "DATA_OK",
+  "provider": "HiThink",
+  "top5": [
+    {
+      "code": "002086",
+      "symbol": "002086",
+      "thscode": "002086.SZ",
+      "name": "东方海洋",
+      "current_price": 2.39,
+      "price": 2.39,
+      "change_pct": 3.913043,
+      "prev_close": 2.3,
+      "open_price": 2.41,
+      "open": 2.41,
+      "high": 2.53,
+      "low": 2.33,
+      "volume": 427888540.0,
+      "amount": 1060121090.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-28T07:30:07+08:00",
+      "timestamp": "2026-10-28T07:30:07+08:00",
+      "ingest_ts": "2026-10-28T07:30:09.845634+08:00",
+      "request_id": "6883f95c3fd746e18de174b47e7670ca",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.2-20260930",
+      "scanner_hit_id": "scan_47c4b2c8c13386390cef03e2",
+      "entry": 2.53,
+      "limit_up": 2.53,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 2.53,
+      "execution_zone": [
+        2.53,
+        2.57
+      ],
+      "stop": 2.12,
+      "risk_price": 2.12,
+      "tp1": 2.66,
+      "tp2": 2.78,
+      "volume_ratio": 2.8181,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "scan_priority": 81.06012109,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "ma": {
+        "MA5": 2.28,
+        "MA10": 2.2,
+        "MA20": 2.124,
+        "MA60": 2.0685
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "食品安全",
+          "基因测序",
+          "医疗器械概念",
+          "深股通",
+          "人民币贬值受益",
+          "CRO概念",
+          "预制菜",
+          "幽门螺杆菌概念",
+          "猴痘概念"
+        ],
+        "industry": [
+          "农产品加工",
+          "其他农产品加工"
+        ],
+        "name": "东方海洋",
+        "sector": [
+          "农产品加工",
+          "其他农产品加工"
+        ],
+        "symbol": "002086",
+        "theme": [
+          "食品安全",
+          "基因测序",
+          "医疗器械概念",
+          "深股通",
+          "人民币贬值受益",
+          "CRO概念",
+          "预制菜",
+          "幽门螺杆菌概念",
+          "猴痘概念"
+        ]
+      },
+      "sector_symbols": [
+        "881103.TI",
+        "884011.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-28T06:45:04.113303+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "002724",
+      "symbol": "002724",
+      "thscode": "002724.SZ",
+      "name": "海洋王",
+      "current_price": 13.09,
+      "price": 13.09,
+      "change_pct": 10.0,
+      "prev_close": 11.9,
+      "open_price": 12.0,
+      "open": 12.0,
+      "high": 13.09,
+      "low": 11.89,
+      "volume": 163427360.0,
+      "amount": 2090114200.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-28T07:30:07+08:00",
+      "timestamp": "2026-10-28T07:30:07+08:00",
+      "ingest_ts": "2026-10-28T07:30:09.845634+08:00",
+      "request_id": "6883f95c3fd746e18de174b47e7670ca",
+      "strategy": "容量中军",
+      "tactics": [
+        "容量中军",
+        "趋势突破",
+        "10天8板"
+      ],
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_1d9b6a244a3c10c57b745864",
+      "entry": 13.09,
+      "limit_up": 13.09,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 13.09,
+      "execution_zone": [
+        13.09,
+        13.29
+      ],
+      "stop": 8.44,
+      "risk_price": 8.44,
+      "tp1": 13.74,
+      "tp2": 14.4,
+      "volume_ratio": 2.7835,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "MAPPED",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "scan_priority": 62.0901142,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "ma": {
+        "MA5": 11.744,
+        "MA10": 9.825,
+        "MA20": 8.4415,
+        "MA60": 7.0548
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "军工",
+          "物联网",
+          "智慧城市",
+          "新型城镇化",
+          "无人机",
+          "粤港澳大湾区",
+          "深股通",
+          "智慧灯杆"
+        ],
+        "industry": [
+          "光学光电子",
+          "LED"
+        ],
+        "name": "海洋王",
+        "sector": [
+          "光学光电子",
+          "LED"
+        ],
+        "symbol": "002724",
+        "theme": [
+          "军工",
+          "物联网",
+          "智慧城市",
+          "新型城镇化",
+          "无人机",
+          "粤港澳大湾区",
+          "深股通",
+          "智慧灯杆"
+        ]
+      },
+      "sector_symbols": [
+        "881122.TI",
+        "884095.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-28T06:45:04.113303+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": "三季报增长+专业照明+AI智慧照明+“羊”字辈",
+      "mainline_confirmed": false
+    },
+    {
+      "code": "000678",
+      "symbol": "000678",
+      "thscode": "000678.SZ",
+      "name": "襄阳轴承",
+      "current_price": 16.01,
+      "price": 16.01,
+      "change_pct": 10.034364,
+      "prev_close": 14.55,
+      "open_price": 15.24,
+      "open": 15.24,
+      "high": 16.01,
+      "low": 14.68,
+      "volume": 94548667.0,
+      "amount": 1491865700.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-28T07:30:07+08:00",
+      "timestamp": "2026-10-28T07:30:07+08:00",
+      "ingest_ts": "2026-10-28T07:30:09.845634+08:00",
+      "request_id": "6883f95c3fd746e18de174b47e7670ca",
+      "strategy": "容量中军",
+      "tactics": [
+        "容量中军",
+        "趋势突破",
+        "三板定龙"
+      ],
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_1c5d4d6942c418921cae518a",
+      "entry": 16.01,
+      "limit_up": 16.01,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 16.01,
+      "execution_zone": [
+        16.01,
+        16.25
+      ],
+      "stop": 11.51,
+      "risk_price": 11.51,
+      "tp1": 16.81,
+      "tp2": 17.61,
+      "volume_ratio": 1.3899,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "MAPPED",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "scan_priority": 61.4918657,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "ma": {
+        "MA5": 13.352,
+        "MA10": 12.035,
+        "MA20": 11.5135,
+        "MA60": 9.8025
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "新能源汽车",
+          "机器人概念",
+          "融资融券",
+          "农机",
+          "一带一路",
+          "深股通",
+          "人民币贬值受益",
+          "军民融合",
+          "股权转让(并购重组)",
+          "比亚迪概念",
+          "减速器",
+          "国企改革"
+        ],
+        "industry": [
+          "汽车零部件",
+          "底盘与发动机系统"
+        ],
+        "name": "襄阳轴承",
+        "sector": [
+          "汽车零部件",
+          "底盘与发动机系统"
+        ],
+        "symbol": "000678",
+        "theme": [
+          "新能源汽车",
+          "机器人概念",
+          "融资融券",
+          "农机",
+          "一带一路",
+          "深股通",
+          "人民币贬值受益",
+          "军民融合",
+          "股权转让(并购重组)",
+          "比亚迪概念",
+          "减速器",
+          "国企改革"
+        ]
+      },
+      "sector_symbols": [
+        "881126.TI",
+        "884290.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-28T06:45:04.113303+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": "机器人轴承+汽车轴承+“羊”字辈",
+      "mainline_confirmed": false
+    },
+    {
+      "code": "600036",
+      "symbol": "600036",
+      "thscode": "600036.SH",
+      "name": "招商银行",
+      "current_price": 42.99,
+      "price": 42.99,
+      "change_pct": 1.152941,
+      "prev_close": 42.5,
+      "open_price": 42.3,
+      "open": 42.3,
+      "high": 43.06,
+      "low": 42.04,
+      "volume": 86728303.0,
+      "amount": 3702086200.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-28T07:30:07+08:00",
+      "timestamp": "2026-10-28T07:30:07+08:00",
+      "ingest_ts": "2026-10-28T07:30:09.845634+08:00",
+      "request_id": "6883f95c3fd746e18de174b47e7670ca",
+      "strategy": "容量中军",
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_31199b6bf34249ba0581148e",
+      "entry": 43.16,
+      "limit_up": 46.75,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 43.16,
+      "execution_zone": [
+        43.16,
+        43.81
+      ],
+      "stop": 41.0,
+      "risk_price": 41.0,
+      "tp1": 45.32,
+      "tp2": 47.48,
+      "volume_ratio": 1.1534,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "scan_priority": 43.7020862,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "ma": {
+        "MA5": 42.272,
+        "MA10": 42.471,
+        "MA20": 41.896,
+        "MA60": 40.5878
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "融资融券",
+          "沪股通",
+          "同花顺漂亮100",
+          "跨境支付(CIPS)",
+          "同花顺中特估100",
+          "高股息精选"
+        ],
+        "industry": [
+          "银行",
+          "股份制银行"
+        ],
+        "name": "招商银行",
+        "sector": [
+          "银行",
+          "股份制银行"
+        ],
+        "symbol": "600036",
+        "theme": [
+          "融资融券",
+          "沪股通",
+          "同花顺漂亮100",
+          "跨境支付(CIPS)",
+          "同花顺中特估100",
+          "高股息精选"
+        ]
+      },
+      "sector_symbols": [
+        "881155.TI",
+        "884250.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-28T06:45:04.113303+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "601166",
+      "symbol": "601166",
+      "thscode": "601166.SH",
+      "name": "兴业银行",
+      "current_price": 19.1,
+      "price": 19.1,
+      "change_pct": 2.248394,
+      "prev_close": 18.68,
+      "open_price": 18.54,
+      "open": 18.54,
+      "high": 19.12,
+      "low": 18.51,
+      "volume": 180494820.0,
+      "amount": 3418276900.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-28T07:30:07+08:00",
+      "timestamp": "2026-10-28T07:30:07+08:00",
+      "ingest_ts": "2026-10-28T07:30:09.845634+08:00",
+      "request_id": "6883f95c3fd746e18de174b47e7670ca",
+      "strategy": "容量中军",
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_94d3ee6488b0442cc390a80a",
+      "entry": 19.12,
+      "limit_up": 20.55,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 19.12,
+      "execution_zone": [
+        19.12,
+        19.41
+      ],
+      "stop": 18.16,
+      "risk_price": 18.16,
+      "tp1": 20.08,
+      "tp2": 21.03,
+      "volume_ratio": 1.8861,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "scan_priority": 43.4182769,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "ma": {
+        "MA5": 18.596,
+        "MA10": 18.505,
+        "MA20": 18.259,
+        "MA60": 18.193
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "海峡两岸",
+          "融资融券",
+          "福建自贸区",
+          "沪股通",
+          "跨境支付(CIPS)",
+          "高股息精选"
+        ],
+        "industry": [
+          "银行",
+          "股份制银行"
+        ],
+        "name": "兴业银行",
+        "sector": [
+          "银行",
+          "股份制银行"
+        ],
+        "symbol": "601166",
+        "theme": [
+          "海峡两岸",
+          "融资融券",
+          "福建自贸区",
+          "沪股通",
+          "跨境支付(CIPS)",
+          "高股息精选"
+        ]
+      },
+      "sector_symbols": [
+        "881155.TI",
+        "884250.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-28T06:45:04.113303+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    }
+  ],
+  "top2": [
+    {
+      "signal_id": "sig_47c4b2c8c13386390cef03e2",
+      "candidate_id": "2026-10-28:01:002086",
+      "trade_date": "2026-10-28",
+      "created_at": "2026-10-28T07:30:13.209115+08:00",
+      "code": "002086",
+      "symbol": "002086",
+      "name": "东方海洋",
+      "strategy": "首阴",
+      "trigger_range": {
+        "low": 2.53,
+        "high": 2.57,
+        "reference_price": 2.53
+      },
+      "trigger_low": 2.53,
+      "trigger_high": 2.57,
+      "trigger": 2.53,
+      "execution_zone": [
+        2.53,
+        2.57
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 2.12,
+      "rank_0730": 1,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 2.53,
+        "high": 2.57
+      },
+      "tp1": 2.66,
+      "tp2": 2.78,
+      "stop": 2.12,
+      "time_stop": "2026-10-28T14:50:00+08:00",
+      "baseline": 2.3,
+      "limit_up": 2.53,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-10-28T07:30:13.209115+08:00",
+      "last_update": "2026-10-28T07:30:13.209115+08:00",
+      "source_timestamp": "2026-10-28T07:30:07+08:00",
+      "source_scan_priority": 81.06012109,
+      "source_score": null,
+      "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+      "source_tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "sector_symbols": [
+        "881103.TI",
+        "884011.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-28T06:45:04.113303+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-10-28",
+      "setup_type": "首阴",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "strategy_id": "dragon_first_yin",
+      "strategy_family": "龙头首阴",
+      "strategy_version": "v1.0.2-20260930",
+      "experiment_id": "forward-paper:d663bc2",
+      "code_sha256": "3ef3e250bd75b5fb7f2ee1c0982126f0ec351731d9bc05be23b47ac0b525d0cc",
+      "input_sha256": "b0a9459c4f8b41302fca5d8009f37f4352c116b9d4996ce969ce6697ba109d92",
+      "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1"
+    },
+    {
+      "signal_id": "sig_1d9b6a244a3c10c57b745864",
+      "candidate_id": "2026-10-28:02:002724",
+      "trade_date": "2026-10-28",
+      "created_at": "2026-10-28T07:30:13.209115+08:00",
+      "code": "002724",
+      "symbol": "002724",
+      "name": "海洋王",
+      "strategy": "容量中军",
+      "trigger_range": {
+        "low": 13.09,
+        "high": 13.29,
+        "reference_price": 13.09
+      },
+      "trigger_low": 13.09,
+      "trigger_high": 13.29,
+      "trigger": 13.09,
+      "execution_zone": [
+        13.09,
+        13.29
+      ],
+      "confirm_conditions": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "risk_level": "UNASSESSED",
+      "risk_price": 8.44,
+      "rank_0730": 2,
+      "top2_fixed": true,
+      "buy_condition": {
+        "type": "PRICE_IN_ZONE",
+        "low": 13.09,
+        "high": 13.29
+      },
+      "tp1": 13.74,
+      "tp2": 14.4,
+      "stop": 8.44,
+      "time_stop": "2026-10-28T14:50:00+08:00",
+      "baseline": 11.9,
+      "limit_up": 13.09,
+      "mainline_hypothesis": null,
+      "status": "WATCH",
+      "last_transition": "2026-10-28T07:30:13.209115+08:00",
+      "last_update": "2026-10-28T07:30:13.209115+08:00",
+      "source_timestamp": "2026-10-28T07:30:07+08:00",
+      "source_scan_priority": 62.0901142,
+      "source_score": null,
+      "source_score_deprecated": "renamed_to_scan_priority_20261014; it is tactics*20 + turnover, not an edge estimate",
+      "source_tactics": [
+        "容量中军",
+        "趋势突破",
+        "10天8板"
+      ],
+      "sector_symbols": [
+        "881122.TI",
+        "884095.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-28T06:45:04.113303+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "trading_date": "2026-10-28",
+      "setup_type": "容量中军",
+      "confirm_condition": {
+        "type": "PRICE_IN_ZONE_AND_MARKET_GATE"
+      },
+      "strategy_id": "capacity_core",
+      "strategy_family": "容量中军",
+      "strategy_version": "v1.0.0-20260917",
+      "experiment_id": "forward-paper:d663bc2",
+      "code_sha256": "3ef3e250bd75b5fb7f2ee1c0982126f0ec351731d9bc05be23b47ac0b525d0cc",
+      "input_sha256": "b0a9459c4f8b41302fca5d8009f37f4352c116b9d4996ce969ce6697ba109d92",
+      "funding_basis": "funding-sha256:1541884d3381af7346c203b48db89d4f3fba170bf24ec2303aced34d57a401e1"
+    }
+  ],
+  "top2_signal_ids": [
+    "sig_47c4b2c8c13386390cef03e2",
+    "sig_1d9b6a244a3c10c57b745864"
+  ],
+  "signal_events": [],
+  "strategy_states": [
+    "WATCH",
+    "WATCH"
+  ],
+  "SOURCE_OF_TRUTH": "PRODUCTION_ARTIFACT_ONLY",
+  "NO_WEB_SEARCH_FOR_TRADING_DATA": true,
+  "NO_POSTHOC_RECONSTRUCTION": true,
+  "render_lines": [
+    "> 模型账户（PaperBroker 模拟）｜以下为模拟状态与模拟成交，非实盘指令，不构成买卖建议。  ",
+    "## Trading Desk · 盘前计划",
+    "2026-10-28　07:30 ｜ 模型账户  ",
+    "",
+    "**当前状态｜盘前准备 · 等待开盘确认**  ",
+    "漏斗｜扫描 5 → 合格 5 → 确认 0 → 可执行 0 → 成交 0  ",
+    "",
+    "---",
+    "",
+    "市场：**等待主线确认**  ",
+    "主线 Top 3｜暂未形成符合条件的主线  ",
+    "",
+    "今日5只：**早盘锁定 · 持续跟踪**  ",
+    "",
+    "**东方海洋（002086）｜观察**  ",
+    "昨收 2.39　触发 2.53–2.57　**止损 2.12**  ",
+    "模型状态：等待条件确认  ",
+    "",
+    "**海洋王（002724）｜观察**  ",
+    "昨收 13.09　触发 13.09–13.29　**止损 8.44**  ",
+    "模型状态：等待条件确认  ",
+    "",
+    "**襄阳轴承（000678）｜观察**  ",
+    "昨收 16.01　触发 16.01–16.25　**止损 11.51**  ",
+    "模型状态：等待条件确认  ",
+    "",
+    "**招商银行（600036）｜观察**  ",
+    "昨收 42.99　触发 43.16–43.81　**止损 41.00**  ",
+    "模型状态：等待条件确认  ",
+    "",
+    "**兴业银行（601166）｜观察**  ",
+    "昨收 19.10　触发 19.12–19.41　**止损 18.16**  ",
+    "模型状态：等待条件确认  ",
+    "",
+    "盘中新机会：**先看状态，再看价位**  ",
+    "",
+    "等待开盘核验。  ",
+    "",
+    "---",
+    "",
+    "模型账户：**盘前待同步**  ",
+    "账户资金与收益：等待同步核验。  ",
+    "",
+    "系统健康：**正常**  "
+  ]
+}
