@@ -1,0 +1,566 @@
+{
+  "trading_day_id": "CN_A_20261029",
+  "schema_version": 1,
+  "trade_date": "2026-10-29",
+  "slot_id": "07:30",
+  "created_at": "2026-10-29T07:30:13.920830+08:00",
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "code": "000058",
+      "symbol": "000058",
+      "thscode": "000058.SZ",
+      "name": "深赛格",
+      "current_price": 8.19,
+      "price": 8.19,
+      "change_pct": 4.066074,
+      "prev_close": 7.87,
+      "open_price": 8.66,
+      "open": 8.66,
+      "high": 8.66,
+      "low": 7.97,
+      "volume": 110166407.0,
+      "amount": 920705510.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-29T07:30:07+08:00",
+      "timestamp": "2026-10-29T07:30:07+08:00",
+      "ingest_ts": "2026-10-29T07:30:10.472379+08:00",
+      "request_id": "dee9caf96d0f45918196d4b2f5c1ea67",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "趋势突破"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.2-20260930",
+      "scanner_hit_id": "scan_48e65d018e97cd22482e096e",
+      "entry": 8.66,
+      "limit_up": 8.66,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 8.66,
+      "execution_zone": [
+        8.66,
+        8.79
+      ],
+      "stop": 7.28,
+      "risk_price": 7.28,
+      "tp1": 9.09,
+      "tp2": 9.53,
+      "volume_ratio": 5.5503,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "scan_priority": 60.92070551,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "ma": {
+        "MA5": 7.444,
+        "MA10": 7.303,
+        "MA20": 7.2765,
+        "MA60": 7.0473
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "创投",
+          "卫星导航",
+          "融资融券",
+          "光伏概念",
+          "深圳国企改革",
+          "华为概念",
+          "深股通",
+          "电子竞技",
+          "物业管理",
+          "光伏建筑一体化",
+          "绿色电力",
+          "国企改革",
+          "商业航天"
+        ],
+        "industry": [
+          "零售",
+          "商业物业经营"
+        ],
+        "name": "深赛格",
+        "sector": [
+          "零售",
+          "商业物业经营"
+        ],
+        "symbol": "000058",
+        "theme": [
+          "创投",
+          "卫星导航",
+          "融资融券",
+          "光伏概念",
+          "深圳国企改革",
+          "华为概念",
+          "深股通",
+          "电子竞技",
+          "物业管理",
+          "光伏建筑一体化",
+          "绿色电力",
+          "国企改革",
+          "商业航天"
+        ]
+      },
+      "sector_symbols": [
+        "881158.TI",
+        "884162.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-29T06:45:02.430151+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "688825",
+      "symbol": "688825",
+      "thscode": "688825.SH",
+      "name": "长鑫科技",
+      "current_price": 44.36,
+      "price": 44.36,
+      "change_pct": 3.162791,
+      "prev_close": 43.0,
+      "open_price": 44.8,
+      "open": 44.8,
+      "high": 44.95,
+      "low": 42.36,
+      "volume": 368292770.0,
+      "amount": 16185788000.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-29T07:30:07+08:00",
+      "timestamp": "2026-10-29T07:30:07+08:00",
+      "ingest_ts": "2026-10-29T07:30:10.472379+08:00",
+      "request_id": "dee9caf96d0f45918196d4b2f5c1ea67",
+      "strategy": "弱转强/反包",
+      "tactics": [
+        "弱转强/反包",
+        "容量中军"
+      ],
+      "strategy_id": "weak_to_strong_reversal",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_a8092762e1dd16f4991fb373",
+      "entry": 59.83,
+      "limit_up": 51.6,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 59.83,
+      "execution_zone": [
+        59.83,
+        60.73
+      ],
+      "stop": 47.29,
+      "risk_price": 47.29,
+      "tp1": 62.82,
+      "tp2": 65.81,
+      "volume_ratio": 1.3238,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "scan_priority": 56.185788,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "ma": {
+        "MA5": 42.514,
+        "MA10": 42.399,
+        "MA20": 47.29,
+        "MA60": 52.8838
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "新股与次新股",
+          "融资融券",
+          "芯片概念",
+          "小米概念",
+          "阿里巴巴概念",
+          "人民币贬值受益",
+          "腾讯概念",
+          "国家大基金持股",
+          "存储芯片",
+          "抖音概念(字节概念)",
+          "消费电子概念",
+          "注册制次新股",
+          "科创次新股"
+        ],
+        "industry": [
+          "半导体",
+          "数字芯片设计"
+        ],
+        "name": "长鑫科技",
+        "sector": [
+          "半导体",
+          "数字芯片设计"
+        ],
+        "symbol": "688825",
+        "theme": [
+          "新股与次新股",
+          "融资融券",
+          "芯片概念",
+          "小米概念",
+          "阿里巴巴概念",
+          "人民币贬值受益",
+          "腾讯概念",
+          "国家大基金持股",
+          "存储芯片",
+          "抖音概念(字节概念)",
+          "消费电子概念",
+          "注册制次新股",
+          "科创次新股"
+        ]
+      },
+      "sector_symbols": [
+        "881121.TI",
+        "884287.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-29T06:45:02.430151+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "600036",
+      "symbol": "600036",
+      "thscode": "600036.SH",
+      "name": "招商银行",
+      "current_price": 42.13,
+      "price": 42.13,
+      "change_pct": -2.000465,
+      "prev_close": 42.99,
+      "open_price": 42.51,
+      "open": 42.51,
+      "high": 42.68,
+      "low": 41.85,
+      "volume": 107789897.0,
+      "amount": 4553406500.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-29T07:30:07+08:00",
+      "timestamp": "2026-10-29T07:30:07+08:00",
+      "ingest_ts": "2026-10-29T07:30:10.472379+08:00",
+      "request_id": "dee9caf96d0f45918196d4b2f5c1ea67",
+      "strategy": "容量中军",
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_4f5214fb77a590a1885783c9",
+      "entry": 43.16,
+      "limit_up": 47.29,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 43.16,
+      "execution_zone": [
+        43.16,
+        43.81
+      ],
+      "stop": 41.0,
+      "risk_price": 41.0,
+      "tp1": 45.32,
+      "tp2": 47.48,
+      "volume_ratio": 1.3746,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "scan_priority": 44.5534065,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "ma": {
+        "MA5": 42.242,
+        "MA10": 42.417,
+        "MA20": 41.9615,
+        "MA60": 40.6302
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "融资融券",
+          "沪股通",
+          "同花顺漂亮100",
+          "跨境支付(CIPS)",
+          "同花顺中特估100",
+          "高股息精选"
+        ],
+        "industry": [
+          "银行",
+          "股份制银行"
+        ],
+        "name": "招商银行",
+        "sector": [
+          "银行",
+          "股份制银行"
+        ],
+        "symbol": "600036",
+        "theme": [
+          "融资融券",
+          "沪股通",
+          "同花顺漂亮100",
+          "跨境支付(CIPS)",
+          "同花顺中特估100",
+          "高股息精选"
+        ]
+      },
+      "sector_symbols": [
+        "881155.TI",
+        "884250.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-29T06:45:02.430151+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "600900",
+      "symbol": "600900",
+      "thscode": "600900.SH",
+      "name": "长江电力",
+      "current_price": 29.4,
+      "price": 29.4,
+      "change_pct": -1.441502,
+      "prev_close": 29.83,
+      "open_price": 29.54,
+      "open": 29.54,
+      "high": 29.73,
+      "low": 29.06,
+      "volume": 133993001.0,
+      "amount": 3935063400.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-29T07:30:07+08:00",
+      "timestamp": "2026-10-29T07:30:07+08:00",
+      "ingest_ts": "2026-10-29T07:30:10.472379+08:00",
+      "request_id": "dee9caf96d0f45918196d4b2f5c1ea67",
+      "strategy": "容量中军",
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_4a2f0e0b2280426bfcb0bca7",
+      "entry": 29.99,
+      "limit_up": 32.81,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 29.99,
+      "execution_zone": [
+        29.99,
+        30.44
+      ],
+      "stop": 28.49,
+      "risk_price": 28.49,
+      "tp1": 31.49,
+      "tp2": 32.99,
+      "volume_ratio": 1.2114,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "scan_priority": 43.9350634,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "ma": {
+        "MA5": 29.672,
+        "MA10": 29.614,
+        "MA20": 29.196,
+        "MA60": 28.5825
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "核电",
+          "水利",
+          "融资融券",
+          "参股银行",
+          "沪股通",
+          "央企国企改革",
+          "储能",
+          "氢能源",
+          "同花顺漂亮100",
+          "抽水蓄能",
+          "绿色电力",
+          "国企改革",
+          "同花顺中特估100",
+          "高股息精选"
+        ],
+        "industry": [
+          "电力",
+          "水电"
+        ],
+        "name": "长江电力",
+        "sector": [
+          "电力",
+          "水电"
+        ],
+        "symbol": "600900",
+        "theme": [
+          "核电",
+          "水利",
+          "融资融券",
+          "参股银行",
+          "沪股通",
+          "央企国企改革",
+          "储能",
+          "氢能源",
+          "同花顺漂亮100",
+          "抽水蓄能",
+          "绿色电力",
+          "国企改革",
+          "同花顺中特估100",
+          "高股息精选"
+        ]
+      },
+      "sector_symbols": [
+        "881145.TI",
+        "884147.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-29T06:45:02.430151+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "601398",
+      "symbol": "601398",
+      "thscode": "601398.SH",
+      "name": "工商银行",
+      "current_price": 8.56,
+      "price": 8.56,
+      "change_pct": -0.696056,
+      "prev_close": 8.62,
+      "open_price": 8.62,
+      "open": 8.62,
+      "high": 8.63,
+      "low": 8.45,
+      "volume": 432543670.0,
+      "amount": 3694946900.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-10-29T07:30:07+08:00",
+      "timestamp": "2026-10-29T07:30:07+08:00",
+      "ingest_ts": "2026-10-29T07:30:10.472379+08:00",
+      "request_id": "dee9caf96d0f45918196d4b2f5c1ea67",
+      "strategy": "容量中军",
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_0faaacfc910c737623f2420e",
+      "entry": 8.66,
+      "limit_up": 9.48,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 8.66,
+      "execution_zone": [
+        8.66,
+        8.79
+      ],
+      "stop": 8.23,
+      "risk_price": 8.23,
+      "tp1": 9.09,
+      "tp2": 9.53,
+      "volume_ratio": 1.22,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "scan_priority": 43.6949469,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "ma": {
+        "MA5": 8.534,
+        "MA10": 8.4676,
+        "MA20": 8.2942,
+        "MA60": 7.9273
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "融资融券",
+          "沪股通",
+          "证金持股",
+          "跨境支付(CIPS)",
+          "同花顺中特估100",
+          "高股息精选"
+        ],
+        "industry": [
+          "银行",
+          "国有大型银行"
+        ],
+        "name": "工商银行",
+        "sector": [
+          "银行",
+          "国有大型银行"
+        ],
+        "symbol": "601398",
+        "theme": [
+          "融资融券",
+          "沪股通",
+          "证金持股",
+          "跨境支付(CIPS)",
+          "同花顺中特估100",
+          "高股息精选"
+        ]
+      },
+      "sector_symbols": [
+        "881155.TI",
+        "884249.TI"
+      ],
+      "sector_membership_observed_at": "2026-10-29T06:45:02.430151+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    }
+  ],
+  "insufficient_reason": null
+}
