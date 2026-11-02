@@ -1,0 +1,25 @@
+{
+  "NO_POSTHOC_RECONSTRUCTION": true,
+  "NO_WEB_SEARCH_FOR_TRADING_DATA": true,
+  "SOURCE_OF_TRUTH": "PRODUCTION_ARTIFACT_ONLY",
+  "artifact_hash": "dc5712b38859aa0cf1985802ac658b46e4b025ff4ce01f143ba0ea8d3e8f22ab",
+  "artifact_id": "2026-11-02:20:00:structure",
+  "created_at": "2026-11-02T20:13:31.992891+08:00",
+  "data_status": "DATA_GAP",
+  "generated_at": "2026-11-02T20:13:31.992891+08:00",
+  "historical_trigger_allowed": false,
+  "provider": "HiThink",
+  "recovery_status": "RECOVERED_STRUCTURE",
+  "render_lines": [
+    "【Trading Desk｜20:00｜恢复状态】",
+    "交易日：2026-11-02",
+    "已恢复节点结构；当时行情及触发未验证，不补认交易。",
+    "早盘候选缺口保留；后续全A扫描独立运行。"
+  ],
+  "slot": "20:00",
+  "slot_id": "20:00",
+  "trade_date": "2026-11-02",
+  "trading_date": "2026-11-02",
+  "trading_day_id": "CN_A_20261102",
+  "trigger_verification": "UNVERIFIED_TRIGGER"
+}
