@@ -1,0 +1,562 @@
+{
+  "trading_day_id": "CN_A_20261113",
+  "schema_version": 1,
+  "trade_date": "2026-11-13",
+  "slot_id": "07:30",
+  "created_at": "2026-11-13T07:30:19.004656+08:00",
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "code": "000678",
+      "symbol": "000678",
+      "thscode": "000678.SZ",
+      "name": "襄阳轴承",
+      "current_price": 21.94,
+      "price": 21.94,
+      "change_pct": 3.539405,
+      "prev_close": 21.19,
+      "open_price": 22.59,
+      "open": 22.59,
+      "high": 23.31,
+      "low": 21.21,
+      "volume": 174074280.0,
+      "amount": 3953522500.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-11-13T07:30:11+08:00",
+      "timestamp": "2026-11-13T07:30:11+08:00",
+      "ingest_ts": "2026-11-13T07:30:15.173190+08:00",
+      "request_id": "937cba6583824a6596ee95ed4450c04e",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.2-20260930",
+      "scanner_hit_id": "scan_469dc9a6d267347af5edc27f",
+      "entry": 23.31,
+      "limit_up": 23.31,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 23.31,
+      "execution_zone": [
+        23.31,
+        23.66
+      ],
+      "stop": 16.57,
+      "risk_price": 16.57,
+      "tp1": 24.48,
+      "tp2": 25.64,
+      "volume_ratio": 1.4898,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "scan_priority": 83.9535225,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "ma": {
+        "MA5": 19.534,
+        "MA10": 19.512,
+        "MA20": 16.5705,
+        "MA60": 11.921
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "新能源汽车",
+          "机器人概念",
+          "融资融券",
+          "农机",
+          "一带一路",
+          "深股通",
+          "人民币贬值受益",
+          "军民融合",
+          "股权转让(并购重组)",
+          "比亚迪概念",
+          "减速器",
+          "国企改革"
+        ],
+        "industry": [
+          "汽车零部件",
+          "底盘与发动机系统"
+        ],
+        "name": "襄阳轴承",
+        "sector": [
+          "汽车零部件",
+          "底盘与发动机系统"
+        ],
+        "symbol": "000678",
+        "theme": [
+          "新能源汽车",
+          "机器人概念",
+          "融资融券",
+          "农机",
+          "一带一路",
+          "深股通",
+          "人民币贬值受益",
+          "军民融合",
+          "股权转让(并购重组)",
+          "比亚迪概念",
+          "减速器",
+          "国企改革"
+        ]
+      },
+      "sector_symbols": [
+        "881126.TI",
+        "884290.TI"
+      ],
+      "sector_membership_observed_at": "2026-11-13T06:45:03.102353+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "002164",
+      "symbol": "002164",
+      "thscode": "002164.SZ",
+      "name": "宁波东力",
+      "current_price": 23.52,
+      "price": 23.52,
+      "change_pct": 7.348243,
+      "prev_close": 21.91,
+      "open_price": 23.57,
+      "open": 23.57,
+      "high": 24.1,
+      "low": 22.9,
+      "volume": 108189850.0,
+      "amount": 2568302000.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-11-13T07:30:11+08:00",
+      "timestamp": "2026-11-13T07:30:11+08:00",
+      "ingest_ts": "2026-11-13T07:30:15.173190+08:00",
+      "request_id": "937cba6583824a6596ee95ed4450c04e",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军",
+        "趋势突破"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.2-20260930",
+      "scanner_hit_id": "scan_fe5dac80e12ebf2de901d746",
+      "entry": 24.1,
+      "limit_up": 24.1,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 24.1,
+      "execution_zone": [
+        24.1,
+        24.46
+      ],
+      "stop": 17.82,
+      "risk_price": 17.82,
+      "tp1": 25.31,
+      "tp2": 26.51,
+      "volume_ratio": 1.4186,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "scan_priority": 82.568302,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "ma": {
+        "MA5": 20.746,
+        "MA10": 19.549,
+        "MA20": 17.816,
+        "MA60": 13.6402
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "风电",
+          "机器人概念",
+          "融资融券",
+          "高铁",
+          "深股通",
+          "共同富裕示范区",
+          "减速器",
+          "人形机器人",
+          "2026中报预增"
+        ],
+        "industry": [
+          "通用设备",
+          "金属制品"
+        ],
+        "name": "宁波东力",
+        "sector": [
+          "通用设备",
+          "金属制品"
+        ],
+        "symbol": "002164",
+        "theme": [
+          "风电",
+          "机器人概念",
+          "融资融券",
+          "高铁",
+          "深股通",
+          "共同富裕示范区",
+          "减速器",
+          "人形机器人",
+          "2026中报预增"
+        ]
+      },
+      "sector_symbols": [
+        "881117.TI",
+        "884075.TI"
+      ],
+      "sector_membership_observed_at": "2026-11-13T06:45:03.102353+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "603083",
+      "symbol": "603083",
+      "thscode": "603083.SH",
+      "name": "剑桥科技",
+      "current_price": 122.85,
+      "price": 122.85,
+      "change_pct": 5.044891,
+      "prev_close": 116.95,
+      "open_price": 126.1,
+      "open": 126.1,
+      "high": 128.65,
+      "low": 122.23,
+      "volume": 52297873.0,
+      "amount": 6609617700.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-11-13T07:30:11+08:00",
+      "timestamp": "2026-11-13T07:30:11+08:00",
+      "ingest_ts": "2026-11-13T07:30:15.173190+08:00",
+      "request_id": "937cba6583824a6596ee95ed4450c04e",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.2-20260930",
+      "scanner_hit_id": "scan_9a8ad6c0336e116ab2c27140",
+      "entry": 179.25,
+      "limit_up": 128.65,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 179.25,
+      "execution_zone": [
+        179.25,
+        181.94
+      ],
+      "stop": 135.12,
+      "risk_price": 135.12,
+      "tp1": 188.21,
+      "tp2": 197.18,
+      "volume_ratio": 2.1322,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "scan_priority": 66.6096177,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "ma": {
+        "MA5": 110.85,
+        "MA10": 115.875,
+        "MA20": 135.1165,
+        "MA60": 176.6728
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "物联网",
+          "5G",
+          "融资融券",
+          "智能家居",
+          "一带一路",
+          "华为概念",
+          "沪股通",
+          "人民币贬值受益",
+          "工业互联网",
+          "WiFi6",
+          "F5G概念",
+          "共封装光学(CPO)",
+          "液冷服务器",
+          "2026中报预增"
+        ],
+        "industry": [
+          "通信设备",
+          "通信终端及配件"
+        ],
+        "name": "剑桥科技",
+        "sector": [
+          "通信设备",
+          "通信终端及配件"
+        ],
+        "symbol": "603083",
+        "theme": [
+          "物联网",
+          "5G",
+          "融资融券",
+          "智能家居",
+          "一带一路",
+          "华为概念",
+          "沪股通",
+          "人民币贬值受益",
+          "工业互联网",
+          "WiFi6",
+          "F5G概念",
+          "共封装光学(CPO)",
+          "液冷服务器",
+          "2026中报预增"
+        ]
+      },
+      "sector_symbols": [
+        "881129.TI",
+        "884264.TI"
+      ],
+      "sector_membership_observed_at": "2026-11-13T06:45:03.102353+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "002931",
+      "symbol": "002931",
+      "thscode": "002931.SZ",
+      "name": "锋龙股份",
+      "current_price": 56.6,
+      "price": 56.6,
+      "change_pct": 6.6315,
+      "prev_close": 53.08,
+      "open_price": 58.39,
+      "open": 58.39,
+      "high": 58.39,
+      "low": 56.0,
+      "volume": 49136506.0,
+      "amount": 2832438300.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-11-13T07:30:11+08:00",
+      "timestamp": "2026-11-13T07:30:11+08:00",
+      "ingest_ts": "2026-11-13T07:30:15.173190+08:00",
+      "request_id": "937cba6583824a6596ee95ed4450c04e",
+      "strategy": "首阴",
+      "tactics": [
+        "首阴",
+        "弱转强/反包",
+        "容量中军"
+      ],
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.2-20260930",
+      "scanner_hit_id": "scan_6f8050f053f535982a14122d",
+      "entry": 58.39,
+      "limit_up": 58.39,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 58.39,
+      "execution_zone": [
+        58.39,
+        59.27
+      ],
+      "stop": 41.07,
+      "risk_price": 41.07,
+      "tp1": 61.31,
+      "tp2": 64.23,
+      "volume_ratio": 3.0422,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "NOT_IN_SOURCE_POOL",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "scan_priority": 62.8324383,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "ma": {
+        "MA5": 48.332,
+        "MA10": 43.881,
+        "MA20": 41.0665,
+        "MA60": 42.5135
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "新能源汽车",
+          "机器人概念",
+          "融资融券",
+          "深股通",
+          "股权转让(并购重组)",
+          "长安汽车概念"
+        ],
+        "industry": [
+          "通用设备",
+          "金属制品"
+        ],
+        "name": "锋龙股份",
+        "sector": [
+          "通用设备",
+          "金属制品"
+        ],
+        "symbol": "002931",
+        "theme": [
+          "新能源汽车",
+          "机器人概念",
+          "融资融券",
+          "深股通",
+          "股权转让(并购重组)",
+          "长安汽车概念"
+        ]
+      },
+      "sector_symbols": [
+        "881117.TI",
+        "884075.TI"
+      ],
+      "sector_membership_observed_at": "2026-11-13T06:45:03.102353+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": null,
+      "mainline_confirmed": false
+    },
+    {
+      "code": "600327",
+      "symbol": "600327",
+      "thscode": "600327.SH",
+      "name": "大东方",
+      "current_price": 7.18,
+      "price": 7.18,
+      "change_pct": 9.954058,
+      "prev_close": 6.53,
+      "open_price": 6.53,
+      "open": 6.53,
+      "high": 7.18,
+      "low": 6.1,
+      "volume": 341692730.0,
+      "amount": 2292134000.0,
+      "source": "hithink_financial_api",
+      "source_ts": "2026-11-13T07:30:11+08:00",
+      "timestamp": "2026-11-13T07:30:11+08:00",
+      "ingest_ts": "2026-11-13T07:30:15.173190+08:00",
+      "request_id": "937cba6583824a6596ee95ed4450c04e",
+      "strategy": "容量中军",
+      "tactics": [
+        "容量中军",
+        "趋势突破",
+        "三板定龙"
+      ],
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "scanner_hit_id": "scan_e72f273237469d7306e23ff3",
+      "entry": 7.18,
+      "limit_up": 7.18,
+      "tick_size": 0.01,
+      "one_word_limit_up": false,
+      "assume_fill": false,
+      "trigger": 7.18,
+      "execution_zone": [
+        7.18,
+        7.29
+      ],
+      "stop": 4.42,
+      "risk_price": 4.42,
+      "tp1": 7.54,
+      "tp2": 7.9,
+      "volume_ratio": 5.1307,
+      "theme": null,
+      "theme_evidence": {
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "status": "MAPPED",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR"
+      },
+      "sector_strength": null,
+      "scan_priority": 62.292134,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "ma": {
+        "MA5": 5.992,
+        "MA10": 5.077,
+        "MA20": 4.419,
+        "MA60": 4.1212
+      },
+      "security_mapping": {
+        "concept_tags": [
+          "三胎概念",
+          "参股银行",
+          "民营医院",
+          "信托概念",
+          "预制菜",
+          "IP经济(谷子经济)"
+        ],
+        "industry": [
+          "医疗服务",
+          "医院"
+        ],
+        "name": "大东方",
+        "sector": [
+          "医疗服务",
+          "医院"
+        ],
+        "symbol": "600327",
+        "theme": [
+          "三胎概念",
+          "参股银行",
+          "民营医院",
+          "信托概念",
+          "预制菜",
+          "IP经济(谷子经济)"
+        ]
+      },
+      "sector_symbols": [
+        "881175.TI",
+        "884301.TI"
+      ],
+      "sector_membership_observed_at": "2026-11-13T06:45:03.102353+08:00",
+      "benchmark_symbol": "000001.SH",
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "mainline_determinable": true,
+      "limit_up_reason_auxiliary": "“东方系”+百货零售+儿科医疗",
+      "mainline_confirmed": false
+    }
+  ],
+  "insufficient_reason": null
+}
