@@ -1,0 +1,836 @@
+{
+  "NO_POSTHOC_RECONSTRUCTION": true,
+  "NO_WEB_SEARCH_FOR_TRADING_DATA": true,
+  "SOURCE_OF_TRUTH": "PRODUCTION_ARTIFACT_ONLY",
+  "artifact_component_hashes": {
+    "market_snapshot.json": "492d59cc3dc2a8b4a79c7db68c74261940db4ed28f7b021bdd3453a181bff856",
+    "signal_output.json": "f523bd17214ca87814d0eddf9737527b891e9e340d62cc407a6d66f03667b2ae",
+    "task_status.json": "e4883f1c6cec5a0e234ca0b4e9b99a4ca6c79a7b21473d8de8aba4d1148ef0cc"
+  },
+  "artifact_hash": "42904faecd6764c9e6413901d2cafbc6a5bca246a66790e0b75a9bb1b708aa00",
+  "artifact_id": "2026-11-23:09:35:42904faecd6764c9",
+  "artifact_path": "trading-desk/2026-11-23/09_35/gpt_task_payload.json",
+  "data_status": "DATA_DEGRADED",
+  "dynamic_evaluation_scope": "EVALUATED_SETUPS_ONLY",
+  "dynamic_signal_status": "DYNAMIC_SIGNAL_UNVERIFIED",
+  "funnel": {
+    "admission_mode": "FAILOVER_DISCOVERY",
+    "admission_status": "AUDITED",
+    "buy_event_count": 0,
+    "confirmed_signals": 0,
+    "data_insufficient": 0,
+    "executable_signals": 0,
+    "execution_rejection_counts": {},
+    "existing_signals": 0,
+    "exit_event_count": 0,
+    "model_fills": 0,
+    "not_evaluated_candidates": 0,
+    "observed_new_signals": 0,
+    "opportunity_reconciliation": {
+      "accounted_candidates": 244,
+      "first_rejection_counts": {
+        "NO_TRADEABLE_ROOM": 1,
+        "OUTSIDE_MAINLINE_TOP3": 240,
+        "OUTSIDE_TRIGGER_ZONE": 3
+      },
+      "not_evaluated_candidates": 0,
+      "not_evaluated_reason_counts": {},
+      "outcomes": {
+        "STRATEGY_REJECTED": 244
+      },
+      "scanner_hits": 244,
+      "status": "PASS",
+      "unique_opportunities": 244,
+      "unique_scanner_candidates": 244
+    },
+    "qualification_coverage": {
+      "determined": 5377,
+      "meets_minimum": true,
+      "minimum": 0.95,
+      "missing": 1,
+      "outside_mainline": 5301,
+      "ratio": 0.9998140572703608,
+      "scope": "ORIGINAL_SCANNER_CANDIDATE_STOCKS",
+      "source": "HITHINK_CURRENT_INDEX_MEMBERSHIP_V1",
+      "total": 5378
+    },
+    "qualification_data_status": "COMPLETE_FOR_EVALUATED_SETUPS",
+    "qualified_opportunities": 0,
+    "qualified_setups": 0,
+    "qualified_strategy_votes": 0,
+    "scanner_hits": 244,
+    "signals": 0,
+    "strategy_rejected": 405,
+    "top_execution": 0,
+    "universe": 5388
+  },
+  "generated_at": "2026-11-23T09:38:48.322620+08:00",
+  "manifest_status": "LOCAL_ARTIFACT_READBACK_PASS",
+  "model_account": {
+    "account_return_pct": null,
+    "account_status": "PASS",
+    "capital_basis_status": "FUNDING_LEDGER_UNVERIFIED",
+    "cash": 11826652.2,
+    "historical_review_open_positions": 0,
+    "inferred_net_funding": 12000000.0,
+    "mark_asof": "2026-11-23T09:38:48.322620+08:00",
+    "market_value": 0,
+    "net_asset_value": 11826652.2,
+    "position_count": 0,
+    "position_rules": "EXISTING_BROKER_UNCHANGED",
+    "positions": [],
+    "priced_positions": 0,
+    "real_positions_read": false,
+    "realized_pnl_all_books": -173347.8,
+    "scope": "MODEL_ACCOUNT_ONLY",
+    "total_pnl_all_books": -173347.8,
+    "unique_held_symbols": 0,
+    "unrealized_pnl": 0,
+    "verified_strategy_closed_count": 104,
+    "verified_strategy_realized_pnl": -132685.41
+  },
+  "production_ready": false,
+  "provider": "HiThink",
+  "qualification_data_status": "COMPLETE_FOR_EVALUATED_SETUPS",
+  "reconciliation": {
+    "counts": {
+      "BUY_EVENT_COUNT": 212,
+      "CLOSED_POSITION_COUNT": 212,
+      "EXIT_EVENT_COUNT": 212,
+      "MODEL_POSITION_CREATED_COUNT": 212,
+      "OPEN_MODEL_POSITION_COUNT": 0,
+      "RENDERER_POSITION_COUNT": 0
+    },
+    "errors": [],
+    "real_positions_read": false,
+    "slot_buy_count": 0,
+    "slot_sell_count": 0,
+    "sources": [
+      {
+        "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/A/signal_event.jsonl",
+        "sha256": "f363d7f9bc0e65c1b431351ea562c5713b518e1e019a080ea018dac00d2eb8ac"
+      },
+      {
+        "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/A/model_portfolio/paper_broker.json",
+        "sha256": "65e3d0f338c743d76784329fe4505f9a2594918c825fdb7399912b05a32cd133"
+      },
+      {
+        "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/signal_event.jsonl",
+        "sha256": "b6af71cb4acc3dc7cc5725f557d382008d3ba27ce8b577a3e72cbf7ab28167f4"
+      },
+      {
+        "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/model_portfolio/paper_broker.json",
+        "sha256": "7989f92f367262513dcf92808ef18f89ff9a6a123f873cbbd4fd56860aab65a4"
+      },
+      {
+        "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/fill_imports.jsonl",
+        "sha256": "120022ae3556f456fe85cd960ada921587357c4851de045f85ed00fe510353a3"
+      }
+    ],
+    "status": "PASS"
+  },
+  "render_lines": [
+    "> 模型账户（PaperBroker 模拟）｜以下为模拟状态与模拟成交，非实盘指令，不构成买卖建议。  ",
+    "## Trading Desk · 交易盯盘",
+    "2026-11-23　09:35 ｜ 模型账户  ",
+    "",
+    "**当前状态｜等待确认 · 当前没有新增模型成交**  ",
+    "漏斗｜扫描 0 → 合格 0 → 确认 0 → 可执行 0 → 成交 0  ",
+    "",
+    "---",
+    "",
+    "市场：**审慎观察**  ",
+    "主线 Top 3｜**元件** · **印制电路板** · **贵金属**  ",
+    "",
+    "今日5只：**早盘锁定 · 持续跟踪**  ",
+    "",
+    "冻结名单不完整，正在核验。  ",
+    "",
+    "盘中新机会：**先看状态，再看价位**  ",
+    "",
+    "当前没有仍有效的盘中新机会。  ",
+    "",
+    "---",
+    "",
+    "模型账户：**持有 0只 / 0笔｜新买 0｜止盈 0｜止损 0**  ",
+    "可用现金 **11,826,652.20 元**　持仓市值 0.00 元  ",
+    "账户账面已实现 **-173,347.80 元**　持仓浮盈亏 **0.00 元**  ",
+    "账户合计盈亏 **-173,347.80 元**（账面口径，包含待复核历史交易）  ",
+    "账户收益率：本金流水未完整核验，暂不显示。  ",
+    "估值时点：2026-11-23 09:38:48；浮盈亏已扣买入费用，未扣未来卖出费用。  ",
+    "已核验战法样本：104笔已结束，净损益 -132,685.41 元；此数不代表整个账户收益。  ",
+    "",
+    "系统健康：**降级 · 部分数据或投递待核验**  "
+  ],
+  "schema_version": 1,
+  "signal_events": [],
+  "slot": "09:35",
+  "slot_id": "09:35",
+  "strategy_states": [],
+  "supervisor": {
+    "a_track": "DATA_GAP",
+    "attempts": 1,
+    "auto_pause": false,
+    "b_track": "OK",
+    "checked_at": "2026-11-23T09:38:48.322620+08:00",
+    "checks": {
+      "AGENT_HEARTBEAT": "PASS",
+      "DB": "PASS",
+      "HISTORICAL_40D": "DATA_GAP",
+      "HITHINK": "PASS",
+      "MAINLINE": "PASS",
+      "MODEL_POSITION_FUNNEL": "PASS",
+      "OPPORTUNITY_RECONCILIATION": "PASS",
+      "PUBLISHER": "PENDING",
+      "SCANNER": "INCOMPLETE",
+      "SCHEDULER": "PASS",
+      "SIGNAL_CONTINUITY": "DATA_GAP",
+      "USER_OUTPUT": "PASS"
+    },
+    "day": "2026-11-23",
+    "health_checked_at": "2026-11-23T09:41:12.020607+08:00",
+    "historical_days": 36,
+    "hithink_coverage": {
+      "expected": 5388,
+      "ratio": 0.9981440237564959,
+      "status": "PASS",
+      "valid": 5378
+    },
+    "master": "TRADING_DESK_MASTER",
+    "missing_historical_days": [
+      "2026-09-23",
+      "2026-09-24",
+      "2026-11-17",
+      "2026-11-18"
+    ],
+    "real_positions_read": false,
+    "reconciliation": {
+      "counts": {
+        "BUY_EVENT_COUNT": 212,
+        "CLOSED_POSITION_COUNT": 212,
+        "EXIT_EVENT_COUNT": 212,
+        "MODEL_POSITION_CREATED_COUNT": 212,
+        "OPEN_MODEL_POSITION_COUNT": 0,
+        "RENDERER_POSITION_COUNT": 0
+      },
+      "errors": [],
+      "real_positions_read": false,
+      "slot_buy_count": 0,
+      "slot_sell_count": 0,
+      "sources": [
+        {
+          "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/A/signal_event.jsonl",
+          "sha256": "f363d7f9bc0e65c1b431351ea562c5713b518e1e019a080ea018dac00d2eb8ac"
+        },
+        {
+          "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/A/model_portfolio/paper_broker.json",
+          "sha256": "65e3d0f338c743d76784329fe4505f9a2594918c825fdb7399912b05a32cd133"
+        },
+        {
+          "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/signal_event.jsonl",
+          "sha256": "b6af71cb4acc3dc7cc5725f557d382008d3ba27ce8b577a3e72cbf7ab28167f4"
+        },
+        {
+          "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/model_portfolio/paper_broker.json",
+          "sha256": "7989f92f367262513dcf92808ef18f89ff9a6a123f873cbbd4fd56860aab65a4"
+        },
+        {
+          "path": "/Users/yangxin/Library/Application Support/YangTradingRuntime/runtime_data/signal_engine/B/fill_imports.jsonl",
+          "sha256": "120022ae3556f456fe85cd960ada921587357c4851de045f85ed00fe510353a3"
+        }
+      ],
+      "status": "PASS"
+    },
+    "retry_required": false,
+    "slot": "09:35",
+    "status": "DEGRADED",
+    "user_output_audit": {
+      "errors": [],
+      "facts_modified": false,
+      "scope": "CARD_ACCOUNT_AND_USER_CONTRACT",
+      "status": "PASS"
+    }
+  },
+  "top2": [],
+  "top2_signal_ids": [],
+  "top5": [
+    {
+      "amount": 1616003800.0,
+      "assume_fill": false,
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "benchmark_symbol": "000001.SH",
+      "change_pct": -2.628302,
+      "code": "600519",
+      "current_price": 1446.7,
+      "entry": 1489.09,
+      "execution_zone": [
+        1489.09,
+        1511.43
+      ],
+      "high": 1478.0,
+      "ingest_ts": "2026-11-23T09:38:32.212467+08:00",
+      "limit_up": 1634.33,
+      "limit_up_reason_auxiliary": null,
+      "low": 1443.0,
+      "ma": {
+        "MA10": 1443.204,
+        "MA20": 1424.263,
+        "MA5": 1460.044,
+        "MA60": 1332.6062
+      },
+      "mainline_confirmed": false,
+      "mainline_determinable": true,
+      "name": "贵州茅台",
+      "one_word_limit_up": false,
+      "open": 1475.35,
+      "open_price": 1475.35,
+      "prev_close": 1485.75,
+      "price": 1446.7,
+      "request_id": "eaef033eff234fc389fabfb5da043177",
+      "risk_price": 1414.64,
+      "scan_priority": 41.6160038,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "scanner_hit_id": "scan_82eebce1e467319853b655ee",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "sector_membership_observed_at": "2026-11-23T08:44:39.972540+08:00",
+      "sector_strength": null,
+      "sector_symbols": [
+        "881273.TI"
+      ],
+      "security_mapping": {
+        "concept_tags": [
+          "乡村振兴",
+          "融资融券",
+          "沪股通",
+          "白酒概念",
+          "超级品牌",
+          "同花顺漂亮100",
+          "国企改革",
+          "西部大开发"
+        ],
+        "industry": [
+          "白酒"
+        ],
+        "name": "贵州茅台",
+        "sector": [
+          "白酒"
+        ],
+        "symbol": "600519",
+        "theme": [
+          "乡村振兴",
+          "融资融券",
+          "沪股通",
+          "白酒概念",
+          "超级品牌",
+          "同花顺漂亮100",
+          "国企改革",
+          "西部大开发"
+        ]
+      },
+      "source": "hithink_financial_api",
+      "source_ts": "2026-11-23T09:38:24+08:00",
+      "stop": 1414.64,
+      "strategy": "容量中军",
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "symbol": "600519",
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "theme": null,
+      "theme_evidence": {
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR",
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "status": "NOT_IN_SOURCE_POOL"
+      },
+      "thscode": "600519.SH",
+      "tick_size": 0.01,
+      "timestamp": "2026-11-23T09:38:24+08:00",
+      "tp1": 1563.54,
+      "tp2": 1638.0,
+      "trigger": 1489.09,
+      "volume": 1107539.0,
+      "volume_ratio": 0.2433
+    },
+    {
+      "amount": 1466714400.0,
+      "assume_fill": false,
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "benchmark_symbol": "000001.SH",
+      "change_pct": 10.0,
+      "code": "002685",
+      "current_price": 8.14,
+      "entry": 8.14,
+      "execution_zone": [
+        8.14,
+        8.26
+      ],
+      "high": 8.14,
+      "ingest_ts": "2026-11-23T09:38:32.212467+08:00",
+      "limit_up": 8.14,
+      "limit_up_reason_auxiliary": "未分类",
+      "low": 7.74,
+      "ma": {
+        "MA10": 6.014,
+        "MA20": 5.328,
+        "MA5": 7.046,
+        "MA60": 5.2988
+      },
+      "mainline_confirmed": false,
+      "mainline_determinable": true,
+      "name": "华东重机",
+      "one_word_limit_up": false,
+      "open": 7.86,
+      "open_price": 7.86,
+      "prev_close": 7.4,
+      "price": 8.14,
+      "request_id": "eaef033eff234fc389fabfb5da043177",
+      "risk_price": 5.33,
+      "scan_priority": 41.4667144,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "scanner_hit_id": "scan_632b070be4cd642dd95af05e",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "sector_membership_observed_at": "2026-11-23T08:44:39.972540+08:00",
+      "sector_strength": null,
+      "sector_symbols": [
+        "881268.TI"
+      ],
+      "security_mapping": {
+        "concept_tags": [
+          "高端装备",
+          "融资融券",
+          "航运概念",
+          "传感器",
+          "芯片概念",
+          "一带一路",
+          "深股通",
+          "专精特新",
+          "信创",
+          "新型工业化",
+          "DeepSeek概念",
+          "2026中报预增"
+        ],
+        "industry": [
+          "工程机械"
+        ],
+        "name": "华东重机",
+        "sector": [
+          "工程机械"
+        ],
+        "symbol": "002685",
+        "theme": [
+          "高端装备",
+          "融资融券",
+          "航运概念",
+          "传感器",
+          "芯片概念",
+          "一带一路",
+          "深股通",
+          "专精特新",
+          "信创",
+          "新型工业化",
+          "DeepSeek概念",
+          "2026中报预增"
+        ]
+      },
+      "source": "hithink_financial_api",
+      "source_ts": "2026-11-23T09:38:24+08:00",
+      "stop": 5.33,
+      "strategy": "容量中军",
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "symbol": "002685",
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "theme": null,
+      "theme_evidence": {
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR",
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "status": "MAPPED"
+      },
+      "thscode": "002685.SZ",
+      "tick_size": 0.01,
+      "timestamp": "2026-11-23T09:38:24+08:00",
+      "tp1": 8.55,
+      "tp2": 8.95,
+      "trigger": 8.14,
+      "volume": 182127180.0,
+      "volume_ratio": 2.3696
+    },
+    {
+      "amount": 1122271280.0,
+      "assume_fill": false,
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "benchmark_symbol": "000001.SH",
+      "change_pct": 10.133333,
+      "code": "002086",
+      "current_price": 4.13,
+      "entry": 5.16,
+      "execution_zone": [
+        5.16,
+        5.24
+      ],
+      "high": 4.13,
+      "ingest_ts": "2026-11-23T09:38:32.212467+08:00",
+      "limit_up": 4.13,
+      "limit_up_reason_auxiliary": null,
+      "low": 3.97,
+      "ma": {
+        "MA10": 4.303,
+        "MA20": 3.6425,
+        "MA5": 3.874,
+        "MA60": 2.6215
+      },
+      "mainline_confirmed": false,
+      "mainline_determinable": true,
+      "name": "东方海洋",
+      "one_word_limit_up": false,
+      "open": 4.12,
+      "open_price": 4.12,
+      "prev_close": 3.75,
+      "price": 4.13,
+      "request_id": "eaef033eff234fc389fabfb5da043177",
+      "risk_price": 3.64,
+      "scan_priority": 41.12227128,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "scanner_hit_id": "scan_079d0a5986e97b6e7eccb12a",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "sector_membership_observed_at": "2026-11-23T08:44:39.972540+08:00",
+      "sector_strength": null,
+      "sector_symbols": [
+        "881103.TI",
+        "884011.TI"
+      ],
+      "security_mapping": {
+        "concept_tags": [
+          "食品安全",
+          "基因测序",
+          "医疗器械概念",
+          "深股通",
+          "人民币贬值受益",
+          "CRO概念",
+          "预制菜",
+          "幽门螺杆菌概念",
+          "猴痘概念"
+        ],
+        "industry": [
+          "农产品加工",
+          "其他农产品加工"
+        ],
+        "name": "东方海洋",
+        "sector": [
+          "农产品加工",
+          "其他农产品加工"
+        ],
+        "symbol": "002086",
+        "theme": [
+          "食品安全",
+          "基因测序",
+          "医疗器械概念",
+          "深股通",
+          "人民币贬值受益",
+          "CRO概念",
+          "预制菜",
+          "幽门螺杆菌概念",
+          "猴痘概念"
+        ]
+      },
+      "source": "hithink_financial_api",
+      "source_ts": "2026-11-23T09:38:24+08:00",
+      "stop": 3.64,
+      "strategy": "容量中军",
+      "strategy_id": "capacity_core",
+      "strategy_version": "v1.0.0-20260917",
+      "symbol": "002086",
+      "tactics": [
+        "容量中军",
+        "趋势突破"
+      ],
+      "theme": null,
+      "theme_evidence": {
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR",
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "status": "NOT_IN_SOURCE_POOL"
+      },
+      "thscode": "002086.SZ",
+      "tick_size": 0.01,
+      "timestamp": "2026-11-23T09:38:24+08:00",
+      "tp1": 5.42,
+      "tp2": 5.68,
+      "trigger": 5.16,
+      "volume": 273314710.0,
+      "volume_ratio": 0.5398
+    },
+    {
+      "amount": 456857470.0,
+      "assume_fill": false,
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "benchmark_symbol": "000001.SH",
+      "change_pct": 3.034712,
+      "code": "601689",
+      "current_price": 49.57,
+      "entry": 52.5,
+      "execution_zone": [
+        52.5,
+        53.29
+      ],
+      "high": 50.45,
+      "ingest_ts": "2026-11-23T09:38:32.212467+08:00",
+      "limit_up": 52.92,
+      "limit_up_reason_auxiliary": null,
+      "low": 47.75,
+      "ma": {
+        "MA10": 49.111,
+        "MA20": 46.848,
+        "MA5": 48.782,
+        "MA60": 45.2615
+      },
+      "mainline_confirmed": false,
+      "mainline_determinable": true,
+      "name": "拓普集团",
+      "one_word_limit_up": false,
+      "open": 48.5,
+      "open_price": 48.5,
+      "prev_close": 48.11,
+      "price": 49.57,
+      "request_id": "eaef033eff234fc389fabfb5da043177",
+      "risk_price": 46.85,
+      "scan_priority": 40.45685747,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "scanner_hit_id": "scan_5a3b6103ddbb828280d81b06",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "sector_membership_observed_at": "2026-11-23T08:44:39.972540+08:00",
+      "sector_strength": null,
+      "sector_symbols": [
+        "881126.TI",
+        "884290.TI"
+      ],
+      "security_mapping": {
+        "concept_tags": [
+          "新能源汽车",
+          "机器人概念",
+          "融资融券",
+          "特斯拉概念",
+          "小米概念",
+          "无人驾驶",
+          "汽车电子",
+          "沪股通",
+          "华为汽车",
+          "数据中心(AIDC)",
+          "汽车热管理",
+          "比亚迪概念",
+          "一体化压铸",
+          "液冷服务器",
+          "英伟达概念",
+          "新型工业化",
+          "智能座舱",
+          "小米汽车",
+          "人形机器人",
+          "同花顺出海50",
+          "中国AI50",
+          "同花顺新质50"
+        ],
+        "industry": [
+          "汽车零部件",
+          "底盘与发动机系统"
+        ],
+        "name": "拓普集团",
+        "sector": [
+          "汽车零部件",
+          "底盘与发动机系统"
+        ],
+        "symbol": "601689",
+        "theme": [
+          "新能源汽车",
+          "机器人概念",
+          "融资融券",
+          "特斯拉概念",
+          "小米概念",
+          "无人驾驶",
+          "汽车电子",
+          "沪股通",
+          "华为汽车",
+          "数据中心(AIDC)",
+          "汽车热管理",
+          "比亚迪概念",
+          "一体化压铸",
+          "液冷服务器",
+          "英伟达概念",
+          "新型工业化",
+          "智能座舱",
+          "小米汽车",
+          "人形机器人",
+          "同花顺出海50",
+          "中国AI50",
+          "同花顺新质50"
+        ]
+      },
+      "source": "hithink_financial_api",
+      "source_ts": "2026-11-23T09:38:24+08:00",
+      "stop": 46.85,
+      "strategy": "弱转强/反包",
+      "strategy_id": "weak_to_strong_reversal",
+      "strategy_version": "v1.0.0-20260917",
+      "symbol": "601689",
+      "tactics": [
+        "弱转强/反包",
+        "趋势突破"
+      ],
+      "theme": null,
+      "theme_evidence": {
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR",
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "status": "NOT_IN_SOURCE_POOL"
+      },
+      "thscode": "601689.SH",
+      "tick_size": 0.01,
+      "timestamp": "2026-11-23T09:38:24+08:00",
+      "tp1": 55.12,
+      "tp2": 57.75,
+      "trigger": 52.5,
+      "volume": 9243959.0,
+      "volume_ratio": 0.2807
+    },
+    {
+      "amount": 209982650.0,
+      "assume_fill": false,
+      "baseline_basis": "CANDIDATE_DAY_CLOSE_REQUIRED",
+      "benchmark_symbol": "000001.SH",
+      "change_pct": 3.491272,
+      "code": "600156",
+      "current_price": 8.3,
+      "entry": 9.59,
+      "execution_zone": [
+        9.59,
+        9.73
+      ],
+      "high": 8.36,
+      "ingest_ts": "2026-11-23T09:38:32.212467+08:00",
+      "limit_up": 8.82,
+      "limit_up_reason_auxiliary": null,
+      "low": 7.23,
+      "ma": {
+        "MA10": 7.501,
+        "MA20": 6.9455,
+        "MA5": 7.902,
+        "MA60": 7.67
+      },
+      "mainline_confirmed": false,
+      "mainline_determinable": true,
+      "name": "华升股份",
+      "one_word_limit_up": false,
+      "open": 7.23,
+      "open_price": 7.23,
+      "prev_close": 8.02,
+      "price": 8.3,
+      "request_id": "eaef033eff234fc389fabfb5da043177",
+      "risk_price": 6.95,
+      "scan_priority": 40.20998265,
+      "scan_priority_formula": "len(tactics)*20 + min(amount/1e9, 20)",
+      "scanner_hit_id": "scan_a6be6fbee72fb9b9fe7d6914",
+      "score": null,
+      "score_deprecated": "renamed_to_scan_priority_20261014",
+      "sector_membership_observed_at": "2026-11-23T08:44:39.972540+08:00",
+      "sector_strength": null,
+      "sector_symbols": [
+        "881135.TI",
+        "884132.TI"
+      ],
+      "security_mapping": {
+        "concept_tags": [
+          "5G",
+          "旅游概念",
+          "养老概念",
+          "医疗器械概念",
+          "跨境电商",
+          "人民币贬值受益",
+          "股权转让(并购重组)",
+          "消费电子概念",
+          "柔性屏(折叠屏)",
+          "数据中心(AIDC)",
+          "东数西算(算力)",
+          "国企改革",
+          "液冷服务器",
+          "算力租赁"
+        ],
+        "industry": [
+          "纺织制造",
+          "其他纺织"
+        ],
+        "name": "华升股份",
+        "sector": [
+          "纺织制造",
+          "其他纺织"
+        ],
+        "symbol": "600156",
+        "theme": [
+          "5G",
+          "旅游概念",
+          "养老概念",
+          "医疗器械概念",
+          "跨境电商",
+          "人民币贬值受益",
+          "股权转让(并购重组)",
+          "消费电子概念",
+          "柔性屏(折叠屏)",
+          "数据中心(AIDC)",
+          "东数西算(算力)",
+          "国企改革",
+          "液冷服务器",
+          "算力租赁"
+        ]
+      },
+      "source": "hithink_financial_api",
+      "source_ts": "2026-11-23T09:38:24+08:00",
+      "stop": 6.95,
+      "strategy": "首阴",
+      "strategy_id": "dragon_first_yin",
+      "strategy_version": "v1.0.2-20260930",
+      "symbol": "600156",
+      "tactics": [
+        "首阴",
+        "弱转强/反包"
+      ],
+      "theme": null,
+      "theme_evidence": {
+        "display_name": "涨停原因分组强度",
+        "full_market_sector_coverage": false,
+        "join_key": "normalized_thscode_or_ticker",
+        "scope": "LIMIT_UP_REASON_GROUP_NOT_FULL_MARKET_SECTOR",
+        "source": "HITHINK_LIMIT_UP_POOL",
+        "status": "NOT_IN_SOURCE_POOL"
+      },
+      "thscode": "600156.SH",
+      "tick_size": 0.01,
+      "timestamp": "2026-11-23T09:38:24+08:00",
+      "tp1": 10.07,
+      "tp2": 10.55,
+      "trigger": 9.59,
+      "volume": 26908027.0,
+      "volume_ratio": 0.8849
+    }
+  ],
+  "trade_date": "2026-11-23",
+  "trading_date": "2026-11-23",
+  "trading_day_id": "CN_A_20261123",
+  "validation_status": "LIVE_VALIDATION"
+}
